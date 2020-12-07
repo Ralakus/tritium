@@ -1,0 +1,160 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 10 91
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 4150 3200 0    50   Input ~ 0
+A
+Text HLabel 4150 3900 0    50   Input ~ 0
+B
+$Comp
+L Device:R R7
+U 1 1 5FCD72D0
+P 5800 4250
+AR Path="/5FCC6DFF/5FCD1DE6/5FCD72D0" Ref="R7"  Part="1" 
+AR Path="/5FD21CBB/5FCD1DE6/5FCD72D0" Ref="R11"  Part="1" 
+AR Path="/5FD2218F/5FCD1DE6/5FCD72D0" Ref="R17"  Part="1" 
+AR Path="/5FEC6709/5FCD1DE6/5FCD72D0" Ref="R?"  Part="1" 
+AR Path="/5FEC6A64/5FCD1DE6/5FCD72D0" Ref="R?"  Part="1" 
+AR Path="/5FEC6BC9/5FCD1DE6/5FCD72D0" Ref="R?"  Part="1" 
+AR Path="/5FEDA9FB/5FCD1DE6/5FCD72D0" Ref="R5"  Part="1" 
+AR Path="/5FEDAE91/5FCD1DE6/5FCD72D0" Ref="R11"  Part="1" 
+AR Path="/5FEDAFF1/5FCD1DE6/5FCD72D0" Ref="R17"  Part="1" 
+F 0 "R17" H 5870 4296 50  0000 L CNN
+F 1 "12k" H 5870 4205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5730 4250 50  0001 C CNN
+F 3 "~" H 5800 4250 50  0001 C CNN
+	1    5800 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5FCD771F
+P 5800 4650
+AR Path="/5FCC6DFF/5FCD1DE6/5FCD771F" Ref="R8"  Part="1" 
+AR Path="/5FD21CBB/5FCD1DE6/5FCD771F" Ref="R12"  Part="1" 
+AR Path="/5FD2218F/5FCD1DE6/5FCD771F" Ref="R18"  Part="1" 
+AR Path="/5FEC6709/5FCD1DE6/5FCD771F" Ref="R?"  Part="1" 
+AR Path="/5FEC6A64/5FCD1DE6/5FCD771F" Ref="R?"  Part="1" 
+AR Path="/5FEC6BC9/5FCD1DE6/5FCD771F" Ref="R?"  Part="1" 
+AR Path="/5FEDA9FB/5FCD1DE6/5FCD771F" Ref="R6"  Part="1" 
+AR Path="/5FEDAE91/5FCD1DE6/5FCD771F" Ref="R12"  Part="1" 
+AR Path="/5FEDAFF1/5FCD1DE6/5FCD771F" Ref="R18"  Part="1" 
+F 0 "R18" H 5870 4696 50  0000 L CNN
+F 1 "12k" H 5870 4605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5730 4650 50  0001 C CNN
+F 3 "~" H 5800 4650 50  0001 C CNN
+	1    5800 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 5800 2900 1    50   Input ~ 0
+Vdd
+Text GLabel 5450 5300 3    50   Input ~ 0
+Vss
+Wire Wire Line
+	5800 3700 5800 3400
+Wire Wire Line
+	5800 3000 5800 2900
+Wire Wire Line
+	4950 5200 4950 5300
+Wire Wire Line
+	5800 5300 5800 5200
+Wire Wire Line
+	5500 3200 5400 3200
+Wire Wire Line
+	5500 3900 4550 3900
+Wire Wire Line
+	5500 5000 5400 5000
+Wire Wire Line
+	5400 5000 5400 3200
+Connection ~ 5400 3200
+Wire Wire Line
+	5400 3200 4150 3200
+Wire Wire Line
+	4650 5000 4550 5000
+Wire Wire Line
+	4550 5000 4550 3900
+Connection ~ 4550 3900
+Wire Wire Line
+	4550 3900 4150 3900
+Wire Wire Line
+	4950 4800 5800 4800
+Wire Wire Line
+	5800 4400 5800 4450
+Connection ~ 5800 4450
+Wire Wire Line
+	5800 4450 5800 4500
+Text HLabel 6250 4450 2    50   Output ~ 0
+Out
+Wire Wire Line
+	5800 4450 6250 4450
+$Comp
+L Transistor_FET:BSS84 Q86
+U 1 1 61CEA2D4
+P 5700 3200
+AR Path="/5FEDA9FB/5FCD1DE6/61CEA2D4" Ref="Q86"  Part="1" 
+AR Path="/5FEDAE91/5FCD1DE6/61CEA2D4" Ref="Q94"  Part="1" 
+AR Path="/5FEDAFF1/5FCD1DE6/61CEA2D4" Ref="Q102"  Part="1" 
+F 0 "Q102" H 5904 3246 50  0000 L CNN
+F 1 "BSS84" H 5904 3155 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5900 3125 50  0001 L CIN
+F 3 "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf" H 5700 3200 50  0001 L CNN
+	1    5700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS84 Q87
+U 1 1 61CEB006
+P 5700 3900
+AR Path="/5FEDA9FB/5FCD1DE6/61CEB006" Ref="Q87"  Part="1" 
+AR Path="/5FEDAE91/5FCD1DE6/61CEB006" Ref="Q95"  Part="1" 
+AR Path="/5FEDAFF1/5FCD1DE6/61CEB006" Ref="Q103"  Part="1" 
+F 0 "Q103" H 5904 3946 50  0000 L CNN
+F 1 "BSS84" H 5904 3855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5900 3825 50  0001 L CIN
+F 3 "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf" H 5700 3900 50  0001 L CNN
+	1    5700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q88
+U 1 1 61CEBA97
+P 5700 5000
+AR Path="/5FEDA9FB/5FCD1DE6/61CEBA97" Ref="Q88"  Part="1" 
+AR Path="/5FEDAE91/5FCD1DE6/61CEBA97" Ref="Q96"  Part="1" 
+AR Path="/5FEDAFF1/5FCD1DE6/61CEBA97" Ref="Q104"  Part="1" 
+F 0 "Q104" H 5904 5046 50  0000 L CNN
+F 1 "2N7002" H 5904 4955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5900 4925 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 5700 5000 50  0001 L CNN
+	1    5700 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q85
+U 1 1 61CEC762
+P 4850 5000
+AR Path="/5FEDA9FB/5FCD1DE6/61CEC762" Ref="Q85"  Part="1" 
+AR Path="/5FEDAE91/5FCD1DE6/61CEC762" Ref="Q93"  Part="1" 
+AR Path="/5FEDAFF1/5FCD1DE6/61CEC762" Ref="Q101"  Part="1" 
+F 0 "Q101" H 5054 5046 50  0000 L CNN
+F 1 "2N7002" H 5054 4955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5050 4925 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 4850 5000 50  0001 L CNN
+	1    4850 5000
+	1    0    0    -1  
+$EndComp
+Connection ~ 5800 4800
+Wire Wire Line
+	4950 5300 5800 5300
+$EndSCHEMATC
