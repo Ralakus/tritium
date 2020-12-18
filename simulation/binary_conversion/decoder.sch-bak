@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 64
+Sheet 8 91
 Title ""
 Date ""
 Rev ""
@@ -38,6 +38,8 @@ AR Path="/5FEDAE91/5FCF6470" Ref="M89"  Part="1"
 AR Path="/5FEDAFF1/5FCF6470" Ref="M97"  Part="1" 
 AR Path="/622217B9/5FCF6470" Ref="M?"  Part="1" 
 AR Path="/622217BF/5FCF6470" Ref="M?"  Part="1" 
+AR Path="/639E88A2/5FCF6470" Ref="M?"  Part="1" 
+AR Path="/639E88A8/5FCF6470" Ref="M1"  Part="1" 
 F 0 "M97" H 6188 3596 50  0000 L CNN
 F 1 "BSS84" H 6188 3505 50  0000 L CNN
 F 2 "" H 5900 3550 50  0001 C CNN
@@ -64,6 +66,8 @@ AR Path="/5FEDAE91/5FCF6BA6" Ref="M90"  Part="1"
 AR Path="/5FEDAFF1/5FCF6BA6" Ref="M98"  Part="1" 
 AR Path="/622217B9/5FCF6BA6" Ref="M?"  Part="1" 
 AR Path="/622217BF/5FCF6BA6" Ref="M?"  Part="1" 
+AR Path="/639E88A2/5FCF6BA6" Ref="M?"  Part="1" 
+AR Path="/639E88A8/5FCF6BA6" Ref="M2"  Part="1" 
 F 0 "M98" H 6188 5296 50  0000 L CNN
 F 1 "2N7002" H 6188 5205 50  0000 L CNN
 F 2 "" H 5875 5250 50  0001 C CNN
@@ -90,6 +94,8 @@ AR Path="/5FEDAE91/5FCF8E75" Ref="R7"  Part="1"
 AR Path="/5FEDAFF1/5FCF8E75" Ref="R13"  Part="1" 
 AR Path="/622217B9/5FCF8E75" Ref="R?"  Part="1" 
 AR Path="/622217BF/5FCF8E75" Ref="R?"  Part="1" 
+AR Path="/639E88A2/5FCF8E75" Ref="R?"  Part="1" 
+AR Path="/639E88A8/5FCF8E75" Ref="R1"  Part="1" 
 F 0 "R13" H 6070 4046 50  0000 L CNN
 F 1 "12k" H 6070 3955 50  0000 L CNN
 F 2 "" V 5930 4000 50  0001 C CNN
@@ -112,6 +118,8 @@ AR Path="/5FEDAE91/5FCFA83D" Ref="R8"  Part="1"
 AR Path="/5FEDAFF1/5FCFA83D" Ref="R14"  Part="1" 
 AR Path="/622217B9/5FCFA83D" Ref="R?"  Part="1" 
 AR Path="/622217BF/5FCFA83D" Ref="R?"  Part="1" 
+AR Path="/639E88A2/5FCFA83D" Ref="R?"  Part="1" 
+AR Path="/639E88A8/5FCFA83D" Ref="R2"  Part="1" 
 F 0 "R14" H 6070 4846 50  0000 L CNN
 F 1 "12k" H 6070 4755 50  0000 L CNN
 F 2 "" V 5930 4800 50  0001 C CNN

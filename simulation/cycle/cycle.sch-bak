@@ -1,0 +1,86 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 5550 4150 500  200 
+U 5FDC4A82
+F0 "Sheet5FDC4A81" 50
+F1 "increment.sch" 50
+F2 "In" I L 5550 4250 50 
+F3 "Out" O R 6050 4250 50 
+$EndSheet
+$Sheet
+S 5550 3650 500  200 
+U 5FDC4CF5
+F0 "Sheet5FDC4CF4" 50
+F1 "decrement.sch" 50
+F2 "In" I L 5550 3750 50 
+F3 "Out" O R 6050 3750 50 
+$EndSheet
+$Comp
+L Simulation_SPICE:VDC V?
+U 1 1 5FDC82F9
+P 3650 2550
+F 0 "V?" H 3780 2641 50  0000 L CNN
+F 1 "VDC" H 3780 2550 50  0000 L CNN
+F 2 "" H 3650 2550 50  0001 C CNN
+F 3 "~" H 3650 2550 50  0001 C CNN
+F 4 "Y" H 3650 2550 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 3650 2550 50  0001 L CNN "Spice_Primitive"
+F 6 "dc(5)" H 3780 2459 50  0000 L CNN "Spice_Model"
+	1    3650 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:VDC V?
+U 1 1 5FDC841F
+P 4050 2550
+F 0 "V?" H 4180 2641 50  0000 L CNN
+F 1 "VDC" H 4180 2550 50  0000 L CNN
+F 2 "" H 4050 2550 50  0001 C CNN
+F 3 "~" H 4050 2550 50  0001 C CNN
+F 4 "Y" H 4050 2550 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 4050 2550 50  0001 L CNN "Spice_Primitive"
+F 6 "dc(-5)" H 4180 2459 50  0000 L CNN "Spice_Model"
+	1    4050 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FDC9D18
+P 3850 2850
+F 0 "#PWR?" H 3850 2600 50  0001 C CNN
+F 1 "GND" H 3855 2677 50  0000 C CNN
+F 2 "" H 3850 2850 50  0001 C CNN
+F 3 "" H 3850 2850 50  0001 C CNN
+	1    3850 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 2750 3650 2800
+Wire Wire Line
+	3650 2800 3850 2800
+Wire Wire Line
+	4050 2800 4050 2750
+Wire Wire Line
+	3850 2800 3850 2850
+Connection ~ 3850 2800
+Wire Wire Line
+	3850 2800 4050 2800
+Text GLabel 3650 2350 1    50   Input ~ 0
+Vdd
+Text GLabel 4050 2350 1    50   Input ~ 0
+Vss
+$EndSCHEMATC
