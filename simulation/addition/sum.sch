@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 28
+Sheet 15 26
 Title ""
 Date ""
 Rev ""
@@ -55,26 +55,15 @@ F3 "B" I L 4700 3450 50
 F4 "A" I L 4700 3350 50 
 $EndSheet
 Wire Wire Line
-	6700 3450 6600 3450
+	6700 3500 6600 3500
 $Sheet
-S 6100 3350 500  200 
+S 6100 3400 500  200 
 U 600EB164
 F0 "sheet600EB15D" 50
 F1 "nany.sch" 50
-F2 "Out" O R 6600 3450 50 
-F3 "B" I L 6100 3500 50 
-F4 "A" I L 6100 3400 50 
-$EndSheet
-Wire Wire Line
-	6100 3400 5800 3400
-$Sheet
-S 5300 3750 500  200 
-U 600A1223
-F0 "sheet600A119C" 50
-F1 "nconsensus.sch" 50
-F2 "Out" O R 5800 3850 50 
-F3 "A" I L 5300 3800 50 
-F4 "B" I L 5300 3900 50 
+F2 "Out" O R 6600 3500 50 
+F3 "B" I L 6100 3550 50 
+F4 "A" I L 6100 3450 50 
 $EndSheet
 Wire Wire Line
 	3000 3150 3350 3150
@@ -84,15 +73,6 @@ Connection ~ 3350 3150
 Wire Wire Line
 	3000 3650 3300 3650
 Connection ~ 3300 3650
-Connection ~ 3350 3550
-Wire Wire Line
-	3300 3650 3300 3900
-Wire Wire Line
-	6050 3850 5800 3850
-Wire Wire Line
-	6050 3500 6050 3850
-Wire Wire Line
-	6050 3500 6100 3500
 Wire Wire Line
 	4650 3200 4650 3350
 Wire Wire Line
@@ -102,18 +82,12 @@ Wire Wire Line
 Wire Wire Line
 	4650 3450 4650 3600
 Wire Wire Line
-	3350 3800 3350 3550
-Wire Wire Line
-	7200 3450 7300 3450
+	7200 3500 7300 3500
 Wire Wire Line
 	4650 3200 4500 3200
 Wire Wire Line
 	4500 3600 4650 3600
-Wire Wire Line
-	5300 3800 3350 3800
-Wire Wire Line
-	3300 3900 5300 3900
-Text HLabel 7300 3450 2    50   Output ~ 0
+Text HLabel 7300 3500 2    50   Output ~ 0
 Out
 Text HLabel 3000 3150 0    50   Input ~ 0
 A
@@ -136,11 +110,24 @@ F2 "Out" O R 5800 3400 50
 F3 "In" I L 5300 3400 50 
 $EndSheet
 $Sheet
-S 6700 3350 500  200 
+S 6700 3400 500  200 
 U 5FDDB12A
 F0 "sheet5FDDB126" 50
 F1 "inverter.sch" 50
-F2 "Out" O R 7200 3450 50 
-F3 "In" I L 6700 3450 50 
+F2 "Out" O R 7200 3500 50 
+F3 "In" I L 6700 3500 50 
 $EndSheet
+Wire Wire Line
+	4650 3600 6050 3600
+Connection ~ 4650 3600
+Wire Wire Line
+	6050 3600 6050 3550
+Wire Wire Line
+	6050 3550 6100 3550
+Wire Wire Line
+	6100 3450 6050 3450
+Wire Wire Line
+	6050 3450 6050 3400
+Wire Wire Line
+	6050 3400 5800 3400
 $EndSCHEMATC
