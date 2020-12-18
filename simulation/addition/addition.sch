@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 26
+Sheet 1 24
 Title ""
 Date ""
 Rev ""
@@ -99,34 +99,6 @@ Wire Wire Line
 	1700 4200 1300 4200
 Text Notes 2550 3450 0    50   ~ 0
 Weird cases:\nii1 = Too many iterations\n011 = Too many iterations\n111 = Too many iterations
-$Comp
-L Simulation_SPICE:VDC V4
-U 1 1 5FDE4F23
-P 1300 3950
-F 0 "V4" H 1430 4041 50  0000 L CNN
-F 1 "VDC" H 1430 3950 50  0000 L CNN
-F 2 "" H 1300 3950 50  0001 C CNN
-F 3 "~" H 1300 3950 50  0001 C CNN
-F 4 "Y" H 1300 3950 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 1300 3950 50  0001 L CNN "Spice_Primitive"
-F 6 "dc(5)" H 1430 3859 50  0000 L CNN "Spice_Model"
-	1    1300 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:VDC V3
-U 1 1 5FDE4F1A
-P 900 3950
-F 0 "V3" H 1030 4041 50  0000 L CNN
-F 1 "VDC" H 1030 3950 50  0000 L CNN
-F 2 "" H 900 3950 50  0001 C CNN
-F 3 "~" H 900 3950 50  0001 C CNN
-F 4 "Y" H 900 3950 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 900 3950 50  0001 L CNN "Spice_Primitive"
-F 6 "dc(5)" H 1030 3859 50  0000 L CNN "Spice_Model"
-	1    900  3950
-	1    0    0    -1  
-$EndComp
 Text GLabel 3350 4300 0    50   Input ~ 0
 C
 Text GLabel 3350 4200 0    50   Input ~ 0
@@ -185,17 +157,6 @@ F 3 "" H 4150 4550 50  0001 C CNN
 	1    4150 4550
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 3350 4050 500  300 
-U 5FDA8465
-F0 "0" 50
-F1 "full_adder.sch" 50
-F2 "A" I L 3350 4100 50 
-F3 "B" I L 3350 4200 50 
-F4 "C" I L 3350 4300 50 
-F5 "Sum" O R 3850 4150 50 
-F6 "Carry" O R 3850 4250 50 
-$EndSheet
 $Comp
 L Simulation_SPICE:VDC V5
 U 1 1 5FDE6098
@@ -206,8 +167,47 @@ F 2 "" H 1700 3950 50  0001 C CNN
 F 3 "~" H 1700 3950 50  0001 C CNN
 F 4 "Y" H 1700 3950 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 1700 3950 50  0001 L CNN "Spice_Primitive"
-F 6 "dc(5)" H 1830 3859 50  0000 L CNN "Spice_Model"
+F 6 "dc(0)" H 1830 3859 50  0000 L CNN "Spice_Model"
 	1    1700 3950
 	1    0    0    -1  
 $EndComp
+$Comp
+L Simulation_SPICE:VDC V4
+U 1 1 5FDE4F23
+P 1300 3950
+F 0 "V4" H 1430 4041 50  0000 L CNN
+F 1 "VDC" H 1430 3950 50  0000 L CNN
+F 2 "" H 1300 3950 50  0001 C CNN
+F 3 "~" H 1300 3950 50  0001 C CNN
+F 4 "Y" H 1300 3950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 1300 3950 50  0001 L CNN "Spice_Primitive"
+F 6 "dc(-5)" H 1430 3859 50  0000 L CNN "Spice_Model"
+	1    1300 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:VDC V3
+U 1 1 5FDE4F1A
+P 900 3950
+F 0 "V3" H 1030 4041 50  0000 L CNN
+F 1 "VDC" H 1030 3950 50  0000 L CNN
+F 2 "" H 900 3950 50  0001 C CNN
+F 3 "~" H 900 3950 50  0001 C CNN
+F 4 "Y" H 900 3950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 900 3950 50  0001 L CNN "Spice_Primitive"
+F 6 "dc(-5)" H 1030 3859 50  0000 L CNN "Spice_Model"
+	1    900  3950
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 3350 4050 500  300 
+U 5FDD3C70
+F0 "Sheet5FDD3C6F" 50
+F1 "full_adder.sch" 50
+F2 "A" I L 3350 4100 50 
+F3 "B" I L 3350 4200 50 
+F4 "C" I L 3350 4300 50 
+F5 "Sum" O R 3850 4150 50 
+F6 "Carry" O R 3850 4250 50 
+$EndSheet
 $EndSCHEMATC
