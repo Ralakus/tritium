@@ -1,0 +1,12 @@
+
+emulator/target/
+emulator/Cargo.lock
+
+**/*.sch-bak
+**/**/*.sch-bak
+**/**/**/*.sch-bak
+**/**/**/**/*.sch-bak
+**/**/**/**/**/*.sch-bak
+**/**/**/**/**/**/*.sch-bak
+**/**/**/**/**/**/**/*.sch-bak
+**/**/**/**/**/**/**/**/*.sch-bak
