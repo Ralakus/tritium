@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 6
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -201,12 +201,12 @@ F 6 "dc(-5)" H 1030 3859 50  0000 L CNN "Spice_Model"
 $EndComp
 $Sheet
 S 3350 4050 500  300 
-U 5FDD3C70
-F0 "Sheet5FDD3C6F" 50
-F1 "full_adder.sch" 50
-F2 "A" I L 3350 4100 50 
+U 5FE8E33C
+F0 "Sheet5FE8E33B" 50
+F1 "flat_schematic.sch" 50
+F2 "C" I L 3350 4300 50 
 F3 "B" I L 3350 4200 50 
-F4 "C" I L 3350 4300 50 
+F4 "A" I L 3350 4100 50 
 F5 "Sum" O R 3850 4150 50 
 F6 "Carry" O R 3850 4250 50 
 $EndSheet

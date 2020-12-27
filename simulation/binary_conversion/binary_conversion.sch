@@ -341,12 +341,6 @@ Connection ~ 5850 1350
 Wire Wire Line
 	5850 1600 5850 1350
 Wire Wire Line
-	2500 4000 2850 4000
-Wire Wire Line
-	2500 3500 2850 3500
-Wire Wire Line
-	2500 3000 2850 3000
-Wire Wire Line
 	2500 2350 2850 2350
 Connection ~ 4850 1400
 Wire Wire Line
@@ -441,8 +435,6 @@ Wire Wire Line
 	5400 1900 5600 1900
 Connection ~ 5600 1900
 Wire Wire Line
-	5600 1900 5600 3550
-Wire Wire Line
 	5400 2300 5450 2300
 $Comp
 L power:GND #PWR050
@@ -536,8 +528,6 @@ Wire Wire Line
 Wire Wire Line
 	4350 2600 4350 2350
 Connection ~ 4850 2400
-Wire Wire Line
-	4850 2400 4850 3050
 Connection ~ 4350 2350
 Wire Wire Line
 	4350 2350 5850 2350
@@ -589,60 +579,18 @@ Connection ~ 3200 3450
 Wire Wire Line
 	3200 3450 3250 3450
 Wire Wire Line
-	2850 3250 2850 3000
-Connection ~ 2850 3000
-Wire Wire Line
-	2850 3000 3600 3000
-Wire Wire Line
 	3900 3050 4100 3050
-Wire Wire Line
-	3900 3450 3950 3450
-$Comp
-L power:GND #PWR021
-U 1 1 60E0452C
-P 3950 3450
-F 0 "#PWR021" H 3950 3200 50  0001 C CNN
-F 1 "GND" H 3955 3277 50  0000 C CNN
-F 2 "" H 3950 3450 50  0001 C CNN
-F 3 "" H 3950 3450 50  0001 C CNN
-	1    3950 3450
-	1    0    0    -1  
-$EndComp
-Connection ~ 3950 3450
 Wire Wire Line
 	3950 3450 4000 3450
 Wire Wire Line
 	3600 3250 3600 3000
 Connection ~ 4100 3050
 Wire Wire Line
-	4100 3050 4100 3550
-Connection ~ 3600 3000
-Wire Wire Line
 	3600 3000 4350 3000
-Wire Wire Line
-	4650 3050 4850 3050
-Wire Wire Line
-	4650 3450 4700 3450
-$Comp
-L power:GND #PWR037
-U 1 1 60E1E2DA
-P 4700 3450
-F 0 "#PWR037" H 4700 3200 50  0001 C CNN
-F 1 "GND" H 4705 3277 50  0000 C CNN
-F 2 "" H 4700 3450 50  0001 C CNN
-F 3 "" H 4700 3450 50  0001 C CNN
-	1    4700 3450
-	1    0    0    -1  
-$EndComp
-Connection ~ 4700 3450
 Wire Wire Line
 	4700 3450 4750 3450
 Wire Wire Line
 	4350 3250 4350 3000
-Connection ~ 4850 3050
-Connection ~ 4350 3000
-Wire Wire Line
-	4350 3000 6600 3000
 Wire Wire Line
 	3150 3550 3350 3550
 Connection ~ 3350 3550
@@ -665,62 +613,11 @@ Connection ~ 3200 3950
 Wire Wire Line
 	3200 3950 3250 3950
 Wire Wire Line
-	2850 3750 2850 3500
-Connection ~ 2850 3500
-Wire Wire Line
-	2850 3500 3600 3500
-Wire Wire Line
-	3900 3550 4100 3550
-Wire Wire Line
-	3900 3950 3950 3950
-$Comp
-L power:GND #PWR022
-U 1 1 60E54966
-P 3950 3950
-F 0 "#PWR022" H 3950 3700 50  0001 C CNN
-F 1 "GND" H 3955 3777 50  0000 C CNN
-F 2 "" H 3950 3950 50  0001 C CNN
-F 3 "" H 3950 3950 50  0001 C CNN
-	1    3950 3950
-	1    0    0    -1  
-$EndComp
-Connection ~ 3950 3950
-Wire Wire Line
 	3950 3950 4000 3950
 Wire Wire Line
 	3600 3750 3600 3500
-Connection ~ 4100 3550
-Wire Wire Line
-	4100 3550 4100 4050
-Connection ~ 3600 3500
-Wire Wire Line
-	3600 3500 5100 3500
-Wire Wire Line
-	5400 3550 5600 3550
-Connection ~ 5600 3550
-Wire Wire Line
-	5600 3550 5600 4050
-Wire Wire Line
-	5400 3950 5450 3950
-$Comp
-L power:GND #PWR051
-U 1 1 60E7148C
-P 5450 3950
-F 0 "#PWR051" H 5450 3700 50  0001 C CNN
-F 1 "GND" H 5455 3777 50  0000 C CNN
-F 2 "" H 5450 3950 50  0001 C CNN
-F 3 "" H 5450 3950 50  0001 C CNN
-	1    5450 3950
-	1    0    0    -1  
-$EndComp
-Connection ~ 5450 3950
-Wire Wire Line
-	5450 3950 5500 3950
 Wire Wire Line
 	5100 3750 5100 3500
-Connection ~ 5100 3500
-Wire Wire Line
-	5100 3500 5850 3500
 Wire Wire Line
 	6150 3550 6350 3550
 Wire Wire Line
@@ -741,9 +638,6 @@ Wire Wire Line
 	6200 3950 6250 3950
 Wire Wire Line
 	5850 3750 5850 3500
-Connection ~ 5850 3500
-Wire Wire Line
-	5850 3500 6600 3500
 Wire Wire Line
 	3150 4050 3350 4050
 Wire Wire Line
@@ -763,56 +657,11 @@ Connection ~ 3200 4450
 Wire Wire Line
 	3200 4450 3250 4450
 Wire Wire Line
-	2850 4250 2850 4000
-Connection ~ 2850 4000
-Wire Wire Line
-	2850 4000 3600 4000
-Wire Wire Line
-	3900 4050 4100 4050
-Wire Wire Line
-	3900 4450 3950 4450
-$Comp
-L power:GND #PWR023
-U 1 1 60ECD77C
-P 3950 4450
-F 0 "#PWR023" H 3950 4200 50  0001 C CNN
-F 1 "GND" H 3955 4277 50  0000 C CNN
-F 2 "" H 3950 4450 50  0001 C CNN
-F 3 "" H 3950 4450 50  0001 C CNN
-	1    3950 4450
-	1    0    0    -1  
-$EndComp
-Connection ~ 3950 4450
-Wire Wire Line
 	3950 4450 4000 4450
 Wire Wire Line
 	3600 4250 3600 4000
-Connection ~ 3600 4000
-Wire Wire Line
-	3600 4000 5100 4000
-Wire Wire Line
-	5400 4050 5600 4050
-Wire Wire Line
-	5400 4450 5450 4450
-$Comp
-L power:GND #PWR052
-U 1 1 60EEE2E3
-P 5450 4450
-F 0 "#PWR052" H 5450 4200 50  0001 C CNN
-F 1 "GND" H 5455 4277 50  0000 C CNN
-F 2 "" H 5450 4450 50  0001 C CNN
-F 3 "" H 5450 4450 50  0001 C CNN
-	1    5450 4450
-	1    0    0    -1  
-$EndComp
-Connection ~ 5450 4450
-Wire Wire Line
-	5450 4450 5500 4450
 Wire Wire Line
 	5100 4250 5100 4000
-Connection ~ 5100 4000
-Wire Wire Line
-	5100 4000 6600 4000
 Connection ~ 6350 3550
 Text GLabel 7750 1950 1    50   Input ~ 0
 T0
@@ -862,21 +711,9 @@ Wire Wire Line
 	1950 5650 1400 5650
 Wire Wire Line
 	1950 5750 1850 5750
-Wire Wire Line
-	2500 5650 2850 5650
-Wire Wire Line
-	2500 5150 2850 5150
-Wire Wire Line
-	2500 4650 2850 4650
 Connection ~ 3350 4050
 Wire Wire Line
 	3350 4050 3350 4700
-Connection ~ 4100 4050
-Wire Wire Line
-	4100 4050 4100 4700
-Connection ~ 5600 4050
-Wire Wire Line
-	5600 4050 5600 5700
 Wire Wire Line
 	3150 4700 3350 4700
 Connection ~ 3350 4700
@@ -899,36 +736,9 @@ Connection ~ 3200 5100
 Wire Wire Line
 	3200 5100 3250 5100
 Wire Wire Line
-	2850 4900 2850 4650
-Connection ~ 2850 4650
-Wire Wire Line
-	2850 4650 3600 4650
-Wire Wire Line
-	3900 4700 4100 4700
-Wire Wire Line
-	3900 5100 3950 5100
-$Comp
-L power:GND #PWR024
-U 1 1 60F3255A
-P 3950 5100
-F 0 "#PWR024" H 3950 4850 50  0001 C CNN
-F 1 "GND" H 3955 4927 50  0000 C CNN
-F 2 "" H 3950 5100 50  0001 C CNN
-F 3 "" H 3950 5100 50  0001 C CNN
-	1    3950 5100
-	1    0    0    -1  
-$EndComp
-Connection ~ 3950 5100
-Wire Wire Line
 	3950 5100 4000 5100
 Wire Wire Line
 	3600 4900 3600 4650
-Connection ~ 4100 4700
-Wire Wire Line
-	4100 4700 4100 5200
-Connection ~ 3600 4650
-Wire Wire Line
-	3600 4650 5850 4650
 Wire Wire Line
 	6150 4700 6350 4700
 Wire Wire Line
@@ -952,9 +762,6 @@ Wire Wire Line
 	6200 5100 6250 5100
 Wire Wire Line
 	5850 4900 5850 4650
-Connection ~ 5850 4650
-Wire Wire Line
-	5850 4650 6600 4650
 Wire Wire Line
 	3150 5200 3350 5200
 Connection ~ 3350 5200
@@ -977,33 +784,9 @@ Connection ~ 3200 5600
 Wire Wire Line
 	3200 5600 3250 5600
 Wire Wire Line
-	2850 5400 2850 5150
-Connection ~ 2850 5150
-Wire Wire Line
-	2850 5150 3600 5150
-Wire Wire Line
-	3900 5200 4100 5200
-Wire Wire Line
-	3900 5600 3950 5600
-$Comp
-L power:GND #PWR025
-U 1 1 60FA3ADE
-P 3950 5600
-F 0 "#PWR025" H 3950 5350 50  0001 C CNN
-F 1 "GND" H 3955 5427 50  0000 C CNN
-F 2 "" H 3950 5600 50  0001 C CNN
-F 3 "" H 3950 5600 50  0001 C CNN
-	1    3950 5600
-	1    0    0    -1  
-$EndComp
-Connection ~ 3950 5600
-Wire Wire Line
 	3950 5600 4000 5600
 Wire Wire Line
 	3600 5400 3600 5150
-Connection ~ 3600 5150
-Wire Wire Line
-	3600 5150 6600 5150
 Wire Wire Line
 	3150 5700 3350 5700
 Wire Wire Line
@@ -1023,56 +806,11 @@ Connection ~ 3200 6100
 Wire Wire Line
 	3200 6100 3250 6100
 Wire Wire Line
-	2850 5900 2850 5650
-Connection ~ 2850 5650
-Wire Wire Line
-	2850 5650 4350 5650
-Wire Wire Line
-	4650 5700 4850 5700
-Wire Wire Line
-	4650 6100 4700 6100
-$Comp
-L power:GND #PWR038
-U 1 1 60FF5194
-P 4700 6100
-F 0 "#PWR038" H 4700 5850 50  0001 C CNN
-F 1 "GND" H 4705 5927 50  0000 C CNN
-F 2 "" H 4700 6100 50  0001 C CNN
-F 3 "" H 4700 6100 50  0001 C CNN
-	1    4700 6100
-	1    0    0    -1  
-$EndComp
-Connection ~ 4700 6100
-Wire Wire Line
 	4700 6100 4750 6100
 Wire Wire Line
 	4350 5900 4350 5650
-Connection ~ 4350 5650
-Wire Wire Line
-	4350 5650 5100 5650
-Wire Wire Line
-	5400 5700 5600 5700
-Wire Wire Line
-	5400 6100 5450 6100
-$Comp
-L power:GND #PWR053
-U 1 1 6101EE20
-P 5450 6100
-F 0 "#PWR053" H 5450 5850 50  0001 C CNN
-F 1 "GND" H 5455 5927 50  0000 C CNN
-F 2 "" H 5450 6100 50  0001 C CNN
-F 3 "" H 5450 6100 50  0001 C CNN
-	1    5450 6100
-	1    0    0    -1  
-$EndComp
-Connection ~ 5450 6100
-Wire Wire Line
-	5450 6100 5500 6100
 Wire Wire Line
 	5100 5900 5100 5650
-Connection ~ 5100 5650
-Wire Wire Line
-	5100 5650 5850 5650
 Wire Wire Line
 	6150 5700 6350 5700
 Wire Wire Line
@@ -1093,12 +831,6 @@ Wire Wire Line
 	6200 6100 6250 6100
 Wire Wire Line
 	5850 5900 5850 5650
-Connection ~ 5850 5650
-Wire Wire Line
-	5850 5650 6600 5650
-Connection ~ 4100 5200
-Wire Wire Line
-	4850 3050 4850 5700
 Wire Wire Line
 	6350 3550 6350 4700
 Wire Wire Line
@@ -1106,32 +838,7 @@ Wire Wire Line
 Wire Wire Line
 	850  1200 850  6200
 Wire Wire Line
-	4350 7300 6600 7300
-Wire Wire Line
 	4350 7550 4350 7300
-Wire Wire Line
-	4700 7750 4750 7750
-$Comp
-L power:GND #PWR041
-U 1 1 611D2F99
-P 4700 7750
-F 0 "#PWR041" H 4700 7500 50  0001 C CNN
-F 1 "GND" H 4705 7577 50  0000 C CNN
-F 2 "" H 4700 7750 50  0001 C CNN
-F 3 "" H 4700 7750 50  0001 C CNN
-	1    4700 7750
-	1    0    0    -1  
-$EndComp
-Connection ~ 4700 7750
-Wire Wire Line
-	4650 7750 4700 7750
-Wire Wire Line
-	4650 7350 4850 7350
-Connection ~ 4350 7300
-Wire Wire Line
-	2850 7300 4350 7300
-Wire Wire Line
-	2850 7550 2850 7300
 Wire Wire Line
 	3200 7750 3250 7750
 $Comp
@@ -1150,11 +857,6 @@ Wire Wire Line
 	3150 7750 3200 7750
 Wire Wire Line
 	3150 7350 3350 7350
-Wire Wire Line
-	2850 7050 2850 6800
-Connection ~ 2850 6800
-Wire Wire Line
-	2500 6800 2850 6800
 Wire Wire Line
 	3200 7250 3250 7250
 $Comp
@@ -1176,35 +878,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 6850 3350 6850
 Wire Wire Line
-	4850 6850 4850 7350
-Wire Wire Line
-	2850 6800 4350 6800
-Connection ~ 4350 6800
-Wire Wire Line
 	4350 7050 4350 6800
-Wire Wire Line
-	4700 7250 4750 7250
-$Comp
-L power:GND #PWR040
-U 1 1 61136EB6
-P 4700 7250
-F 0 "#PWR040" H 4700 7000 50  0001 C CNN
-F 1 "GND" H 4705 7077 50  0000 C CNN
-F 2 "" H 4700 7250 50  0001 C CNN
-F 3 "" H 4700 7250 50  0001 C CNN
-	1    4700 7250
-	1    0    0    -1  
-$EndComp
-Connection ~ 4700 7250
-Wire Wire Line
-	4650 7250 4700 7250
-Wire Wire Line
-	4650 6850 4850 6850
-Wire Wire Line
-	4350 6800 5850 6800
-Wire Wire Line
-	5850 6800 6600 6800
-Connection ~ 5850 6800
 Wire Wire Line
 	5850 7050 5850 6800
 Wire Wire Line
@@ -1226,11 +900,6 @@ Wire Wire Line
 Wire Wire Line
 	6150 6850 6350 6850
 Wire Wire Line
-	2850 6550 2850 6300
-Connection ~ 2850 6300
-Wire Wire Line
-	2500 6300 2850 6300
-Wire Wire Line
 	3200 6750 3250 6750
 $Comp
 L power:GND #PWR011
@@ -1251,76 +920,18 @@ Wire Wire Line
 	3350 6350 3350 6850
 Wire Wire Line
 	3150 6350 3350 6350
-Connection ~ 4850 6850
-Wire Wire Line
-	4850 6350 4850 6850
-Wire Wire Line
-	2850 6300 4350 6300
-Connection ~ 4350 6300
 Wire Wire Line
 	4350 6550 4350 6300
 Wire Wire Line
-	4700 6750 4750 6750
-$Comp
-L power:GND #PWR039
-U 1 1 610A4297
-P 4700 6750
-F 0 "#PWR039" H 4700 6500 50  0001 C CNN
-F 1 "GND" H 4705 6577 50  0000 C CNN
-F 2 "" H 4700 6750 50  0001 C CNN
-F 3 "" H 4700 6750 50  0001 C CNN
-	1    4700 6750
-	1    0    0    -1  
-$EndComp
-Connection ~ 4700 6750
-Wire Wire Line
-	4650 6750 4700 6750
-Wire Wire Line
-	4650 6350 4850 6350
-Wire Wire Line
-	4350 6300 5100 6300
-Wire Wire Line
-	5100 6300 6600 6300
-Connection ~ 5100 6300
-Wire Wire Line
 	5100 6550 5100 6300
-Wire Wire Line
-	5450 6750 5500 6750
-$Comp
-L power:GND #PWR054
-U 1 1 61076563
-P 5450 6750
-F 0 "#PWR054" H 5450 6500 50  0001 C CNN
-F 1 "GND" H 5455 6577 50  0000 C CNN
-F 2 "" H 5450 6750 50  0001 C CNN
-F 3 "" H 5450 6750 50  0001 C CNN
-	1    5450 6750
-	1    0    0    -1  
-$EndComp
-Connection ~ 5450 6750
-Wire Wire Line
-	5400 6750 5450 6750
-Wire Wire Line
-	5400 6350 5600 6350
 Connection ~ 6350 6850
 Connection ~ 6350 5700
 Wire Wire Line
 	6350 5700 6350 6850
-Connection ~ 5600 6350
-Connection ~ 5600 5700
-Wire Wire Line
-	5600 5700 5600 6350
-Connection ~ 4850 6350
-Connection ~ 4850 5700
-Wire Wire Line
-	4850 5700 4850 6350
 Connection ~ 3350 6350
 Connection ~ 3350 5700
 Wire Wire Line
 	3350 5700 3350 6350
-Connection ~ 2850 7300
-Wire Wire Line
-	2500 7300 2850 7300
 Wire Wire Line
 	1950 7400 1850 7400
 Wire Wire Line
@@ -1406,12 +1017,6 @@ Wire Wire Line
 	1950 8950 1300 8950
 Wire Wire Line
 	1850 9050 1950 9050
-Wire Wire Line
-	2500 8950 2850 8950
-Wire Wire Line
-	2500 8450 2850 8450
-Wire Wire Line
-	2500 7950 2850 7950
 Connection ~ 3350 7350
 Wire Wire Line
 	3350 7350 3350 8000
@@ -1437,36 +1042,7 @@ Connection ~ 3200 8400
 Wire Wire Line
 	3200 8400 3250 8400
 Wire Wire Line
-	2850 8200 2850 7950
-Connection ~ 2850 7950
-Wire Wire Line
-	2850 7950 5100 7950
-Wire Wire Line
-	5400 8000 5600 8000
-Wire Wire Line
-	5600 8000 5600 8500
-Connection ~ 5600 8000
-Wire Wire Line
-	5400 8400 5450 8400
-$Comp
-L power:GND #PWR055
-U 1 1 6124303E
-P 5450 8400
-F 0 "#PWR055" H 5450 8150 50  0001 C CNN
-F 1 "GND" H 5455 8227 50  0000 C CNN
-F 2 "" H 5450 8400 50  0001 C CNN
-F 3 "" H 5450 8400 50  0001 C CNN
-	1    5450 8400
-	1    0    0    -1  
-$EndComp
-Connection ~ 5450 8400
-Wire Wire Line
-	5450 8400 5500 8400
-Wire Wire Line
 	5100 8200 5100 7950
-Connection ~ 5100 7950
-Wire Wire Line
-	5100 7950 5850 7950
 Wire Wire Line
 	6150 8000 6350 8000
 Wire Wire Line
@@ -1490,9 +1066,6 @@ Wire Wire Line
 	6200 8400 6250 8400
 Wire Wire Line
 	5850 8200 5850 7950
-Connection ~ 5850 7950
-Wire Wire Line
-	5850 7950 6600 7950
 Wire Wire Line
 	3150 8500 3350 8500
 Connection ~ 3350 8500
@@ -1515,34 +1088,7 @@ Connection ~ 3200 8900
 Wire Wire Line
 	3200 8900 3250 8900
 Wire Wire Line
-	2850 8700 2850 8450
-Connection ~ 2850 8450
-Wire Wire Line
-	2850 8450 5100 8450
-Wire Wire Line
-	5400 8500 5600 8500
-Connection ~ 5600 8500
-Wire Wire Line
-	5400 8900 5450 8900
-$Comp
-L power:GND #PWR056
-U 1 1 612F594A
-P 5450 8900
-F 0 "#PWR056" H 5450 8650 50  0001 C CNN
-F 1 "GND" H 5455 8727 50  0000 C CNN
-F 2 "" H 5450 8900 50  0001 C CNN
-F 3 "" H 5450 8900 50  0001 C CNN
-	1    5450 8900
-	1    0    0    -1  
-$EndComp
-Connection ~ 5450 8900
-Wire Wire Line
-	5450 8900 5500 8900
-Wire Wire Line
 	5100 8700 5100 8450
-Connection ~ 5100 8450
-Wire Wire Line
-	5100 8450 6600 8450
 Wire Wire Line
 	3150 9000 3350 9000
 Wire Wire Line
@@ -1561,11 +1107,6 @@ $EndComp
 Connection ~ 3200 9400
 Wire Wire Line
 	3200 9400 3250 9400
-Wire Wire Line
-	2850 9200 2850 8950
-Connection ~ 2850 8950
-Wire Wire Line
-	2850 8950 5850 8950
 Wire Wire Line
 	6150 9000 6350 9000
 Wire Wire Line
@@ -1586,14 +1127,8 @@ Wire Wire Line
 	6200 9400 6250 9400
 Wire Wire Line
 	5850 9200 5850 8950
-Connection ~ 5850 8950
-Wire Wire Line
-	5850 8950 6600 8950
-Connection ~ 4850 7350
 Wire Wire Line
 	6350 6850 6350 8000
-Wire Wire Line
-	5600 6350 5600 8000
 Wire Wire Line
 	1950 9500 850  9500
 Connection ~ 850  8850
@@ -1639,12 +1174,6 @@ Wire Wire Line
 	1950 10600 1400 10600
 Wire Wire Line
 	1950 10700 1850 10700
-Wire Wire Line
-	2500 10600 3600 10600
-Wire Wire Line
-	2500 10100 3600 10100
-Wire Wire Line
-	2500 9600 2850 9600
 Connection ~ 3350 9000
 Wire Wire Line
 	3350 9000 3350 9650
@@ -1670,88 +1199,15 @@ Connection ~ 3200 10050
 Wire Wire Line
 	3200 10050 3250 10050
 Wire Wire Line
-	2850 9850 2850 9600
-Connection ~ 2850 9600
-Wire Wire Line
-	2850 9600 6600 9600
-Wire Wire Line
-	3900 10150 4100 10150
-Wire Wire Line
-	4100 10150 4100 10650
-Connection ~ 4100 10150
-Wire Wire Line
-	3900 10550 3950 10550
-$Comp
-L power:GND #PWR026
-U 1 1 613F9FFE
-P 3950 10550
-F 0 "#PWR026" H 3950 10300 50  0001 C CNN
-F 1 "GND" H 3955 10377 50  0000 C CNN
-F 2 "" H 3950 10550 50  0001 C CNN
-F 3 "" H 3950 10550 50  0001 C CNN
-	1    3950 10550
-	1    0    0    -1  
-$EndComp
-Connection ~ 3950 10550
-Wire Wire Line
 	3950 10550 4000 10550
 Wire Wire Line
 	3600 10350 3600 10100
-Connection ~ 3600 10100
-Wire Wire Line
-	3600 10100 4350 10100
-Wire Wire Line
-	4650 10150 4850 10150
-Wire Wire Line
-	4850 10150 4850 10650
-Connection ~ 4850 10150
-Wire Wire Line
-	4650 10550 4700 10550
-$Comp
-L power:GND #PWR042
-U 1 1 6143F1A8
-P 4700 10550
-F 0 "#PWR042" H 4700 10300 50  0001 C CNN
-F 1 "GND" H 4705 10377 50  0000 C CNN
-F 2 "" H 4700 10550 50  0001 C CNN
-F 3 "" H 4700 10550 50  0001 C CNN
-	1    4700 10550
-	1    0    0    -1  
-$EndComp
-Connection ~ 4700 10550
 Wire Wire Line
 	4700 10550 4750 10550
 Wire Wire Line
 	4350 10350 4350 10100
-Connection ~ 4350 10100
-Wire Wire Line
-	4350 10100 5100 10100
-Wire Wire Line
-	5400 10150 5600 10150
-Wire Wire Line
-	5600 10150 5600 10650
-Connection ~ 5600 10150
-Wire Wire Line
-	5400 10550 5450 10550
-$Comp
-L power:GND #PWR057
-U 1 1 61485623
-P 5450 10550
-F 0 "#PWR057" H 5450 10300 50  0001 C CNN
-F 1 "GND" H 5455 10377 50  0000 C CNN
-F 2 "" H 5450 10550 50  0001 C CNN
-F 3 "" H 5450 10550 50  0001 C CNN
-	1    5450 10550
-	1    0    0    -1  
-$EndComp
-Connection ~ 5450 10550
-Wire Wire Line
-	5450 10550 5500 10550
 Wire Wire Line
 	5100 10350 5100 10100
-Connection ~ 5100 10100
-Wire Wire Line
-	5100 10100 5850 10100
 Wire Wire Line
 	6150 10150 6350 10150
 Wire Wire Line
@@ -1772,38 +1228,14 @@ Wire Wire Line
 	6200 10550 6250 10550
 Wire Wire Line
 	5850 10350 5850 10100
-Connection ~ 5850 10100
-Wire Wire Line
-	5850 10100 6600 10100
-Wire Wire Line
-	3900 10650 4100 10650
 Wire Wire Line
 	3600 10850 3600 10600
-Connection ~ 3600 10600
-Wire Wire Line
-	3600 10600 4350 10600
-Wire Wire Line
-	4650 10650 4850 10650
 Wire Wire Line
 	4350 10850 4350 10600
-Connection ~ 4350 10600
-Wire Wire Line
-	4350 10600 5100 10600
-Wire Wire Line
-	5400 10650 5600 10650
 Wire Wire Line
 	5100 10850 5100 10600
-Connection ~ 5100 10600
-Wire Wire Line
-	5100 10600 6600 10600
 Connection ~ 3350 9650
 Connection ~ 6350 10150
-Wire Wire Line
-	5600 8500 5600 10150
-Wire Wire Line
-	4850 7350 4850 10150
-Wire Wire Line
-	4100 5200 4100 10150
 Connection ~ 1200 7300
 Wire Wire Line
 	1200 7300 1200 11250
@@ -1844,69 +1276,13 @@ Wire Wire Line
 Wire Wire Line
 	1950 12350 1850 12350
 Wire Wire Line
-	2500 12250 3600 12250
-Wire Wire Line
-	2500 11750 3600 11750
-Wire Wire Line
-	2500 11250 3600 11250
-Connection ~ 4100 10650
-Wire Wire Line
-	4100 10650 4100 11300
-Connection ~ 4850 10650
-Wire Wire Line
-	4850 10650 4850 11300
-Connection ~ 5600 10650
-Wire Wire Line
-	5600 10650 5600 12300
-Wire Wire Line
-	3900 11300 4100 11300
-Wire Wire Line
-	3900 11700 3950 11700
-$Comp
-L power:GND #PWR028
-U 1 1 615FFAD2
-P 3950 11700
-F 0 "#PWR028" H 3950 11450 50  0001 C CNN
-F 1 "GND" H 3955 11527 50  0000 C CNN
-F 2 "" H 3950 11700 50  0001 C CNN
-F 3 "" H 3950 11700 50  0001 C CNN
-	1    3950 11700
-	1    0    0    -1  
-$EndComp
-Connection ~ 3950 11700
-Wire Wire Line
 	3950 11700 4000 11700
 Wire Wire Line
 	3600 11500 3600 11250
-Connection ~ 4100 11300
-Wire Wire Line
-	4100 11300 4100 11800
-Connection ~ 3600 11250
-Wire Wire Line
-	3600 11250 4350 11250
-Wire Wire Line
-	4650 11300 4850 11300
-Wire Wire Line
-	4650 11700 4700 11700
-$Comp
-L power:GND #PWR044
-U 1 1 6164F54F
-P 4700 11700
-F 0 "#PWR044" H 4700 11450 50  0001 C CNN
-F 1 "GND" H 4705 11527 50  0000 C CNN
-F 2 "" H 4700 11700 50  0001 C CNN
-F 3 "" H 4700 11700 50  0001 C CNN
-	1    4700 11700
-	1    0    0    -1  
-$EndComp
-Connection ~ 4700 11700
 Wire Wire Line
 	4700 11700 4750 11700
 Wire Wire Line
 	4350 11500 4350 11250
-Connection ~ 4350 11250
-Wire Wire Line
-	4350 11250 5850 11250
 Wire Wire Line
 	6150 11300 6350 11300
 Wire Wire Line
@@ -1930,108 +1306,20 @@ Wire Wire Line
 	6200 11700 6250 11700
 Wire Wire Line
 	5850 11500 5850 11250
-Connection ~ 5850 11250
-Wire Wire Line
-	5850 11250 6600 11250
-Wire Wire Line
-	3900 11800 4100 11800
-Wire Wire Line
-	3900 12200 3950 12200
-$Comp
-L power:GND #PWR029
-U 1 1 616F62E7
-P 3950 12200
-F 0 "#PWR029" H 3950 11950 50  0001 C CNN
-F 1 "GND" H 3955 12027 50  0000 C CNN
-F 2 "" H 3950 12200 50  0001 C CNN
-F 3 "" H 3950 12200 50  0001 C CNN
-	1    3950 12200
-	1    0    0    -1  
-$EndComp
-Connection ~ 3950 12200
 Wire Wire Line
 	3950 12200 4000 12200
 Wire Wire Line
 	3600 12000 3600 11750
-Connection ~ 4100 11800
-Wire Wire Line
-	4100 11800 4100 12300
-Connection ~ 3600 11750
-Wire Wire Line
-	3600 11750 4350 11750
-Wire Wire Line
-	4650 11800 4850 11800
-Connection ~ 4850 11300
-Wire Wire Line
-	4850 11300 4850 11800
-Connection ~ 4850 11800
-Wire Wire Line
-	4650 12200 4700 12200
-$Comp
-L power:GND #PWR045
-U 1 1 6174C151
-P 4700 12200
-F 0 "#PWR045" H 4700 11950 50  0001 C CNN
-F 1 "GND" H 4705 12027 50  0000 C CNN
-F 2 "" H 4700 12200 50  0001 C CNN
-F 3 "" H 4700 12200 50  0001 C CNN
-	1    4700 12200
-	1    0    0    -1  
-$EndComp
-Connection ~ 4700 12200
 Wire Wire Line
 	4700 12200 4750 12200
 Wire Wire Line
 	4350 12000 4350 11750
-Connection ~ 4350 11750
-Wire Wire Line
-	4350 11750 6600 11750
-Wire Wire Line
-	3900 12300 4100 12300
-Wire Wire Line
-	3900 12700 3950 12700
-$Comp
-L power:GND #PWR030
-U 1 1 617A3666
-P 3950 12700
-F 0 "#PWR030" H 3950 12450 50  0001 C CNN
-F 1 "GND" H 3955 12527 50  0000 C CNN
-F 2 "" H 3950 12700 50  0001 C CNN
-F 3 "" H 3950 12700 50  0001 C CNN
-	1    3950 12700
-	1    0    0    -1  
-$EndComp
-Connection ~ 3950 12700
 Wire Wire Line
 	3950 12700 4000 12700
 Wire Wire Line
 	3600 12500 3600 12250
-Connection ~ 3600 12250
-Wire Wire Line
-	3600 12250 5100 12250
-Wire Wire Line
-	5400 12300 5600 12300
-Wire Wire Line
-	5400 12700 5450 12700
-$Comp
-L power:GND #PWR059
-U 1 1 617FE27A
-P 5450 12700
-F 0 "#PWR059" H 5450 12450 50  0001 C CNN
-F 1 "GND" H 5455 12527 50  0000 C CNN
-F 2 "" H 5450 12700 50  0001 C CNN
-F 3 "" H 5450 12700 50  0001 C CNN
-	1    5450 12700
-	1    0    0    -1  
-$EndComp
-Connection ~ 5450 12700
-Wire Wire Line
-	5450 12700 5500 12700
 Wire Wire Line
 	5100 12500 5100 12250
-Connection ~ 5100 12250
-Wire Wire Line
-	5100 12250 5850 12250
 Wire Wire Line
 	6150 12300 6350 12300
 Wire Wire Line
@@ -2052,57 +1340,10 @@ Wire Wire Line
 	6200 12700 6250 12700
 Wire Wire Line
 	5850 12500 5850 12250
-Connection ~ 5850 12250
-Wire Wire Line
-	5850 12250 6600 12250
-Wire Wire Line
-	5450 11050 5500 11050
-Wire Wire Line
-	5400 11050 5450 11050
-Connection ~ 5450 11050
-$Comp
-L power:GND #PWR058
-U 1 1 615B04E7
-P 5450 11050
-F 0 "#PWR058" H 5450 10800 50  0001 C CNN
-F 1 "GND" H 5455 10877 50  0000 C CNN
-F 2 "" H 5450 11050 50  0001 C CNN
-F 3 "" H 5450 11050 50  0001 C CNN
-	1    5450 11050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4700 11050 4750 11050
 Wire Wire Line
-	4650 11050 4700 11050
-Connection ~ 4700 11050
-$Comp
-L power:GND #PWR043
-U 1 1 61562B1F
-P 4700 11050
-F 0 "#PWR043" H 4700 10800 50  0001 C CNN
-F 1 "GND" H 4705 10877 50  0000 C CNN
-F 2 "" H 4700 11050 50  0001 C CNN
-F 3 "" H 4700 11050 50  0001 C CNN
-	1    4700 11050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	3950 11050 4000 11050
-Wire Wire Line
-	3900 11050 3950 11050
-Connection ~ 3950 11050
-$Comp
-L power:GND #PWR027
-U 1 1 61517544
-P 3950 11050
-F 0 "#PWR027" H 3950 10800 50  0001 C CNN
-F 1 "GND" H 3955 10877 50  0000 C CNN
-F 2 "" H 3950 11050 50  0001 C CNN
-F 3 "" H 3950 11050 50  0001 C CNN
-	1    3950 11050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1950 11150 950  11150
 Connection ~ 950  11150
@@ -2110,11 +1351,6 @@ Wire Wire Line
 	950  1200 950  11150
 Wire Wire Line
 	6350 10150 6350 11300
-Connection ~ 5600 12300
-Wire Wire Line
-	5600 12300 5600 12950
-Wire Wire Line
-	5400 12950 5600 12950
 Connection ~ 1300 8950
 Wire Wire Line
 	1300 8950 1300 12900
@@ -2125,11 +1361,6 @@ Wire Wire Line
 Connection ~ 950  12150
 Wire Wire Line
 	950  12150 950  12800
-Connection ~ 4100 12300
-Wire Wire Line
-	4100 12300 4100 12950
-Wire Wire Line
-	3900 12950 4100 12950
 Connection ~ 1650 11350
 Wire Wire Line
 	1650 11350 1650 13000
@@ -2166,79 +1397,15 @@ Wire Wire Line
 Wire Wire Line
 	1950 14000 1850 14000
 Wire Wire Line
-	2500 13900 3600 13900
-Wire Wire Line
-	2500 13400 3600 13400
-Wire Wire Line
-	3900 13350 3950 13350
-$Comp
-L power:GND #PWR031
-U 1 1 618B5D9D
-P 3950 13350
-F 0 "#PWR031" H 3950 13100 50  0001 C CNN
-F 1 "GND" H 3955 13177 50  0000 C CNN
-F 2 "" H 3950 13350 50  0001 C CNN
-F 3 "" H 3950 13350 50  0001 C CNN
-	1    3950 13350
-	1    0    0    -1  
-$EndComp
-Connection ~ 3950 13350
-Wire Wire Line
 	3950 13350 4000 13350
 Wire Wire Line
-	2500 12900 3600 12900
-Connection ~ 3600 12900
-Wire Wire Line
 	3600 13150 3600 12900
-Connection ~ 4100 12950
-Wire Wire Line
-	4100 12950 4100 13450
-Wire Wire Line
-	5400 13350 5450 13350
-$Comp
-L power:GND #PWR060
-U 1 1 61914596
-P 5450 13350
-F 0 "#PWR060" H 5450 13100 50  0001 C CNN
-F 1 "GND" H 5455 13177 50  0000 C CNN
-F 2 "" H 5450 13350 50  0001 C CNN
-F 3 "" H 5450 13350 50  0001 C CNN
-	1    5450 13350
-	1    0    0    -1  
-$EndComp
-Connection ~ 5450 13350
-Wire Wire Line
-	5450 13350 5500 13350
-Wire Wire Line
-	3600 12900 5100 12900
-Wire Wire Line
-	5100 12900 6600 12900
-Connection ~ 5100 12900
 Wire Wire Line
 	5100 13150 5100 12900
-Wire Wire Line
-	3900 13450 4100 13450
-Wire Wire Line
-	3900 13850 3950 13850
-$Comp
-L power:GND #PWR032
-U 1 1 619754A4
-P 3950 13850
-F 0 "#PWR032" H 3950 13600 50  0001 C CNN
-F 1 "GND" H 3955 13677 50  0000 C CNN
-F 2 "" H 3950 13850 50  0001 C CNN
-F 3 "" H 3950 13850 50  0001 C CNN
-	1    3950 13850
-	1    0    0    -1  
-$EndComp
-Connection ~ 3950 13850
 Wire Wire Line
 	3950 13850 4000 13850
 Wire Wire Line
 	3600 13650 3600 13400
-Connection ~ 3600 13400
-Wire Wire Line
-	3600 13400 5850 13400
 Wire Wire Line
 	6150 13450 6350 13450
 Connection ~ 6350 12300
@@ -2266,46 +1433,14 @@ Wire Wire Line
 Wire Wire Line
 	5850 13650 5850 13400
 Wire Wire Line
-	3900 13950 4100 13950
-Connection ~ 4100 13450
-Wire Wire Line
-	4100 13450 4100 13950
-Connection ~ 4100 13950
-Wire Wire Line
 	3600 14150 3600 13900
-Connection ~ 5850 13400
-Wire Wire Line
-	5850 13400 6600 13400
 Wire Wire Line
 	3950 14350 4000 14350
-Wire Wire Line
-	3900 14350 3950 14350
-Connection ~ 3950 14350
-$Comp
-L power:GND #PWR033
-U 1 1 61A3B01F
-P 3950 14350
-F 0 "#PWR033" H 3950 14100 50  0001 C CNN
-F 1 "GND" H 3955 14177 50  0000 C CNN
-F 2 "" H 3950 14350 50  0001 C CNN
-F 3 "" H 3950 14350 50  0001 C CNN
-	1    3950 14350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6150 14600 6350 14600
 Connection ~ 6350 14600
 Wire Wire Line
 	6350 14600 6350 15600
-Wire Wire Line
-	5400 14600 5600 14600
-Wire Wire Line
-	5600 14600 5600 15100
-Wire Wire Line
-	4650 14600 4850 14600
-Wire Wire Line
-	4850 14600 4850 15100
-Connection ~ 4850 14600
 Connection ~ 1400 10600
 Wire Wire Line
 	1400 10600 1400 14550
@@ -2376,49 +1511,9 @@ Wire Wire Line
 Wire Wire Line
 	1950 15650 1850 15650
 Wire Wire Line
-	2500 15050 4350 15050
-Wire Wire Line
-	2500 15550 4350 15550
-Wire Wire Line
-	4650 15000 4700 15000
-$Comp
-L power:GND #PWR046
-U 1 1 61AA1B5D
-P 4700 15000
-F 0 "#PWR046" H 4700 14750 50  0001 C CNN
-F 1 "GND" H 4705 14827 50  0000 C CNN
-F 2 "" H 4700 15000 50  0001 C CNN
-F 3 "" H 4700 15000 50  0001 C CNN
-	1    4700 15000
-	1    0    0    -1  
-$EndComp
-Connection ~ 4700 15000
-Wire Wire Line
 	4700 15000 4750 15000
 Wire Wire Line
-	2500 14550 4350 14550
-Connection ~ 4350 14550
-Wire Wire Line
 	4350 14800 4350 14550
-Wire Wire Line
-	5400 15000 5450 15000
-$Comp
-L power:GND #PWR061
-U 1 1 61B096C6
-P 5450 15000
-F 0 "#PWR061" H 5450 14750 50  0001 C CNN
-F 1 "GND" H 5455 14827 50  0000 C CNN
-F 2 "" H 5450 15000 50  0001 C CNN
-F 3 "" H 5450 15000 50  0001 C CNN
-	1    5450 15000
-	1    0    0    -1  
-$EndComp
-Connection ~ 5450 15000
-Wire Wire Line
-	5450 15000 5500 15000
-Wire Wire Line
-	4350 14550 5100 14550
-Connection ~ 5100 14550
 Wire Wire Line
 	5100 14800 5100 14550
 Wire Wire Line
@@ -2438,90 +1533,17 @@ Connection ~ 6200 15000
 Wire Wire Line
 	6200 15000 6250 15000
 Wire Wire Line
-	5100 14550 5850 14550
-Wire Wire Line
-	5850 14550 6600 14550
-Connection ~ 5850 14550
-Wire Wire Line
 	5850 14800 5850 14550
-Wire Wire Line
-	4650 15100 4850 15100
-Connection ~ 4850 15100
-Wire Wire Line
-	4850 15100 4850 15600
-Wire Wire Line
-	4650 15500 4700 15500
-$Comp
-L power:GND #PWR047
-U 1 1 61BDE9EB
-P 4700 15500
-F 0 "#PWR047" H 4700 15250 50  0001 C CNN
-F 1 "GND" H 4705 15327 50  0000 C CNN
-F 2 "" H 4700 15500 50  0001 C CNN
-F 3 "" H 4700 15500 50  0001 C CNN
-	1    4700 15500
-	1    0    0    -1  
-$EndComp
-Connection ~ 4700 15500
 Wire Wire Line
 	4700 15500 4750 15500
 Wire Wire Line
 	4350 15300 4350 15050
-Connection ~ 4350 15050
-Wire Wire Line
-	4350 15050 5100 15050
-Wire Wire Line
-	5400 15100 5600 15100
-Connection ~ 5600 15100
-Wire Wire Line
-	5600 15100 5600 16500
-Wire Wire Line
-	5400 15500 5450 15500
-$Comp
-L power:GND #PWR062
-U 1 1 61C4BFD3
-P 5450 15500
-F 0 "#PWR062" H 5450 15250 50  0001 C CNN
-F 1 "GND" H 5455 15327 50  0000 C CNN
-F 2 "" H 5450 15500 50  0001 C CNN
-F 3 "" H 5450 15500 50  0001 C CNN
-	1    5450 15500
-	1    0    0    -1  
-$EndComp
-Connection ~ 5450 15500
-Wire Wire Line
-	5450 15500 5500 15500
 Wire Wire Line
 	5100 15300 5100 15050
-Connection ~ 5100 15050
-Wire Wire Line
-	5100 15050 6600 15050
-Wire Wire Line
-	4650 15600 4850 15600
-Connection ~ 4850 15600
-Wire Wire Line
-	4850 15600 4850 16500
-Wire Wire Line
-	4650 16000 4700 16000
-$Comp
-L power:GND #PWR048
-U 1 1 61CBC29B
-P 4700 16000
-F 0 "#PWR048" H 4700 15750 50  0001 C CNN
-F 1 "GND" H 4705 15827 50  0000 C CNN
-F 2 "" H 4700 16000 50  0001 C CNN
-F 3 "" H 4700 16000 50  0001 C CNN
-	1    4700 16000
-	1    0    0    -1  
-$EndComp
-Connection ~ 4700 16000
 Wire Wire Line
 	4700 16000 4750 16000
 Wire Wire Line
 	4350 15800 4350 15550
-Connection ~ 4350 15550
-Wire Wire Line
-	4350 15550 5850 15550
 Wire Wire Line
 	6150 15600 6350 15600
 Connection ~ 6350 15600
@@ -2545,13 +1567,6 @@ Wire Wire Line
 	6200 16000 6250 16000
 Wire Wire Line
 	5850 15800 5850 15550
-Connection ~ 5850 15550
-Wire Wire Line
-	5850 15550 6600 15550
-Wire Wire Line
-	4850 11800 4850 14600
-Wire Wire Line
-	4100 13950 4100 16500
 Wire Wire Line
 	3350 9650 3350 16500
 Text GLabel 3350 16500 3    50   Output ~ 0
@@ -2593,253 +1608,6 @@ F2 "A" I L 1950 1250 50
 F3 "B" I L 1950 1350 50 
 F4 "Out" O R 2500 1350 50 
 F5 "C" I L 1950 1450 50 
-$EndSheet
-$Sheet
-S 1950 5500 550  300 
-U 5FEF7F36
-F0 "i11" 50
-F1 "and.sch" 50
-F2 "A" I L 1950 5550 50 
-F3 "B" I L 1950 5650 50 
-F4 "Out" O R 2500 5650 50 
-F5 "C" I L 1950 5750 50 
-$EndSheet
-$Sheet
-S 1950 5000 550  300 
-U 5FEF7A73
-F0 "i10" 50
-F1 "and.sch" 50
-F2 "A" I L 1950 5050 50 
-F3 "B" I L 1950 5150 50 
-F4 "Out" O R 2500 5150 50 
-F5 "C" I L 1950 5250 50 
-$EndSheet
-$Sheet
-S 1950 4500 550  300 
-U 5FEF73F3
-F0 "i1i" 50
-F1 "and.sch" 50
-F2 "A" I L 1950 4550 50 
-F3 "B" I L 1950 4650 50 
-F4 "Out" O R 2500 4650 50 
-F5 "C" I L 1950 4750 50 
-$EndSheet
-$Sheet
-S 1950 3850 550  300 
-U 5FEF6B61
-F0 "i01" 50
-F1 "and.sch" 50
-F2 "A" I L 1950 3900 50 
-F3 "B" I L 1950 4000 50 
-F4 "Out" O R 2500 4000 50 
-F5 "C" I L 1950 4100 50 
-$EndSheet
-$Sheet
-S 1950 3350 550  300 
-U 5FEF6716
-F0 "i00" 50
-F1 "and.sch" 50
-F2 "A" I L 1950 3400 50 
-F3 "B" I L 1950 3500 50 
-F4 "Out" O R 2500 3500 50 
-F5 "C" I L 1950 3600 50 
-$EndSheet
-$Sheet
-S 1950 2850 550  300 
-U 5FEF5F38
-F0 "i0i" 50
-F1 "and.sch" 50
-F2 "A" I L 1950 2900 50 
-F3 "B" I L 1950 3000 50 
-F4 "Out" O R 2500 3000 50 
-F5 "C" I L 1950 3100 50 
-$EndSheet
-Connection ~ 3600 13900
-Wire Wire Line
-	3600 13900 6600 13900
-Connection ~ 5600 14600
-Connection ~ 5600 12950
-Wire Wire Line
-	5600 12950 5600 14600
-$Sheet
-S 1950 6650 550  300 
-U 5FEF89E8
-F0 "0i0" 50
-F1 "and.sch" 50
-F2 "A" I L 1950 6700 50 
-F3 "B" I L 1950 6800 50 
-F4 "Out" O R 2500 6800 50 
-F5 "C" I L 1950 6900 50 
-$EndSheet
-$Sheet
-S 1950 6150 550  300 
-U 5FEF84DF
-F0 "0ii" 50
-F1 "and.sch" 50
-F2 "A" I L 1950 6200 50 
-F3 "B" I L 1950 6300 50 
-F4 "Out" O R 2500 6300 50 
-F5 "C" I L 1950 6400 50 
-$EndSheet
-$Sheet
-S 1950 7800 550  300 
-U 5FF13F0B
-F0 "00i" 50
-F1 "and.sch" 50
-F2 "A" I L 1950 7850 50 
-F3 "B" I L 1950 7950 50 
-F4 "Out" O R 2500 7950 50 
-F5 "C" I L 1950 8050 50 
-$EndSheet
-$Sheet
-S 1950 8300 550  300 
-U 5FEF9D30
-F0 "000" 50
-F1 "and.sch" 50
-F2 "A" I L 1950 8350 50 
-F3 "B" I L 1950 8450 50 
-F4 "Out" O R 2500 8450 50 
-F5 "C" I L 1950 8550 50 
-$EndSheet
-$Sheet
-S 1950 8800 550  300 
-U 5FEFA117
-F0 "001" 50
-F1 "and.sch" 50
-F2 "A" I L 1950 8850 50 
-F3 "B" I L 1950 8950 50 
-F4 "Out" O R 2500 8950 50 
-F5 "C" I L 1950 9050 50 
-$EndSheet
-$Sheet
-S 1950 9450 550  300 
-U 5FEFA55D
-F0 "01i" 50
-F1 "and.sch" 50
-F2 "A" I L 1950 9500 50 
-F3 "B" I L 1950 9600 50 
-F4 "Out" O R 2500 9600 50 
-F5 "C" I L 1950 9700 50 
-$EndSheet
-$Sheet
-S 1950 9950 550  300 
-U 5FEFA827
-F0 "010" 50
-F1 "and.sch" 50
-F2 "A" I L 1950 10000 50 
-F3 "B" I L 1950 10100 50 
-F4 "Out" O R 2500 10100 50 
-F5 "C" I L 1950 10200 50 
-$EndSheet
-$Sheet
-S 1950 10450 550  300 
-U 5FEFAEE8
-F0 "011" 50
-F1 "and.sch" 50
-F2 "A" I L 1950 10500 50 
-F3 "B" I L 1950 10600 50 
-F4 "Out" O R 2500 10600 50 
-F5 "C" I L 1950 10700 50 
-$EndSheet
-$Sheet
-S 1950 11100 550  300 
-U 5FEFB29D
-F0 "1ii" 50
-F1 "and.sch" 50
-F2 "A" I L 1950 11150 50 
-F3 "B" I L 1950 11250 50 
-F4 "Out" O R 2500 11250 50 
-F5 "C" I L 1950 11350 50 
-$EndSheet
-$Sheet
-S 1950 11600 550  300 
-U 5FEFB8BD
-F0 "1i0" 50
-F1 "and.sch" 50
-F2 "A" I L 1950 11650 50 
-F3 "B" I L 1950 11750 50 
-F4 "Out" O R 2500 11750 50 
-F5 "C" I L 1950 11850 50 
-$EndSheet
-$Sheet
-S 1950 12100 550  300 
-U 5FEFBFB5
-F0 "1i1" 50
-F1 "and.sch" 50
-F2 "A" I L 1950 12150 50 
-F3 "B" I L 1950 12250 50 
-F4 "Out" O R 2500 12250 50 
-F5 "C" I L 1950 12350 50 
-$EndSheet
-$Sheet
-S 1950 12750 550  300 
-U 5FEFC423
-F0 "10i" 50
-F1 "and.sch" 50
-F2 "A" I L 1950 12800 50 
-F3 "B" I L 1950 12900 50 
-F4 "Out" O R 2500 12900 50 
-F5 "C" I L 1950 13000 50 
-$EndSheet
-$Sheet
-S 1950 13250 550  300 
-U 5FEFC7BA
-F0 "100" 50
-F1 "and.sch" 50
-F2 "A" I L 1950 13300 50 
-F3 "B" I L 1950 13400 50 
-F4 "Out" O R 2500 13400 50 
-F5 "C" I L 1950 13500 50 
-$EndSheet
-$Sheet
-S 1950 13750 550  300 
-U 5FEFD1F3
-F0 "101" 50
-F1 "and.sch" 50
-F2 "A" I L 1950 13800 50 
-F3 "B" I L 1950 13900 50 
-F4 "Out" O R 2500 13900 50 
-F5 "C" I L 1950 14000 50 
-$EndSheet
-$Sheet
-S 1950 14400 550  300 
-U 5FEFD6E3
-F0 "11i" 50
-F1 "and.sch" 50
-F2 "A" I L 1950 14450 50 
-F3 "B" I L 1950 14550 50 
-F4 "Out" O R 2500 14550 50 
-F5 "C" I L 1950 14650 50 
-$EndSheet
-$Sheet
-S 1950 14900 550  300 
-U 5FEFDA4D
-F0 "110" 50
-F1 "and.sch" 50
-F2 "A" I L 1950 14950 50 
-F3 "B" I L 1950 15050 50 
-F4 "Out" O R 2500 15050 50 
-F5 "C" I L 1950 15150 50 
-$EndSheet
-$Sheet
-S 1950 15400 550  300 
-U 5FEFDF88
-F0 "111" 50
-F1 "and.sch" 50
-F2 "A" I L 1950 15450 50 
-F3 "B" I L 1950 15550 50 
-F4 "Out" O R 2500 15550 50 
-F5 "C" I L 1950 15650 50 
-$EndSheet
-$Sheet
-S 1950 7150 550  300 
-U 5FEF8E3D
-F0 "0i1" 50
-F1 "and.sch" 50
-F2 "A" I L 1950 7200 50 
-F3 "B" I L 1950 7300 50 
-F4 "Out" O R 2500 7300 50 
-F5 "C" I L 1950 7400 50 
 $EndSheet
 Text GLabel 8650 1950 1    50   Input ~ 0
 T2
@@ -3069,21 +1837,6 @@ F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 5300 2100 50  0001 C CNN "Spic
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:MNMOS M3
-U 1 1 61151795
-P 3050 2600
-F 0 "M3" H 3338 2646 50  0000 L CNN
-F 1 "2N7002" H 3338 2555 50  0000 L CNN
-F 2 "" H 3025 2600 50  0001 C CNN
-F 3 "~" H 3025 2600 50  0001 C CNN
-F 4 "M" H 3050 2600 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 3050 2600 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3050 2600 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3050 2600 50  0001 C CNN "Spice_Lib_File"
-	1    3050 2600
-	1    0    0    -1  
-$EndComp
-$Comp
 L pspice:MNMOS M20
 U 1 1 611C4B5D
 P 3800 2600
@@ -3126,950 +1879,6 @@ F 5 "2N7002" H 6050 2600 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 6050 2600 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 6050 2600 50  0001 C CNN "Spice_Lib_File"
 	1    6050 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M4
-U 1 1 61392883
-P 3050 3250
-F 0 "M4" H 3338 3296 50  0000 L CNN
-F 1 "2N7002" H 3338 3205 50  0000 L CNN
-F 2 "" H 3025 3250 50  0001 C CNN
-F 3 "~" H 3025 3250 50  0001 C CNN
-F 4 "M" H 3050 3250 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 3050 3250 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3050 3250 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3050 3250 50  0001 C CNN "Spice_Lib_File"
-	1    3050 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M21
-U 1 1 61406194
-P 3800 3250
-F 0 "M21" H 4088 3296 50  0000 L CNN
-F 1 "2N7002" H 4088 3205 50  0000 L CNN
-F 2 "" H 3775 3250 50  0001 C CNN
-F 3 "~" H 3775 3250 50  0001 C CNN
-F 4 "M" H 3800 3250 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 3800 3250 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3800 3250 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3800 3250 50  0001 C CNN "Spice_Lib_File"
-	1    3800 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M38
-U 1 1 6147976F
-P 4550 3250
-F 0 "M38" H 4838 3296 50  0000 L CNN
-F 1 "2N7002" H 4838 3205 50  0000 L CNN
-F 2 "" H 4525 3250 50  0001 C CNN
-F 3 "~" H 4525 3250 50  0001 C CNN
-F 4 "M" H 4550 3250 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 4550 3250 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 4550 3250 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 4550 3250 50  0001 C CNN "Spice_Lib_File"
-	1    4550 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M5
-U 1 1 614ED183
-P 3050 3750
-F 0 "M5" H 3338 3796 50  0000 L CNN
-F 1 "2N7002" H 3338 3705 50  0000 L CNN
-F 2 "" H 3025 3750 50  0001 C CNN
-F 3 "~" H 3025 3750 50  0001 C CNN
-F 4 "M" H 3050 3750 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 3050 3750 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3050 3750 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3050 3750 50  0001 C CNN "Spice_Lib_File"
-	1    3050 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M22
-U 1 1 6156087E
-P 3800 3750
-F 0 "M22" H 4088 3796 50  0000 L CNN
-F 1 "2N7002" H 4088 3705 50  0000 L CNN
-F 2 "" H 3775 3750 50  0001 C CNN
-F 3 "~" H 3775 3750 50  0001 C CNN
-F 4 "M" H 3800 3750 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 3800 3750 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3800 3750 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3800 3750 50  0001 C CNN "Spice_Lib_File"
-	1    3800 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M53
-U 1 1 615D3FA0
-P 5300 3750
-F 0 "M53" H 5588 3796 50  0000 L CNN
-F 1 "2N7002" H 5588 3705 50  0000 L CNN
-F 2 "" H 5275 3750 50  0001 C CNN
-F 3 "~" H 5275 3750 50  0001 C CNN
-F 4 "M" H 5300 3750 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 5300 3750 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 5300 3750 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 5300 3750 50  0001 C CNN "Spice_Lib_File"
-	1    5300 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M68
-U 1 1 616BB285
-P 6050 3750
-F 0 "M68" H 6338 3796 50  0000 L CNN
-F 1 "2N7002" H 6338 3705 50  0000 L CNN
-F 2 "" H 6025 3750 50  0001 C CNN
-F 3 "~" H 6025 3750 50  0001 C CNN
-F 4 "M" H 6050 3750 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 6050 3750 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 6050 3750 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 6050 3750 50  0001 C CNN "Spice_Lib_File"
-	1    6050 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M6
-U 1 1 6172ED35
-P 3050 4250
-F 0 "M6" H 3338 4296 50  0000 L CNN
-F 1 "2N7002" H 3338 4205 50  0000 L CNN
-F 2 "" H 3025 4250 50  0001 C CNN
-F 3 "~" H 3025 4250 50  0001 C CNN
-F 4 "M" H 3050 4250 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 3050 4250 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3050 4250 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3050 4250 50  0001 C CNN "Spice_Lib_File"
-	1    3050 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M23
-U 1 1 617A260D
-P 3800 4250
-F 0 "M23" H 4088 4296 50  0000 L CNN
-F 1 "2N7002" H 4088 4205 50  0000 L CNN
-F 2 "" H 3775 4250 50  0001 C CNN
-F 3 "~" H 3775 4250 50  0001 C CNN
-F 4 "M" H 3800 4250 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 3800 4250 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3800 4250 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3800 4250 50  0001 C CNN "Spice_Lib_File"
-	1    3800 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M54
-U 1 1 61815C63
-P 5300 4250
-F 0 "M54" H 5588 4296 50  0000 L CNN
-F 1 "2N7002" H 5588 4205 50  0000 L CNN
-F 2 "" H 5275 4250 50  0001 C CNN
-F 3 "~" H 5275 4250 50  0001 C CNN
-F 4 "M" H 5300 4250 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 5300 4250 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 5300 4250 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 5300 4250 50  0001 C CNN "Spice_Lib_File"
-	1    5300 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M7
-U 1 1 6188980C
-P 3050 4900
-F 0 "M7" H 3338 4946 50  0000 L CNN
-F 1 "2N7002" H 3338 4855 50  0000 L CNN
-F 2 "" H 3025 4900 50  0001 C CNN
-F 3 "~" H 3025 4900 50  0001 C CNN
-F 4 "M" H 3050 4900 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 3050 4900 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3050 4900 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3050 4900 50  0001 C CNN "Spice_Lib_File"
-	1    3050 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M24
-U 1 1 618FCE71
-P 3800 4900
-F 0 "M24" H 4088 4946 50  0000 L CNN
-F 1 "2N7002" H 4088 4855 50  0000 L CNN
-F 2 "" H 3775 4900 50  0001 C CNN
-F 3 "~" H 3775 4900 50  0001 C CNN
-F 4 "M" H 3800 4900 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 3800 4900 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3800 4900 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3800 4900 50  0001 C CNN "Spice_Lib_File"
-	1    3800 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M69
-U 1 1 619706FB
-P 6050 4900
-F 0 "M69" H 6338 4946 50  0000 L CNN
-F 1 "2N7002" H 6338 4855 50  0000 L CNN
-F 2 "" H 6025 4900 50  0001 C CNN
-F 3 "~" H 6025 4900 50  0001 C CNN
-F 4 "M" H 6050 4900 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 6050 4900 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 6050 4900 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 6050 4900 50  0001 C CNN "Spice_Lib_File"
-	1    6050 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M8
-U 1 1 61A57CC7
-P 3050 5400
-F 0 "M8" H 3338 5446 50  0000 L CNN
-F 1 "2N7002" H 3338 5355 50  0000 L CNN
-F 2 "" H 3025 5400 50  0001 C CNN
-F 3 "~" H 3025 5400 50  0001 C CNN
-F 4 "M" H 3050 5400 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 3050 5400 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3050 5400 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3050 5400 50  0001 C CNN "Spice_Lib_File"
-	1    3050 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M25
-U 1 1 61B3EAFD
-P 3800 5400
-F 0 "M25" H 4088 5446 50  0000 L CNN
-F 1 "2N7002" H 4088 5355 50  0000 L CNN
-F 2 "" H 3775 5400 50  0001 C CNN
-F 3 "~" H 3775 5400 50  0001 C CNN
-F 4 "M" H 3800 5400 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 3800 5400 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3800 5400 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3800 5400 50  0001 C CNN "Spice_Lib_File"
-	1    3800 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M9
-U 1 1 61BB289B
-P 3050 5900
-F 0 "M9" H 3338 5946 50  0000 L CNN
-F 1 "2N7002" H 3338 5855 50  0000 L CNN
-F 2 "" H 3025 5900 50  0001 C CNN
-F 3 "~" H 3025 5900 50  0001 C CNN
-F 4 "M" H 3050 5900 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 3050 5900 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3050 5900 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3050 5900 50  0001 C CNN "Spice_Lib_File"
-	1    3050 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M39
-U 1 1 61C2603B
-P 4550 5900
-F 0 "M39" H 4838 5946 50  0000 L CNN
-F 1 "2N7002" H 4838 5855 50  0000 L CNN
-F 2 "" H 4525 5900 50  0001 C CNN
-F 3 "~" H 4525 5900 50  0001 C CNN
-F 4 "M" H 4550 5900 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 4550 5900 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 4550 5900 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 4550 5900 50  0001 C CNN "Spice_Lib_File"
-	1    4550 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M55
-U 1 1 61C994BA
-P 5300 5900
-F 0 "M55" H 5588 5946 50  0000 L CNN
-F 1 "2N7002" H 5588 5855 50  0000 L CNN
-F 2 "" H 5275 5900 50  0001 C CNN
-F 3 "~" H 5275 5900 50  0001 C CNN
-F 4 "M" H 5300 5900 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 5300 5900 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 5300 5900 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 5300 5900 50  0001 C CNN "Spice_Lib_File"
-	1    5300 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M70
-U 1 1 61D0CA11
-P 6050 5900
-F 0 "M70" H 6338 5946 50  0000 L CNN
-F 1 "2N7002" H 6338 5855 50  0000 L CNN
-F 2 "" H 6025 5900 50  0001 C CNN
-F 3 "~" H 6025 5900 50  0001 C CNN
-F 4 "M" H 6050 5900 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 6050 5900 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 6050 5900 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 6050 5900 50  0001 C CNN "Spice_Lib_File"
-	1    6050 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M10
-U 1 1 61D80572
-P 3050 6550
-F 0 "M10" H 3338 6596 50  0000 L CNN
-F 1 "2N7002" H 3338 6505 50  0000 L CNN
-F 2 "" H 3025 6550 50  0001 C CNN
-F 3 "~" H 3025 6550 50  0001 C CNN
-F 4 "M" H 3050 6550 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 3050 6550 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3050 6550 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3050 6550 50  0001 C CNN "Spice_Lib_File"
-	1    3050 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M40
-U 1 1 61DF3A09
-P 4550 6550
-F 0 "M40" H 4838 6596 50  0000 L CNN
-F 1 "2N7002" H 4838 6505 50  0000 L CNN
-F 2 "" H 4525 6550 50  0001 C CNN
-F 3 "~" H 4525 6550 50  0001 C CNN
-F 4 "M" H 4550 6550 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 4550 6550 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 4550 6550 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 4550 6550 50  0001 C CNN "Spice_Lib_File"
-	1    4550 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M56
-U 1 1 61EDA947
-P 5300 6550
-F 0 "M56" H 5588 6596 50  0000 L CNN
-F 1 "2N7002" H 5588 6505 50  0000 L CNN
-F 2 "" H 5275 6550 50  0001 C CNN
-F 3 "~" H 5275 6550 50  0001 C CNN
-F 4 "M" H 5300 6550 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 5300 6550 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 5300 6550 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 5300 6550 50  0001 C CNN "Spice_Lib_File"
-	1    5300 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M11
-U 1 1 61F4E448
-P 3050 7050
-F 0 "M11" H 3338 7096 50  0000 L CNN
-F 1 "2N7002" H 3338 7005 50  0000 L CNN
-F 2 "" H 3025 7050 50  0001 C CNN
-F 3 "~" H 3025 7050 50  0001 C CNN
-F 4 "M" H 3050 7050 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 3050 7050 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3050 7050 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3050 7050 50  0001 C CNN "Spice_Lib_File"
-	1    3050 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M41
-U 1 1 61FC1D44
-P 4550 7050
-F 0 "M41" H 4838 7096 50  0000 L CNN
-F 1 "2N7002" H 4838 7005 50  0000 L CNN
-F 2 "" H 4525 7050 50  0001 C CNN
-F 3 "~" H 4525 7050 50  0001 C CNN
-F 4 "M" H 4550 7050 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 4550 7050 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 4550 7050 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 4550 7050 50  0001 C CNN "Spice_Lib_File"
-	1    4550 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M71
-U 1 1 62035472
-P 6050 7050
-F 0 "M71" H 6338 7096 50  0000 L CNN
-F 1 "2N7002" H 6338 7005 50  0000 L CNN
-F 2 "" H 6025 7050 50  0001 C CNN
-F 3 "~" H 6025 7050 50  0001 C CNN
-F 4 "M" H 6050 7050 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 6050 7050 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 6050 7050 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 6050 7050 50  0001 C CNN "Spice_Lib_File"
-	1    6050 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M12
-U 1 1 6211CC30
-P 3050 7550
-F 0 "M12" H 3338 7596 50  0000 L CNN
-F 1 "2N7002" H 3338 7505 50  0000 L CNN
-F 2 "" H 3025 7550 50  0001 C CNN
-F 3 "~" H 3025 7550 50  0001 C CNN
-F 4 "M" H 3050 7550 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 3050 7550 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3050 7550 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3050 7550 50  0001 C CNN "Spice_Lib_File"
-	1    3050 7550
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M42
-U 1 1 621903C4
-P 4550 7550
-F 0 "M42" H 4838 7596 50  0000 L CNN
-F 1 "2N7002" H 4838 7505 50  0000 L CNN
-F 2 "" H 4525 7550 50  0001 C CNN
-F 3 "~" H 4525 7550 50  0001 C CNN
-F 4 "M" H 4550 7550 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 4550 7550 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 4550 7550 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 4550 7550 50  0001 C CNN "Spice_Lib_File"
-	1    4550 7550
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M13
-U 1 1 62204066
-P 3050 8200
-F 0 "M13" H 3338 8246 50  0000 L CNN
-F 1 "2N7002" H 3338 8155 50  0000 L CNN
-F 2 "" H 3025 8200 50  0001 C CNN
-F 3 "~" H 3025 8200 50  0001 C CNN
-F 4 "M" H 3050 8200 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 3050 8200 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3050 8200 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3050 8200 50  0001 C CNN "Spice_Lib_File"
-	1    3050 8200
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M57
-U 1 1 62277A28
-P 5300 8200
-F 0 "M57" H 5588 8246 50  0000 L CNN
-F 1 "2N7002" H 5588 8155 50  0000 L CNN
-F 2 "" H 5275 8200 50  0001 C CNN
-F 3 "~" H 5275 8200 50  0001 C CNN
-F 4 "M" H 5300 8200 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 5300 8200 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 5300 8200 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 5300 8200 50  0001 C CNN "Spice_Lib_File"
-	1    5300 8200
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M72
-U 1 1 622EB345
-P 6050 8200
-F 0 "M72" H 6338 8246 50  0000 L CNN
-F 1 "2N7002" H 6338 8155 50  0000 L CNN
-F 2 "" H 6025 8200 50  0001 C CNN
-F 3 "~" H 6025 8200 50  0001 C CNN
-F 4 "M" H 6050 8200 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 6050 8200 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 6050 8200 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 6050 8200 50  0001 C CNN "Spice_Lib_File"
-	1    6050 8200
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M14
-U 1 1 6235EE76
-P 3050 8700
-F 0 "M14" H 3338 8746 50  0000 L CNN
-F 1 "2N7002" H 3338 8655 50  0000 L CNN
-F 2 "" H 3025 8700 50  0001 C CNN
-F 3 "~" H 3025 8700 50  0001 C CNN
-F 4 "M" H 3050 8700 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 3050 8700 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3050 8700 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3050 8700 50  0001 C CNN "Spice_Lib_File"
-	1    3050 8700
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M58
-U 1 1 623D27CF
-P 5300 8700
-F 0 "M58" H 5588 8746 50  0000 L CNN
-F 1 "2N7002" H 5588 8655 50  0000 L CNN
-F 2 "" H 5275 8700 50  0001 C CNN
-F 3 "~" H 5275 8700 50  0001 C CNN
-F 4 "M" H 5300 8700 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 5300 8700 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 5300 8700 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 5300 8700 50  0001 C CNN "Spice_Lib_File"
-	1    5300 8700
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M15
-U 1 1 624461FA
-P 3050 9200
-F 0 "M15" H 3338 9246 50  0000 L CNN
-F 1 "2N7002" H 3338 9155 50  0000 L CNN
-F 2 "" H 3025 9200 50  0001 C CNN
-F 3 "~" H 3025 9200 50  0001 C CNN
-F 4 "M" H 3050 9200 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 3050 9200 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3050 9200 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3050 9200 50  0001 C CNN "Spice_Lib_File"
-	1    3050 9200
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M73
-U 1 1 624B9904
-P 6050 9200
-F 0 "M73" H 6338 9246 50  0000 L CNN
-F 1 "2N7002" H 6338 9155 50  0000 L CNN
-F 2 "" H 6025 9200 50  0001 C CNN
-F 3 "~" H 6025 9200 50  0001 C CNN
-F 4 "M" H 6050 9200 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 6050 9200 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 6050 9200 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 6050 9200 50  0001 C CNN "Spice_Lib_File"
-	1    6050 9200
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M16
-U 1 1 6252D8C4
-P 3050 9850
-F 0 "M16" H 3338 9896 50  0000 L CNN
-F 1 "2N7002" H 3338 9805 50  0000 L CNN
-F 2 "" H 3025 9850 50  0001 C CNN
-F 3 "~" H 3025 9850 50  0001 C CNN
-F 4 "M" H 3050 9850 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 3050 9850 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3050 9850 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3050 9850 50  0001 C CNN "Spice_Lib_File"
-	1    3050 9850
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M26
-U 1 1 625A11EF
-P 3800 10350
-F 0 "M26" H 4088 10396 50  0000 L CNN
-F 1 "2N7002" H 4088 10305 50  0000 L CNN
-F 2 "" H 3775 10350 50  0001 C CNN
-F 3 "~" H 3775 10350 50  0001 C CNN
-F 4 "M" H 3800 10350 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 3800 10350 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3800 10350 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3800 10350 50  0001 C CNN "Spice_Lib_File"
-	1    3800 10350
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M43
-U 1 1 626148E1
-P 4550 10350
-F 0 "M43" H 4838 10396 50  0000 L CNN
-F 1 "2N7002" H 4838 10305 50  0000 L CNN
-F 2 "" H 4525 10350 50  0001 C CNN
-F 3 "~" H 4525 10350 50  0001 C CNN
-F 4 "M" H 4550 10350 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 4550 10350 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 4550 10350 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 4550 10350 50  0001 C CNN "Spice_Lib_File"
-	1    4550 10350
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M59
-U 1 1 626884B9
-P 5300 10350
-F 0 "M59" H 5588 10396 50  0000 L CNN
-F 1 "2N7002" H 5588 10305 50  0000 L CNN
-F 2 "" H 5275 10350 50  0001 C CNN
-F 3 "~" H 5275 10350 50  0001 C CNN
-F 4 "M" H 5300 10350 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 5300 10350 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 5300 10350 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 5300 10350 50  0001 C CNN "Spice_Lib_File"
-	1    5300 10350
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M74
-U 1 1 626FBBC6
-P 6050 10350
-F 0 "M74" H 6338 10396 50  0000 L CNN
-F 1 "2N7002" H 6338 10305 50  0000 L CNN
-F 2 "" H 6025 10350 50  0001 C CNN
-F 3 "~" H 6025 10350 50  0001 C CNN
-F 4 "M" H 6050 10350 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 6050 10350 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 6050 10350 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 6050 10350 50  0001 C CNN "Spice_Lib_File"
-	1    6050 10350
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M27
-U 1 1 6276F414
-P 3800 10850
-F 0 "M27" H 4088 10896 50  0000 L CNN
-F 1 "2N7002" H 4088 10805 50  0000 L CNN
-F 2 "" H 3775 10850 50  0001 C CNN
-F 3 "~" H 3775 10850 50  0001 C CNN
-F 4 "M" H 3800 10850 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 3800 10850 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3800 10850 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3800 10850 50  0001 C CNN "Spice_Lib_File"
-	1    3800 10850
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M44
-U 1 1 627E2B7B
-P 4550 10850
-F 0 "M44" H 4838 10896 50  0000 L CNN
-F 1 "2N7002" H 4838 10805 50  0000 L CNN
-F 2 "" H 4525 10850 50  0001 C CNN
-F 3 "~" H 4525 10850 50  0001 C CNN
-F 4 "M" H 4550 10850 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 4550 10850 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 4550 10850 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 4550 10850 50  0001 C CNN "Spice_Lib_File"
-	1    4550 10850
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M60
-U 1 1 6285619E
-P 5300 10850
-F 0 "M60" H 5588 10896 50  0000 L CNN
-F 1 "2N7002" H 5588 10805 50  0000 L CNN
-F 2 "" H 5275 10850 50  0001 C CNN
-F 3 "~" H 5275 10850 50  0001 C CNN
-F 4 "M" H 5300 10850 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 5300 10850 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 5300 10850 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 5300 10850 50  0001 C CNN "Spice_Lib_File"
-	1    5300 10850
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M28
-U 1 1 628C9E91
-P 3800 11500
-F 0 "M28" H 4088 11546 50  0000 L CNN
-F 1 "2N7002" H 4088 11455 50  0000 L CNN
-F 2 "" H 3775 11500 50  0001 C CNN
-F 3 "~" H 3775 11500 50  0001 C CNN
-F 4 "M" H 3800 11500 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 3800 11500 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3800 11500 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3800 11500 50  0001 C CNN "Spice_Lib_File"
-	1    3800 11500
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M45
-U 1 1 6293D580
-P 4550 11500
-F 0 "M45" H 4838 11546 50  0000 L CNN
-F 1 "2N7002" H 4838 11455 50  0000 L CNN
-F 2 "" H 4525 11500 50  0001 C CNN
-F 3 "~" H 4525 11500 50  0001 C CNN
-F 4 "M" H 4550 11500 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 4550 11500 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 4550 11500 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 4550 11500 50  0001 C CNN "Spice_Lib_File"
-	1    4550 11500
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M75
-U 1 1 629B1398
-P 6050 11500
-F 0 "M75" H 6338 11546 50  0000 L CNN
-F 1 "2N7002" H 6338 11455 50  0000 L CNN
-F 2 "" H 6025 11500 50  0001 C CNN
-F 3 "~" H 6025 11500 50  0001 C CNN
-F 4 "M" H 6050 11500 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 6050 11500 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 6050 11500 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 6050 11500 50  0001 C CNN "Spice_Lib_File"
-	1    6050 11500
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M29
-U 1 1 62A251F0
-P 3800 12000
-F 0 "M29" H 4088 12046 50  0000 L CNN
-F 1 "2N7002" H 4088 11955 50  0000 L CNN
-F 2 "" H 3775 12000 50  0001 C CNN
-F 3 "~" H 3775 12000 50  0001 C CNN
-F 4 "M" H 3800 12000 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 3800 12000 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3800 12000 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3800 12000 50  0001 C CNN "Spice_Lib_File"
-	1    3800 12000
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M46
-U 1 1 62A9881F
-P 4550 12000
-F 0 "M46" H 4838 12046 50  0000 L CNN
-F 1 "2N7002" H 4838 11955 50  0000 L CNN
-F 2 "" H 4525 12000 50  0001 C CNN
-F 3 "~" H 4525 12000 50  0001 C CNN
-F 4 "M" H 4550 12000 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 4550 12000 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 4550 12000 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 4550 12000 50  0001 C CNN "Spice_Lib_File"
-	1    4550 12000
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M30
-U 1 1 62B0C5ED
-P 3800 12500
-F 0 "M30" H 4088 12546 50  0000 L CNN
-F 1 "2N7002" H 4088 12455 50  0000 L CNN
-F 2 "" H 3775 12500 50  0001 C CNN
-F 3 "~" H 3775 12500 50  0001 C CNN
-F 4 "M" H 3800 12500 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 3800 12500 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3800 12500 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3800 12500 50  0001 C CNN "Spice_Lib_File"
-	1    3800 12500
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M61
-U 1 1 62B7FDA8
-P 5300 12500
-F 0 "M61" H 5588 12546 50  0000 L CNN
-F 1 "2N7002" H 5588 12455 50  0000 L CNN
-F 2 "" H 5275 12500 50  0001 C CNN
-F 3 "~" H 5275 12500 50  0001 C CNN
-F 4 "M" H 5300 12500 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 5300 12500 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 5300 12500 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 5300 12500 50  0001 C CNN "Spice_Lib_File"
-	1    5300 12500
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M76
-U 1 1 62BF34DF
-P 6050 12500
-F 0 "M76" H 6338 12546 50  0000 L CNN
-F 1 "2N7002" H 6338 12455 50  0000 L CNN
-F 2 "" H 6025 12500 50  0001 C CNN
-F 3 "~" H 6025 12500 50  0001 C CNN
-F 4 "M" H 6050 12500 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 6050 12500 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 6050 12500 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 6050 12500 50  0001 C CNN "Spice_Lib_File"
-	1    6050 12500
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M31
-U 1 1 62CDA535
-P 3800 13150
-F 0 "M31" H 4088 13196 50  0000 L CNN
-F 1 "2N7002" H 4088 13105 50  0000 L CNN
-F 2 "" H 3775 13150 50  0001 C CNN
-F 3 "~" H 3775 13150 50  0001 C CNN
-F 4 "M" H 3800 13150 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 3800 13150 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3800 13150 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3800 13150 50  0001 C CNN "Spice_Lib_File"
-	1    3800 13150
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M62
-U 1 1 62D4DD17
-P 5300 13150
-F 0 "M62" H 5588 13196 50  0000 L CNN
-F 1 "2N7002" H 5588 13105 50  0000 L CNN
-F 2 "" H 5275 13150 50  0001 C CNN
-F 3 "~" H 5275 13150 50  0001 C CNN
-F 4 "M" H 5300 13150 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 5300 13150 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 5300 13150 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 5300 13150 50  0001 C CNN "Spice_Lib_File"
-	1    5300 13150
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M32
-U 1 1 62DC1A2B
-P 3800 13650
-F 0 "M32" H 4088 13696 50  0000 L CNN
-F 1 "2N7002" H 4088 13605 50  0000 L CNN
-F 2 "" H 3775 13650 50  0001 C CNN
-F 3 "~" H 3775 13650 50  0001 C CNN
-F 4 "M" H 3800 13650 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 3800 13650 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3800 13650 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3800 13650 50  0001 C CNN "Spice_Lib_File"
-	1    3800 13650
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M77
-U 1 1 62E355B8
-P 6050 13650
-F 0 "M77" H 6338 13696 50  0000 L CNN
-F 1 "2N7002" H 6338 13605 50  0000 L CNN
-F 2 "" H 6025 13650 50  0001 C CNN
-F 3 "~" H 6025 13650 50  0001 C CNN
-F 4 "M" H 6050 13650 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 6050 13650 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 6050 13650 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 6050 13650 50  0001 C CNN "Spice_Lib_File"
-	1    6050 13650
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M33
-U 1 1 62EA9050
-P 3800 14150
-F 0 "M33" H 4088 14196 50  0000 L CNN
-F 1 "2N7002" H 4088 14105 50  0000 L CNN
-F 2 "" H 3775 14150 50  0001 C CNN
-F 3 "~" H 3775 14150 50  0001 C CNN
-F 4 "M" H 3800 14150 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 3800 14150 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3800 14150 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3800 14150 50  0001 C CNN "Spice_Lib_File"
-	1    3800 14150
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M47
-U 1 1 62F1CB4A
-P 4550 14800
-F 0 "M47" H 4838 14846 50  0000 L CNN
-F 1 "2N7002" H 4838 14755 50  0000 L CNN
-F 2 "" H 4525 14800 50  0001 C CNN
-F 3 "~" H 4525 14800 50  0001 C CNN
-F 4 "M" H 4550 14800 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 4550 14800 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 4550 14800 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 4550 14800 50  0001 C CNN "Spice_Lib_File"
-	1    4550 14800
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M63
-U 1 1 62F902A2
-P 5300 14800
-F 0 "M63" H 5588 14846 50  0000 L CNN
-F 1 "2N7002" H 5588 14755 50  0000 L CNN
-F 2 "" H 5275 14800 50  0001 C CNN
-F 3 "~" H 5275 14800 50  0001 C CNN
-F 4 "M" H 5300 14800 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 5300 14800 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 5300 14800 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 5300 14800 50  0001 C CNN "Spice_Lib_File"
-	1    5300 14800
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M78
-U 1 1 63003862
-P 6050 14800
-F 0 "M78" H 6338 14846 50  0000 L CNN
-F 1 "2N7002" H 6338 14755 50  0000 L CNN
-F 2 "" H 6025 14800 50  0001 C CNN
-F 3 "~" H 6025 14800 50  0001 C CNN
-F 4 "M" H 6050 14800 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 6050 14800 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 6050 14800 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 6050 14800 50  0001 C CNN "Spice_Lib_File"
-	1    6050 14800
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M48
-U 1 1 63077A3B
-P 4550 15300
-F 0 "M48" H 4838 15346 50  0000 L CNN
-F 1 "2N7002" H 4838 15255 50  0000 L CNN
-F 2 "" H 4525 15300 50  0001 C CNN
-F 3 "~" H 4525 15300 50  0001 C CNN
-F 4 "M" H 4550 15300 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 4550 15300 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 4550 15300 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 4550 15300 50  0001 C CNN "Spice_Lib_File"
-	1    4550 15300
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M64
-U 1 1 6315EC32
-P 5300 15300
-F 0 "M64" H 5588 15346 50  0000 L CNN
-F 1 "2N7002" H 5588 15255 50  0000 L CNN
-F 2 "" H 5275 15300 50  0001 C CNN
-F 3 "~" H 5275 15300 50  0001 C CNN
-F 4 "M" H 5300 15300 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 5300 15300 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 5300 15300 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 5300 15300 50  0001 C CNN "Spice_Lib_File"
-	1    5300 15300
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M49
-U 1 1 631D29AF
-P 4550 15800
-F 0 "M49" H 4838 15846 50  0000 L CNN
-F 1 "2N7002" H 4838 15755 50  0000 L CNN
-F 2 "" H 4525 15800 50  0001 C CNN
-F 3 "~" H 4525 15800 50  0001 C CNN
-F 4 "M" H 4550 15800 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 4550 15800 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 4550 15800 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 4550 15800 50  0001 C CNN "Spice_Lib_File"
-	1    4550 15800
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:MNMOS M79
-U 1 1 63246596
-P 6050 15800
-F 0 "M79" H 6338 15846 50  0000 L CNN
-F 1 "2N7002" H 6338 15755 50  0000 L CNN
-F 2 "" H 6025 15800 50  0001 C CNN
-F 3 "~" H 6025 15800 50  0001 C CNN
-F 4 "M" H 6050 15800 50  0001 C CNN "Spice_Primitive"
-F 5 "2N7002" H 6050 15800 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 6050 15800 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 6050 15800 50  0001 C CNN "Spice_Lib_File"
-	1    6050 15800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Simulation_SPICE:VDC V5
-U 1 1 5FDD0C75
-P 8650 2150
-F 0 "V5" H 8780 2241 50  0000 L CNN
-F 1 "VDC" H 8780 2150 50  0000 L CNN
-F 2 "" H 8650 2150 50  0001 C CNN
-F 3 "~" H 8650 2150 50  0001 C CNN
-F 4 "Y" H 8650 2150 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 8650 2150 50  0001 L CNN "Spice_Primitive"
-F 6 "dc(-5)" H 8780 2059 50  0000 L CNN "Spice_Model"
-	1    8650 2150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4189,56 +1998,2247 @@ F 3 "~" H 9450 1850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x06_Male J?
-U 1 1 6478092A
-P 8750 1250
-F 0 "J?" H 8858 1631 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 8858 1540 50  0000 C CNN
-F 2 "" H 8750 1250 50  0001 C CNN
-F 3 "~" H 8750 1250 50  0001 C CNN
-	1    8750 1250
+L Simulation_SPICE:VDC V5
+U 1 1 5FDD0C75
+P 8650 2150
+F 0 "V5" H 8780 2241 50  0000 L CNN
+F 1 "VDC" H 8780 2150 50  0000 L CNN
+F 2 "" H 8650 2150 50  0001 C CNN
+F 3 "~" H 8650 2150 50  0001 C CNN
+F 4 "Y" H 8650 2150 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 8650 2150 50  0001 L CNN "Spice_Primitive"
+F 6 "dc(-5)" H 8780 2059 50  0000 L CNN "Spice_Model"
+	1    8650 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M79
+U 1 1 63246596
+P 6050 15800
+F 0 "M79" H 6338 15846 50  0000 L CNN
+F 1 "2N7002" H 6338 15755 50  0000 L CNN
+F 2 "" H 6025 15800 50  0001 C CNN
+F 3 "~" H 6025 15800 50  0001 C CNN
+F 4 "M" H 6050 15800 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 6050 15800 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 6050 15800 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 6050 15800 50  0001 C CNN "Spice_Lib_File"
+	1    6050 15800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M78
+U 1 1 63003862
+P 6050 14800
+F 0 "M78" H 6338 14846 50  0000 L CNN
+F 1 "2N7002" H 6338 14755 50  0000 L CNN
+F 2 "" H 6025 14800 50  0001 C CNN
+F 3 "~" H 6025 14800 50  0001 C CNN
+F 4 "M" H 6050 14800 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 6050 14800 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 6050 14800 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 6050 14800 50  0001 C CNN "Spice_Lib_File"
+	1    6050 14800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M77
+U 1 1 62E355B8
+P 6050 13650
+F 0 "M77" H 6338 13696 50  0000 L CNN
+F 1 "2N7002" H 6338 13605 50  0000 L CNN
+F 2 "" H 6025 13650 50  0001 C CNN
+F 3 "~" H 6025 13650 50  0001 C CNN
+F 4 "M" H 6050 13650 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 6050 13650 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 6050 13650 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 6050 13650 50  0001 C CNN "Spice_Lib_File"
+	1    6050 13650
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M76
+U 1 1 62BF34DF
+P 6050 12500
+F 0 "M76" H 6338 12546 50  0000 L CNN
+F 1 "2N7002" H 6338 12455 50  0000 L CNN
+F 2 "" H 6025 12500 50  0001 C CNN
+F 3 "~" H 6025 12500 50  0001 C CNN
+F 4 "M" H 6050 12500 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 6050 12500 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 6050 12500 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 6050 12500 50  0001 C CNN "Spice_Lib_File"
+	1    6050 12500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M75
+U 1 1 629B1398
+P 6050 11500
+F 0 "M75" H 6338 11546 50  0000 L CNN
+F 1 "2N7002" H 6338 11455 50  0000 L CNN
+F 2 "" H 6025 11500 50  0001 C CNN
+F 3 "~" H 6025 11500 50  0001 C CNN
+F 4 "M" H 6050 11500 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 6050 11500 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 6050 11500 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 6050 11500 50  0001 C CNN "Spice_Lib_File"
+	1    6050 11500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M74
+U 1 1 626FBBC6
+P 6050 10350
+F 0 "M74" H 6338 10396 50  0000 L CNN
+F 1 "2N7002" H 6338 10305 50  0000 L CNN
+F 2 "" H 6025 10350 50  0001 C CNN
+F 3 "~" H 6025 10350 50  0001 C CNN
+F 4 "M" H 6050 10350 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 6050 10350 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 6050 10350 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 6050 10350 50  0001 C CNN "Spice_Lib_File"
+	1    6050 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M73
+U 1 1 624B9904
+P 6050 9200
+F 0 "M73" H 6338 9246 50  0000 L CNN
+F 1 "2N7002" H 6338 9155 50  0000 L CNN
+F 2 "" H 6025 9200 50  0001 C CNN
+F 3 "~" H 6025 9200 50  0001 C CNN
+F 4 "M" H 6050 9200 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 6050 9200 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 6050 9200 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 6050 9200 50  0001 C CNN "Spice_Lib_File"
+	1    6050 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M72
+U 1 1 622EB345
+P 6050 8200
+F 0 "M72" H 6338 8246 50  0000 L CNN
+F 1 "2N7002" H 6338 8155 50  0000 L CNN
+F 2 "" H 6025 8200 50  0001 C CNN
+F 3 "~" H 6025 8200 50  0001 C CNN
+F 4 "M" H 6050 8200 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 6050 8200 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 6050 8200 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 6050 8200 50  0001 C CNN "Spice_Lib_File"
+	1    6050 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M71
+U 1 1 62035472
+P 6050 7050
+F 0 "M71" H 6338 7096 50  0000 L CNN
+F 1 "2N7002" H 6338 7005 50  0000 L CNN
+F 2 "" H 6025 7050 50  0001 C CNN
+F 3 "~" H 6025 7050 50  0001 C CNN
+F 4 "M" H 6050 7050 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 6050 7050 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 6050 7050 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 6050 7050 50  0001 C CNN "Spice_Lib_File"
+	1    6050 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M70
+U 1 1 61D0CA11
+P 6050 5900
+F 0 "M70" H 6338 5946 50  0000 L CNN
+F 1 "2N7002" H 6338 5855 50  0000 L CNN
+F 2 "" H 6025 5900 50  0001 C CNN
+F 3 "~" H 6025 5900 50  0001 C CNN
+F 4 "M" H 6050 5900 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 6050 5900 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 6050 5900 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 6050 5900 50  0001 C CNN "Spice_Lib_File"
+	1    6050 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M69
+U 1 1 619706FB
+P 6050 4900
+F 0 "M69" H 6338 4946 50  0000 L CNN
+F 1 "2N7002" H 6338 4855 50  0000 L CNN
+F 2 "" H 6025 4900 50  0001 C CNN
+F 3 "~" H 6025 4900 50  0001 C CNN
+F 4 "M" H 6050 4900 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 6050 4900 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 6050 4900 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 6050 4900 50  0001 C CNN "Spice_Lib_File"
+	1    6050 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M68
+U 1 1 616BB285
+P 6050 3750
+F 0 "M68" H 6338 3796 50  0000 L CNN
+F 1 "2N7002" H 6338 3705 50  0000 L CNN
+F 2 "" H 6025 3750 50  0001 C CNN
+F 3 "~" H 6025 3750 50  0001 C CNN
+F 4 "M" H 6050 3750 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 6050 3750 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 6050 3750 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 6050 3750 50  0001 C CNN "Spice_Lib_File"
+	1    6050 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 15550 6600 15550
+Wire Wire Line
+	5850 14550 6600 14550
+Wire Wire Line
+	5850 13400 6600 13400
+Wire Wire Line
+	5850 12250 6600 12250
+Wire Wire Line
+	5850 11250 6600 11250
+Wire Wire Line
+	5850 10100 6600 10100
+Wire Wire Line
+	5850 8950 6600 8950
+Wire Wire Line
+	5850 7950 6600 7950
+Wire Wire Line
+	5850 6800 6600 6800
+Wire Wire Line
+	5850 5650 6600 5650
+Wire Wire Line
+	5850 4650 6600 4650
+Wire Wire Line
+	5850 3500 6600 3500
+$Comp
+L pspice:MNMOS M64
+U 1 1 6315EC32
+P 5300 15300
+F 0 "M64" H 5588 15346 50  0000 L CNN
+F 1 "2N7002" H 5588 15255 50  0000 L CNN
+F 2 "" H 5275 15300 50  0001 C CNN
+F 3 "~" H 5275 15300 50  0001 C CNN
+F 4 "M" H 5300 15300 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 5300 15300 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 5300 15300 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 5300 15300 50  0001 C CNN "Spice_Lib_File"
+	1    5300 15300
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M63
+U 1 1 62F902A2
+P 5300 14800
+F 0 "M63" H 5588 14846 50  0000 L CNN
+F 1 "2N7002" H 5588 14755 50  0000 L CNN
+F 2 "" H 5275 14800 50  0001 C CNN
+F 3 "~" H 5275 14800 50  0001 C CNN
+F 4 "M" H 5300 14800 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 5300 14800 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 5300 14800 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 5300 14800 50  0001 C CNN "Spice_Lib_File"
+	1    5300 14800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M62
+U 1 1 62D4DD17
+P 5300 13150
+F 0 "M62" H 5588 13196 50  0000 L CNN
+F 1 "2N7002" H 5588 13105 50  0000 L CNN
+F 2 "" H 5275 13150 50  0001 C CNN
+F 3 "~" H 5275 13150 50  0001 C CNN
+F 4 "M" H 5300 13150 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 5300 13150 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 5300 13150 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 5300 13150 50  0001 C CNN "Spice_Lib_File"
+	1    5300 13150
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M61
+U 1 1 62B7FDA8
+P 5300 12500
+F 0 "M61" H 5588 12546 50  0000 L CNN
+F 1 "2N7002" H 5588 12455 50  0000 L CNN
+F 2 "" H 5275 12500 50  0001 C CNN
+F 3 "~" H 5275 12500 50  0001 C CNN
+F 4 "M" H 5300 12500 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 5300 12500 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 5300 12500 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 5300 12500 50  0001 C CNN "Spice_Lib_File"
+	1    5300 12500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M60
+U 1 1 6285619E
+P 5300 10850
+F 0 "M60" H 5588 10896 50  0000 L CNN
+F 1 "2N7002" H 5588 10805 50  0000 L CNN
+F 2 "" H 5275 10850 50  0001 C CNN
+F 3 "~" H 5275 10850 50  0001 C CNN
+F 4 "M" H 5300 10850 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 5300 10850 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 5300 10850 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 5300 10850 50  0001 C CNN "Spice_Lib_File"
+	1    5300 10850
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M59
+U 1 1 626884B9
+P 5300 10350
+F 0 "M59" H 5588 10396 50  0000 L CNN
+F 1 "2N7002" H 5588 10305 50  0000 L CNN
+F 2 "" H 5275 10350 50  0001 C CNN
+F 3 "~" H 5275 10350 50  0001 C CNN
+F 4 "M" H 5300 10350 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 5300 10350 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 5300 10350 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 5300 10350 50  0001 C CNN "Spice_Lib_File"
+	1    5300 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M58
+U 1 1 623D27CF
+P 5300 8700
+F 0 "M58" H 5588 8746 50  0000 L CNN
+F 1 "2N7002" H 5588 8655 50  0000 L CNN
+F 2 "" H 5275 8700 50  0001 C CNN
+F 3 "~" H 5275 8700 50  0001 C CNN
+F 4 "M" H 5300 8700 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 5300 8700 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 5300 8700 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 5300 8700 50  0001 C CNN "Spice_Lib_File"
+	1    5300 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M57
+U 1 1 62277A28
+P 5300 8200
+F 0 "M57" H 5588 8246 50  0000 L CNN
+F 1 "2N7002" H 5588 8155 50  0000 L CNN
+F 2 "" H 5275 8200 50  0001 C CNN
+F 3 "~" H 5275 8200 50  0001 C CNN
+F 4 "M" H 5300 8200 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 5300 8200 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 5300 8200 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 5300 8200 50  0001 C CNN "Spice_Lib_File"
+	1    5300 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M56
+U 1 1 61EDA947
+P 5300 6550
+F 0 "M56" H 5588 6596 50  0000 L CNN
+F 1 "2N7002" H 5588 6505 50  0000 L CNN
+F 2 "" H 5275 6550 50  0001 C CNN
+F 3 "~" H 5275 6550 50  0001 C CNN
+F 4 "M" H 5300 6550 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 5300 6550 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 5300 6550 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 5300 6550 50  0001 C CNN "Spice_Lib_File"
+	1    5300 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M55
+U 1 1 61C994BA
+P 5300 5900
+F 0 "M55" H 5588 5946 50  0000 L CNN
+F 1 "2N7002" H 5588 5855 50  0000 L CNN
+F 2 "" H 5275 5900 50  0001 C CNN
+F 3 "~" H 5275 5900 50  0001 C CNN
+F 4 "M" H 5300 5900 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 5300 5900 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 5300 5900 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 5300 5900 50  0001 C CNN "Spice_Lib_File"
+	1    5300 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M54
+U 1 1 61815C63
+P 5300 4250
+F 0 "M54" H 5588 4296 50  0000 L CNN
+F 1 "2N7002" H 5588 4205 50  0000 L CNN
+F 2 "" H 5275 4250 50  0001 C CNN
+F 3 "~" H 5275 4250 50  0001 C CNN
+F 4 "M" H 5300 4250 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 5300 4250 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 5300 4250 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 5300 4250 50  0001 C CNN "Spice_Lib_File"
+	1    5300 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M53
+U 1 1 615D3FA0
+P 5300 3750
+F 0 "M53" H 5588 3796 50  0000 L CNN
+F 1 "2N7002" H 5588 3705 50  0000 L CNN
+F 2 "" H 5275 3750 50  0001 C CNN
+F 3 "~" H 5275 3750 50  0001 C CNN
+F 4 "M" H 5300 3750 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 5300 3750 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 5300 3750 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 5300 3750 50  0001 C CNN "Spice_Lib_File"
+	1    5300 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 15050 6600 15050
+Wire Wire Line
+	5450 15500 5500 15500
+$Comp
+L power:GND #PWR062
+U 1 1 61C4BFD3
+P 5450 15500
+F 0 "#PWR062" H 5450 15250 50  0001 C CNN
+F 1 "GND" H 5455 15327 50  0000 C CNN
+F 2 "" H 5450 15500 50  0001 C CNN
+F 3 "" H 5450 15500 50  0001 C CNN
+	1    5450 15500
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 15500
+Wire Wire Line
+	5400 15500 5450 15500
+Wire Wire Line
+	5600 15100 5600 16500
+Connection ~ 5600 15100
+Wire Wire Line
+	5400 15100 5600 15100
+Connection ~ 5850 14550
+Wire Wire Line
+	5100 14550 5850 14550
+Wire Wire Line
+	5450 15000 5500 15000
+$Comp
+L power:GND #PWR061
+U 1 1 61B096C6
+P 5450 15000
+F 0 "#PWR061" H 5450 14750 50  0001 C CNN
+F 1 "GND" H 5455 14827 50  0000 C CNN
+F 2 "" H 5450 15000 50  0001 C CNN
+F 3 "" H 5450 15000 50  0001 C CNN
+	1    5450 15000
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 15000
+Wire Wire Line
+	5400 15000 5450 15000
+Wire Wire Line
+	5600 14600 5600 15100
+Connection ~ 5600 14600
+Wire Wire Line
+	5400 14600 5600 14600
+Wire Wire Line
+	5100 12900 6600 12900
+Wire Wire Line
+	5450 13350 5500 13350
+$Comp
+L power:GND #PWR060
+U 1 1 61914596
+P 5450 13350
+F 0 "#PWR060" H 5450 13100 50  0001 C CNN
+F 1 "GND" H 5455 13177 50  0000 C CNN
+F 2 "" H 5450 13350 50  0001 C CNN
+F 3 "" H 5450 13350 50  0001 C CNN
+	1    5450 13350
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 13350
+Wire Wire Line
+	5400 13350 5450 13350
+Wire Wire Line
+	5600 12950 5600 14600
+Connection ~ 5600 12950
+Wire Wire Line
+	5400 12950 5600 12950
+$Comp
+L power:GND #PWR058
+U 1 1 615B04E7
+P 5450 11050
+F 0 "#PWR058" H 5450 10800 50  0001 C CNN
+F 1 "GND" H 5455 10877 50  0000 C CNN
+F 2 "" H 5450 11050 50  0001 C CNN
+F 3 "" H 5450 11050 50  0001 C CNN
+	1    5450 11050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 11050 5450 11050
+Connection ~ 5450 11050
+Wire Wire Line
+	5450 11050 5500 11050
+Connection ~ 5850 12250
+Wire Wire Line
+	5100 12250 5850 12250
+Wire Wire Line
+	5450 12700 5500 12700
+$Comp
+L power:GND #PWR059
+U 1 1 617FE27A
+P 5450 12700
+F 0 "#PWR059" H 5450 12450 50  0001 C CNN
+F 1 "GND" H 5455 12527 50  0000 C CNN
+F 2 "" H 5450 12700 50  0001 C CNN
+F 3 "" H 5450 12700 50  0001 C CNN
+	1    5450 12700
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 12700
+Wire Wire Line
+	5400 12700 5450 12700
+Wire Wire Line
+	5600 12300 5600 12950
+Connection ~ 5600 12300
+Wire Wire Line
+	5400 12300 5600 12300
+Wire Wire Line
+	5100 10600 6600 10600
+Wire Wire Line
+	5600 10650 5600 12300
+Connection ~ 5600 10650
+Wire Wire Line
+	5400 10650 5600 10650
+Connection ~ 5850 10100
+Wire Wire Line
+	5100 10100 5850 10100
+Wire Wire Line
+	5450 10550 5500 10550
+$Comp
+L power:GND #PWR057
+U 1 1 61485623
+P 5450 10550
+F 0 "#PWR057" H 5450 10300 50  0001 C CNN
+F 1 "GND" H 5455 10377 50  0000 C CNN
+F 2 "" H 5450 10550 50  0001 C CNN
+F 3 "" H 5450 10550 50  0001 C CNN
+	1    5450 10550
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 10550
+Wire Wire Line
+	5400 10550 5450 10550
+Wire Wire Line
+	5600 10150 5600 10650
+Connection ~ 5600 10150
+Wire Wire Line
+	5400 10150 5600 10150
+Wire Wire Line
+	5100 8450 6600 8450
+Wire Wire Line
+	5450 8900 5500 8900
+$Comp
+L power:GND #PWR056
+U 1 1 612F594A
+P 5450 8900
+F 0 "#PWR056" H 5450 8650 50  0001 C CNN
+F 1 "GND" H 5455 8727 50  0000 C CNN
+F 2 "" H 5450 8900 50  0001 C CNN
+F 3 "" H 5450 8900 50  0001 C CNN
+	1    5450 8900
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 8900
+Wire Wire Line
+	5400 8900 5450 8900
+Wire Wire Line
+	5600 8500 5600 10150
+Connection ~ 5600 8500
+Wire Wire Line
+	5400 8500 5600 8500
+Connection ~ 5850 7950
+Wire Wire Line
+	5100 7950 5850 7950
+Wire Wire Line
+	5450 8400 5500 8400
+$Comp
+L power:GND #PWR055
+U 1 1 6124303E
+P 5450 8400
+F 0 "#PWR055" H 5450 8150 50  0001 C CNN
+F 1 "GND" H 5455 8227 50  0000 C CNN
+F 2 "" H 5450 8400 50  0001 C CNN
+F 3 "" H 5450 8400 50  0001 C CNN
+	1    5450 8400
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 8400
+Wire Wire Line
+	5400 8400 5450 8400
+Wire Wire Line
+	5600 8000 5600 8500
+Connection ~ 5600 8000
+Wire Wire Line
+	5400 8000 5600 8000
+Wire Wire Line
+	5600 6350 5600 8000
+Connection ~ 5600 6350
+Wire Wire Line
+	5400 6350 5600 6350
+Wire Wire Line
+	5400 6750 5450 6750
+$Comp
+L power:GND #PWR054
+U 1 1 61076563
+P 5450 6750
+F 0 "#PWR054" H 5450 6500 50  0001 C CNN
+F 1 "GND" H 5455 6577 50  0000 C CNN
+F 2 "" H 5450 6750 50  0001 C CNN
+F 3 "" H 5450 6750 50  0001 C CNN
+	1    5450 6750
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 6750
+Wire Wire Line
+	5450 6750 5500 6750
+Wire Wire Line
+	5100 6300 6600 6300
+Connection ~ 5850 5650
+Wire Wire Line
+	5100 5650 5850 5650
+Wire Wire Line
+	5450 6100 5500 6100
+$Comp
+L power:GND #PWR053
+U 1 1 6101EE20
+P 5450 6100
+F 0 "#PWR053" H 5450 5850 50  0001 C CNN
+F 1 "GND" H 5455 5927 50  0000 C CNN
+F 2 "" H 5450 6100 50  0001 C CNN
+F 3 "" H 5450 6100 50  0001 C CNN
+	1    5450 6100
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 6100
+Wire Wire Line
+	5400 6100 5450 6100
+Wire Wire Line
+	5600 5700 5600 6350
+Connection ~ 5600 5700
+Wire Wire Line
+	5400 5700 5600 5700
+Wire Wire Line
+	5100 4000 6600 4000
+Wire Wire Line
+	5450 4450 5500 4450
+$Comp
+L power:GND #PWR052
+U 1 1 60EEE2E3
+P 5450 4450
+F 0 "#PWR052" H 5450 4200 50  0001 C CNN
+F 1 "GND" H 5455 4277 50  0000 C CNN
+F 2 "" H 5450 4450 50  0001 C CNN
+F 3 "" H 5450 4450 50  0001 C CNN
+	1    5450 4450
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 4450
+Wire Wire Line
+	5400 4450 5450 4450
+Wire Wire Line
+	5600 4050 5600 5700
+Connection ~ 5600 4050
+Wire Wire Line
+	5400 4050 5600 4050
+Connection ~ 5850 3500
+Wire Wire Line
+	5100 3500 5850 3500
+Wire Wire Line
+	5450 3950 5500 3950
+$Comp
+L power:GND #PWR051
+U 1 1 60E7148C
+P 5450 3950
+F 0 "#PWR051" H 5450 3700 50  0001 C CNN
+F 1 "GND" H 5455 3777 50  0000 C CNN
+F 2 "" H 5450 3950 50  0001 C CNN
+F 3 "" H 5450 3950 50  0001 C CNN
+	1    5450 3950
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 3950
+Wire Wire Line
+	5400 3950 5450 3950
+Wire Wire Line
+	5600 3550 5600 4050
+Wire Wire Line
+	5600 1900 5600 3550
+Connection ~ 5600 3550
+Wire Wire Line
+	5400 3550 5600 3550
+$Comp
+L pspice:MNMOS M49
+U 1 1 631D29AF
+P 4550 15800
+F 0 "M49" H 4838 15846 50  0000 L CNN
+F 1 "2N7002" H 4838 15755 50  0000 L CNN
+F 2 "" H 4525 15800 50  0001 C CNN
+F 3 "~" H 4525 15800 50  0001 C CNN
+F 4 "M" H 4550 15800 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 4550 15800 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 4550 15800 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 4550 15800 50  0001 C CNN "Spice_Lib_File"
+	1    4550 15800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M48
+U 1 1 63077A3B
+P 4550 15300
+F 0 "M48" H 4838 15346 50  0000 L CNN
+F 1 "2N7002" H 4838 15255 50  0000 L CNN
+F 2 "" H 4525 15300 50  0001 C CNN
+F 3 "~" H 4525 15300 50  0001 C CNN
+F 4 "M" H 4550 15300 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 4550 15300 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 4550 15300 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 4550 15300 50  0001 C CNN "Spice_Lib_File"
+	1    4550 15300
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M47
+U 1 1 62F1CB4A
+P 4550 14800
+F 0 "M47" H 4838 14846 50  0000 L CNN
+F 1 "2N7002" H 4838 14755 50  0000 L CNN
+F 2 "" H 4525 14800 50  0001 C CNN
+F 3 "~" H 4525 14800 50  0001 C CNN
+F 4 "M" H 4550 14800 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 4550 14800 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 4550 14800 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 4550 14800 50  0001 C CNN "Spice_Lib_File"
+	1    4550 14800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M46
+U 1 1 62A9881F
+P 4550 12000
+F 0 "M46" H 4838 12046 50  0000 L CNN
+F 1 "2N7002" H 4838 11955 50  0000 L CNN
+F 2 "" H 4525 12000 50  0001 C CNN
+F 3 "~" H 4525 12000 50  0001 C CNN
+F 4 "M" H 4550 12000 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 4550 12000 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 4550 12000 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 4550 12000 50  0001 C CNN "Spice_Lib_File"
+	1    4550 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M45
+U 1 1 6293D580
+P 4550 11500
+F 0 "M45" H 4838 11546 50  0000 L CNN
+F 1 "2N7002" H 4838 11455 50  0000 L CNN
+F 2 "" H 4525 11500 50  0001 C CNN
+F 3 "~" H 4525 11500 50  0001 C CNN
+F 4 "M" H 4550 11500 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 4550 11500 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 4550 11500 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 4550 11500 50  0001 C CNN "Spice_Lib_File"
+	1    4550 11500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M44
+U 1 1 627E2B7B
+P 4550 10850
+F 0 "M44" H 4838 10896 50  0000 L CNN
+F 1 "2N7002" H 4838 10805 50  0000 L CNN
+F 2 "" H 4525 10850 50  0001 C CNN
+F 3 "~" H 4525 10850 50  0001 C CNN
+F 4 "M" H 4550 10850 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 4550 10850 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 4550 10850 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 4550 10850 50  0001 C CNN "Spice_Lib_File"
+	1    4550 10850
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M43
+U 1 1 626148E1
+P 4550 10350
+F 0 "M43" H 4838 10396 50  0000 L CNN
+F 1 "2N7002" H 4838 10305 50  0000 L CNN
+F 2 "" H 4525 10350 50  0001 C CNN
+F 3 "~" H 4525 10350 50  0001 C CNN
+F 4 "M" H 4550 10350 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 4550 10350 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 4550 10350 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 4550 10350 50  0001 C CNN "Spice_Lib_File"
+	1    4550 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M42
+U 1 1 621903C4
+P 4550 7550
+F 0 "M42" H 4838 7596 50  0000 L CNN
+F 1 "2N7002" H 4838 7505 50  0000 L CNN
+F 2 "" H 4525 7550 50  0001 C CNN
+F 3 "~" H 4525 7550 50  0001 C CNN
+F 4 "M" H 4550 7550 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 4550 7550 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 4550 7550 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 4550 7550 50  0001 C CNN "Spice_Lib_File"
+	1    4550 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M41
+U 1 1 61FC1D44
+P 4550 7050
+F 0 "M41" H 4838 7096 50  0000 L CNN
+F 1 "2N7002" H 4838 7005 50  0000 L CNN
+F 2 "" H 4525 7050 50  0001 C CNN
+F 3 "~" H 4525 7050 50  0001 C CNN
+F 4 "M" H 4550 7050 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 4550 7050 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 4550 7050 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 4550 7050 50  0001 C CNN "Spice_Lib_File"
+	1    4550 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M40
+U 1 1 61DF3A09
+P 4550 6550
+F 0 "M40" H 4838 6596 50  0000 L CNN
+F 1 "2N7002" H 4838 6505 50  0000 L CNN
+F 2 "" H 4525 6550 50  0001 C CNN
+F 3 "~" H 4525 6550 50  0001 C CNN
+F 4 "M" H 4550 6550 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 4550 6550 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 4550 6550 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 4550 6550 50  0001 C CNN "Spice_Lib_File"
+	1    4550 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M39
+U 1 1 61C2603B
+P 4550 5900
+F 0 "M39" H 4838 5946 50  0000 L CNN
+F 1 "2N7002" H 4838 5855 50  0000 L CNN
+F 2 "" H 4525 5900 50  0001 C CNN
+F 3 "~" H 4525 5900 50  0001 C CNN
+F 4 "M" H 4550 5900 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 4550 5900 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 4550 5900 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 4550 5900 50  0001 C CNN "Spice_Lib_File"
+	1    4550 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M38
+U 1 1 6147976F
+P 4550 3250
+F 0 "M38" H 4838 3296 50  0000 L CNN
+F 1 "2N7002" H 4838 3205 50  0000 L CNN
+F 2 "" H 4525 3250 50  0001 C CNN
+F 3 "~" H 4525 3250 50  0001 C CNN
+F 4 "M" H 4550 3250 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 4550 3250 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 4550 3250 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 4550 3250 50  0001 C CNN "Spice_Lib_File"
+	1    4550 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 5850 15550
+Wire Wire Line
+	4350 15550 5850 15550
+$Comp
+L power:GND #PWR048
+U 1 1 61CBC29B
+P 4700 16000
+F 0 "#PWR048" H 4700 15750 50  0001 C CNN
+F 1 "GND" H 4705 15827 50  0000 C CNN
+F 2 "" H 4700 16000 50  0001 C CNN
+F 3 "" H 4700 16000 50  0001 C CNN
+	1    4700 16000
+	1    0    0    -1  
+$EndComp
+Connection ~ 4700 16000
+Wire Wire Line
+	4650 16000 4700 16000
+Wire Wire Line
+	4850 15600 4850 16500
+Connection ~ 4850 15600
+Wire Wire Line
+	4650 15600 4850 15600
+Connection ~ 5100 15050
+Wire Wire Line
+	4350 15050 5100 15050
+$Comp
+L power:GND #PWR047
+U 1 1 61BDE9EB
+P 4700 15500
+F 0 "#PWR047" H 4700 15250 50  0001 C CNN
+F 1 "GND" H 4705 15327 50  0000 C CNN
+F 2 "" H 4700 15500 50  0001 C CNN
+F 3 "" H 4700 15500 50  0001 C CNN
+	1    4700 15500
+	1    0    0    -1  
+$EndComp
+Connection ~ 4700 15500
+Wire Wire Line
+	4650 15500 4700 15500
+Wire Wire Line
+	4850 15100 4850 15600
+Connection ~ 4850 15100
+Wire Wire Line
+	4650 15100 4850 15100
+Connection ~ 5100 14550
+Wire Wire Line
+	4350 14550 5100 14550
+$Comp
+L power:GND #PWR046
+U 1 1 61AA1B5D
+P 4700 15000
+F 0 "#PWR046" H 4700 14750 50  0001 C CNN
+F 1 "GND" H 4705 14827 50  0000 C CNN
+F 2 "" H 4700 15000 50  0001 C CNN
+F 3 "" H 4700 15000 50  0001 C CNN
+	1    4700 15000
+	1    0    0    -1  
+$EndComp
+Connection ~ 4700 15000
+Wire Wire Line
+	4650 15000 4700 15000
+Wire Wire Line
+	4850 14600 4850 15100
+Connection ~ 4850 14600
+Wire Wire Line
+	4650 14600 4850 14600
+$Comp
+L power:GND #PWR043
+U 1 1 61562B1F
+P 4700 11050
+F 0 "#PWR043" H 4700 10800 50  0001 C CNN
+F 1 "GND" H 4705 10877 50  0000 C CNN
+F 2 "" H 4700 11050 50  0001 C CNN
+F 3 "" H 4700 11050 50  0001 C CNN
+	1    4700 11050
+	1    0    0    -1  
+$EndComp
+Connection ~ 4700 11050
+Wire Wire Line
+	4650 11050 4700 11050
+Wire Wire Line
+	4350 11750 6600 11750
+$Comp
+L power:GND #PWR045
+U 1 1 6174C151
+P 4700 12200
+F 0 "#PWR045" H 4700 11950 50  0001 C CNN
+F 1 "GND" H 4705 12027 50  0000 C CNN
+F 2 "" H 4700 12200 50  0001 C CNN
+F 3 "" H 4700 12200 50  0001 C CNN
+	1    4700 12200
+	1    0    0    -1  
+$EndComp
+Connection ~ 4700 12200
+Wire Wire Line
+	4650 12200 4700 12200
+Wire Wire Line
+	4850 11800 4850 14600
+Connection ~ 4850 11800
+Wire Wire Line
+	4650 11800 4850 11800
+Connection ~ 5850 11250
+Wire Wire Line
+	4350 11250 5850 11250
+$Comp
+L power:GND #PWR044
+U 1 1 6164F54F
+P 4700 11700
+F 0 "#PWR044" H 4700 11450 50  0001 C CNN
+F 1 "GND" H 4705 11527 50  0000 C CNN
+F 2 "" H 4700 11700 50  0001 C CNN
+F 3 "" H 4700 11700 50  0001 C CNN
+	1    4700 11700
+	1    0    0    -1  
+$EndComp
+Connection ~ 4700 11700
+Wire Wire Line
+	4650 11700 4700 11700
+Wire Wire Line
+	4850 11300 4850 11800
+Connection ~ 4850 11300
+Wire Wire Line
+	4650 11300 4850 11300
+Connection ~ 5100 10600
+Wire Wire Line
+	4350 10600 5100 10600
+Wire Wire Line
+	4850 10650 4850 11300
+Connection ~ 4850 10650
+Wire Wire Line
+	4650 10650 4850 10650
+Connection ~ 5100 10100
+Wire Wire Line
+	4350 10100 5100 10100
+$Comp
+L power:GND #PWR042
+U 1 1 6143F1A8
+P 4700 10550
+F 0 "#PWR042" H 4700 10300 50  0001 C CNN
+F 1 "GND" H 4705 10377 50  0000 C CNN
+F 2 "" H 4700 10550 50  0001 C CNN
+F 3 "" H 4700 10550 50  0001 C CNN
+	1    4700 10550
+	1    0    0    -1  
+$EndComp
+Connection ~ 4700 10550
+Wire Wire Line
+	4650 10550 4700 10550
+Wire Wire Line
+	4850 10150 4850 10650
+Connection ~ 4850 10150
+Wire Wire Line
+	4650 10150 4850 10150
+Connection ~ 5100 6300
+Wire Wire Line
+	4350 6300 5100 6300
+Connection ~ 4850 6350
+Wire Wire Line
+	4650 6350 4850 6350
+Wire Wire Line
+	4650 6750 4700 6750
+Wire Wire Line
+	4700 6750 4750 6750
+Connection ~ 4700 6750
+$Comp
+L power:GND #PWR039
+U 1 1 610A4297
+P 4700 6750
+F 0 "#PWR039" H 4700 6500 50  0001 C CNN
+F 1 "GND" H 4705 6577 50  0000 C CNN
+F 2 "" H 4700 6750 50  0001 C CNN
+F 3 "" H 4700 6750 50  0001 C CNN
+	1    4700 6750
+	1    0    0    -1  
+$EndComp
+Connection ~ 5850 6800
+Wire Wire Line
+	4350 6800 5850 6800
+Wire Wire Line
+	4850 6350 4850 6850
+Connection ~ 4850 6850
+Wire Wire Line
+	4650 6850 4850 6850
+Wire Wire Line
+	4650 7250 4700 7250
+Wire Wire Line
+	4700 7250 4750 7250
+Connection ~ 4700 7250
+$Comp
+L power:GND #PWR040
+U 1 1 61136EB6
+P 4700 7250
+F 0 "#PWR040" H 4700 7000 50  0001 C CNN
+F 1 "GND" H 4705 7077 50  0000 C CNN
+F 2 "" H 4700 7250 50  0001 C CNN
+F 3 "" H 4700 7250 50  0001 C CNN
+	1    4700 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 7350 4850 10150
+Wire Wire Line
+	4850 6850 4850 7350
+Connection ~ 4850 7350
+Wire Wire Line
+	4650 7350 4850 7350
+Wire Wire Line
+	4650 7750 4700 7750
+Wire Wire Line
+	4700 7750 4750 7750
+Connection ~ 4700 7750
+$Comp
+L power:GND #PWR041
+U 1 1 611D2F99
+P 4700 7750
+F 0 "#PWR041" H 4700 7500 50  0001 C CNN
+F 1 "GND" H 4705 7577 50  0000 C CNN
+F 2 "" H 4700 7750 50  0001 C CNN
+F 3 "" H 4700 7750 50  0001 C CNN
+	1    4700 7750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 7300 6600 7300
+Connection ~ 5100 5650
+Wire Wire Line
+	4350 5650 5100 5650
+$Comp
+L power:GND #PWR038
+U 1 1 60FF5194
+P 4700 6100
+F 0 "#PWR038" H 4700 5850 50  0001 C CNN
+F 1 "GND" H 4705 5927 50  0000 C CNN
+F 2 "" H 4700 6100 50  0001 C CNN
+F 3 "" H 4700 6100 50  0001 C CNN
+	1    4700 6100
+	1    0    0    -1  
+$EndComp
+Connection ~ 4700 6100
+Wire Wire Line
+	4650 6100 4700 6100
+Wire Wire Line
+	4850 5700 4850 6350
+Connection ~ 4850 5700
+Wire Wire Line
+	4650 5700 4850 5700
+Connection ~ 4350 3000
+Wire Wire Line
+	4350 3000 6600 3000
+$Comp
+L power:GND #PWR037
+U 1 1 60E1E2DA
+P 4700 3450
+F 0 "#PWR037" H 4700 3200 50  0001 C CNN
+F 1 "GND" H 4705 3277 50  0000 C CNN
+F 2 "" H 4700 3450 50  0001 C CNN
+F 3 "" H 4700 3450 50  0001 C CNN
+	1    4700 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 4700 3450
+Wire Wire Line
+	4650 3450 4700 3450
+Wire Wire Line
+	4850 3050 4850 5700
+Wire Wire Line
+	4850 2400 4850 3050
+Connection ~ 4850 3050
+Wire Wire Line
+	4650 3050 4850 3050
+$Comp
+L pspice:MNMOS M33
+U 1 1 62EA9050
+P 3800 14150
+F 0 "M33" H 4088 14196 50  0000 L CNN
+F 1 "2N7002" H 4088 14105 50  0000 L CNN
+F 2 "" H 3775 14150 50  0001 C CNN
+F 3 "~" H 3775 14150 50  0001 C CNN
+F 4 "M" H 3800 14150 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 3800 14150 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3800 14150 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3800 14150 50  0001 C CNN "Spice_Lib_File"
+	1    3800 14150
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M32
+U 1 1 62DC1A2B
+P 3800 13650
+F 0 "M32" H 4088 13696 50  0000 L CNN
+F 1 "2N7002" H 4088 13605 50  0000 L CNN
+F 2 "" H 3775 13650 50  0001 C CNN
+F 3 "~" H 3775 13650 50  0001 C CNN
+F 4 "M" H 3800 13650 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 3800 13650 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3800 13650 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3800 13650 50  0001 C CNN "Spice_Lib_File"
+	1    3800 13650
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M31
+U 1 1 62CDA535
+P 3800 13150
+F 0 "M31" H 4088 13196 50  0000 L CNN
+F 1 "2N7002" H 4088 13105 50  0000 L CNN
+F 2 "" H 3775 13150 50  0001 C CNN
+F 3 "~" H 3775 13150 50  0001 C CNN
+F 4 "M" H 3800 13150 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 3800 13150 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3800 13150 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3800 13150 50  0001 C CNN "Spice_Lib_File"
+	1    3800 13150
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M30
+U 1 1 62B0C5ED
+P 3800 12500
+F 0 "M30" H 4088 12546 50  0000 L CNN
+F 1 "2N7002" H 4088 12455 50  0000 L CNN
+F 2 "" H 3775 12500 50  0001 C CNN
+F 3 "~" H 3775 12500 50  0001 C CNN
+F 4 "M" H 3800 12500 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 3800 12500 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3800 12500 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3800 12500 50  0001 C CNN "Spice_Lib_File"
+	1    3800 12500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M29
+U 1 1 62A251F0
+P 3800 12000
+F 0 "M29" H 4088 12046 50  0000 L CNN
+F 1 "2N7002" H 4088 11955 50  0000 L CNN
+F 2 "" H 3775 12000 50  0001 C CNN
+F 3 "~" H 3775 12000 50  0001 C CNN
+F 4 "M" H 3800 12000 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 3800 12000 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3800 12000 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3800 12000 50  0001 C CNN "Spice_Lib_File"
+	1    3800 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M28
+U 1 1 628C9E91
+P 3800 11500
+F 0 "M28" H 4088 11546 50  0000 L CNN
+F 1 "2N7002" H 4088 11455 50  0000 L CNN
+F 2 "" H 3775 11500 50  0001 C CNN
+F 3 "~" H 3775 11500 50  0001 C CNN
+F 4 "M" H 3800 11500 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 3800 11500 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3800 11500 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3800 11500 50  0001 C CNN "Spice_Lib_File"
+	1    3800 11500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M27
+U 1 1 6276F414
+P 3800 10850
+F 0 "M27" H 4088 10896 50  0000 L CNN
+F 1 "2N7002" H 4088 10805 50  0000 L CNN
+F 2 "" H 3775 10850 50  0001 C CNN
+F 3 "~" H 3775 10850 50  0001 C CNN
+F 4 "M" H 3800 10850 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 3800 10850 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3800 10850 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3800 10850 50  0001 C CNN "Spice_Lib_File"
+	1    3800 10850
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M26
+U 1 1 625A11EF
+P 3800 10350
+F 0 "M26" H 4088 10396 50  0000 L CNN
+F 1 "2N7002" H 4088 10305 50  0000 L CNN
+F 2 "" H 3775 10350 50  0001 C CNN
+F 3 "~" H 3775 10350 50  0001 C CNN
+F 4 "M" H 3800 10350 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 3800 10350 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3800 10350 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3800 10350 50  0001 C CNN "Spice_Lib_File"
+	1    3800 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M25
+U 1 1 61B3EAFD
+P 3800 5400
+F 0 "M25" H 4088 5446 50  0000 L CNN
+F 1 "2N7002" H 4088 5355 50  0000 L CNN
+F 2 "" H 3775 5400 50  0001 C CNN
+F 3 "~" H 3775 5400 50  0001 C CNN
+F 4 "M" H 3800 5400 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 3800 5400 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3800 5400 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3800 5400 50  0001 C CNN "Spice_Lib_File"
+	1    3800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M24
+U 1 1 618FCE71
+P 3800 4900
+F 0 "M24" H 4088 4946 50  0000 L CNN
+F 1 "2N7002" H 4088 4855 50  0000 L CNN
+F 2 "" H 3775 4900 50  0001 C CNN
+F 3 "~" H 3775 4900 50  0001 C CNN
+F 4 "M" H 3800 4900 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 3800 4900 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3800 4900 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3800 4900 50  0001 C CNN "Spice_Lib_File"
+	1    3800 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M23
+U 1 1 617A260D
+P 3800 4250
+F 0 "M23" H 4088 4296 50  0000 L CNN
+F 1 "2N7002" H 4088 4205 50  0000 L CNN
+F 2 "" H 3775 4250 50  0001 C CNN
+F 3 "~" H 3775 4250 50  0001 C CNN
+F 4 "M" H 3800 4250 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 3800 4250 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3800 4250 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3800 4250 50  0001 C CNN "Spice_Lib_File"
+	1    3800 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M22
+U 1 1 6156087E
+P 3800 3750
+F 0 "M22" H 4088 3796 50  0000 L CNN
+F 1 "2N7002" H 4088 3705 50  0000 L CNN
+F 2 "" H 3775 3750 50  0001 C CNN
+F 3 "~" H 3775 3750 50  0001 C CNN
+F 4 "M" H 3800 3750 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 3800 3750 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3800 3750 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3800 3750 50  0001 C CNN "Spice_Lib_File"
+	1    3800 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M21
+U 1 1 61406194
+P 3800 3250
+F 0 "M21" H 4088 3296 50  0000 L CNN
+F 1 "2N7002" H 4088 3205 50  0000 L CNN
+F 2 "" H 3775 3250 50  0001 C CNN
+F 3 "~" H 3775 3250 50  0001 C CNN
+F 4 "M" H 3800 3250 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 3800 3250 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3800 3250 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3800 3250 50  0001 C CNN "Spice_Lib_File"
+	1    3800 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 13900 6600 13900
+$Comp
+L power:GND #PWR033
+U 1 1 61A3B01F
+P 3950 14350
+F 0 "#PWR033" H 3950 14100 50  0001 C CNN
+F 1 "GND" H 3955 14177 50  0000 C CNN
+F 2 "" H 3950 14350 50  0001 C CNN
+F 3 "" H 3950 14350 50  0001 C CNN
+	1    3950 14350
+	1    0    0    -1  
+$EndComp
+Connection ~ 3950 14350
+Wire Wire Line
+	3900 14350 3950 14350
+Wire Wire Line
+	4100 13950 4100 16500
+Connection ~ 4100 13950
+Wire Wire Line
+	3900 13950 4100 13950
+Connection ~ 5850 13400
+Wire Wire Line
+	3600 13400 5850 13400
+$Comp
+L power:GND #PWR032
+U 1 1 619754A4
+P 3950 13850
+F 0 "#PWR032" H 3950 13600 50  0001 C CNN
+F 1 "GND" H 3955 13677 50  0000 C CNN
+F 2 "" H 3950 13850 50  0001 C CNN
+F 3 "" H 3950 13850 50  0001 C CNN
+	1    3950 13850
+	1    0    0    -1  
+$EndComp
+Connection ~ 3950 13850
+Wire Wire Line
+	3900 13850 3950 13850
+Wire Wire Line
+	4100 13450 4100 13950
+Connection ~ 4100 13450
+Wire Wire Line
+	3900 13450 4100 13450
+Connection ~ 5100 12900
+Wire Wire Line
+	3600 12900 5100 12900
+$Comp
+L power:GND #PWR031
+U 1 1 618B5D9D
+P 3950 13350
+F 0 "#PWR031" H 3950 13100 50  0001 C CNN
+F 1 "GND" H 3955 13177 50  0000 C CNN
+F 2 "" H 3950 13350 50  0001 C CNN
+F 3 "" H 3950 13350 50  0001 C CNN
+	1    3950 13350
+	1    0    0    -1  
+$EndComp
+Connection ~ 3950 13350
+Wire Wire Line
+	3900 13350 3950 13350
+Wire Wire Line
+	4100 12950 4100 13450
+Connection ~ 4100 12950
+Wire Wire Line
+	3900 12950 4100 12950
+$Comp
+L power:GND #PWR027
+U 1 1 61517544
+P 3950 11050
+F 0 "#PWR027" H 3950 10800 50  0001 C CNN
+F 1 "GND" H 3955 10877 50  0000 C CNN
+F 2 "" H 3950 11050 50  0001 C CNN
+F 3 "" H 3950 11050 50  0001 C CNN
+	1    3950 11050
+	1    0    0    -1  
+$EndComp
+Connection ~ 3950 11050
+Wire Wire Line
+	3900 11050 3950 11050
+Connection ~ 5100 12250
+Wire Wire Line
+	3600 12250 5100 12250
+$Comp
+L power:GND #PWR030
+U 1 1 617A3666
+P 3950 12700
+F 0 "#PWR030" H 3950 12450 50  0001 C CNN
+F 1 "GND" H 3955 12527 50  0000 C CNN
+F 2 "" H 3950 12700 50  0001 C CNN
+F 3 "" H 3950 12700 50  0001 C CNN
+	1    3950 12700
+	1    0    0    -1  
+$EndComp
+Connection ~ 3950 12700
+Wire Wire Line
+	3900 12700 3950 12700
+Wire Wire Line
+	4100 12300 4100 12950
+Connection ~ 4100 12300
+Wire Wire Line
+	3900 12300 4100 12300
+Connection ~ 4350 11750
+Wire Wire Line
+	3600 11750 4350 11750
+$Comp
+L power:GND #PWR029
+U 1 1 616F62E7
+P 3950 12200
+F 0 "#PWR029" H 3950 11950 50  0001 C CNN
+F 1 "GND" H 3955 12027 50  0000 C CNN
+F 2 "" H 3950 12200 50  0001 C CNN
+F 3 "" H 3950 12200 50  0001 C CNN
+	1    3950 12200
+	1    0    0    -1  
+$EndComp
+Connection ~ 3950 12200
+Wire Wire Line
+	3900 12200 3950 12200
+Wire Wire Line
+	4100 11800 4100 12300
+Connection ~ 4100 11800
+Wire Wire Line
+	3900 11800 4100 11800
+Connection ~ 4350 11250
+Wire Wire Line
+	3600 11250 4350 11250
+$Comp
+L power:GND #PWR028
+U 1 1 615FFAD2
+P 3950 11700
+F 0 "#PWR028" H 3950 11450 50  0001 C CNN
+F 1 "GND" H 3955 11527 50  0000 C CNN
+F 2 "" H 3950 11700 50  0001 C CNN
+F 3 "" H 3950 11700 50  0001 C CNN
+	1    3950 11700
+	1    0    0    -1  
+$EndComp
+Connection ~ 3950 11700
+Wire Wire Line
+	3900 11700 3950 11700
+Wire Wire Line
+	4100 11300 4100 11800
+Connection ~ 4100 11300
+Wire Wire Line
+	3900 11300 4100 11300
+Connection ~ 4350 10600
+Wire Wire Line
+	3600 10600 4350 10600
+Wire Wire Line
+	4100 10650 4100 11300
+Connection ~ 4100 10650
+Wire Wire Line
+	3900 10650 4100 10650
+Connection ~ 4350 10100
+Wire Wire Line
+	3600 10100 4350 10100
+$Comp
+L power:GND #PWR026
+U 1 1 613F9FFE
+P 3950 10550
+F 0 "#PWR026" H 3950 10300 50  0001 C CNN
+F 1 "GND" H 3955 10377 50  0000 C CNN
+F 2 "" H 3950 10550 50  0001 C CNN
+F 3 "" H 3950 10550 50  0001 C CNN
+	1    3950 10550
+	1    0    0    -1  
+$EndComp
+Connection ~ 3950 10550
+Wire Wire Line
+	3900 10550 3950 10550
+Wire Wire Line
+	4100 10150 4100 10650
+Connection ~ 4100 10150
+Wire Wire Line
+	3900 10150 4100 10150
+Wire Wire Line
+	3600 5150 6600 5150
+$Comp
+L power:GND #PWR025
+U 1 1 60FA3ADE
+P 3950 5600
+F 0 "#PWR025" H 3950 5350 50  0001 C CNN
+F 1 "GND" H 3955 5427 50  0000 C CNN
+F 2 "" H 3950 5600 50  0001 C CNN
+F 3 "" H 3950 5600 50  0001 C CNN
+	1    3950 5600
+	1    0    0    -1  
+$EndComp
+Connection ~ 3950 5600
+Wire Wire Line
+	3900 5600 3950 5600
+Wire Wire Line
+	4100 5200 4100 10150
+Connection ~ 4100 5200
+Wire Wire Line
+	3900 5200 4100 5200
+Connection ~ 5850 4650
+Wire Wire Line
+	3600 4650 5850 4650
+$Comp
+L power:GND #PWR024
+U 1 1 60F3255A
+P 3950 5100
+F 0 "#PWR024" H 3950 4850 50  0001 C CNN
+F 1 "GND" H 3955 4927 50  0000 C CNN
+F 2 "" H 3950 5100 50  0001 C CNN
+F 3 "" H 3950 5100 50  0001 C CNN
+	1    3950 5100
+	1    0    0    -1  
+$EndComp
+Connection ~ 3950 5100
+Wire Wire Line
+	3900 5100 3950 5100
+Wire Wire Line
+	4100 4700 4100 5200
+Connection ~ 4100 4700
+Wire Wire Line
+	3900 4700 4100 4700
+Connection ~ 5100 4000
+Wire Wire Line
+	3600 4000 5100 4000
+$Comp
+L power:GND #PWR023
+U 1 1 60ECD77C
+P 3950 4450
+F 0 "#PWR023" H 3950 4200 50  0001 C CNN
+F 1 "GND" H 3955 4277 50  0000 C CNN
+F 2 "" H 3950 4450 50  0001 C CNN
+F 3 "" H 3950 4450 50  0001 C CNN
+	1    3950 4450
+	1    0    0    -1  
+$EndComp
+Connection ~ 3950 4450
+Wire Wire Line
+	3900 4450 3950 4450
+Wire Wire Line
+	4100 4050 4100 4700
+Connection ~ 4100 4050
+Wire Wire Line
+	3900 4050 4100 4050
+Connection ~ 5100 3500
+Wire Wire Line
+	3600 3500 5100 3500
+$Comp
+L power:GND #PWR022
+U 1 1 60E54966
+P 3950 3950
+F 0 "#PWR022" H 3950 3700 50  0001 C CNN
+F 1 "GND" H 3955 3777 50  0000 C CNN
+F 2 "" H 3950 3950 50  0001 C CNN
+F 3 "" H 3950 3950 50  0001 C CNN
+	1    3950 3950
+	1    0    0    -1  
+$EndComp
+Connection ~ 3950 3950
+Wire Wire Line
+	3900 3950 3950 3950
+Wire Wire Line
+	4100 3550 4100 4050
+Wire Wire Line
+	4100 3050 4100 3550
+Connection ~ 4100 3550
+Wire Wire Line
+	3900 3550 4100 3550
+$Comp
+L power:GND #PWR021
+U 1 1 60E0452C
+P 3950 3450
+F 0 "#PWR021" H 3950 3200 50  0001 C CNN
+F 1 "GND" H 3955 3277 50  0000 C CNN
+F 2 "" H 3950 3450 50  0001 C CNN
+F 3 "" H 3950 3450 50  0001 C CNN
+	1    3950 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 3950 3450
+Wire Wire Line
+	3900 3450 3950 3450
+Connection ~ 4350 6300
+Connection ~ 4350 6800
+$Comp
+L pspice:MNMOS M16
+U 1 1 6252D8C4
+P 3050 9850
+F 0 "M16" H 3338 9896 50  0000 L CNN
+F 1 "2N7002" H 3338 9805 50  0000 L CNN
+F 2 "" H 3025 9850 50  0001 C CNN
+F 3 "~" H 3025 9850 50  0001 C CNN
+F 4 "M" H 3050 9850 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 3050 9850 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3050 9850 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3050 9850 50  0001 C CNN "Spice_Lib_File"
+	1    3050 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M15
+U 1 1 624461FA
+P 3050 9200
+F 0 "M15" H 3338 9246 50  0000 L CNN
+F 1 "2N7002" H 3338 9155 50  0000 L CNN
+F 2 "" H 3025 9200 50  0001 C CNN
+F 3 "~" H 3025 9200 50  0001 C CNN
+F 4 "M" H 3050 9200 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 3050 9200 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3050 9200 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3050 9200 50  0001 C CNN "Spice_Lib_File"
+	1    3050 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M14
+U 1 1 6235EE76
+P 3050 8700
+F 0 "M14" H 3338 8746 50  0000 L CNN
+F 1 "2N7002" H 3338 8655 50  0000 L CNN
+F 2 "" H 3025 8700 50  0001 C CNN
+F 3 "~" H 3025 8700 50  0001 C CNN
+F 4 "M" H 3050 8700 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 3050 8700 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3050 8700 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3050 8700 50  0001 C CNN "Spice_Lib_File"
+	1    3050 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M13
+U 1 1 62204066
+P 3050 8200
+F 0 "M13" H 3338 8246 50  0000 L CNN
+F 1 "2N7002" H 3338 8155 50  0000 L CNN
+F 2 "" H 3025 8200 50  0001 C CNN
+F 3 "~" H 3025 8200 50  0001 C CNN
+F 4 "M" H 3050 8200 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 3050 8200 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3050 8200 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3050 8200 50  0001 C CNN "Spice_Lib_File"
+	1    3050 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M12
+U 1 1 6211CC30
+P 3050 7550
+F 0 "M12" H 3338 7596 50  0000 L CNN
+F 1 "2N7002" H 3338 7505 50  0000 L CNN
+F 2 "" H 3025 7550 50  0001 C CNN
+F 3 "~" H 3025 7550 50  0001 C CNN
+F 4 "M" H 3050 7550 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 3050 7550 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3050 7550 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3050 7550 50  0001 C CNN "Spice_Lib_File"
+	1    3050 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M11
+U 1 1 61F4E448
+P 3050 7050
+F 0 "M11" H 3338 7096 50  0000 L CNN
+F 1 "2N7002" H 3338 7005 50  0000 L CNN
+F 2 "" H 3025 7050 50  0001 C CNN
+F 3 "~" H 3025 7050 50  0001 C CNN
+F 4 "M" H 3050 7050 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 3050 7050 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3050 7050 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3050 7050 50  0001 C CNN "Spice_Lib_File"
+	1    3050 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M10
+U 1 1 61D80572
+P 3050 6550
+F 0 "M10" H 3338 6596 50  0000 L CNN
+F 1 "2N7002" H 3338 6505 50  0000 L CNN
+F 2 "" H 3025 6550 50  0001 C CNN
+F 3 "~" H 3025 6550 50  0001 C CNN
+F 4 "M" H 3050 6550 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 3050 6550 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3050 6550 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3050 6550 50  0001 C CNN "Spice_Lib_File"
+	1    3050 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M9
+U 1 1 61BB289B
+P 3050 5900
+F 0 "M9" H 3338 5946 50  0000 L CNN
+F 1 "2N7002" H 3338 5855 50  0000 L CNN
+F 2 "" H 3025 5900 50  0001 C CNN
+F 3 "~" H 3025 5900 50  0001 C CNN
+F 4 "M" H 3050 5900 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 3050 5900 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3050 5900 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3050 5900 50  0001 C CNN "Spice_Lib_File"
+	1    3050 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M8
+U 1 1 61A57CC7
+P 3050 5400
+F 0 "M8" H 3338 5446 50  0000 L CNN
+F 1 "2N7002" H 3338 5355 50  0000 L CNN
+F 2 "" H 3025 5400 50  0001 C CNN
+F 3 "~" H 3025 5400 50  0001 C CNN
+F 4 "M" H 3050 5400 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 3050 5400 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3050 5400 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3050 5400 50  0001 C CNN "Spice_Lib_File"
+	1    3050 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M7
+U 1 1 6188980C
+P 3050 4900
+F 0 "M7" H 3338 4946 50  0000 L CNN
+F 1 "2N7002" H 3338 4855 50  0000 L CNN
+F 2 "" H 3025 4900 50  0001 C CNN
+F 3 "~" H 3025 4900 50  0001 C CNN
+F 4 "M" H 3050 4900 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 3050 4900 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3050 4900 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3050 4900 50  0001 C CNN "Spice_Lib_File"
+	1    3050 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M6
+U 1 1 6172ED35
+P 3050 4250
+F 0 "M6" H 3338 4296 50  0000 L CNN
+F 1 "2N7002" H 3338 4205 50  0000 L CNN
+F 2 "" H 3025 4250 50  0001 C CNN
+F 3 "~" H 3025 4250 50  0001 C CNN
+F 4 "M" H 3050 4250 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 3050 4250 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3050 4250 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3050 4250 50  0001 C CNN "Spice_Lib_File"
+	1    3050 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M5
+U 1 1 614ED183
+P 3050 3750
+F 0 "M5" H 3338 3796 50  0000 L CNN
+F 1 "2N7002" H 3338 3705 50  0000 L CNN
+F 2 "" H 3025 3750 50  0001 C CNN
+F 3 "~" H 3025 3750 50  0001 C CNN
+F 4 "M" H 3050 3750 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 3050 3750 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3050 3750 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3050 3750 50  0001 C CNN "Spice_Lib_File"
+	1    3050 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M4
+U 1 1 61392883
+P 3050 3250
+F 0 "M4" H 3338 3296 50  0000 L CNN
+F 1 "2N7002" H 3338 3205 50  0000 L CNN
+F 2 "" H 3025 3250 50  0001 C CNN
+F 3 "~" H 3025 3250 50  0001 C CNN
+F 4 "M" H 3050 3250 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 3050 3250 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3050 3250 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3050 3250 50  0001 C CNN "Spice_Lib_File"
+	1    3050 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:MNMOS M3
+U 1 1 61151795
+P 3050 2600
+F 0 "M3" H 3338 2646 50  0000 L CNN
+F 1 "2N7002" H 3338 2555 50  0000 L CNN
+F 2 "" H 3025 2600 50  0001 C CNN
+F 3 "~" H 3025 2600 50  0001 C CNN
+F 4 "M" H 3050 2600 50  0001 C CNN "Spice_Primitive"
+F 5 "2N7002" H 3050 2600 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3050 2600 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/simulation/spice/mos.lib" H 3050 2600 50  0001 C CNN "Spice_Lib_File"
+	1    3050 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 4350 14550
+Wire Wire Line
+	2500 14550 4350 14550
+Connection ~ 4350 15550
+Wire Wire Line
+	2500 15550 4350 15550
+Connection ~ 4350 15050
+Wire Wire Line
+	2500 15050 4350 15050
+Connection ~ 3600 12900
+Wire Wire Line
+	2500 12900 3600 12900
+Connection ~ 3600 13400
+Wire Wire Line
+	2500 13400 3600 13400
+Connection ~ 3600 13900
+Wire Wire Line
+	2500 13900 3600 13900
+Connection ~ 3600 11250
+Wire Wire Line
+	2500 11250 3600 11250
+Connection ~ 3600 11750
+Wire Wire Line
+	2500 11750 3600 11750
+Connection ~ 3600 12250
+Wire Wire Line
+	2500 12250 3600 12250
+Wire Wire Line
+	2850 9600 6600 9600
+Wire Wire Line
+	2850 9850 2850 9600
+Connection ~ 2850 9600
+Wire Wire Line
+	2500 9600 2850 9600
+Connection ~ 3600 10100
+Wire Wire Line
+	2500 10100 3600 10100
+Connection ~ 3600 10600
+Wire Wire Line
+	2500 10600 3600 10600
+Connection ~ 5850 8950
+Wire Wire Line
+	2850 8950 5850 8950
+Wire Wire Line
+	2850 9200 2850 8950
+Connection ~ 5100 8450
+Wire Wire Line
+	2850 8450 5100 8450
+Wire Wire Line
+	2850 8700 2850 8450
+Connection ~ 5100 7950
+Wire Wire Line
+	2850 7950 5100 7950
+Wire Wire Line
+	2850 8200 2850 7950
+Connection ~ 2850 7950
+Wire Wire Line
+	2500 7950 2850 7950
+Connection ~ 2850 8450
+Wire Wire Line
+	2500 8450 2850 8450
+Connection ~ 2850 8950
+Wire Wire Line
+	2500 8950 2850 8950
+Wire Wire Line
+	2500 7300 2850 7300
+Wire Wire Line
+	2850 6300 4350 6300
+Wire Wire Line
+	2500 6300 2850 6300
+Connection ~ 2850 6300
+Wire Wire Line
+	2850 6550 2850 6300
+Wire Wire Line
+	2850 6800 4350 6800
+Wire Wire Line
+	2500 6800 2850 6800
+Connection ~ 2850 6800
+Wire Wire Line
+	2850 7050 2850 6800
+Wire Wire Line
+	2850 7550 2850 7300
+Connection ~ 4350 7300
+Connection ~ 2850 7300
+Wire Wire Line
+	2850 7300 4350 7300
+Connection ~ 4350 5650
+Wire Wire Line
+	2850 5650 4350 5650
+Wire Wire Line
+	2850 5900 2850 5650
+Connection ~ 3600 5150
+Wire Wire Line
+	2850 5150 3600 5150
+Wire Wire Line
+	2850 5400 2850 5150
+Connection ~ 3600 4650
+Wire Wire Line
+	2850 4650 3600 4650
+Wire Wire Line
+	2850 4900 2850 4650
+Connection ~ 2850 4650
+Wire Wire Line
+	2500 4650 2850 4650
+Connection ~ 2850 5150
+Wire Wire Line
+	2500 5150 2850 5150
+Connection ~ 2850 5650
+Wire Wire Line
+	2500 5650 2850 5650
+Connection ~ 3600 4000
+Wire Wire Line
+	2850 4000 3600 4000
+Wire Wire Line
+	2850 4250 2850 4000
+Connection ~ 3600 3500
+Wire Wire Line
+	2850 3500 3600 3500
+Wire Wire Line
+	2850 3750 2850 3500
+Connection ~ 3600 3000
+Wire Wire Line
+	2850 3000 3600 3000
+Wire Wire Line
+	2850 3250 2850 3000
+Connection ~ 2850 3000
+Wire Wire Line
+	2500 3000 2850 3000
+Connection ~ 2850 3500
+Wire Wire Line
+	2500 3500 2850 3500
+Connection ~ 2850 4000
+Wire Wire Line
+	2500 4000 2850 4000
+$Sheet
+S 1950 7150 550  300 
+U 5FEF8E3D
+F0 "0i1" 50
+F1 "and.sch" 50
+F2 "A" I L 1950 7200 50 
+F3 "B" I L 1950 7300 50 
+F4 "Out" O R 2500 7300 50 
+F5 "C" I L 1950 7400 50 
+$EndSheet
+$Sheet
+S 1950 15400 550  300 
+U 5FEFDF88
+F0 "111" 50
+F1 "and.sch" 50
+F2 "A" I L 1950 15450 50 
+F3 "B" I L 1950 15550 50 
+F4 "Out" O R 2500 15550 50 
+F5 "C" I L 1950 15650 50 
+$EndSheet
+$Sheet
+S 1950 14900 550  300 
+U 5FEFDA4D
+F0 "110" 50
+F1 "and.sch" 50
+F2 "A" I L 1950 14950 50 
+F3 "B" I L 1950 15050 50 
+F4 "Out" O R 2500 15050 50 
+F5 "C" I L 1950 15150 50 
+$EndSheet
+$Sheet
+S 1950 14400 550  300 
+U 5FEFD6E3
+F0 "11i" 50
+F1 "and.sch" 50
+F2 "A" I L 1950 14450 50 
+F3 "B" I L 1950 14550 50 
+F4 "Out" O R 2500 14550 50 
+F5 "C" I L 1950 14650 50 
+$EndSheet
+$Sheet
+S 1950 13750 550  300 
+U 5FEFD1F3
+F0 "101" 50
+F1 "and.sch" 50
+F2 "A" I L 1950 13800 50 
+F3 "B" I L 1950 13900 50 
+F4 "Out" O R 2500 13900 50 
+F5 "C" I L 1950 14000 50 
+$EndSheet
+$Sheet
+S 1950 13250 550  300 
+U 5FEFC7BA
+F0 "100" 50
+F1 "and.sch" 50
+F2 "A" I L 1950 13300 50 
+F3 "B" I L 1950 13400 50 
+F4 "Out" O R 2500 13400 50 
+F5 "C" I L 1950 13500 50 
+$EndSheet
+$Sheet
+S 1950 12750 550  300 
+U 5FEFC423
+F0 "10i" 50
+F1 "and.sch" 50
+F2 "A" I L 1950 12800 50 
+F3 "B" I L 1950 12900 50 
+F4 "Out" O R 2500 12900 50 
+F5 "C" I L 1950 13000 50 
+$EndSheet
+$Sheet
+S 1950 12100 550  300 
+U 5FEFBFB5
+F0 "1i1" 50
+F1 "and.sch" 50
+F2 "A" I L 1950 12150 50 
+F3 "B" I L 1950 12250 50 
+F4 "Out" O R 2500 12250 50 
+F5 "C" I L 1950 12350 50 
+$EndSheet
+$Sheet
+S 1950 11600 550  300 
+U 5FEFB8BD
+F0 "1i0" 50
+F1 "and.sch" 50
+F2 "A" I L 1950 11650 50 
+F3 "B" I L 1950 11750 50 
+F4 "Out" O R 2500 11750 50 
+F5 "C" I L 1950 11850 50 
+$EndSheet
+$Sheet
+S 1950 11100 550  300 
+U 5FEFB29D
+F0 "1ii" 50
+F1 "and.sch" 50
+F2 "A" I L 1950 11150 50 
+F3 "B" I L 1950 11250 50 
+F4 "Out" O R 2500 11250 50 
+F5 "C" I L 1950 11350 50 
+$EndSheet
+$Sheet
+S 1950 10450 550  300 
+U 5FEFAEE8
+F0 "011" 50
+F1 "and.sch" 50
+F2 "A" I L 1950 10500 50 
+F3 "B" I L 1950 10600 50 
+F4 "Out" O R 2500 10600 50 
+F5 "C" I L 1950 10700 50 
+$EndSheet
+$Sheet
+S 1950 9950 550  300 
+U 5FEFA827
+F0 "010" 50
+F1 "and.sch" 50
+F2 "A" I L 1950 10000 50 
+F3 "B" I L 1950 10100 50 
+F4 "Out" O R 2500 10100 50 
+F5 "C" I L 1950 10200 50 
+$EndSheet
+$Sheet
+S 1950 9450 550  300 
+U 5FEFA55D
+F0 "01i" 50
+F1 "and.sch" 50
+F2 "A" I L 1950 9500 50 
+F3 "B" I L 1950 9600 50 
+F4 "Out" O R 2500 9600 50 
+F5 "C" I L 1950 9700 50 
+$EndSheet
+$Sheet
+S 1950 8800 550  300 
+U 5FEFA117
+F0 "001" 50
+F1 "and.sch" 50
+F2 "A" I L 1950 8850 50 
+F3 "B" I L 1950 8950 50 
+F4 "Out" O R 2500 8950 50 
+F5 "C" I L 1950 9050 50 
+$EndSheet
+$Sheet
+S 1950 8300 550  300 
+U 5FEF9D30
+F0 "000" 50
+F1 "and.sch" 50
+F2 "A" I L 1950 8350 50 
+F3 "B" I L 1950 8450 50 
+F4 "Out" O R 2500 8450 50 
+F5 "C" I L 1950 8550 50 
+$EndSheet
+$Sheet
+S 1950 7800 550  300 
+U 5FF13F0B
+F0 "00i" 50
+F1 "and.sch" 50
+F2 "A" I L 1950 7850 50 
+F3 "B" I L 1950 7950 50 
+F4 "Out" O R 2500 7950 50 
+F5 "C" I L 1950 8050 50 
+$EndSheet
+$Sheet
+S 1950 6150 550  300 
+U 5FEF84DF
+F0 "0ii" 50
+F1 "and.sch" 50
+F2 "A" I L 1950 6200 50 
+F3 "B" I L 1950 6300 50 
+F4 "Out" O R 2500 6300 50 
+F5 "C" I L 1950 6400 50 
+$EndSheet
+$Sheet
+S 1950 6650 550  300 
+U 5FEF89E8
+F0 "0i0" 50
+F1 "and.sch" 50
+F2 "A" I L 1950 6700 50 
+F3 "B" I L 1950 6800 50 
+F4 "Out" O R 2500 6800 50 
+F5 "C" I L 1950 6900 50 
+$EndSheet
+$Sheet
+S 1950 2850 550  300 
+U 5FEF5F38
+F0 "i0i" 50
+F1 "and.sch" 50
+F2 "A" I L 1950 2900 50 
+F3 "B" I L 1950 3000 50 
+F4 "Out" O R 2500 3000 50 
+F5 "C" I L 1950 3100 50 
+$EndSheet
+$Sheet
+S 1950 3350 550  300 
+U 5FEF6716
+F0 "i00" 50
+F1 "and.sch" 50
+F2 "A" I L 1950 3400 50 
+F3 "B" I L 1950 3500 50 
+F4 "Out" O R 2500 3500 50 
+F5 "C" I L 1950 3600 50 
+$EndSheet
+$Sheet
+S 1950 3850 550  300 
+U 5FEF6B61
+F0 "i01" 50
+F1 "and.sch" 50
+F2 "A" I L 1950 3900 50 
+F3 "B" I L 1950 4000 50 
+F4 "Out" O R 2500 4000 50 
+F5 "C" I L 1950 4100 50 
+$EndSheet
+$Sheet
+S 1950 4500 550  300 
+U 5FEF73F3
+F0 "i1i" 50
+F1 "and.sch" 50
+F2 "A" I L 1950 4550 50 
+F3 "B" I L 1950 4650 50 
+F4 "Out" O R 2500 4650 50 
+F5 "C" I L 1950 4750 50 
+$EndSheet
+$Sheet
+S 1950 5000 550  300 
+U 5FEF7A73
+F0 "i10" 50
+F1 "and.sch" 50
+F2 "A" I L 1950 5050 50 
+F3 "B" I L 1950 5150 50 
+F4 "Out" O R 2500 5150 50 
+F5 "C" I L 1950 5250 50 
+$EndSheet
+$Sheet
+S 1950 5500 550  300 
+U 5FEF7F36
+F0 "i11" 50
+F1 "and.sch" 50
+F2 "A" I L 1950 5550 50 
+F3 "B" I L 1950 5650 50 
+F4 "Out" O R 2500 5650 50 
+F5 "C" I L 1950 5750 50 
+$EndSheet
+$Comp
+L Connector:Conn_01x06_Male J1
+U 1 1 64780941
+P 8000 1250
+F 0 "J1" H 8108 1631 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 8108 1540 50  0000 C CNN
+F 2 "" H 8000 1250 50  0001 C CNN
+F 3 "~" H 8000 1250 50  0001 C CNN
+	1    8000 1250
 	-1   0    0    1   
 $EndComp
-Text GLabel 8550 1050 0    50   Output ~ 0
-B4
-Text GLabel 8550 1150 0    50   Output ~ 0
-B3
-Text GLabel 8550 1250 0    50   Output ~ 0
-B2
-Text GLabel 8550 1350 0    50   Output ~ 0
-B1
-Text GLabel 8550 1450 0    50   Output ~ 0
-B0
-Text GLabel 7800 1050 0    50   Input ~ 0
-Vss
-Text GLabel 7800 950  0    50   Input ~ 0
-Vdd
+Text GLabel 7800 1450 0    50   Input ~ 0
+T0
+Text GLabel 7800 1350 0    50   Input ~ 0
+T1
+Text GLabel 7800 1250 0    50   Input ~ 0
+T2
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0133
 U 1 1 64780938
 P 7800 1150
-F 0 "#PWR?" H 7800 900 50  0001 C CNN
+F 0 "#PWR0133" H 7800 900 50  0001 C CNN
 F 1 "GND" V 7805 1022 50  0000 R CNN
 F 2 "" H 7800 1150 50  0001 C CNN
 F 3 "" H 7800 1150 50  0001 C CNN
 	1    7800 1150
 	0    1    1    0   
 $EndComp
-Text GLabel 7800 1250 0    50   Input ~ 0
-T2
-Text GLabel 7800 1350 0    50   Input ~ 0
-T1
-Text GLabel 7800 1450 0    50   Input ~ 0
-T0
+Text GLabel 7800 950  0    50   Input ~ 0
+Vdd
+Text GLabel 7800 1050 0    50   Input ~ 0
+Vss
+Text GLabel 8550 1450 0    50   Output ~ 0
+B0
+Text GLabel 8550 1350 0    50   Output ~ 0
+B1
+Text GLabel 8550 1250 0    50   Output ~ 0
+B2
+Text GLabel 8550 1150 0    50   Output ~ 0
+B3
+Text GLabel 8550 1050 0    50   Output ~ 0
+B4
 $Comp
-L Connector:Conn_01x06_Male J?
-U 1 1 64780941
-P 8000 1250
-F 0 "J?" H 8108 1631 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 8108 1540 50  0000 C CNN
-F 2 "" H 8000 1250 50  0001 C CNN
-F 3 "~" H 8000 1250 50  0001 C CNN
-	1    8000 1250
+L Connector:Conn_01x06_Male J2
+U 1 1 6478092A
+P 8750 1250
+F 0 "J2" H 8858 1631 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 8858 1540 50  0000 C CNN
+F 2 "" H 8750 1250 50  0001 C CNN
+F 3 "~" H 8750 1250 50  0001 C CNN
+	1    8750 1250
 	-1   0    0    1   
 $EndComp
 $EndSCHEMATC

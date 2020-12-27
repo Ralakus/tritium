@@ -17,8 +17,11 @@ There are many projects similar to this but they either haven't gone very far, c
 * tritium - contains the overall schematic of each tritium variant
 
 ## Tritium-9
-### Design goals
+### Design Goals
 * Around or less than $100
 * iiiiiiii to i11111111 being binary EEPROM to run a program off of with 0iiiiiiii to 111111111 being SRAM thus having the full 19683 tryte address space
 * Have the ability to communicate with binary components
 * Use easily sourcable parts
+
+### Current Status
+Waiting for the arrival of test PCBs and components 
