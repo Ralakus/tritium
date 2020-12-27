@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name Ternary)(type KiCad)(uri /lab/dev/tritium/library/Ternary.pretty)(options "")(descr ""))
-)

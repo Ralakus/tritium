@@ -1,10 +1,8 @@
 
-N Channel Enchantment - 2N7002
-P Channel Enchantment - BSS84
-N Channel Depletion   - BSS159 - Being phased out due to cost and rarity
+N Channel Enchantment MOSFET - 2N7002
+P Channel Enchantment MOSFET - BSS84
 
-CMOS Complement - CD4007UBM - Being phased out due to cost
+12k 0603 SMD Resistors
+12M 0603 SMD Resistors
 
-Memory - 2x IS62WV25616BLL
-
-98 pin ISA connectors for backplane
+Custom PCBs through JLCPCB

@@ -10,6 +10,12 @@ There are many projects similar to this but they either haven't gone very far, c
 ## Variants
 9, 27, 54, and maybe even 81 trit word variants will be made with a similar architecture. The 9 trit architecture being dubbed 'Tritium-9' will be made first as an experiment and prototype.
 
+## Directory Structure
+* architecture - contains documentation about the architecture of each tritium variant
+* gates_pcb - contains each basic gate schematic and each revision of the custom pcb designs
+* simulation - contains tests setup to simulate basic logic and other various circuitry test using ngspice
+* tritium - contains the overall schematic of each tritium variant
+
 ## Tritium-9
 ### Design goals
 * Around or less than $100
