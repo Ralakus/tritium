@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 24
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -39,23 +39,6 @@ Text HLabel 4650 5000 0    50   Input ~ 0
 B
 Text HLabel 4650 4900 0    50   Input ~ 0
 C
-$Sheet
-S 6700 4950 500  200 
-U 5FDD8DDE
-F0 "Sheet5FDD8DDD" 50
-F1 "nany.sch" 50
-F2 "Out" O R 7200 5050 50 
-F3 "B" I L 6700 5100 50 
-F4 "A" I L 6700 5000 50 
-$EndSheet
-$Sheet
-S 7600 4950 500  200 
-U 5FDD8FFF
-F0 "Sheet5FDD8FFE" 50
-F1 "inverter.sch" 50
-F2 "Out" O R 8100 5050 50 
-F3 "In" I L 7600 5050 50 
-$EndSheet
 Wire Wire Line
 	5900 4900 4650 4900
 Wire Wire Line
@@ -66,16 +49,58 @@ Wire Wire Line
 	4650 5100 4950 5100
 Wire Wire Line
 	6400 5000 6700 5000
-Wire Wire Line
-	6700 5100 5450 5100
-Wire Wire Line
-	7200 5050 7600 5050
 Text HLabel 8500 4900 2    50   Output ~ 0
 Sum
-Text HLabel 8500 5050 2    50   Output ~ 0
+Text HLabel 8500 5100 2    50   Output ~ 0
 Carry
 Wire Wire Line
 	6400 4900 8500 4900
 Wire Wire Line
-	8500 5050 8100 5050
+	8500 5100 8125 5100
+$Comp
+L Ternary:nany A1
+U 1 1 5FEC29EE
+P 7000 5100
+F 0 "A1" H 7344 5282 50  0000 L CNN
+F 1 "nany" H 7344 5191 50  0000 L CNN
+F 2 "Ternary_Rev_1:nany" H 7000 5150 50  0001 C CNN
+F 3 "" H 7000 5150 50  0001 C CNN
+F 4 "X" H 7344 5100 50  0000 L CNN "Spice_Primitive"
+F 5 "NAny" H 7344 5009 50  0000 L CNN "Spice_Model"
+F 6 "Y" H 7344 4918 50  0000 L CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 7000 5150 50  0001 C CNN "Spice_Lib_File"
+	1    7000 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Ternary:inverter A2
+U 1 1 5FEC464F
+P 7775 5100
+F 0 "A2" H 7800 5853 50  0000 C CNN
+F 1 "inverter" H 7800 5762 50  0000 C CNN
+F 2 "Ternary_Rev_1:inverter" H 7775 5100 50  0001 C CNN
+F 3 "" H 7775 5100 50  0001 C CNN
+F 4 "X" H 7800 5671 50  0000 C CNN "Spice_Primitive"
+F 5 "Inverter" H 7800 5580 50  0000 C CNN "Spice_Model"
+F 6 "Y" H 7800 5489 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 7750 5150 50  0001 C CNN "Spice_Lib_File"
+	1    7775 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 5100 7475 5100
+Wire Wire Line
+	5450 5100 6675 5100
+Wire Wire Line
+	6675 5100 6675 5200
+Wire Wire Line
+	6675 5200 6700 5200
+Text GLabel 6950 4800 1    50   Input ~ 0
+Vdd
+Text GLabel 6950 5400 3    50   Input ~ 0
+Vss
+Text GLabel 7675 4800 1    50   Input ~ 0
+Vdd
+Text GLabel 7675 5400 3    50   Input ~ 0
+Vss
 $EndSCHEMATC

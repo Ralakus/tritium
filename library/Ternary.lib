@@ -8,6 +8,10 @@ F0 "A" 0 50 50 H V C CNN
 F1 "antimax" 0 -50 50 H V C CNN
 F2 "Ternary_Rev_1:antimax" 0 50 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
+F4 "X" 0 50 50 H V C CNN "Spice_Primitive"
+F5 "Antimax" 0 50 50 H V C CNN "Spice_Model"
+F6 "Y" 0 50 50 H V C CNN "Spice_Netlist_Enabled"
+F7 "/lab/dev/tritium/library/gates_spice.lib" 0 50 50 H I C CNN "Spice_Lib_File"
 DRAW
 A -360 0 258 354 -354 1 1 10 N -150 150 -150 -150
 A -47 -52 204 150 837 1 1 10 f 150 0 -24 150
@@ -32,6 +36,10 @@ F0 "A" 0 50 50 H V C CNN
 F1 "antimin" 0 -50 50 H V C CNN
 F2 "Ternary_Rev_1:antimin" 0 50 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
+F4 "X" 0 50 50 H V C CNN "Spice_Primitive"
+F5 "Antimin" 0 50 50 H V C CNN "Spice_Model"
+F6 "Y" 0 50 50 H V C CNN "Spice_Netlist_Enabled"
+F7 "/lab/dev/tritium/library/gates_spice.lib" 0 50 50 H I C CNN "Spice_Lib_File"
 DRAW
 A 0 0 150 -899 899 1 1 10 f 0 -150 0 150
 T 900 0 225 50 0 0 0 Vdd Normal 0 C C
@@ -52,6 +60,10 @@ F0 "A" -25 50 50 H V C CNN
 F1 "inverter" -25 -25 50 H V C CNN
 F2 "Ternary_Rev_1:inverter" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+F4 "X" -25 50 50 H V C CNN "Spice_Primitive"
+F5 "Inverter" -25 50 50 H V C CNN "Spice_Model"
+F6 "Y" -25 50 50 H V C CNN "Spice_Netlist_Enabled"
+F7 "/lab/dev/tritium/library/gates_spice.lib" -25 50 50 H I C CNN "Spice_Lib_File"
 DRAW
 T 0 150 -150 50 0 0 0 Nti Normal 0 C C
 T 0 150 150 50 0 0 0 Pti Normal 0 C C
@@ -81,6 +93,10 @@ F0 "A" 0 50 50 H V C CNN
 F1 "nany" 0 -50 50 H V C CNN
 F2 "Ternary_Rev_1:nany" 0 50 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
+F4 "X" 0 50 50 H V C CNN "Spice_Primitive"
+F5 "NAny" 0 50 50 H V C CNN "Spice_Model"
+F6 "Y" 0 50 50 H V C CNN "Spice_Netlist_Enabled"
+F7 "/lab/dev/tritium/library/gates_spice.lib" 0 50 50 H I C CNN "Spice_Lib_File"
 DRAW
 A -360 0 282 -275 275 0 1 0 N -110 -130 -110 130
 A -360 0 258 354 -354 1 1 10 N -150 150 -150 -150
@@ -108,6 +124,10 @@ F0 "A" 0 50 50 H V C CNN
 F1 "nconsensus" 0 -50 50 H V C CNN
 F2 "Ternary_Rev_1:nconsensus" 0 50 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
+F4 "X" 0 50 50 H V C CNN "Spice_Primitive"
+F5 "NConsensus" 0 50 50 H V C CNN "Spice_Model"
+F6 "Y" 0 50 50 H V C CNN "Spice_Netlist_Enabled"
+F7 "/lab/dev/tritium/library/gates_spice.lib" 0 50 50 H I C CNN "Spice_Lib_File"
 DRAW
 A 0 0 150 -899 899 1 1 10 f 0 -150 0 150
 T 900 0 225 50 0 0 0 Vdd Normal 0 C C
@@ -130,6 +150,10 @@ F0 "A" -25 50 50 H V C CNN
 F1 "quadstate" -25 -25 50 H V C CNN
 F2 "Ternary_Rev_1:quadstate" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+F4 "X" -25 50 50 H V C CNN "Spice_Primitive"
+F5 "Quadstate" -25 50 50 H V C CNN "Spice_Model"
+F6 "Y" -25 50 50 H V C CNN "Spice_Netlist_Enabled"
+F7 "/lab/dev/tritium/library/gates_spice.lib" -25 50 50 H I C CNN "Spice_Lib_File"
 DRAW
 T 900 -50 200 50 0 0 0 Gate Normal 0 C C
 T 900 175 100 50 0 0 0 Vdd Normal 0 C C
