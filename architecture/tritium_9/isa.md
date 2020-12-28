@@ -59,15 +59,15 @@
 | cmp         |   i1   |compares `rsrc2` to `rsrc2`, i if less than, 0 if equal, 1 if greater|
 | min         |   0i   |ternary min `rsrc` and `rsrc2`|
 | max         |   00   |ternary max `rsrc` and `rsrc2`|
-| consensus   |   01   |ternary consensus `rsrc` and `rsrc2`|
+| cons        |   01   |ternary consensus `rsrc` and `rsrc2`|
 | any         |   1i   |ternary any `rsrc` and `rsrc2`|
-| invert      |   10   |ternary inverts only `rsrc`|
+| inv         |   10   |ternary inverts only `rsrc`|
 | sign        |   11   |returns the sign of only `rsrc`, i if negative, 0 if 0, 1 if positive|
 
 ### Jump instructions
 
 | instruction | jump fn | description |
 |-------------|---------|-------------|
-| blz         |    ii   |jumps if `rcond` is less than zero|
-| bz          |    i0   |jumps if `rcond` is zero|
-| bgz         |    i1   |jumps if `rcond` is greater than zero|
+| jlz         |    ii   |jumps if `rcond` is less than zero|
+| jz          |    i0   |jumps if `rcond` is zero|
+| jgz         |    i1   |jumps if `rcond` is greater than zero|
