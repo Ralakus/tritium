@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 2
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -175,7 +175,7 @@ F 2 "" H 1300 3950 50  0001 C CNN
 F 3 "~" H 1300 3950 50  0001 C CNN
 F 4 "Y" H 1300 3950 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 1300 3950 50  0001 L CNN "Spice_Primitive"
-F 6 "dc(5)" H 1430 3859 50  0000 L CNN "Spice_Model"
+F 6 "dc(0)" H 1430 3859 50  0000 L CNN "Spice_Model"
 	1    1300 3950
 	1    0    0    -1  
 $EndComp
@@ -189,7 +189,7 @@ F 2 "" H 900 3950 50  0001 C CNN
 F 3 "~" H 900 3950 50  0001 C CNN
 F 4 "Y" H 900 3950 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 900 3950 50  0001 L CNN "Spice_Primitive"
-F 6 "dc(5)" H 1030 3859 50  0000 L CNN "Spice_Model"
+F 6 "dc(-5)" H 1030 3859 50  0000 L CNN "Spice_Model"
 	1    900  3950
 	1    0    0    -1  
 $EndComp
@@ -201,13 +201,15 @@ Text GLabel 3350 4300 0    50   Input ~ 0
 C
 $Sheet
 S 3350 4050 500  300 
-U 5FFB596F
-F0 "Sheet5FFB596E" 50
-F1 "flat_schematic.sch" 50
-F2 "C" I L 3350 4300 50 
+U 5FF05F9A
+F0 "A+B+C" 50
+F1 "full_adder.sch" 50
+F2 "A" I L 3350 4100 50 
 F3 "B" I L 3350 4200 50 
-F4 "A" I L 3350 4100 50 
+F4 "C" I L 3350 4300 50 
 F5 "Sum" O R 3850 4150 50 
 F6 "Carry" O R 3850 4250 50 
 $EndSheet
+Text Notes 1500 2775 0    50   ~ 0
+A    B    C  |  C    S\n–    –    –  |  –    0\n–    –    0  |  –    +\n–    –    +  |  0    –\n–    0    –  |  –    +\n–    0    0  |  0    –\n–    0    +  |  0    0\n–    +    –  |  0    –\n–    +    0  |  0    0\n–    +    +  |  0    +\n0    –    –  |  –    +\n0    –    0  |  0    –\n0    –    +  |  0    0\n0    0    –  |  0    –\n0    0    0  |  0    0\n0    0    +  |  0    +\n0    +    –  |  0    0\n0    +    0  |  0    +\n0    +    +  |  +    –\n+    –    –  |  0    –\n+    –    0  |  0    0\n+    –    +  |  0    +\n+    0    –  |  0    0\n+    0    0  |  0    +\n+    0    +  |  +    –\n+    +    –  |  0    +\n+    +    0  |  +    –\n+    +    +  |  +    0
 $EndSCHEMATC

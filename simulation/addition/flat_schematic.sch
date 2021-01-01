@@ -18,8 +18,6 @@ Wire Wire Line
 Wire Wire Line
 	3375 2550 3400 2550
 Wire Wire Line
-	3000 3050 3375 3050
-Wire Wire Line
 	3375 3050 3375 2750
 Wire Wire Line
 	3375 2750 3400 2750
@@ -33,8 +31,6 @@ Wire Wire Line
 	5025 2850 5050 2850
 Wire Wire Line
 	5025 2650 5025 2850
-Wire Wire Line
-	5050 3050 3375 3050
 Connection ~ 3375 3050
 Wire Wire Line
 	1275 2275 1250 2275
@@ -76,28 +72,8 @@ Text GLabel 5300 2650 1    50   Input ~ 0
 Vdd
 Text GLabel 5300 3250 3    50   Input ~ 0
 Vss
-Text GLabel 1525 3775 1    50   Input ~ 0
-Vdd
-Text GLabel 1525 4375 3    50   Input ~ 0
-Vss
-Text GLabel 2550 3775 1    50   Input ~ 0
-Vdd
-Text GLabel 2550 4375 3    50   Input ~ 0
-Vss
-Wire Wire Line
-	1875 4075 2350 4075
-Wire Wire Line
-	1250 3150 1250 4175
-Wire Wire Line
-	1250 4175 1275 4175
-Connection ~ 1250 3150
-Wire Wire Line
-	1275 3975 1225 3975
 Wire Wire Line
 	1225 2075 1225 2950
-Connection ~ 1225 2950
-Wire Wire Line
-	1225 2950 1225 3975
 Wire Wire Line
 	6500 1900 8000 1900
 Wire Wire Line
@@ -159,28 +135,8 @@ Text GLabel 9925 2375 1    50   Input ~ 0
 Vdd
 Text GLabel 9925 2975 3    50   Input ~ 0
 Vss
-Text GLabel 6150 3500 1    50   Input ~ 0
-Vdd
-Text GLabel 6150 4100 3    50   Input ~ 0
-Vss
-Text GLabel 7175 3500 1    50   Input ~ 0
-Vdd
-Text GLabel 7175 4100 3    50   Input ~ 0
-Vss
-Wire Wire Line
-	6500 3800 6975 3800
-Wire Wire Line
-	5875 2875 5875 3900
-Wire Wire Line
-	5875 3900 5900 3900
-Connection ~ 5875 2875
-Wire Wire Line
-	5900 3700 5850 3700
 Wire Wire Line
 	5850 1800 5850 2675
-Connection ~ 5850 2675
-Wire Wire Line
-	5850 2675 5850 3700
 Wire Wire Line
 	9550 3900 9725 3900
 Text GLabel 9200 3600 1    50   Input ~ 0
@@ -199,14 +155,6 @@ Wire Wire Line
 	5675 2950 5675 2000
 Wire Wire Line
 	5675 2000 5875 2000
-Wire Wire Line
-	7625 3800 8950 3800
-Wire Wire Line
-	3000 4075 3025 4075
-Wire Wire Line
-	3025 4075 3025 4300
-Wire Wire Line
-	3025 4300 8900 4300
 Wire Wire Line
 	8900 4300 8900 4000
 Wire Wire Line
@@ -334,36 +282,6 @@ F 7 "/lab/dev/tritium/library/gates_spice.lib" H 6200 2825 50  0001 C CNN "Spice
 $EndComp
 $Comp
 L Ternary:nconsensus A?
-U 1 1 5FEEA6FB
-P 6200 3800
-F 0 "A?" H 6544 3982 50  0000 L CNN
-F 1 "nconsensus" H 6544 3891 50  0000 L CNN
-F 2 "Ternary_Rev_1:nconsensus" H 6200 3850 50  0001 C CNN
-F 3 "" H 6200 3850 50  0001 C CNN
-F 4 "X" H 6544 3800 50  0000 L CNN "Spice_Primitive"
-F 5 "NConsensus" H 6544 3709 50  0000 L CNN "Spice_Model"
-F 6 "Y" H 6544 3618 50  0000 L CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/library/gates_spice.lib" H 6200 3850 50  0001 C CNN "Spice_Lib_File"
-	1    6200 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Ternary:nconsensus A?
-U 1 1 5FEEE0CD
-P 1575 4075
-F 0 "A?" H 1919 4257 50  0000 L CNN
-F 1 "nconsensus" H 1919 4166 50  0000 L CNN
-F 2 "Ternary_Rev_1:nconsensus" H 1575 4125 50  0001 C CNN
-F 3 "" H 1575 4125 50  0001 C CNN
-F 4 "X" H 1919 4075 50  0000 L CNN "Spice_Primitive"
-F 5 "NConsensus" H 1919 3984 50  0000 L CNN "Spice_Model"
-F 6 "Y" H 1919 3893 50  0000 L CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/library/gates_spice.lib" H 1575 4125 50  0001 C CNN "Spice_Lib_File"
-	1    1575 4075
-	1    0    0    -1  
-$EndComp
-$Comp
-L Ternary:nconsensus A?
 U 1 1 5FEEFD28
 P 1575 3050
 F 0 "A?" H 1919 3232 50  0000 L CNN
@@ -405,21 +323,6 @@ F 5 "Inverter" H 7300 3255 50  0000 C CNN "Spice_Model"
 F 6 "Y" H 7300 3164 50  0000 C CNN "Spice_Netlist_Enabled"
 F 7 "/lab/dev/tritium/library/gates_spice.lib" H 7250 2825 50  0001 C CNN "Spice_Lib_File"
 	1    7275 2775
-	1    0    0    -1  
-$EndComp
-$Comp
-L Ternary:inverter A?
-U 1 1 5FEF9985
-P 7275 3800
-F 0 "A?" H 7300 4553 50  0000 C CNN
-F 1 "inverter" H 7300 4462 50  0000 C CNN
-F 2 "Ternary_Rev_1:inverter" H 7275 3800 50  0001 C CNN
-F 3 "" H 7275 3800 50  0001 C CNN
-F 4 "X" H 7300 4371 50  0000 C CNN "Spice_Primitive"
-F 5 "Inverter" H 7300 4280 50  0000 C CNN "Spice_Model"
-F 6 "Y" H 7300 4189 50  0000 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/library/gates_spice.lib" H 7250 3850 50  0001 C CNN "Spice_Lib_File"
-	1    7275 3800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -469,21 +372,6 @@ F 7 "/lab/dev/tritium/library/gates_spice.lib" H 4450 2700 50  0001 C CNN "Spice
 $EndComp
 $Comp
 L Ternary:inverter A?
-U 1 1 5FF03FC3
-P 2650 4075
-F 0 "A?" H 2675 4828 50  0000 C CNN
-F 1 "inverter" H 2675 4737 50  0000 C CNN
-F 2 "Ternary_Rev_1:inverter" H 2650 4075 50  0001 C CNN
-F 3 "" H 2650 4075 50  0001 C CNN
-F 4 "X" H 2675 4646 50  0000 C CNN "Spice_Primitive"
-F 5 "Inverter" H 2675 4555 50  0000 C CNN "Spice_Model"
-F 6 "Y" H 2675 4464 50  0000 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/library/gates_spice.lib" H 2625 4125 50  0001 C CNN "Spice_Lib_File"
-	1    2650 4075
-	1    0    0    -1  
-$EndComp
-$Comp
-L Ternary:inverter A?
 U 1 1 5FF06411
 P 2650 3050
 F 0 "A?" H 2675 3803 50  0000 C CNN
@@ -517,4 +405,124 @@ Wire Notes Line
 	7675 4325 5825 4325
 Wire Notes Line
 	5825 4325 5825 1400
+Wire Wire Line
+	5050 3050 3375 3050
+Wire Wire Line
+	3150 4300 3150 3050
+Wire Wire Line
+	3000 3050 3150 3050
+Wire Wire Line
+	3150 4300 8900 4300
+Connection ~ 3150 3050
+Wire Wire Line
+	3150 3050 3375 3050
+Wire Wire Line
+	7625 3800 8950 3800
+$Comp
+L Ternary:inverter A?
+U 1 1 5FEF9985
+P 7275 3800
+F 0 "A?" H 7300 4553 50  0000 C CNN
+F 1 "inverter" H 7300 4462 50  0000 C CNN
+F 2 "Ternary_Rev_1:inverter" H 7275 3800 50  0001 C CNN
+F 3 "" H 7275 3800 50  0001 C CNN
+F 4 "X" H 7300 4371 50  0000 C CNN "Spice_Primitive"
+F 5 "Inverter" H 7300 4280 50  0000 C CNN "Spice_Model"
+F 6 "Y" H 7300 4189 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 7250 3850 50  0001 C CNN "Spice_Lib_File"
+	1    7275 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Ternary:nconsensus A?
+U 1 1 5FEEA6FB
+P 6200 3800
+F 0 "A?" H 6544 3982 50  0000 L CNN
+F 1 "nconsensus" H 6544 3891 50  0000 L CNN
+F 2 "Ternary_Rev_1:nconsensus" H 6200 3850 50  0001 C CNN
+F 3 "" H 6200 3850 50  0001 C CNN
+F 4 "X" H 6544 3800 50  0000 L CNN "Spice_Primitive"
+F 5 "NConsensus" H 6544 3709 50  0000 L CNN "Spice_Model"
+F 6 "Y" H 6544 3618 50  0000 L CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 6200 3850 50  0001 C CNN "Spice_Lib_File"
+	1    6200 3800
+	1    0    0    -1  
+$EndComp
+Connection ~ 5850 2675
+Wire Wire Line
+	5850 2675 5850 3700
+Wire Wire Line
+	5900 3700 5850 3700
+Wire Wire Line
+	5875 3900 5900 3900
+Connection ~ 5875 2875
+Wire Wire Line
+	5875 2875 5875 3900
+Wire Wire Line
+	6500 3800 6975 3800
+Text GLabel 7175 4100 3    50   Input ~ 0
+Vss
+Text GLabel 7175 3500 1    50   Input ~ 0
+Vdd
+Text GLabel 6150 4100 3    50   Input ~ 0
+Vss
+Text GLabel 6150 3500 1    50   Input ~ 0
+Vdd
+Connection ~ 3150 4300
+Wire Wire Line
+	3025 4300 3150 4300
+$Comp
+L Ternary:inverter A?
+U 1 1 5FF03FC3
+P 2650 4075
+F 0 "A?" H 2675 4828 50  0000 C CNN
+F 1 "inverter" H 2675 4737 50  0000 C CNN
+F 2 "Ternary_Rev_1:inverter" H 2650 4075 50  0001 C CNN
+F 3 "" H 2650 4075 50  0001 C CNN
+F 4 "X" H 2675 4646 50  0000 C CNN "Spice_Primitive"
+F 5 "Inverter" H 2675 4555 50  0000 C CNN "Spice_Model"
+F 6 "Y" H 2675 4464 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 2625 4125 50  0001 C CNN "Spice_Lib_File"
+	1    2650 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Ternary:nconsensus A?
+U 1 1 5FEEE0CD
+P 1575 4075
+F 0 "A?" H 1919 4257 50  0000 L CNN
+F 1 "nconsensus" H 1919 4166 50  0000 L CNN
+F 2 "Ternary_Rev_1:nconsensus" H 1575 4125 50  0001 C CNN
+F 3 "" H 1575 4125 50  0001 C CNN
+F 4 "X" H 1919 4075 50  0000 L CNN "Spice_Primitive"
+F 5 "NConsensus" H 1919 3984 50  0000 L CNN "Spice_Model"
+F 6 "Y" H 1919 3893 50  0000 L CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 1575 4125 50  0001 C CNN "Spice_Lib_File"
+	1    1575 4075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3025 4075 3025 4300
+Wire Wire Line
+	3000 4075 3025 4075
+Connection ~ 1225 2950
+Wire Wire Line
+	1225 2950 1225 3975
+Wire Wire Line
+	1275 3975 1225 3975
+Wire Wire Line
+	1250 4175 1275 4175
+Connection ~ 1250 3150
+Wire Wire Line
+	1250 3150 1250 4175
+Wire Wire Line
+	1875 4075 2350 4075
+Text GLabel 2550 4375 3    50   Input ~ 0
+Vss
+Text GLabel 2550 3775 1    50   Input ~ 0
+Vdd
+Text GLabel 1525 4375 3    50   Input ~ 0
+Vss
+Text GLabel 1525 3775 1    50   Input ~ 0
+Vdd
 $EndSCHEMATC

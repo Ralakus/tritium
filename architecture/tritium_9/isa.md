@@ -55,8 +55,8 @@
 | instruction | alu fn | description |
 |-------------|--------|-------------|
 | add         |   ii   |adds `rsrc` to `rsrc2`|
-| sub         |   i0   |subtracts `rsrc` from `rsrc2`|
-| cmp         |   i1   |compares `rsrc2` to `rsrc2`, i if less than, 0 if equal, 1 if greater|
+| addc        |   i0   |adds `rsrc` from `rsrc2` with carry|
+| cmp         |   i1   |tritwise compares `rsrc2` to `rsrc2`, i if less than, 0 if equal, 1 if greater|
 | min         |   0i   |ternary min `rsrc` and `rsrc2`|
 | max         |   00   |ternary max `rsrc` and `rsrc2`|
 | cons        |   01   |ternary consensus `rsrc` and `rsrc2`|

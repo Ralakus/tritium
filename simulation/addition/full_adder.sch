@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -13,26 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 4950 4950 500  200 
-U 5FDA8800
-F0 "Sheet5FDA87FF" 50
-F1 "half_adder.sch" 50
-F2 "Sum" O R 5450 5000 50 
-F3 "Carry" O R 5450 5100 50 
-F4 "A" I L 4950 5000 50 
-F5 "B" I L 4950 5100 50 
-$EndSheet
-$Sheet
-S 5900 4850 500  200 
-U 5FDD79FE
-F0 "sheet5FDD79F8" 50
-F1 "half_adder.sch" 50
-F2 "Sum" O R 6400 4900 50 
-F3 "Carry" O R 6400 5000 50 
-F4 "A" I L 5900 4900 50 
-F5 "B" I L 5900 5000 50 
-$EndSheet
 Text HLabel 4650 5100 0    50   Input ~ 0
 A
 Text HLabel 4650 5000 0    50   Input ~ 0
@@ -49,14 +29,10 @@ Wire Wire Line
 	4650 5100 4950 5100
 Wire Wire Line
 	6400 5000 6700 5000
-Text HLabel 8500 4900 2    50   Output ~ 0
+Text HLabel 7475 4900 2    50   Output ~ 0
 Sum
-Text HLabel 8500 5100 2    50   Output ~ 0
+Text HLabel 7475 5100 2    50   Output ~ 0
 Carry
-Wire Wire Line
-	6400 4900 8500 4900
-Wire Wire Line
-	8500 5100 8125 5100
 $Comp
 L Ternary:nany A1
 U 1 1 5FEC29EE
@@ -72,21 +48,6 @@ F 7 "/lab/dev/tritium/library/gates_spice.lib" H 7000 5150 50  0001 C CNN "Spice
 	1    7000 5100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Ternary:inverter A2
-U 1 1 5FEC464F
-P 7775 5100
-F 0 "A2" H 7800 5853 50  0000 C CNN
-F 1 "inverter" H 7800 5762 50  0000 C CNN
-F 2 "Ternary_Rev_1:inverter" H 7775 5100 50  0001 C CNN
-F 3 "" H 7775 5100 50  0001 C CNN
-F 4 "X" H 7800 5671 50  0000 C CNN "Spice_Primitive"
-F 5 "Inverter" H 7800 5580 50  0000 C CNN "Spice_Model"
-F 6 "Y" H 7800 5489 50  0000 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/library/gates_spice.lib" H 7750 5150 50  0001 C CNN "Spice_Lib_File"
-	1    7775 5100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7300 5100 7475 5100
 Wire Wire Line
@@ -99,8 +60,26 @@ Text GLabel 6950 4800 1    50   Input ~ 0
 Vdd
 Text GLabel 6950 5400 3    50   Input ~ 0
 Vss
-Text GLabel 7675 4800 1    50   Input ~ 0
-Vdd
-Text GLabel 7675 5400 3    50   Input ~ 0
-Vss
+$Sheet
+S 4950 4950 500  200 
+U 5FDA8800
+F0 "A+B" 50
+F1 "sum.sch" 50
+F2 "Sum" O R 5450 5000 50 
+F3 "~Carry" O R 5450 5100 50 
+F4 "A" I L 4950 5000 50 
+F5 "B" I L 4950 5100 50 
+$EndSheet
+$Sheet
+S 5900 4850 500  200 
+U 5FDD79FE
+F0 "(A+B)+C" 50
+F1 "sum.sch" 50
+F2 "Sum" O R 6400 4900 50 
+F3 "~Carry" O R 6400 5000 50 
+F4 "A" I L 5900 4900 50 
+F5 "B" I L 5900 5000 50 
+$EndSheet
+Wire Wire Line
+	7475 4900 6400 4900
 $EndSCHEMATC
