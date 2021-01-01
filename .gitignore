@@ -2,14 +2,14 @@
 emulator/target/
 emulator/Cargo.lock
 
-**/*.sch-bak
-**/**/*.sch-bak
-**/**/**/*.sch-bak
-**/**/**/**/*.sch-bak
-**/**/**/**/**/*.sch-bak
-**/**/**/**/**/**/*.sch-bak
-**/**/**/**/**/**/**/*.sch-bak
-**/**/**/**/**/**/**/**/*.sch-bak
+**/*-bak
+**/**/*-bak
+**/**/**/*-bak
+**/**/**/**/*-bak
+**/**/**/**/**/*-bak
+**/**/**/**/**/**/*-bak
+**/**/**/**/**/**/**/*-bak
+**/**/**/**/**/**/**/**/*-bak
 
 **/*-cache.lib
 **/**/*-cache.lib
@@ -38,20 +38,11 @@ emulator/Cargo.lock
 **/**/**/**/**/**/**/fp-info-cache
 **/**/**/**/**/**/**/**/fp-info-cache
 
-**/fp-lib-table
-**/**/fp-lib-table
-**/**/**/fp-lib-table
-**/**/**/**/fp-lib-table
-**/**/**/**/**/fp-lib-table
-**/**/**/**/**/**/fp-lib-table
-**/**/**/**/**/**/**/fp-lib-table
-**/**/**/**/**/**/**/**/fp-lib-table
-
-**/sym-lib-table
-**/**/sym-lib-table
-**/**/**/sym-lib-table
-**/**/**/**/sym-lib-table
-**/**/**/**/**/sym-lib-table
-**/**/**/**/**/**/sym-lib-table
-**/**/**/**/**/**/**/sym-lib-table
-**/**/**/**/**/**/**/**/sym-lib-table
+**/*-lib-table
+**/**/*-lib-table
+**/**/**/*-lib-table
+**/**/**/**/*-lib-table
+**/**/**/**/**/*-lib-table
+**/**/**/**/**/**/*-lib-table
+**/**/**/**/**/**/**/*-lib-table
+**/**/**/**/**/**/**/**/*-lib-table

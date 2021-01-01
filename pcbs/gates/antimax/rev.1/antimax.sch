@@ -207,4 +207,5 @@ Text GLabel 5400 3750 0    50   Input ~ 0
 B
 Text GLabel 5400 3050 0    50   Input ~ 0
 A
+NoConn ~ 8400 4300
 $EndSCHEMATC

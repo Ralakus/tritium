@@ -99,12 +99,6 @@ Wire Wire Line
 	1700 4200 1300 4200
 Text Notes 2550 3450 0    50   ~ 0
 Weird cases:\nii1 = Too many iterations\n011 = Too many iterations\n111 = Too many iterations
-Text GLabel 3350 4300 0    50   Input ~ 0
-C
-Text GLabel 3350 4200 0    50   Input ~ 0
-B
-Text GLabel 3350 4100 0    50   Input ~ 0
-A
 Text GLabel 4150 4250 2    50   Output ~ 0
 Carry
 Text GLabel 4150 4150 2    50   Output ~ 0
@@ -181,7 +175,7 @@ F 2 "" H 1300 3950 50  0001 C CNN
 F 3 "~" H 1300 3950 50  0001 C CNN
 F 4 "Y" H 1300 3950 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 1300 3950 50  0001 L CNN "Spice_Primitive"
-F 6 "dc(-5)" H 1430 3859 50  0000 L CNN "Spice_Model"
+F 6 "dc(5)" H 1430 3859 50  0000 L CNN "Spice_Model"
 	1    1300 3950
 	1    0    0    -1  
 $EndComp
@@ -195,14 +189,20 @@ F 2 "" H 900 3950 50  0001 C CNN
 F 3 "~" H 900 3950 50  0001 C CNN
 F 4 "Y" H 900 3950 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "V" H 900 3950 50  0001 L CNN "Spice_Primitive"
-F 6 "dc(-5)" H 1030 3859 50  0000 L CNN "Spice_Model"
+F 6 "dc(5)" H 1030 3859 50  0000 L CNN "Spice_Model"
 	1    900  3950
 	1    0    0    -1  
 $EndComp
+Text GLabel 3350 4100 0    50   Input ~ 0
+A
+Text GLabel 3350 4200 0    50   Input ~ 0
+B
+Text GLabel 3350 4300 0    50   Input ~ 0
+C
 $Sheet
 S 3350 4050 500  300 
-U 5FE8E33C
-F0 "Sheet5FE8E33B" 50
+U 5FFB596F
+F0 "Sheet5FFB596E" 50
 F1 "flat_schematic.sch" 50
 F2 "C" I L 3350 4300 50 
 F3 "B" I L 3350 4200 50 

@@ -12,7 +12,7 @@ There are many projects similar to this but they either haven't gone very far, c
 
 ## Directory Structure
 * architecture - contains documentation about the architecture of each tritium variant
-* gates_pcb - contains each basic gate schematic and each revision of the custom pcb designs
+* pcbs - contains all schematics and each revision of the custom pcb designs
 * simulation - contains tests setup to simulate basic logic and other various circuitry test using ngspice
 * tritium - contains the overall schematic of each tritium variant
 
