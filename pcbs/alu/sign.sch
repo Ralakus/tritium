@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 2 9
+Sheet 9 9
 Title ""
 Date ""
 Rev ""
@@ -13,88 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 22300 13400 2    50   Output ~ 0
-R1
-Text HLabel 22300 13500 2    50   Output ~ 0
-R2
-Text HLabel 22300 13600 2    50   Output ~ 0
-R3
-Text HLabel 22300 13900 2    50   Output ~ 0
-R6
-Text HLabel 22300 13700 2    50   Output ~ 0
-R4
-Text HLabel 22300 13800 2    50   Output ~ 0
-R5
-Text HLabel 22300 14000 2    50   Output ~ 0
-R7
-Text HLabel 22300 14100 2    50   Output ~ 0
-R8
-$Comp
-L Device:R R?
-U 1 1 61322044
-P 22150 14100
-AR Path="/61322044" Ref="R?"  Part="1" 
-AR Path="/72A2BB1E/61322044" Ref="R?"  Part="1" 
-AR Path="/730EC5D8/61322044" Ref="R516"  Part="1" 
-F 0 "R516" V 21943 14100 50  0000 C CNN
-F 1 "470k" V 22034 14100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 22080 14100 50  0001 C CNN
-F 3 "~" H 22150 14100 50  0001 C CNN
-	1    22150 14100
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	22000 13400 21950 13400
-Wire Wire Line
-	21950 13400 21950 13500
-Wire Wire Line
-	21950 14100 22000 14100
-Wire Wire Line
-	21950 14000 22000 14000
-Connection ~ 21950 14000
-Wire Wire Line
-	21950 14000 21950 14100
-Wire Wire Line
-	22000 13900 21950 13900
-Connection ~ 21950 13900
-Wire Wire Line
-	21950 13900 21950 14000
-Wire Wire Line
-	22000 13800 21950 13800
-Connection ~ 21950 13800
-Wire Wire Line
-	21950 13800 21950 13900
-Wire Wire Line
-	22000 13700 21950 13700
-Connection ~ 21950 13700
-Wire Wire Line
-	21950 13700 21950 13750
-Wire Wire Line
-	22000 13600 21950 13600
-Connection ~ 21950 13600
-Wire Wire Line
-	21950 13600 21950 13700
-Wire Wire Line
-	22000 13500 21950 13500
-Connection ~ 21950 13500
-Wire Wire Line
-	21950 13500 21950 13600
-Wire Wire Line
-	21950 13750 21900 13750
-Connection ~ 21950 13750
-Wire Wire Line
-	21950 13750 21950 13800
-$Comp
-L power:GND #PWR0101
-U 1 1 61784B1A
-P 21900 13750
-F 0 "#PWR0101" H 21900 13500 50  0001 C CNN
-F 1 "GND" V 21905 13622 50  0000 R CNN
-F 2 "" H 21900 13750 50  0001 C CNN
-F 3 "" H 21900 13750 50  0001 C CNN
-	1    21900 13750
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	12450 8300 12600 8300
 Wire Wire Line
@@ -271,8 +189,6 @@ nconsensus\n
 Wire Wire Line
 	13800 9500 13800 9750
 Connection ~ 13800 9500
-Wire Wire Line
-	13800 9500 13750 9500
 Wire Wire Line
 	14350 9450 14350 9700
 Wire Notes Line
@@ -519,8 +435,6 @@ Wire Wire Line
 	13650 9500 13650 9550
 Connection ~ 13650 9500
 Wire Wire Line
-	13650 9500 13700 9500
-Wire Wire Line
 	13650 9550 13600 9550
 Wire Wire Line
 	13650 9450 13650 9500
@@ -746,8 +660,6 @@ nconsensus\n
 Wire Wire Line
 	8800 12350 8800 12600
 Connection ~ 8800 12350
-Wire Wire Line
-	8800 12350 8750 12350
 Wire Wire Line
 	9350 12300 9350 12550
 Wire Notes Line
@@ -994,8 +906,6 @@ Wire Wire Line
 	8650 12350 8650 12400
 Connection ~ 8650 12350
 Wire Wire Line
-	8650 12350 8700 12350
-Wire Wire Line
 	8650 12400 8600 12400
 Wire Wire Line
 	8650 12300 8650 12350
@@ -1205,8 +1115,6 @@ nconsensus\n
 Wire Wire Line
 	8800 6650 8800 6900
 Connection ~ 8800 6650
-Wire Wire Line
-	8800 6650 8750 6650
 Wire Wire Line
 	9350 6600 9350 6850
 Wire Notes Line
@@ -1453,8 +1361,6 @@ Wire Wire Line
 	8650 6650 8650 6700
 Connection ~ 8650 6650
 Wire Wire Line
-	8650 6650 8700 6650
-Wire Wire Line
 	8650 6700 8600 6700
 Wire Wire Line
 	8650 6600 8650 6650
@@ -1672,8 +1578,6 @@ nconsensus\n
 Wire Wire Line
 	3800 13100 3800 13350
 Connection ~ 3800 13100
-Wire Wire Line
-	3800 13100 3750 13100
 Wire Wire Line
 	4350 13050 4350 13300
 Wire Notes Line
@@ -1920,8 +1824,6 @@ Wire Wire Line
 	3650 13100 3650 13150
 Connection ~ 3650 13100
 Wire Wire Line
-	3650 13100 3700 13100
-Wire Wire Line
 	3650 13150 3600 13150
 Wire Wire Line
 	3650 13050 3650 13100
@@ -2139,8 +2041,6 @@ nconsensus\n
 Wire Wire Line
 	3800 10250 3800 10500
 Connection ~ 3800 10250
-Wire Wire Line
-	3800 10250 3750 10250
 Wire Wire Line
 	4350 10200 4350 10450
 Wire Notes Line
@@ -2387,8 +2287,6 @@ Wire Wire Line
 	3650 10250 3650 10300
 Connection ~ 3650 10250
 Wire Wire Line
-	3650 10250 3700 10250
-Wire Wire Line
 	3650 10300 3600 10300
 Wire Wire Line
 	3650 10200 3650 10250
@@ -2600,8 +2498,6 @@ nconsensus\n
 Wire Wire Line
 	3800 7400 3800 7650
 Connection ~ 3800 7400
-Wire Wire Line
-	3800 7400 3750 7400
 Wire Wire Line
 	4350 7350 4350 7600
 Wire Notes Line
@@ -2848,8 +2744,6 @@ Wire Wire Line
 	3650 7400 3650 7450
 Connection ~ 3650 7400
 Wire Wire Line
-	3650 7400 3700 7400
-Wire Wire Line
 	3650 7450 3600 7450
 Wire Wire Line
 	3650 7350 3650 7400
@@ -3067,8 +2961,6 @@ nconsensus\n
 Wire Wire Line
 	3800 4550 3800 4800
 Connection ~ 3800 4550
-Wire Wire Line
-	3800 4550 3750 4550
 Wire Wire Line
 	4350 4500 4350 4750
 Wire Notes Line
@@ -3315,8 +3207,6 @@ Wire Wire Line
 	3650 4550 3650 4600
 Connection ~ 3650 4550
 Wire Wire Line
-	3650 4550 3700 4550
-Wire Wire Line
 	3650 4600 3600 4600
 Wire Wire Line
 	3650 4500 3650 4550
@@ -3536,8 +3426,6 @@ nconsensus\n
 Wire Wire Line
 	18800 12350 18800 12600
 Connection ~ 18800 12350
-Wire Wire Line
-	18800 12350 18750 12350
 Wire Wire Line
 	19350 12300 19350 12550
 Wire Notes Line
@@ -3784,8 +3672,6 @@ Wire Wire Line
 	18650 12350 18650 12400
 Connection ~ 18650 12350
 Wire Wire Line
-	18650 12350 18700 12350
-Wire Wire Line
 	18650 12400 18600 12400
 Wire Wire Line
 	18650 12300 18650 12350
@@ -3867,104 +3753,6 @@ Text HLabel 2500 11900 0    50   Input ~ 0
 A1
 Text HLabel 2500 13900 0    50   Input ~ 0
 A0
-$Comp
-L Device:R R?
-U 1 1 6105508A
-P 22150 13500
-AR Path="/6105508A" Ref="R?"  Part="1" 
-AR Path="/72A2BB1E/6105508A" Ref="R?"  Part="1" 
-AR Path="/730EC5D8/6105508A" Ref="R510"  Part="1" 
-F 0 "R510" V 21943 13500 50  0000 C CNN
-F 1 "470k" V 22034 13500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 22080 13500 50  0001 C CNN
-F 3 "~" H 22150 13500 50  0001 C CNN
-	1    22150 13500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 612AA805
-P 22150 14000
-AR Path="/612AA805" Ref="R?"  Part="1" 
-AR Path="/72A2BB1E/612AA805" Ref="R?"  Part="1" 
-AR Path="/730EC5D8/612AA805" Ref="R515"  Part="1" 
-F 0 "R515" V 21943 14000 50  0000 C CNN
-F 1 "470k" V 22034 14000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 22080 14000 50  0001 C CNN
-F 3 "~" H 22150 14000 50  0001 C CNN
-	1    22150 14000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 612330DC
-P 22150 13900
-AR Path="/612330DC" Ref="R?"  Part="1" 
-AR Path="/72A2BB1E/612330DC" Ref="R?"  Part="1" 
-AR Path="/730EC5D8/612330DC" Ref="R514"  Part="1" 
-F 0 "R514" V 21943 13900 50  0000 C CNN
-F 1 "470k" V 22034 13900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 22080 13900 50  0001 C CNN
-F 3 "~" H 22150 13900 50  0001 C CNN
-	1    22150 13900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 611BB8F4
-P 22150 13800
-AR Path="/611BB8F4" Ref="R?"  Part="1" 
-AR Path="/72A2BB1E/611BB8F4" Ref="R?"  Part="1" 
-AR Path="/730EC5D8/611BB8F4" Ref="R513"  Part="1" 
-F 0 "R513" V 21943 13800 50  0000 C CNN
-F 1 "470k" V 22034 13800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 22080 13800 50  0001 C CNN
-F 3 "~" H 22150 13800 50  0001 C CNN
-	1    22150 13800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 611442EF
-P 22150 13700
-AR Path="/611442EF" Ref="R?"  Part="1" 
-AR Path="/72A2BB1E/611442EF" Ref="R?"  Part="1" 
-AR Path="/730EC5D8/611442EF" Ref="R512"  Part="1" 
-F 0 "R512" V 21943 13700 50  0000 C CNN
-F 1 "470k" V 22034 13700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 22080 13700 50  0001 C CNN
-F 3 "~" H 22150 13700 50  0001 C CNN
-	1    22150 13700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 610CC8F6
-P 22150 13600
-AR Path="/610CC8F6" Ref="R?"  Part="1" 
-AR Path="/72A2BB1E/610CC8F6" Ref="R?"  Part="1" 
-AR Path="/730EC5D8/610CC8F6" Ref="R511"  Part="1" 
-F 0 "R511" V 21943 13600 50  0000 C CNN
-F 1 "470k" V 22034 13600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 22080 13600 50  0001 C CNN
-F 3 "~" H 22150 13600 50  0001 C CNN
-	1    22150 13600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 60FDD8A4
-P 22150 13400
-AR Path="/60FDD8A4" Ref="R?"  Part="1" 
-AR Path="/72A2BB1E/60FDD8A4" Ref="R?"  Part="1" 
-AR Path="/730EC5D8/60FDD8A4" Ref="R509"  Part="1" 
-F 0 "R509" V 21943 13400 50  0000 C CNN
-F 1 "470k" V 22034 13400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 22080 13400 50  0001 C CNN
-F 3 "~" H 22150 13400 50  0001 C CNN
-	1    22150 13400
-	0    1    1    0   
-$EndComp
 Text HLabel 18050 11950 1    50   Input ~ 0
 Vdd
 Text HLabel 19150 12050 1    50   Input ~ 0
@@ -4143,4 +3931,20 @@ Text HLabel 4150 3650 3    50   Input ~ 0
 Vss
 Text HLabel 6000 4350 3    50   Input ~ 0
 Vss
+Wire Wire Line
+	3650 7400 3800 7400
+Wire Wire Line
+	3650 4550 3800 4550
+Wire Wire Line
+	3650 10250 3800 10250
+Wire Wire Line
+	3650 13100 3800 13100
+Wire Wire Line
+	8650 6650 8800 6650
+Wire Wire Line
+	8650 12350 8800 12350
+Wire Wire Line
+	13650 9500 13800 9500
+Wire Wire Line
+	18650 12350 18800 12350
 $EndSCHEMATC
