@@ -5949,7 +5949,7 @@ Wire Wire Line
 $Sheet
 S 16700 4050 600  2150
 U 5FF29CF0
-F0 "sheet5FF29CD3" 50
+F0 "consensus" 50
 F1 "consensus.sch" 50
 F2 "B0" I L 16700 5050 50 
 F3 "A0" I L 16700 4100 50 
@@ -5984,7 +5984,7 @@ $EndSheet
 $Sheet
 S 15300 4050 600  2150
 U 730D27FD
-F0 "sheet730D27DE" 50
+F0 "max" 50
 F1 "max.sch" 50
 F2 "B0" I L 15300 5050 50 
 F3 "A0" I L 15300 4100 50 
@@ -6019,7 +6019,7 @@ $EndSheet
 $Sheet
 S 19500 4050 600  2150
 U 730E032D
-F0 "sheet730E02D0" 50
+F0 "inverter" 50
 F1 "inverter.sch" 50
 F2 "A0" I L 19500 4100 50 
 F3 "A1" I L 19500 4200 50 
@@ -6045,7 +6045,7 @@ $EndSheet
 $Sheet
 S 11100 4050 600  2150
 U 712017E5
-F0 "Sheet712017E4" 50
+F0 "adder" 50
 F1 "adder.sch" 50
 F2 "B0" I L 11100 5050 50 
 F3 "A0" I L 11100 4100 50 
@@ -6082,7 +6082,7 @@ $EndSheet
 $Sheet
 S 12500 4050 600  2150
 U 72A2BB1E
-F0 "sheet72A2BAFF" 50
+F0 "compare" 50
 F1 "compare.sch" 50
 F2 "B0" I L 12500 5050 50 
 F3 "A0" I L 12500 4100 50 
@@ -6117,7 +6117,7 @@ $EndSheet
 $Sheet
 S 13900 4050 600  2150
 U 730CCE6D
-F0 "sheet730CCE4E" 50
+F0 "min" 50
 F1 "min.sch" 50
 F2 "B0" I L 13900 5050 50 
 F3 "A0" I L 13900 4100 50 
@@ -6152,7 +6152,7 @@ $EndSheet
 $Sheet
 S 18100 4050 600  2150
 U 730E030E
-F0 "sheet730E02CF" 50
+F0 "any" 50
 F1 "any.sch" 50
 F2 "B0" I L 18100 5050 50 
 F3 "A0" I L 18100 4100 50 
@@ -6184,148 +6184,131 @@ F28 "R8" O R 18700 4900 50
 F29 "Vdd" I L 18100 6150 50 
 F30 "Vss" I R 18700 6150 50 
 $EndSheet
-$Comp
-L Connector_Generic:Conn_02x20_Odd_Even J1
-U 1 1 611F7AB6
-P 6300 8950
-F 0 "J1" H 6350 10067 50  0000 C CNN
-F 1 "Conn_02x20_Odd_Even" H 6350 9976 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 6300 8950 50  0001 C CNN
-F 3 "~" H 6300 8950 50  0001 C CNN
-	1    6300 8950
-	1    0    0    -1  
-$EndComp
-Text GLabel 5900 7900 0    50   Input ~ 0
-A[0..8]
 Entry Wire Line
-	5900 8050 6000 8150
+	6800 8250 6700 8150
 Entry Wire Line
-	5900 7950 6000 8050
+	6800 8150 6700 8050
 Entry Wire Line
-	5900 8150 6000 8250
+	6800 8350 6700 8250
 Entry Wire Line
-	5900 8350 6000 8450
+	6800 8550 6700 8450
 Entry Wire Line
-	5900 8250 6000 8350
+	6800 8650 6700 8550
 Entry Wire Line
-	5900 8450 6000 8550
+	6800 8850 6700 8750
 Entry Wire Line
-	5900 8650 6000 8750
+	6800 8750 6700 8650
 Entry Wire Line
-	5900 8550 6000 8650
-Entry Wire Line
-	5900 8750 6000 8850
+	6800 8950 6700 8850
 Wire Wire Line
-	6100 8050 6000 8050
-Text Label 6000 8050 0    50   ~ 0
-A0
+	6700 8050 6600 8050
+Text Label 6600 8050 0    50   ~ 0
+A8
 Wire Wire Line
-	6100 8150 6000 8150
-Text Label 6000 8150 0    50   ~ 0
-A1
-Wire Wire Line
-	6100 8250 6000 8250
-Text Label 6000 8250 0    50   ~ 0
-A2
-Wire Wire Line
-	6100 8350 6000 8350
-Text Label 6000 8350 0    50   ~ 0
-A3
-Wire Wire Line
-	6100 8450 6000 8450
-Text Label 6000 8450 0    50   ~ 0
-A4
-Wire Wire Line
-	6100 8550 6000 8550
-Text Label 6000 8550 0    50   ~ 0
-A5
-Wire Wire Line
-	6100 8650 6000 8650
-Text Label 6000 8650 0    50   ~ 0
-A6
-Wire Wire Line
-	6100 8750 6000 8750
-Text Label 6000 8750 0    50   ~ 0
+	6700 8150 6600 8150
+Text Label 6600 8150 0    50   ~ 0
 A7
 Wire Wire Line
-	6100 8850 6000 8850
-Text Label 6000 8850 0    50   ~ 0
-A8
-Text Label 5900 7900 0    50   ~ 0
+	6700 8250 6600 8250
+Text Label 6600 8250 0    50   ~ 0
+A6
+Wire Wire Line
+	6700 8350 6600 8350
+Text Label 6600 8350 0    50   ~ 0
+A5
+Wire Wire Line
+	6700 8450 6600 8450
+Text Label 6600 8450 0    50   ~ 0
+A4
+Wire Wire Line
+	6700 8550 6600 8550
+Text Label 6600 8550 0    50   ~ 0
+A3
+Wire Wire Line
+	6700 8650 6600 8650
+Text Label 6600 8650 0    50   ~ 0
+A2
+Wire Wire Line
+	6700 8750 6600 8750
+Text Label 6600 8750 0    50   ~ 0
+A1
+Wire Wire Line
+	6700 8850 6600 8850
+Text Label 6600 8850 0    50   ~ 0
+A0
+Text Label 6800 7900 0    50   ~ 0
 A[0..8]
-Text GLabel 6100 9850 0    50   Input ~ 0
+Text GLabel 6100 10950 0    50   Input ~ 0
 CarryIn
-Text GLabel 6100 9950 0    50   Output ~ 0
+Text GLabel 6100 11050 0    50   Output ~ 0
 CarryOut
-Text GLabel 6600 8050 2    50   Input ~ 0
+Text GLabel 6600 10450 2    50   Input ~ 0
 OutputEnable
 Entry Wire Line
-	6800 8150 6900 8250
+	6800 10550 6900 10650
 Entry Wire Line
-	6800 8250 6900 8350
-Text Label 6900 8400 0    50   ~ 0
+	6800 10650 6900 10750
+Text Label 6900 10800 0    50   ~ 0
 Fn[0..1]
-Text Label 6650 8150 0    50   ~ 0
-Fn0
-Text Label 6650 8250 0    50   ~ 0
+Text Label 6650 10550 0    50   ~ 0
 Fn1
+Text Label 6650 10650 0    50   ~ 0
+Fn0
 Wire Wire Line
-	5700 9750 6100 9750
+	6600 9750 7000 9750
 Wire Wire Line
-	5700 9650 6100 9650
+	6600 9650 7000 9650
 Wire Wire Line
-	5700 9550 6100 9550
+	6600 9550 7000 9550
 Wire Wire Line
-	5700 9450 6100 9450
+	6600 9450 7000 9450
 Wire Wire Line
-	5700 9350 6100 9350
+	6600 9350 7000 9350
 Wire Wire Line
-	5700 9250 6100 9250
+	6600 9250 7000 9250
 Wire Wire Line
-	5700 9150 6100 9150
+	6600 9150 7000 9150
 Wire Wire Line
-	5700 9050 6100 9050
-Wire Wire Line
-	5700 8950 6100 8950
-Text Label 5600 8750 0    50   ~ 0
+	6600 9050 7000 9050
+Text Label 7100 8800 0    50   ~ 0
 B[0..8]
 Entry Wire Line
-	5600 9650 5700 9750
+	7100 9850 7000 9750
 Entry Wire Line
-	5600 9550 5700 9650
+	7100 9750 7000 9650
 Entry Wire Line
-	5600 9450 5700 9550
+	7100 9650 7000 9550
 Entry Wire Line
-	5600 9350 5700 9450
+	7100 9550 7000 9450
 Entry Wire Line
-	5600 9250 5700 9350
+	7100 9450 7000 9350
 Entry Wire Line
-	5600 9150 5700 9250
+	7100 9350 7000 9250
 Entry Wire Line
-	5600 9050 5700 9150
+	7100 9250 7000 9150
 Entry Wire Line
-	5600 8950 5700 9050
+	7100 9150 7000 9050
 Entry Wire Line
-	5600 8850 5700 8950
-Text Label 5700 9750 0    50   ~ 0
-B8
-Text Label 5700 9650 0    50   ~ 0
-B7
-Text Label 5700 9550 0    50   ~ 0
-B6
-Text Label 5700 9450 0    50   ~ 0
-B5
-Text Label 5700 9350 0    50   ~ 0
-B4
-Text Label 5700 9250 0    50   ~ 0
-B3
-Text Label 5700 9150 0    50   ~ 0
-B2
-Text Label 5700 9050 0    50   ~ 0
-B1
-Text Label 5700 8950 0    50   ~ 0
+	7100 9050 7000 8950
+Text Label 6600 9750 0    50   ~ 0
 B0
-Text GLabel 5600 8750 0    50   Input ~ 0
+Text Label 6600 9650 0    50   ~ 0
+B1
+Text Label 6600 9550 0    50   ~ 0
+B2
+Text Label 6600 9450 0    50   ~ 0
+B3
+Text Label 6600 9350 0    50   ~ 0
+B4
+Text Label 6600 9250 0    50   ~ 0
+B5
+Text Label 6600 9150 0    50   ~ 0
+B6
+Text Label 6600 9050 0    50   ~ 0
+B7
+Text Label 6600 8950 0    50   ~ 0
+B8
+Text GLabel 7100 8800 0    50   Input ~ 0
 B[0..8]
 Text GLabel 1250 3500 0    50   Input ~ 0
 B[0..8]
@@ -6333,94 +6316,89 @@ Text GLabel 1250 3600 0    50   Input ~ 0
 A[0..8]
 Text GLabel 1250 3400 0    50   Output ~ 0
 R[0..8]
-Text Label 6600 8350 0    50   ~ 0
-R0
+Text Label 6000 8050 0    50   ~ 0
+R8
 Wire Wire Line
-	6700 8450 6600 8450
-Text Label 6600 8450 0    50   ~ 0
-R1
-Wire Wire Line
-	6700 8550 6600 8550
-Text Label 6600 8550 0    50   ~ 0
-R2
-Wire Wire Line
-	6700 8650 6600 8650
-Text Label 6600 8650 0    50   ~ 0
-R3
-Wire Wire Line
-	6700 8750 6600 8750
-Text Label 6600 8750 0    50   ~ 0
-R4
-Wire Wire Line
-	6700 8850 6600 8850
-Text Label 6600 8850 0    50   ~ 0
-R5
-Wire Wire Line
-	6700 8950 6600 8950
-Text Label 6600 8950 0    50   ~ 0
-R6
-Wire Wire Line
-	6700 9050 6600 9050
-Text Label 6600 9050 0    50   ~ 0
+	6100 8150 6000 8150
+Text Label 6000 8150 0    50   ~ 0
 R7
 Wire Wire Line
-	6700 9150 6600 9150
-Text Label 6600 9150 0    50   ~ 0
-R8
-Entry Wire Line
-	6800 8450 6700 8350
-Entry Wire Line
-	6800 8550 6700 8450
-Entry Wire Line
-	6800 8650 6700 8550
-Entry Wire Line
-	6800 8750 6700 8650
-Entry Wire Line
-	6800 8850 6700 8750
-Entry Wire Line
-	6800 8950 6700 8850
-Entry Wire Line
-	6800 9050 6700 8950
-Entry Wire Line
-	6800 9150 6700 9050
-Entry Wire Line
-	6800 9250 6700 9150
+	6100 8250 6000 8250
+Text Label 6000 8250 0    50   ~ 0
+R6
 Wire Wire Line
-	6700 8350 6600 8350
-Text Label 6800 9300 0    50   ~ 0
+	6100 8350 6000 8350
+Text Label 6000 8350 0    50   ~ 0
+R5
+Wire Wire Line
+	6100 8450 6000 8450
+Text Label 6000 8450 0    50   ~ 0
+R4
+Wire Wire Line
+	6100 8550 6000 8550
+Text Label 6000 8550 0    50   ~ 0
+R3
+Wire Wire Line
+	6100 8650 6000 8650
+Text Label 6000 8650 0    50   ~ 0
+R2
+Wire Wire Line
+	6100 8750 6000 8750
+Text Label 6000 8750 0    50   ~ 0
+R1
+Wire Wire Line
+	6100 8850 6000 8850
+Text Label 6000 8850 0    50   ~ 0
+R0
+Entry Wire Line
+	5900 8750 6000 8850
+Entry Wire Line
+	5900 8650 6000 8750
+Entry Wire Line
+	5900 8550 6000 8650
+Entry Wire Line
+	5900 8450 6000 8550
+Entry Wire Line
+	5900 8350 6000 8450
+Entry Wire Line
+	5900 8250 6000 8350
+Entry Wire Line
+	5900 8150 6000 8250
+Entry Wire Line
+	5900 8050 6000 8150
+Entry Wire Line
+	5900 7950 6000 8050
+Wire Wire Line
+	6100 8050 6000 8050
+Text Label 5900 7900 2    50   ~ 0
 R[0..8]
 Wire Wire Line
-	6600 8150 6800 8150
+	6600 10550 6800 10550
 Wire Wire Line
-	6600 8250 6800 8250
-Text GLabel 6900 8400 3    50   Input ~ 0
+	6600 10650 6800 10650
+Text GLabel 6900 10800 3    50   Input ~ 0
 Fn[0..1]
-Text GLabel 6800 9600 1    50   Output ~ 0
+Text GLabel 5900 7900 2    50   Output ~ 0
 R[0..8]
 $Comp
 L power:GND #PWR0112
 U 1 1 64F053D3
-P 6600 9850
-F 0 "#PWR0112" H 6600 9600 50  0001 C CNN
-F 1 "GND" V 6605 9722 50  0000 R CNN
-F 2 "" H 6600 9850 50  0001 C CNN
-F 3 "" H 6600 9850 50  0001 C CNN
-	1    6600 9850
+P 6600 9950
+F 0 "#PWR0112" H 6600 9700 50  0001 C CNN
+F 1 "GND" V 6605 9822 50  0000 R CNN
+F 2 "" H 6600 9950 50  0001 C CNN
+F 3 "" H 6600 9950 50  0001 C CNN
+	1    6600 9950
 	0    -1   -1   0   
 $EndComp
-Text GLabel 6600 9950 2    50   Input ~ 0
+Text GLabel 6600 10050 2    50   Input ~ 0
 Vss
-Text GLabel 6600 9750 2    50   Input ~ 0
+Text GLabel 6600 9850 2    50   Input ~ 0
 Vdd
-NoConn ~ 6600 9250
-NoConn ~ 6600 9350
-NoConn ~ 6600 9450
-NoConn ~ 6600 9550
-NoConn ~ 6600 9650
 $Sheet
 S 20900 4050 600  2150
 U 730EC5D8
-F0 "sheet730EC5B7" 50
+F0 "sign" 50
 F1 "sign.sch" 50
 F2 "A0" I L 20900 4100 50 
 F3 "A1" I L 20900 4200 50 
@@ -6453,14 +6431,68 @@ Wire Wire Line
 Connection ~ 7500 14150
 Wire Wire Line
 	7500 14150 9500 14150
+NoConn ~ 6600 10150
+NoConn ~ 6600 10250
+NoConn ~ 6600 10350
+NoConn ~ 6600 10750
+NoConn ~ 6600 10850
+NoConn ~ 6600 10950
+NoConn ~ 6600 11050
+NoConn ~ 6100 10150
+NoConn ~ 6100 10250
+NoConn ~ 6100 10350
+NoConn ~ 6100 10450
+NoConn ~ 6100 10550
+NoConn ~ 6100 10650
+NoConn ~ 6100 10750
+NoConn ~ 6100 10850
+$Comp
+L Connector_Generic:Conn_02x31_Top_Bottom J1
+U 1 1 61C563F7
+P 6300 9550
+F 0 "J1" H 6350 11267 50  0000 C CNN
+F 1 "Conn_02x31_Top_Bottom" H 6350 11176 50  0000 C CNN
+F 2 "Tritium:BUS_AT_8bit" H 6300 9550 50  0001 C CNN
+F 3 "~" H 6300 9550 50  0001 C CNN
+	1    6300 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 62DF0E83
+P 6100 9950
+F 0 "#PWR0101" H 6100 9700 50  0001 C CNN
+F 1 "GND" V 6105 9822 50  0000 R CNN
+F 2 "" H 6100 9950 50  0001 C CNN
+F 3 "" H 6100 9950 50  0001 C CNN
+	1    6100 9950
+	0    1    1    0   
+$EndComp
+Text GLabel 6100 10050 0    50   Input ~ 0
+Vss
+Text GLabel 6100 9850 0    50   Input ~ 0
+Vdd
+Entry Wire Line
+	6800 8450 6700 8350
+Text GLabel 6800 7900 0    50   Input ~ 0
+A[0..8]
+NoConn ~ 6100 8950
+NoConn ~ 6100 9050
+NoConn ~ 6100 9150
+NoConn ~ 6100 9250
+NoConn ~ 6100 9350
+NoConn ~ 6100 9450
+NoConn ~ 6100 9550
+NoConn ~ 6100 9650
+NoConn ~ 6100 9750
+Wire Wire Line
+	6600 8950 7000 8950
 Wire Bus Line
-	6900 8250 6900 8400
+	6900 10650 6900 10800
 Wire Bus Line
 	4750 6650 4750 13400
 Wire Bus Line
-	6800 8450 6800 9300
-Wire Bus Line
-	5900 7900 5900 8750
+	6800 7900 6800 8950
 Wire Bus Line
 	9600 13600 21300 13600
 Wire Bus Line
@@ -6508,5 +6540,7 @@ Wire Bus Line
 Wire Bus Line
 	9600 12100 21500 12100
 Wire Bus Line
-	5600 8750 5600 9650
+	7100 8800 7100 9850
+Wire Bus Line
+	5900 7900 5900 8750
 $EndSCHEMATC
