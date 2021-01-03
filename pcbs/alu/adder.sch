@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A0 46811 33110
 encoding utf-8
-Sheet 2 9
+Sheet 5 9
 Title ""
 Date ""
 Rev ""
@@ -50,6 +50,8 @@ P -2250 11150
 AR Path="/722A3FFE" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A3FFE" Ref="Q7"  Part="1" 
 AR Path="/72A2BB1E/722A3FFE" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A3FFE" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A3FFE" Ref="Q?"  Part="1" 
 F 0 "Q7" H -2275 11821 50  0000 C CNN
 F 1 "BSS8402DW" H -2275 11730 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H -2250 11500 50  0001 C CNN
@@ -68,6 +70,8 @@ P -1700 11150
 AR Path="/722A4008" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4008" Ref="Q12"  Part="1" 
 AR Path="/72A2BB1E/722A4008" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4008" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4008" Ref="Q?"  Part="1" 
 F 0 "Q12" H -1725 11821 50  0000 C CNN
 F 1 "BSS8402DW" H -1725 11730 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H -1700 11500 50  0001 C CNN
@@ -96,6 +100,8 @@ P -1300 11100
 AR Path="/722A4013" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4013" Ref="R7"  Part="1" 
 AR Path="/72A2BB1E/722A4013" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4013" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4013" Ref="R?"  Part="1" 
 F 0 "R7" V -1507 11100 50  0000 C CNN
 F 1 "12k" V -1416 11100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V -1370 11100 50  0001 C CNN
@@ -110,6 +116,8 @@ P -1300 11200
 AR Path="/722A4019" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4019" Ref="R8"  Part="1" 
 AR Path="/72A2BB1E/722A4019" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4019" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4019" Ref="R?"  Part="1" 
 F 0 "R8" V -1507 11200 50  0000 C CNN
 F 1 "12k" V -1416 11200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V -1370 11200 50  0001 C CNN
@@ -121,10 +129,6 @@ Wire Wire Line
 	-1150 11100 -1100 11100
 Wire Wire Line
 	-1100 11200 -1150 11200
-Text GLabel -2250 11550 3    50   Input ~ 0
-Vss
-Text GLabel -1700 11550 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	-1450 11100 -2000 11100
 Wire Wire Line
@@ -134,10 +138,6 @@ Connection ~ -1450 11200
 Connection ~ -2050 11250
 Wire Wire Line
 	-2050 11250 -2050 11300
-Text GLabel -2250 10750 1    50   Input ~ 0
-Vdd
-Text GLabel -1700 10750 1    50   Input ~ 0
-Vdd
 Wire Notes Line
 	-2650 10450 -1050 10450
 Wire Notes Line
@@ -174,10 +174,6 @@ Wire Wire Line
 	2050 10300 2050 10450
 Wire Wire Line
 	2100 10300 2050 10300
-Text GLabel 2400 10050 1    50   Input ~ 0
-Vdd
-Text GLabel 2400 10850 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	3000 10450 3000 10500
 Connection ~ 3000 10450
@@ -194,6 +190,8 @@ P 2800 10500
 AR Path="/722A4045" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4045" Ref="R32"  Part="1" 
 AR Path="/72A2BB1E/722A4045" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4045" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4045" Ref="R?"  Part="1" 
 F 0 "R32" V 2593 10500 50  0000 C CNN
 F 1 "12k" V 2684 10500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2730 10500 50  0001 C CNN
@@ -208,6 +206,8 @@ P 2800 10400
 AR Path="/722A404B" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A404B" Ref="R31"  Part="1" 
 AR Path="/72A2BB1E/722A404B" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A404B" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A404B" Ref="R?"  Part="1" 
 F 0 "R31" V 2593 10400 50  0000 C CNN
 F 1 "12k" V 2684 10400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2730 10400 50  0001 C CNN
@@ -222,6 +222,8 @@ P 2400 10450
 AR Path="/722A4055" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4055" Ref="Q27"  Part="1" 
 AR Path="/72A2BB1E/722A4055" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4055" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4055" Ref="Q?"  Part="1" 
 F 0 "Q27" H 2375 11121 50  0000 C CNN
 F 1 "BSS8402DW" H 2375 11030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 2400 10800 50  0001 C CNN
@@ -266,6 +268,8 @@ P 4650 11100
 AR Path="/722A4069" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4069" Ref="R38"  Part="1" 
 AR Path="/72A2BB1E/722A4069" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4069" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4069" Ref="R?"  Part="1" 
 F 0 "R38" V 4443 11100 50  0000 C CNN
 F 1 "12k" V 4534 11100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4580 11100 50  0001 C CNN
@@ -280,6 +284,8 @@ P 4650 11000
 AR Path="/722A406F" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A406F" Ref="R37"  Part="1" 
 AR Path="/72A2BB1E/722A406F" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A406F" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A406F" Ref="R?"  Part="1" 
 F 0 "R37" V 4443 11000 50  0000 C CNN
 F 1 "12k" V 4534 11000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4580 11000 50  0001 C CNN
@@ -287,10 +293,6 @@ F 3 "~" H 4650 11000 50  0001 C CNN
 	1    4650 11000
 	0    1    1    0   
 $EndComp
-Text GLabel 3550 10650 1    50   Input ~ 0
-Vdd
-Text GLabel 3550 11450 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	4250 10600 4250 10650
 Wire Wire Line
@@ -329,6 +331,8 @@ P 4250 11050
 AR Path="/722A408B" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A408B" Ref="Q33"  Part="1" 
 AR Path="/72A2BB1E/722A408B" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A408B" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A408B" Ref="Q?"  Part="1" 
 F 0 "Q33" H 4225 11721 50  0000 C CNN
 F 1 "BSS8402DW" H 4225 11630 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 4250 11400 50  0001 C CNN
@@ -347,6 +351,8 @@ P 3550 11050
 AR Path="/722A4095" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4095" Ref="Q30"  Part="1" 
 AR Path="/72A2BB1E/722A4095" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4095" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4095" Ref="Q?"  Part="1" 
 F 0 "Q30" H 3525 11721 50  0000 C CNN
 F 1 "BSS8402DW" H 3525 11630 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 3550 11400 50  0001 C CNN
@@ -393,6 +399,8 @@ P 1700 10500
 AR Path="/722A40AA" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A40AA" Ref="R26"  Part="1" 
 AR Path="/72A2BB1E/722A40AA" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A40AA" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A40AA" Ref="R?"  Part="1" 
 F 0 "R26" V 1493 10500 50  0000 C CNN
 F 1 "12k" V 1584 10500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1630 10500 50  0001 C CNN
@@ -407,6 +415,8 @@ P 1700 10400
 AR Path="/722A40B0" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A40B0" Ref="R25"  Part="1" 
 AR Path="/72A2BB1E/722A40B0" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A40B0" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A40B0" Ref="R?"  Part="1" 
 F 0 "R25" V 1493 10400 50  0000 C CNN
 F 1 "12k" V 1584 10400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1630 10400 50  0001 C CNN
@@ -414,10 +424,6 @@ F 3 "~" H 1700 10400 50  0001 C CNN
 	1    1700 10400
 	0    1    1    0   
 $EndComp
-Text GLabel 600  10050 1    50   Input ~ 0
-Vdd
-Text GLabel 600  10850 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	1300 10000 1300 10050
 Wire Wire Line
@@ -456,6 +462,8 @@ P 1300 10450
 AR Path="/722A40CC" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A40CC" Ref="Q24"  Part="1" 
 AR Path="/72A2BB1E/722A40CC" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A40CC" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A40CC" Ref="Q?"  Part="1" 
 F 0 "Q24" H 1275 11121 50  0000 C CNN
 F 1 "BSS8402DW" H 1275 11030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 1300 10800 50  0001 C CNN
@@ -474,6 +482,8 @@ P 600 10450
 AR Path="/722A40D6" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A40D6" Ref="Q21"  Part="1" 
 AR Path="/72A2BB1E/722A40D6" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A40D6" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A40D6" Ref="Q?"  Part="1" 
 F 0 "Q21" H 575 11121 50  0000 C CNN
 F 1 "BSS8402DW" H 575 11030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 600 10800 50  0001 C CNN
@@ -513,6 +523,8 @@ P -1150 9850
 AR Path="/722A40E7" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A40E7" Ref="R14"  Part="1" 
 AR Path="/72A2BB1E/722A40E7" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A40E7" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A40E7" Ref="R?"  Part="1" 
 F 0 "R14" V -1357 9850 50  0000 C CNN
 F 1 "12k" V -1266 9850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V -1220 9850 50  0001 C CNN
@@ -527,6 +539,8 @@ P -1150 9750
 AR Path="/722A40ED" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A40ED" Ref="R13"  Part="1" 
 AR Path="/72A2BB1E/722A40ED" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A40ED" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A40ED" Ref="R?"  Part="1" 
 F 0 "R13" V -1357 9750 50  0000 C CNN
 F 1 "12k" V -1266 9750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V -1220 9750 50  0001 C CNN
@@ -534,10 +548,6 @@ F 3 "~" H -1150 9750 50  0001 C CNN
 	1    -1150 9750
 	0    1    1    0   
 $EndComp
-Text GLabel -2250 9400 1    50   Input ~ 0
-Vdd
-Text GLabel -2250 10200 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	-1550 9350 -1550 9400
 Wire Wire Line
@@ -576,6 +586,8 @@ P -1550 9800
 AR Path="/722A4109" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4109" Ref="Q15"  Part="1" 
 AR Path="/72A2BB1E/722A4109" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4109" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4109" Ref="Q?"  Part="1" 
 F 0 "Q15" H -1575 10471 50  0000 C CNN
 F 1 "BSS8402DW" H -1575 10380 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H -1550 10150 50  0001 C CNN
@@ -594,6 +606,8 @@ P -2250 9800
 AR Path="/722A4113" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4113" Ref="Q6"  Part="1" 
 AR Path="/72A2BB1E/722A4113" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4113" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4113" Ref="Q?"  Part="1" 
 F 0 "Q6" H -2275 10471 50  0000 C CNN
 F 1 "BSS8402DW" H -2275 10380 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H -2250 10150 50  0001 C CNN
@@ -630,10 +644,6 @@ Wire Wire Line
 	-900 11000 -900 11150
 Wire Wire Line
 	-850 11000 -900 11000
-Text GLabel -550 10750 1    50   Input ~ 0
-Vdd
-Text GLabel -550 11550 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	50   11200 0    11200
 Wire Wire Line
@@ -645,6 +655,8 @@ P -150 11200
 AR Path="/722A412A" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A412A" Ref="R20"  Part="1" 
 AR Path="/72A2BB1E/722A412A" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A412A" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A412A" Ref="R?"  Part="1" 
 F 0 "R20" V -357 11200 50  0000 C CNN
 F 1 "12k" V -266 11200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V -220 11200 50  0001 C CNN
@@ -659,6 +671,8 @@ P -150 11100
 AR Path="/722A4130" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4130" Ref="R19"  Part="1" 
 AR Path="/72A2BB1E/722A4130" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4130" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4130" Ref="R?"  Part="1" 
 F 0 "R19" V -357 11100 50  0000 C CNN
 F 1 "12k" V -266 11100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V -220 11100 50  0001 C CNN
@@ -673,6 +687,8 @@ P -550 11150
 AR Path="/722A413A" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A413A" Ref="Q18"  Part="1" 
 AR Path="/72A2BB1E/722A413A" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A413A" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A413A" Ref="Q?"  Part="1" 
 F 0 "Q18" H -575 11821 50  0000 C CNN
 F 1 "BSS8402DW" H -575 11730 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H -550 11500 50  0001 C CNN
@@ -749,6 +765,8 @@ P 5600 11150
 AR Path="/722A4164" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4164" Ref="Q37"  Part="1" 
 AR Path="/72A2BB1E/722A4164" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4164" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4164" Ref="Q?"  Part="1" 
 F 0 "Q37" H 5575 11821 50  0000 C CNN
 F 1 "BSS8402DW" H 5575 11730 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 5600 11500 50  0001 C CNN
@@ -767,6 +785,8 @@ P 6150 11150
 AR Path="/722A416E" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A416E" Ref="Q42"  Part="1" 
 AR Path="/72A2BB1E/722A416E" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A416E" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A416E" Ref="Q?"  Part="1" 
 F 0 "Q42" H 6125 11821 50  0000 C CNN
 F 1 "BSS8402DW" H 6125 11730 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 6150 11500 50  0001 C CNN
@@ -795,6 +815,8 @@ P 6550 11100
 AR Path="/722A4179" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4179" Ref="R43"  Part="1" 
 AR Path="/72A2BB1E/722A4179" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4179" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4179" Ref="R?"  Part="1" 
 F 0 "R43" V 6343 11100 50  0000 C CNN
 F 1 "12k" V 6434 11100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6480 11100 50  0001 C CNN
@@ -809,6 +831,8 @@ P 6550 11200
 AR Path="/722A417F" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A417F" Ref="R44"  Part="1" 
 AR Path="/72A2BB1E/722A417F" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A417F" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A417F" Ref="R?"  Part="1" 
 F 0 "R44" V 6343 11200 50  0000 C CNN
 F 1 "12k" V 6434 11200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6480 11200 50  0001 C CNN
@@ -820,10 +844,6 @@ Wire Wire Line
 	6700 11100 6750 11100
 Wire Wire Line
 	6750 11200 6700 11200
-Text GLabel 5600 11550 3    50   Input ~ 0
-Vss
-Text GLabel 6150 11550 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	6400 11100 5850 11100
 Wire Wire Line
@@ -833,10 +853,6 @@ Connection ~ 6400 11200
 Connection ~ 5800 11250
 Wire Wire Line
 	5800 11250 5800 11300
-Text GLabel 5600 10750 1    50   Input ~ 0
-Vdd
-Text GLabel 6150 10750 1    50   Input ~ 0
-Vdd
 Wire Notes Line
 	5200 10450 6800 10450
 Wire Notes Line
@@ -873,10 +889,6 @@ Wire Wire Line
 	9900 10300 9900 10450
 Wire Wire Line
 	9950 10300 9900 10300
-Text GLabel 10250 10050 1    50   Input ~ 0
-Vdd
-Text GLabel 10250 10850 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	10850 10450 10850 10500
 Connection ~ 10850 10450
@@ -893,6 +905,8 @@ P 10650 10500
 AR Path="/722A41AB" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A41AB" Ref="R68"  Part="1" 
 AR Path="/72A2BB1E/722A41AB" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A41AB" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A41AB" Ref="R?"  Part="1" 
 F 0 "R68" V 10443 10500 50  0000 C CNN
 F 1 "12k" V 10534 10500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10580 10500 50  0001 C CNN
@@ -907,6 +921,8 @@ P 10650 10400
 AR Path="/722A41B1" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A41B1" Ref="R67"  Part="1" 
 AR Path="/72A2BB1E/722A41B1" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A41B1" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A41B1" Ref="R?"  Part="1" 
 F 0 "R67" V 10443 10400 50  0000 C CNN
 F 1 "12k" V 10534 10400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10580 10400 50  0001 C CNN
@@ -921,6 +937,8 @@ P 10250 10450
 AR Path="/722A41BB" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A41BB" Ref="Q57"  Part="1" 
 AR Path="/72A2BB1E/722A41BB" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A41BB" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A41BB" Ref="Q?"  Part="1" 
 F 0 "Q57" H 10225 11121 50  0000 C CNN
 F 1 "BSS8402DW" H 10225 11030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 10250 10800 50  0001 C CNN
@@ -965,6 +983,8 @@ P 12500 11100
 AR Path="/722A41CF" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A41CF" Ref="R74"  Part="1" 
 AR Path="/72A2BB1E/722A41CF" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A41CF" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A41CF" Ref="R?"  Part="1" 
 F 0 "R74" V 12293 11100 50  0000 C CNN
 F 1 "12k" V 12384 11100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12430 11100 50  0001 C CNN
@@ -979,6 +999,8 @@ P 12500 11000
 AR Path="/722A41D5" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A41D5" Ref="R73"  Part="1" 
 AR Path="/72A2BB1E/722A41D5" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A41D5" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A41D5" Ref="R?"  Part="1" 
 F 0 "R73" V 12293 11000 50  0000 C CNN
 F 1 "12k" V 12384 11000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12430 11000 50  0001 C CNN
@@ -986,10 +1008,6 @@ F 3 "~" H 12500 11000 50  0001 C CNN
 	1    12500 11000
 	0    1    1    0   
 $EndComp
-Text GLabel 11400 10650 1    50   Input ~ 0
-Vdd
-Text GLabel 11400 11450 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	12100 10600 12100 10650
 Wire Wire Line
@@ -1028,6 +1046,8 @@ P 12100 11050
 AR Path="/722A41F1" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A41F1" Ref="Q63"  Part="1" 
 AR Path="/72A2BB1E/722A41F1" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A41F1" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A41F1" Ref="Q?"  Part="1" 
 F 0 "Q63" H 12075 11721 50  0000 C CNN
 F 1 "BSS8402DW" H 12075 11630 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 12100 11400 50  0001 C CNN
@@ -1046,6 +1066,8 @@ P 11400 11050
 AR Path="/722A41FB" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A41FB" Ref="Q60"  Part="1" 
 AR Path="/72A2BB1E/722A41FB" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A41FB" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A41FB" Ref="Q?"  Part="1" 
 F 0 "Q60" H 11375 11721 50  0000 C CNN
 F 1 "BSS8402DW" H 11375 11630 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 11400 11400 50  0001 C CNN
@@ -1092,6 +1114,8 @@ P 9550 10500
 AR Path="/722A4210" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4210" Ref="R62"  Part="1" 
 AR Path="/72A2BB1E/722A4210" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4210" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4210" Ref="R?"  Part="1" 
 F 0 "R62" V 9343 10500 50  0000 C CNN
 F 1 "12k" V 9434 10500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9480 10500 50  0001 C CNN
@@ -1106,6 +1130,8 @@ P 9550 10400
 AR Path="/722A4216" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4216" Ref="R61"  Part="1" 
 AR Path="/72A2BB1E/722A4216" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4216" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4216" Ref="R?"  Part="1" 
 F 0 "R61" V 9343 10400 50  0000 C CNN
 F 1 "12k" V 9434 10400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9480 10400 50  0001 C CNN
@@ -1113,10 +1139,6 @@ F 3 "~" H 9550 10400 50  0001 C CNN
 	1    9550 10400
 	0    1    1    0   
 $EndComp
-Text GLabel 8450 10050 1    50   Input ~ 0
-Vdd
-Text GLabel 8450 10850 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	9150 10000 9150 10050
 Wire Wire Line
@@ -1155,6 +1177,8 @@ P 9150 10450
 AR Path="/722A4232" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4232" Ref="Q54"  Part="1" 
 AR Path="/72A2BB1E/722A4232" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4232" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4232" Ref="Q?"  Part="1" 
 F 0 "Q54" H 9125 11121 50  0000 C CNN
 F 1 "BSS8402DW" H 9125 11030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 9150 10800 50  0001 C CNN
@@ -1173,6 +1197,8 @@ P 8450 10450
 AR Path="/722A423C" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A423C" Ref="Q51"  Part="1" 
 AR Path="/72A2BB1E/722A423C" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A423C" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A423C" Ref="Q?"  Part="1" 
 F 0 "Q51" H 8425 11121 50  0000 C CNN
 F 1 "BSS8402DW" H 8425 11030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 8450 10800 50  0001 C CNN
@@ -1212,6 +1238,8 @@ P 6700 9850
 AR Path="/722A424D" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A424D" Ref="R50"  Part="1" 
 AR Path="/72A2BB1E/722A424D" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A424D" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A424D" Ref="R?"  Part="1" 
 F 0 "R50" V 6493 9850 50  0000 C CNN
 F 1 "12k" V 6584 9850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6630 9850 50  0001 C CNN
@@ -1226,6 +1254,8 @@ P 6700 9750
 AR Path="/722A4253" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4253" Ref="R49"  Part="1" 
 AR Path="/72A2BB1E/722A4253" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4253" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4253" Ref="R?"  Part="1" 
 F 0 "R49" V 6493 9750 50  0000 C CNN
 F 1 "12k" V 6584 9750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6630 9750 50  0001 C CNN
@@ -1233,10 +1263,6 @@ F 3 "~" H 6700 9750 50  0001 C CNN
 	1    6700 9750
 	0    1    1    0   
 $EndComp
-Text GLabel 5600 9400 1    50   Input ~ 0
-Vdd
-Text GLabel 5600 10200 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	6300 9350 6300 9400
 Wire Wire Line
@@ -1275,6 +1301,8 @@ P 6300 9800
 AR Path="/722A426F" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A426F" Ref="Q45"  Part="1" 
 AR Path="/72A2BB1E/722A426F" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A426F" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A426F" Ref="Q?"  Part="1" 
 F 0 "Q45" H 6275 10471 50  0000 C CNN
 F 1 "BSS8402DW" H 6275 10380 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 6300 10150 50  0001 C CNN
@@ -1293,6 +1321,8 @@ P 5600 9800
 AR Path="/722A4279" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4279" Ref="Q36"  Part="1" 
 AR Path="/72A2BB1E/722A4279" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4279" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4279" Ref="Q?"  Part="1" 
 F 0 "Q36" H 5575 10471 50  0000 C CNN
 F 1 "BSS8402DW" H 5575 10380 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 5600 10150 50  0001 C CNN
@@ -1329,10 +1359,6 @@ Wire Wire Line
 	6950 11000 6950 11150
 Wire Wire Line
 	7000 11000 6950 11000
-Text GLabel 7300 10750 1    50   Input ~ 0
-Vdd
-Text GLabel 7300 11550 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	7900 11200 7850 11200
 Wire Wire Line
@@ -1344,6 +1370,8 @@ P 7700 11200
 AR Path="/722A4290" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4290" Ref="R56"  Part="1" 
 AR Path="/72A2BB1E/722A4290" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4290" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4290" Ref="R?"  Part="1" 
 F 0 "R56" V 7493 11200 50  0000 C CNN
 F 1 "12k" V 7584 11200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7630 11200 50  0001 C CNN
@@ -1358,6 +1386,8 @@ P 7700 11100
 AR Path="/722A4296" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4296" Ref="R55"  Part="1" 
 AR Path="/72A2BB1E/722A4296" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4296" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4296" Ref="R?"  Part="1" 
 F 0 "R55" V 7493 11100 50  0000 C CNN
 F 1 "12k" V 7584 11100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7630 11100 50  0001 C CNN
@@ -1372,6 +1402,8 @@ P 7300 11150
 AR Path="/722A42A0" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A42A0" Ref="Q48"  Part="1" 
 AR Path="/72A2BB1E/722A42A0" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A42A0" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A42A0" Ref="Q?"  Part="1" 
 F 0 "Q48" H 7275 11821 50  0000 C CNN
 F 1 "BSS8402DW" H 7275 11730 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 7300 11500 50  0001 C CNN
@@ -1418,6 +1450,8 @@ P 13350 11250
 AR Path="/722A42BA" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A42BA" Ref="Q66"  Part="1" 
 AR Path="/72A2BB1E/722A42BA" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A42BA" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A42BA" Ref="Q?"  Part="1" 
 F 0 "Q66" H 13325 11921 50  0000 C CNN
 F 1 "BSS8402DW" H 13325 11830 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 13350 11600 50  0001 C CNN
@@ -1436,6 +1470,8 @@ P 14050 11250
 AR Path="/722A42C4" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A42C4" Ref="Q69"  Part="1" 
 AR Path="/72A2BB1E/722A42C4" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A42C4" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A42C4" Ref="Q?"  Part="1" 
 F 0 "Q69" H 14025 11921 50  0000 C CNN
 F 1 "BSS8402DW" H 14025 11830 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 14050 11600 50  0001 C CNN
@@ -1478,10 +1514,6 @@ Wire Wire Line
 	13800 10800 14050 10800
 Wire Wire Line
 	14050 10800 14050 10850
-Text GLabel 13350 11650 3    50   Input ~ 0
-Vss
-Text GLabel 13350 10850 1    50   Input ~ 0
-Vdd
 $Comp
 L Device:R R?
 U 1 1 722A42DC
@@ -1489,6 +1521,8 @@ P 14450 11200
 AR Path="/722A42DC" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A42DC" Ref="R79"  Part="1" 
 AR Path="/72A2BB1E/722A42DC" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A42DC" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A42DC" Ref="R?"  Part="1" 
 F 0 "R79" V 14243 11200 50  0000 C CNN
 F 1 "12k" V 14334 11200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14380 11200 50  0001 C CNN
@@ -1503,6 +1537,8 @@ P 14450 11300
 AR Path="/722A42E2" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A42E2" Ref="R80"  Part="1" 
 AR Path="/72A2BB1E/722A42E2" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A42E2" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A42E2" Ref="R?"  Part="1" 
 F 0 "R80" V 14243 11300 50  0000 C CNN
 F 1 "12k" V 14334 11300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14380 11300 50  0001 C CNN
@@ -1619,6 +1655,8 @@ P 15550 11150
 AR Path="/722A4321" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4321" Ref="Q73"  Part="1" 
 AR Path="/72A2BB1E/722A4321" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4321" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4321" Ref="Q?"  Part="1" 
 F 0 "Q73" H 15525 11821 50  0000 C CNN
 F 1 "BSS8402DW" H 15525 11730 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 15550 11500 50  0001 C CNN
@@ -1637,6 +1675,8 @@ P 16100 11150
 AR Path="/722A432B" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A432B" Ref="Q78"  Part="1" 
 AR Path="/72A2BB1E/722A432B" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A432B" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A432B" Ref="Q?"  Part="1" 
 F 0 "Q78" H 16075 11821 50  0000 C CNN
 F 1 "BSS8402DW" H 16075 11730 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 16100 11500 50  0001 C CNN
@@ -1665,6 +1705,8 @@ P 16500 11100
 AR Path="/722A4336" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4336" Ref="R85"  Part="1" 
 AR Path="/72A2BB1E/722A4336" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4336" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4336" Ref="R?"  Part="1" 
 F 0 "R85" V 16293 11100 50  0000 C CNN
 F 1 "12k" V 16384 11100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 16430 11100 50  0001 C CNN
@@ -1679,6 +1721,8 @@ P 16500 11200
 AR Path="/722A433C" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A433C" Ref="R86"  Part="1" 
 AR Path="/72A2BB1E/722A433C" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A433C" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A433C" Ref="R?"  Part="1" 
 F 0 "R86" V 16293 11200 50  0000 C CNN
 F 1 "12k" V 16384 11200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 16430 11200 50  0001 C CNN
@@ -1690,10 +1734,6 @@ Wire Wire Line
 	16650 11100 16700 11100
 Wire Wire Line
 	16700 11200 16650 11200
-Text GLabel 15550 11550 3    50   Input ~ 0
-Vss
-Text GLabel 16100 11550 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	16350 11100 15800 11100
 Wire Wire Line
@@ -1703,10 +1743,6 @@ Connection ~ 16350 11200
 Connection ~ 15750 11250
 Wire Wire Line
 	15750 11250 15750 11300
-Text GLabel 15550 10750 1    50   Input ~ 0
-Vdd
-Text GLabel 16100 10750 1    50   Input ~ 0
-Vdd
 Wire Notes Line
 	15150 10450 16750 10450
 Wire Notes Line
@@ -1743,10 +1779,6 @@ Wire Wire Line
 	19850 10300 19850 10450
 Wire Wire Line
 	19900 10300 19850 10300
-Text GLabel 20200 10050 1    50   Input ~ 0
-Vdd
-Text GLabel 20200 10850 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	20800 10450 20800 10500
 Connection ~ 20800 10450
@@ -1763,6 +1795,8 @@ P 20600 10500
 AR Path="/722A4368" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4368" Ref="R110"  Part="1" 
 AR Path="/72A2BB1E/722A4368" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4368" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4368" Ref="R?"  Part="1" 
 F 0 "R110" V 20393 10500 50  0000 C CNN
 F 1 "12k" V 20484 10500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 20530 10500 50  0001 C CNN
@@ -1777,6 +1811,8 @@ P 20600 10400
 AR Path="/722A436E" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A436E" Ref="R109"  Part="1" 
 AR Path="/72A2BB1E/722A436E" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A436E" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A436E" Ref="R?"  Part="1" 
 F 0 "R109" V 20393 10400 50  0000 C CNN
 F 1 "12k" V 20484 10400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 20530 10400 50  0001 C CNN
@@ -1791,6 +1827,8 @@ P 20200 10450
 AR Path="/722A4378" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4378" Ref="Q93"  Part="1" 
 AR Path="/72A2BB1E/722A4378" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4378" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4378" Ref="Q?"  Part="1" 
 F 0 "Q93" H 20175 11121 50  0000 C CNN
 F 1 "BSS8402DW" H 20175 11030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 20200 10800 50  0001 C CNN
@@ -1835,6 +1873,8 @@ P 22450 11100
 AR Path="/722A438C" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A438C" Ref="R116"  Part="1" 
 AR Path="/72A2BB1E/722A438C" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A438C" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A438C" Ref="R?"  Part="1" 
 F 0 "R116" V 22243 11100 50  0000 C CNN
 F 1 "12k" V 22334 11100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 22380 11100 50  0001 C CNN
@@ -1849,6 +1889,8 @@ P 22450 11000
 AR Path="/722A4392" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4392" Ref="R115"  Part="1" 
 AR Path="/72A2BB1E/722A4392" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4392" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4392" Ref="R?"  Part="1" 
 F 0 "R115" V 22243 11000 50  0000 C CNN
 F 1 "12k" V 22334 11000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 22380 11000 50  0001 C CNN
@@ -1856,10 +1898,6 @@ F 3 "~" H 22450 11000 50  0001 C CNN
 	1    22450 11000
 	0    1    1    0   
 $EndComp
-Text GLabel 21350 10650 1    50   Input ~ 0
-Vdd
-Text GLabel 21350 11450 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	22050 10600 22050 10650
 Wire Wire Line
@@ -1898,6 +1936,8 @@ P 22050 11050
 AR Path="/722A43AE" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A43AE" Ref="Q99"  Part="1" 
 AR Path="/72A2BB1E/722A43AE" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A43AE" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A43AE" Ref="Q?"  Part="1" 
 F 0 "Q99" H 22025 11721 50  0000 C CNN
 F 1 "BSS8402DW" H 22025 11630 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 22050 11400 50  0001 C CNN
@@ -1916,6 +1956,8 @@ P 21350 11050
 AR Path="/722A43B8" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A43B8" Ref="Q96"  Part="1" 
 AR Path="/72A2BB1E/722A43B8" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A43B8" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A43B8" Ref="Q?"  Part="1" 
 F 0 "Q96" H 21325 11721 50  0000 C CNN
 F 1 "BSS8402DW" H 21325 11630 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 21350 11400 50  0001 C CNN
@@ -1962,6 +2004,8 @@ P 19500 10500
 AR Path="/722A43CD" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A43CD" Ref="R104"  Part="1" 
 AR Path="/72A2BB1E/722A43CD" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A43CD" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A43CD" Ref="R?"  Part="1" 
 F 0 "R104" V 19293 10500 50  0000 C CNN
 F 1 "12k" V 19384 10500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 19430 10500 50  0001 C CNN
@@ -1976,6 +2020,8 @@ P 19500 10400
 AR Path="/722A43D3" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A43D3" Ref="R103"  Part="1" 
 AR Path="/72A2BB1E/722A43D3" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A43D3" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A43D3" Ref="R?"  Part="1" 
 F 0 "R103" V 19293 10400 50  0000 C CNN
 F 1 "12k" V 19384 10400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 19430 10400 50  0001 C CNN
@@ -1983,10 +2029,6 @@ F 3 "~" H 19500 10400 50  0001 C CNN
 	1    19500 10400
 	0    1    1    0   
 $EndComp
-Text GLabel 18400 10050 1    50   Input ~ 0
-Vdd
-Text GLabel 18400 10850 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	19100 10000 19100 10050
 Wire Wire Line
@@ -2025,6 +2067,8 @@ P 19100 10450
 AR Path="/722A43EF" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A43EF" Ref="Q90"  Part="1" 
 AR Path="/72A2BB1E/722A43EF" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A43EF" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A43EF" Ref="Q?"  Part="1" 
 F 0 "Q90" H 19075 11121 50  0000 C CNN
 F 1 "BSS8402DW" H 19075 11030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 19100 10800 50  0001 C CNN
@@ -2043,6 +2087,8 @@ P 18400 10450
 AR Path="/722A43F9" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A43F9" Ref="Q87"  Part="1" 
 AR Path="/72A2BB1E/722A43F9" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A43F9" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A43F9" Ref="Q?"  Part="1" 
 F 0 "Q87" H 18375 11121 50  0000 C CNN
 F 1 "BSS8402DW" H 18375 11030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 18400 10800 50  0001 C CNN
@@ -2082,6 +2128,8 @@ P 16650 9850
 AR Path="/722A440A" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A440A" Ref="R92"  Part="1" 
 AR Path="/72A2BB1E/722A440A" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A440A" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A440A" Ref="R?"  Part="1" 
 F 0 "R92" V 16443 9850 50  0000 C CNN
 F 1 "12k" V 16534 9850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 16580 9850 50  0001 C CNN
@@ -2096,6 +2144,8 @@ P 16650 9750
 AR Path="/722A4410" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4410" Ref="R91"  Part="1" 
 AR Path="/72A2BB1E/722A4410" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4410" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4410" Ref="R?"  Part="1" 
 F 0 "R91" V 16443 9750 50  0000 C CNN
 F 1 "12k" V 16534 9750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 16580 9750 50  0001 C CNN
@@ -2103,10 +2153,6 @@ F 3 "~" H 16650 9750 50  0001 C CNN
 	1    16650 9750
 	0    1    1    0   
 $EndComp
-Text GLabel 15550 9400 1    50   Input ~ 0
-Vdd
-Text GLabel 15550 10200 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	16250 9350 16250 9400
 Wire Wire Line
@@ -2145,6 +2191,8 @@ P 16250 9800
 AR Path="/722A442C" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A442C" Ref="Q81"  Part="1" 
 AR Path="/72A2BB1E/722A442C" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A442C" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A442C" Ref="Q?"  Part="1" 
 F 0 "Q81" H 16225 10471 50  0000 C CNN
 F 1 "BSS8402DW" H 16225 10380 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 16250 10150 50  0001 C CNN
@@ -2163,6 +2211,8 @@ P 15550 9800
 AR Path="/722A4436" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4436" Ref="Q72"  Part="1" 
 AR Path="/72A2BB1E/722A4436" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4436" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4436" Ref="Q?"  Part="1" 
 F 0 "Q72" H 15525 10471 50  0000 C CNN
 F 1 "BSS8402DW" H 15525 10380 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 15550 10150 50  0001 C CNN
@@ -2199,10 +2249,6 @@ Wire Wire Line
 	16900 11000 16900 11150
 Wire Wire Line
 	16950 11000 16900 11000
-Text GLabel 17250 10750 1    50   Input ~ 0
-Vdd
-Text GLabel 17250 11550 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	17850 11200 17800 11200
 Wire Wire Line
@@ -2214,6 +2260,8 @@ P 17650 11200
 AR Path="/722A444D" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A444D" Ref="R98"  Part="1" 
 AR Path="/72A2BB1E/722A444D" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A444D" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A444D" Ref="R?"  Part="1" 
 F 0 "R98" V 17443 11200 50  0000 C CNN
 F 1 "12k" V 17534 11200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 17580 11200 50  0001 C CNN
@@ -2228,6 +2276,8 @@ P 17650 11100
 AR Path="/722A4453" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4453" Ref="R97"  Part="1" 
 AR Path="/72A2BB1E/722A4453" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4453" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4453" Ref="R?"  Part="1" 
 F 0 "R97" V 17443 11100 50  0000 C CNN
 F 1 "12k" V 17534 11100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 17580 11100 50  0001 C CNN
@@ -2242,6 +2292,8 @@ P 17250 11150
 AR Path="/722A445D" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A445D" Ref="Q84"  Part="1" 
 AR Path="/72A2BB1E/722A445D" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A445D" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A445D" Ref="Q?"  Part="1" 
 F 0 "Q84" H 17225 11821 50  0000 C CNN
 F 1 "BSS8402DW" H 17225 11730 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 17250 11500 50  0001 C CNN
@@ -2318,6 +2370,8 @@ P 23400 11150
 AR Path="/722A4487" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4487" Ref="Q103"  Part="1" 
 AR Path="/72A2BB1E/722A4487" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4487" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4487" Ref="Q?"  Part="1" 
 F 0 "Q103" H 23375 11821 50  0000 C CNN
 F 1 "BSS8402DW" H 23375 11730 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 23400 11500 50  0001 C CNN
@@ -2336,6 +2390,8 @@ P 23950 11150
 AR Path="/722A4491" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4491" Ref="Q108"  Part="1" 
 AR Path="/72A2BB1E/722A4491" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4491" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4491" Ref="Q?"  Part="1" 
 F 0 "Q108" H 23925 11821 50  0000 C CNN
 F 1 "BSS8402DW" H 23925 11730 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 23950 11500 50  0001 C CNN
@@ -2364,6 +2420,8 @@ P 24350 11100
 AR Path="/722A449C" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A449C" Ref="R121"  Part="1" 
 AR Path="/72A2BB1E/722A449C" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A449C" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A449C" Ref="R?"  Part="1" 
 F 0 "R121" V 24143 11100 50  0000 C CNN
 F 1 "12k" V 24234 11100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 24280 11100 50  0001 C CNN
@@ -2378,6 +2436,8 @@ P 24350 11200
 AR Path="/722A44A2" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A44A2" Ref="R122"  Part="1" 
 AR Path="/72A2BB1E/722A44A2" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A44A2" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A44A2" Ref="R?"  Part="1" 
 F 0 "R122" V 24143 11200 50  0000 C CNN
 F 1 "12k" V 24234 11200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 24280 11200 50  0001 C CNN
@@ -2389,10 +2449,6 @@ Wire Wire Line
 	24500 11100 24550 11100
 Wire Wire Line
 	24550 11200 24500 11200
-Text GLabel 23400 11550 3    50   Input ~ 0
-Vss
-Text GLabel 23950 11550 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	24200 11100 23650 11100
 Wire Wire Line
@@ -2402,10 +2458,6 @@ Connection ~ 24200 11200
 Connection ~ 23600 11250
 Wire Wire Line
 	23600 11250 23600 11300
-Text GLabel 23400 10750 1    50   Input ~ 0
-Vdd
-Text GLabel 23950 10750 1    50   Input ~ 0
-Vdd
 Wire Notes Line
 	23000 10450 24600 10450
 Wire Notes Line
@@ -2442,10 +2494,6 @@ Wire Wire Line
 	27700 10300 27700 10450
 Wire Wire Line
 	27750 10300 27700 10300
-Text GLabel 28050 10050 1    50   Input ~ 0
-Vdd
-Text GLabel 28050 10850 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	28650 10450 28650 10500
 Connection ~ 28650 10450
@@ -2462,6 +2510,8 @@ P 28450 10500
 AR Path="/722A44CE" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A44CE" Ref="R146"  Part="1" 
 AR Path="/72A2BB1E/722A44CE" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A44CE" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A44CE" Ref="R?"  Part="1" 
 F 0 "R146" V 28243 10500 50  0000 C CNN
 F 1 "12k" V 28334 10500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 28380 10500 50  0001 C CNN
@@ -2476,6 +2526,8 @@ P 28450 10400
 AR Path="/722A44D4" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A44D4" Ref="R145"  Part="1" 
 AR Path="/72A2BB1E/722A44D4" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A44D4" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A44D4" Ref="R?"  Part="1" 
 F 0 "R145" V 28243 10400 50  0000 C CNN
 F 1 "12k" V 28334 10400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 28380 10400 50  0001 C CNN
@@ -2490,6 +2542,8 @@ P 28050 10450
 AR Path="/722A44DE" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A44DE" Ref="Q123"  Part="1" 
 AR Path="/72A2BB1E/722A44DE" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A44DE" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A44DE" Ref="Q?"  Part="1" 
 F 0 "Q123" H 28025 11121 50  0000 C CNN
 F 1 "BSS8402DW" H 28025 11030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 28050 10800 50  0001 C CNN
@@ -2534,6 +2588,8 @@ P 30300 11100
 AR Path="/722A44F2" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A44F2" Ref="R152"  Part="1" 
 AR Path="/72A2BB1E/722A44F2" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A44F2" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A44F2" Ref="R?"  Part="1" 
 F 0 "R152" V 30093 11100 50  0000 C CNN
 F 1 "12k" V 30184 11100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 30230 11100 50  0001 C CNN
@@ -2548,6 +2604,8 @@ P 30300 11000
 AR Path="/722A44F8" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A44F8" Ref="R151"  Part="1" 
 AR Path="/72A2BB1E/722A44F8" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A44F8" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A44F8" Ref="R?"  Part="1" 
 F 0 "R151" V 30093 11000 50  0000 C CNN
 F 1 "12k" V 30184 11000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 30230 11000 50  0001 C CNN
@@ -2555,10 +2613,6 @@ F 3 "~" H 30300 11000 50  0001 C CNN
 	1    30300 11000
 	0    1    1    0   
 $EndComp
-Text GLabel 29200 10650 1    50   Input ~ 0
-Vdd
-Text GLabel 29200 11450 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	29900 10600 29900 10650
 Wire Wire Line
@@ -2597,6 +2651,8 @@ P 29900 11050
 AR Path="/722A4514" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4514" Ref="Q129"  Part="1" 
 AR Path="/72A2BB1E/722A4514" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4514" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4514" Ref="Q?"  Part="1" 
 F 0 "Q129" H 29875 11721 50  0000 C CNN
 F 1 "BSS8402DW" H 29875 11630 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 29900 11400 50  0001 C CNN
@@ -2615,6 +2671,8 @@ P 29200 11050
 AR Path="/722A451E" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A451E" Ref="Q126"  Part="1" 
 AR Path="/72A2BB1E/722A451E" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A451E" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A451E" Ref="Q?"  Part="1" 
 F 0 "Q126" H 29175 11721 50  0000 C CNN
 F 1 "BSS8402DW" H 29175 11630 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 29200 11400 50  0001 C CNN
@@ -2661,6 +2719,8 @@ P 27350 10500
 AR Path="/722A4533" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4533" Ref="R140"  Part="1" 
 AR Path="/72A2BB1E/722A4533" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4533" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4533" Ref="R?"  Part="1" 
 F 0 "R140" V 27143 10500 50  0000 C CNN
 F 1 "12k" V 27234 10500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 27280 10500 50  0001 C CNN
@@ -2675,6 +2735,8 @@ P 27350 10400
 AR Path="/722A4539" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4539" Ref="R139"  Part="1" 
 AR Path="/72A2BB1E/722A4539" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4539" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4539" Ref="R?"  Part="1" 
 F 0 "R139" V 27143 10400 50  0000 C CNN
 F 1 "12k" V 27234 10400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 27280 10400 50  0001 C CNN
@@ -2682,10 +2744,6 @@ F 3 "~" H 27350 10400 50  0001 C CNN
 	1    27350 10400
 	0    1    1    0   
 $EndComp
-Text GLabel 26250 10050 1    50   Input ~ 0
-Vdd
-Text GLabel 26250 10850 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	26950 10000 26950 10050
 Wire Wire Line
@@ -2724,6 +2782,8 @@ P 26950 10450
 AR Path="/722A4555" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4555" Ref="Q120"  Part="1" 
 AR Path="/72A2BB1E/722A4555" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4555" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4555" Ref="Q?"  Part="1" 
 F 0 "Q120" H 26925 11121 50  0000 C CNN
 F 1 "BSS8402DW" H 26925 11030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 26950 10800 50  0001 C CNN
@@ -2742,6 +2802,8 @@ P 26250 10450
 AR Path="/722A455F" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A455F" Ref="Q117"  Part="1" 
 AR Path="/72A2BB1E/722A455F" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A455F" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A455F" Ref="Q?"  Part="1" 
 F 0 "Q117" H 26225 11121 50  0000 C CNN
 F 1 "BSS8402DW" H 26225 11030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 26250 10800 50  0001 C CNN
@@ -2781,6 +2843,8 @@ P 24500 9850
 AR Path="/722A4570" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4570" Ref="R128"  Part="1" 
 AR Path="/72A2BB1E/722A4570" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4570" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4570" Ref="R?"  Part="1" 
 F 0 "R128" V 24293 9850 50  0000 C CNN
 F 1 "12k" V 24384 9850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 24430 9850 50  0001 C CNN
@@ -2795,6 +2859,8 @@ P 24500 9750
 AR Path="/722A4576" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4576" Ref="R127"  Part="1" 
 AR Path="/72A2BB1E/722A4576" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4576" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4576" Ref="R?"  Part="1" 
 F 0 "R127" V 24293 9750 50  0000 C CNN
 F 1 "12k" V 24384 9750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 24430 9750 50  0001 C CNN
@@ -2802,10 +2868,6 @@ F 3 "~" H 24500 9750 50  0001 C CNN
 	1    24500 9750
 	0    1    1    0   
 $EndComp
-Text GLabel 23400 9400 1    50   Input ~ 0
-Vdd
-Text GLabel 23400 10200 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	24100 9350 24100 9400
 Wire Wire Line
@@ -2844,6 +2906,8 @@ P 24100 9800
 AR Path="/722A4592" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4592" Ref="Q111"  Part="1" 
 AR Path="/72A2BB1E/722A4592" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4592" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4592" Ref="Q?"  Part="1" 
 F 0 "Q111" H 24075 10471 50  0000 C CNN
 F 1 "BSS8402DW" H 24075 10380 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 24100 10150 50  0001 C CNN
@@ -2862,6 +2926,8 @@ P 23400 9800
 AR Path="/722A459C" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A459C" Ref="Q102"  Part="1" 
 AR Path="/72A2BB1E/722A459C" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A459C" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A459C" Ref="Q?"  Part="1" 
 F 0 "Q102" H 23375 10471 50  0000 C CNN
 F 1 "BSS8402DW" H 23375 10380 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 23400 10150 50  0001 C CNN
@@ -2898,10 +2964,6 @@ Wire Wire Line
 	24750 11000 24750 11150
 Wire Wire Line
 	24800 11000 24750 11000
-Text GLabel 25100 10750 1    50   Input ~ 0
-Vdd
-Text GLabel 25100 11550 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	25700 11200 25650 11200
 Wire Wire Line
@@ -2913,6 +2975,8 @@ P 25500 11200
 AR Path="/722A45B3" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A45B3" Ref="R134"  Part="1" 
 AR Path="/72A2BB1E/722A45B3" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A45B3" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A45B3" Ref="R?"  Part="1" 
 F 0 "R134" V 25293 11200 50  0000 C CNN
 F 1 "12k" V 25384 11200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 25430 11200 50  0001 C CNN
@@ -2927,6 +2991,8 @@ P 25500 11100
 AR Path="/722A45B9" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A45B9" Ref="R133"  Part="1" 
 AR Path="/72A2BB1E/722A45B9" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A45B9" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A45B9" Ref="R?"  Part="1" 
 F 0 "R133" V 25293 11100 50  0000 C CNN
 F 1 "12k" V 25384 11100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 25430 11100 50  0001 C CNN
@@ -2941,6 +3007,8 @@ P 25100 11150
 AR Path="/722A45C3" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A45C3" Ref="Q114"  Part="1" 
 AR Path="/72A2BB1E/722A45C3" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A45C3" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A45C3" Ref="Q?"  Part="1" 
 F 0 "Q114" H 25075 11821 50  0000 C CNN
 F 1 "BSS8402DW" H 25075 11730 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 25100 11500 50  0001 C CNN
@@ -2987,6 +3055,8 @@ P 31150 11250
 AR Path="/722A45DD" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A45DD" Ref="Q132"  Part="1" 
 AR Path="/72A2BB1E/722A45DD" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A45DD" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A45DD" Ref="Q?"  Part="1" 
 F 0 "Q132" H 31125 11921 50  0000 C CNN
 F 1 "BSS8402DW" H 31125 11830 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 31150 11600 50  0001 C CNN
@@ -3005,6 +3075,8 @@ P 31850 11250
 AR Path="/722A45E7" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A45E7" Ref="Q135"  Part="1" 
 AR Path="/72A2BB1E/722A45E7" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A45E7" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A45E7" Ref="Q?"  Part="1" 
 F 0 "Q135" H 31825 11921 50  0000 C CNN
 F 1 "BSS8402DW" H 31825 11830 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 31850 11600 50  0001 C CNN
@@ -3047,10 +3119,6 @@ Wire Wire Line
 	31600 10800 31850 10800
 Wire Wire Line
 	31850 10800 31850 10850
-Text GLabel 31150 11650 3    50   Input ~ 0
-Vss
-Text GLabel 31150 10850 1    50   Input ~ 0
-Vdd
 $Comp
 L Device:R R?
 U 1 1 722A45FF
@@ -3058,6 +3126,8 @@ P 32250 11200
 AR Path="/722A45FF" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A45FF" Ref="R157"  Part="1" 
 AR Path="/72A2BB1E/722A45FF" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A45FF" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A45FF" Ref="R?"  Part="1" 
 F 0 "R157" V 32043 11200 50  0000 C CNN
 F 1 "12k" V 32134 11200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 32180 11200 50  0001 C CNN
@@ -3072,6 +3142,8 @@ P 32250 11300
 AR Path="/722A4605" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4605" Ref="R158"  Part="1" 
 AR Path="/72A2BB1E/722A4605" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4605" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4605" Ref="R?"  Part="1" 
 F 0 "R158" V 32043 11300 50  0000 C CNN
 F 1 "12k" V 32134 11300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 32180 11300 50  0001 C CNN
@@ -3182,6 +3254,8 @@ P 33350 11150
 AR Path="/722A4641" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4641" Ref="Q139"  Part="1" 
 AR Path="/72A2BB1E/722A4641" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4641" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4641" Ref="Q?"  Part="1" 
 F 0 "Q139" H 33325 11821 50  0000 C CNN
 F 1 "BSS8402DW" H 33325 11730 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 33350 11500 50  0001 C CNN
@@ -3200,6 +3274,8 @@ P 33900 11150
 AR Path="/722A464B" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A464B" Ref="Q144"  Part="1" 
 AR Path="/72A2BB1E/722A464B" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A464B" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A464B" Ref="Q?"  Part="1" 
 F 0 "Q144" H 33875 11821 50  0000 C CNN
 F 1 "BSS8402DW" H 33875 11730 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 33900 11500 50  0001 C CNN
@@ -3228,6 +3304,8 @@ P 34300 11100
 AR Path="/722A4656" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4656" Ref="R163"  Part="1" 
 AR Path="/72A2BB1E/722A4656" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4656" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4656" Ref="R?"  Part="1" 
 F 0 "R163" V 34093 11100 50  0000 C CNN
 F 1 "12k" V 34184 11100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 34230 11100 50  0001 C CNN
@@ -3242,6 +3320,8 @@ P 34300 11200
 AR Path="/722A465C" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A465C" Ref="R164"  Part="1" 
 AR Path="/72A2BB1E/722A465C" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A465C" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A465C" Ref="R?"  Part="1" 
 F 0 "R164" V 34093 11200 50  0000 C CNN
 F 1 "12k" V 34184 11200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 34230 11200 50  0001 C CNN
@@ -3253,10 +3333,6 @@ Wire Wire Line
 	34450 11100 34500 11100
 Wire Wire Line
 	34500 11200 34450 11200
-Text GLabel 33350 11550 3    50   Input ~ 0
-Vss
-Text GLabel 33900 11550 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	34150 11100 33600 11100
 Wire Wire Line
@@ -3266,10 +3342,6 @@ Connection ~ 34150 11200
 Connection ~ 33550 11250
 Wire Wire Line
 	33550 11250 33550 11300
-Text GLabel 33350 10750 1    50   Input ~ 0
-Vdd
-Text GLabel 33900 10750 1    50   Input ~ 0
-Vdd
 Wire Notes Line
 	32950 10450 34550 10450
 Wire Notes Line
@@ -3306,10 +3378,6 @@ Wire Wire Line
 	37650 10300 37650 10450
 Wire Wire Line
 	37700 10300 37650 10300
-Text GLabel 38000 10050 1    50   Input ~ 0
-Vdd
-Text GLabel 38000 10850 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	38600 10450 38600 10500
 Connection ~ 38600 10450
@@ -3326,6 +3394,8 @@ P 38400 10500
 AR Path="/722A4688" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4688" Ref="R188"  Part="1" 
 AR Path="/72A2BB1E/722A4688" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4688" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4688" Ref="R?"  Part="1" 
 F 0 "R188" V 38193 10500 50  0000 C CNN
 F 1 "12k" V 38284 10500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 38330 10500 50  0001 C CNN
@@ -3340,6 +3410,8 @@ P 38400 10400
 AR Path="/722A468E" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A468E" Ref="R187"  Part="1" 
 AR Path="/72A2BB1E/722A468E" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A468E" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A468E" Ref="R?"  Part="1" 
 F 0 "R187" V 38193 10400 50  0000 C CNN
 F 1 "12k" V 38284 10400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 38330 10400 50  0001 C CNN
@@ -3354,6 +3426,8 @@ P 38000 10450
 AR Path="/722A4698" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4698" Ref="Q159"  Part="1" 
 AR Path="/72A2BB1E/722A4698" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4698" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4698" Ref="Q?"  Part="1" 
 F 0 "Q159" H 37975 11121 50  0000 C CNN
 F 1 "BSS8402DW" H 37975 11030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 38000 10800 50  0001 C CNN
@@ -3398,6 +3472,8 @@ P 40250 11100
 AR Path="/722A46AC" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A46AC" Ref="R194"  Part="1" 
 AR Path="/72A2BB1E/722A46AC" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A46AC" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A46AC" Ref="R?"  Part="1" 
 F 0 "R194" V 40043 11100 50  0000 C CNN
 F 1 "12k" V 40134 11100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 40180 11100 50  0001 C CNN
@@ -3412,6 +3488,8 @@ P 40250 11000
 AR Path="/722A46B2" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A46B2" Ref="R193"  Part="1" 
 AR Path="/72A2BB1E/722A46B2" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A46B2" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A46B2" Ref="R?"  Part="1" 
 F 0 "R193" V 40043 11000 50  0000 C CNN
 F 1 "12k" V 40134 11000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 40180 11000 50  0001 C CNN
@@ -3419,10 +3497,6 @@ F 3 "~" H 40250 11000 50  0001 C CNN
 	1    40250 11000
 	0    1    1    0   
 $EndComp
-Text GLabel 39150 10650 1    50   Input ~ 0
-Vdd
-Text GLabel 39150 11450 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	39850 10600 39850 10650
 Wire Wire Line
@@ -3461,6 +3535,8 @@ P 39850 11050
 AR Path="/722A46CE" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A46CE" Ref="Q165"  Part="1" 
 AR Path="/72A2BB1E/722A46CE" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A46CE" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A46CE" Ref="Q?"  Part="1" 
 F 0 "Q165" H 39825 11721 50  0000 C CNN
 F 1 "BSS8402DW" H 39825 11630 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 39850 11400 50  0001 C CNN
@@ -3479,6 +3555,8 @@ P 39150 11050
 AR Path="/722A46D8" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A46D8" Ref="Q162"  Part="1" 
 AR Path="/72A2BB1E/722A46D8" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A46D8" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A46D8" Ref="Q?"  Part="1" 
 F 0 "Q162" H 39125 11721 50  0000 C CNN
 F 1 "BSS8402DW" H 39125 11630 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 39150 11400 50  0001 C CNN
@@ -3525,6 +3603,8 @@ P 37300 10500
 AR Path="/722A46ED" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A46ED" Ref="R182"  Part="1" 
 AR Path="/72A2BB1E/722A46ED" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A46ED" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A46ED" Ref="R?"  Part="1" 
 F 0 "R182" V 37093 10500 50  0000 C CNN
 F 1 "12k" V 37184 10500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 37230 10500 50  0001 C CNN
@@ -3539,6 +3619,8 @@ P 37300 10400
 AR Path="/722A46F3" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A46F3" Ref="R181"  Part="1" 
 AR Path="/72A2BB1E/722A46F3" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A46F3" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A46F3" Ref="R?"  Part="1" 
 F 0 "R181" V 37093 10400 50  0000 C CNN
 F 1 "12k" V 37184 10400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 37230 10400 50  0001 C CNN
@@ -3546,10 +3628,6 @@ F 3 "~" H 37300 10400 50  0001 C CNN
 	1    37300 10400
 	0    1    1    0   
 $EndComp
-Text GLabel 36200 10050 1    50   Input ~ 0
-Vdd
-Text GLabel 36200 10850 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	36900 10000 36900 10050
 Wire Wire Line
@@ -3588,6 +3666,8 @@ P 36900 10450
 AR Path="/722A470F" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A470F" Ref="Q156"  Part="1" 
 AR Path="/72A2BB1E/722A470F" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A470F" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A470F" Ref="Q?"  Part="1" 
 F 0 "Q156" H 36875 11121 50  0000 C CNN
 F 1 "BSS8402DW" H 36875 11030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 36900 10800 50  0001 C CNN
@@ -3606,6 +3686,8 @@ P 36200 10450
 AR Path="/722A4719" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4719" Ref="Q153"  Part="1" 
 AR Path="/72A2BB1E/722A4719" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4719" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4719" Ref="Q?"  Part="1" 
 F 0 "Q153" H 36175 11121 50  0000 C CNN
 F 1 "BSS8402DW" H 36175 11030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 36200 10800 50  0001 C CNN
@@ -3645,6 +3727,8 @@ P 34450 9850
 AR Path="/722A472A" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A472A" Ref="R170"  Part="1" 
 AR Path="/72A2BB1E/722A472A" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A472A" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A472A" Ref="R?"  Part="1" 
 F 0 "R170" V 34243 9850 50  0000 C CNN
 F 1 "12k" V 34334 9850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 34380 9850 50  0001 C CNN
@@ -3659,6 +3743,8 @@ P 34450 9750
 AR Path="/722A4730" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4730" Ref="R169"  Part="1" 
 AR Path="/72A2BB1E/722A4730" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4730" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4730" Ref="R?"  Part="1" 
 F 0 "R169" V 34243 9750 50  0000 C CNN
 F 1 "12k" V 34334 9750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 34380 9750 50  0001 C CNN
@@ -3666,10 +3752,6 @@ F 3 "~" H 34450 9750 50  0001 C CNN
 	1    34450 9750
 	0    1    1    0   
 $EndComp
-Text GLabel 33350 9400 1    50   Input ~ 0
-Vdd
-Text GLabel 33350 10200 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	34050 9350 34050 9400
 Wire Wire Line
@@ -3708,6 +3790,8 @@ P 34050 9800
 AR Path="/722A474C" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A474C" Ref="Q147"  Part="1" 
 AR Path="/72A2BB1E/722A474C" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A474C" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A474C" Ref="Q?"  Part="1" 
 F 0 "Q147" H 34025 10471 50  0000 C CNN
 F 1 "BSS8402DW" H 34025 10380 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 34050 10150 50  0001 C CNN
@@ -3726,6 +3810,8 @@ P 33350 9800
 AR Path="/722A4756" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4756" Ref="Q138"  Part="1" 
 AR Path="/72A2BB1E/722A4756" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4756" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4756" Ref="Q?"  Part="1" 
 F 0 "Q138" H 33325 10471 50  0000 C CNN
 F 1 "BSS8402DW" H 33325 10380 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 33350 10150 50  0001 C CNN
@@ -3762,10 +3848,6 @@ Wire Wire Line
 	34700 11000 34700 11150
 Wire Wire Line
 	34750 11000 34700 11000
-Text GLabel 35050 10750 1    50   Input ~ 0
-Vdd
-Text GLabel 35050 11550 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	35650 11200 35600 11200
 Wire Wire Line
@@ -3777,6 +3859,8 @@ P 35450 11200
 AR Path="/722A476D" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A476D" Ref="R176"  Part="1" 
 AR Path="/72A2BB1E/722A476D" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A476D" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A476D" Ref="R?"  Part="1" 
 F 0 "R176" V 35243 11200 50  0000 C CNN
 F 1 "12k" V 35334 11200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 35380 11200 50  0001 C CNN
@@ -3791,6 +3875,8 @@ P 35450 11100
 AR Path="/722A4773" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4773" Ref="R175"  Part="1" 
 AR Path="/72A2BB1E/722A4773" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4773" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4773" Ref="R?"  Part="1" 
 F 0 "R175" V 35243 11100 50  0000 C CNN
 F 1 "12k" V 35334 11100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 35380 11100 50  0001 C CNN
@@ -3805,6 +3891,8 @@ P 35050 11150
 AR Path="/722A477D" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A477D" Ref="Q150"  Part="1" 
 AR Path="/72A2BB1E/722A477D" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A477D" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A477D" Ref="Q?"  Part="1" 
 F 0 "Q150" H 35025 11821 50  0000 C CNN
 F 1 "BSS8402DW" H 35025 11730 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 35050 11500 50  0001 C CNN
@@ -3881,6 +3969,8 @@ P 41200 11150
 AR Path="/722A47A7" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A47A7" Ref="Q169"  Part="1" 
 AR Path="/72A2BB1E/722A47A7" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A47A7" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A47A7" Ref="Q?"  Part="1" 
 F 0 "Q169" H 41175 11821 50  0000 C CNN
 F 1 "BSS8402DW" H 41175 11730 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 41200 11500 50  0001 C CNN
@@ -3899,6 +3989,8 @@ P 41750 11150
 AR Path="/722A47B1" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A47B1" Ref="Q174"  Part="1" 
 AR Path="/72A2BB1E/722A47B1" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A47B1" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A47B1" Ref="Q?"  Part="1" 
 F 0 "Q174" H 41725 11821 50  0000 C CNN
 F 1 "BSS8402DW" H 41725 11730 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 41750 11500 50  0001 C CNN
@@ -3927,6 +4019,8 @@ P 42150 11100
 AR Path="/722A47BC" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A47BC" Ref="R199"  Part="1" 
 AR Path="/72A2BB1E/722A47BC" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A47BC" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A47BC" Ref="R?"  Part="1" 
 F 0 "R199" V 41943 11100 50  0000 C CNN
 F 1 "12k" V 42034 11100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 42080 11100 50  0001 C CNN
@@ -3941,6 +4035,8 @@ P 42150 11200
 AR Path="/722A47C2" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A47C2" Ref="R200"  Part="1" 
 AR Path="/72A2BB1E/722A47C2" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A47C2" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A47C2" Ref="R?"  Part="1" 
 F 0 "R200" V 41943 11200 50  0000 C CNN
 F 1 "12k" V 42034 11200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 42080 11200 50  0001 C CNN
@@ -3952,10 +4048,6 @@ Wire Wire Line
 	42300 11100 42350 11100
 Wire Wire Line
 	42350 11200 42300 11200
-Text GLabel 41200 11550 3    50   Input ~ 0
-Vss
-Text GLabel 41750 11550 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	42000 11100 41450 11100
 Wire Wire Line
@@ -3965,10 +4057,6 @@ Connection ~ 42000 11200
 Connection ~ 41400 11250
 Wire Wire Line
 	41400 11250 41400 11300
-Text GLabel 41200 10750 1    50   Input ~ 0
-Vdd
-Text GLabel 41750 10750 1    50   Input ~ 0
-Vdd
 Wire Notes Line
 	40800 10450 42400 10450
 Wire Notes Line
@@ -4005,10 +4093,6 @@ Wire Wire Line
 	45500 10300 45500 10450
 Wire Wire Line
 	45550 10300 45500 10300
-Text GLabel 45850 10050 1    50   Input ~ 0
-Vdd
-Text GLabel 45850 10850 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	46450 10450 46450 10500
 Connection ~ 46450 10450
@@ -4025,6 +4109,8 @@ P 46250 10500
 AR Path="/722A47EE" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A47EE" Ref="R224"  Part="1" 
 AR Path="/72A2BB1E/722A47EE" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A47EE" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A47EE" Ref="R?"  Part="1" 
 F 0 "R224" V 46043 10500 50  0000 C CNN
 F 1 "12k" V 46134 10500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 46180 10500 50  0001 C CNN
@@ -4039,6 +4125,8 @@ P 46250 10400
 AR Path="/722A47F4" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A47F4" Ref="R223"  Part="1" 
 AR Path="/72A2BB1E/722A47F4" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A47F4" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A47F4" Ref="R?"  Part="1" 
 F 0 "R223" V 46043 10400 50  0000 C CNN
 F 1 "12k" V 46134 10400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 46180 10400 50  0001 C CNN
@@ -4053,6 +4141,8 @@ P 45850 10450
 AR Path="/722A47FE" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A47FE" Ref="Q189"  Part="1" 
 AR Path="/72A2BB1E/722A47FE" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A47FE" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A47FE" Ref="Q?"  Part="1" 
 F 0 "Q189" H 45825 11121 50  0000 C CNN
 F 1 "BSS8402DW" H 45825 11030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 45850 10800 50  0001 C CNN
@@ -4097,6 +4187,8 @@ P 48100 11100
 AR Path="/722A4812" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4812" Ref="R230"  Part="1" 
 AR Path="/72A2BB1E/722A4812" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4812" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4812" Ref="R?"  Part="1" 
 F 0 "R230" V 47893 11100 50  0000 C CNN
 F 1 "12k" V 47984 11100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 48030 11100 50  0001 C CNN
@@ -4111,6 +4203,8 @@ P 48100 11000
 AR Path="/722A4818" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4818" Ref="R229"  Part="1" 
 AR Path="/72A2BB1E/722A4818" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4818" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4818" Ref="R?"  Part="1" 
 F 0 "R229" V 47893 11000 50  0000 C CNN
 F 1 "12k" V 47984 11000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 48030 11000 50  0001 C CNN
@@ -4118,10 +4212,6 @@ F 3 "~" H 48100 11000 50  0001 C CNN
 	1    48100 11000
 	0    1    1    0   
 $EndComp
-Text GLabel 47000 10650 1    50   Input ~ 0
-Vdd
-Text GLabel 47000 11450 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	47700 10600 47700 10650
 Wire Wire Line
@@ -4160,6 +4250,8 @@ P 47700 11050
 AR Path="/722A4834" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4834" Ref="Q195"  Part="1" 
 AR Path="/72A2BB1E/722A4834" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4834" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4834" Ref="Q?"  Part="1" 
 F 0 "Q195" H 47675 11721 50  0000 C CNN
 F 1 "BSS8402DW" H 47675 11630 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 47700 11400 50  0001 C CNN
@@ -4178,6 +4270,8 @@ P 47000 11050
 AR Path="/722A483E" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A483E" Ref="Q192"  Part="1" 
 AR Path="/72A2BB1E/722A483E" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A483E" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A483E" Ref="Q?"  Part="1" 
 F 0 "Q192" H 46975 11721 50  0000 C CNN
 F 1 "BSS8402DW" H 46975 11630 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 47000 11400 50  0001 C CNN
@@ -4224,6 +4318,8 @@ P 45150 10500
 AR Path="/722A4853" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4853" Ref="R218"  Part="1" 
 AR Path="/72A2BB1E/722A4853" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4853" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4853" Ref="R?"  Part="1" 
 F 0 "R218" V 44943 10500 50  0000 C CNN
 F 1 "12k" V 45034 10500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 45080 10500 50  0001 C CNN
@@ -4238,6 +4334,8 @@ P 45150 10400
 AR Path="/722A4859" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4859" Ref="R217"  Part="1" 
 AR Path="/72A2BB1E/722A4859" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4859" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4859" Ref="R?"  Part="1" 
 F 0 "R217" V 44943 10400 50  0000 C CNN
 F 1 "12k" V 45034 10400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 45080 10400 50  0001 C CNN
@@ -4245,10 +4343,6 @@ F 3 "~" H 45150 10400 50  0001 C CNN
 	1    45150 10400
 	0    1    1    0   
 $EndComp
-Text GLabel 44050 10050 1    50   Input ~ 0
-Vdd
-Text GLabel 44050 10850 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	44750 10000 44750 10050
 Wire Wire Line
@@ -4287,6 +4381,8 @@ P 44750 10450
 AR Path="/722A4875" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4875" Ref="Q186"  Part="1" 
 AR Path="/72A2BB1E/722A4875" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4875" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4875" Ref="Q?"  Part="1" 
 F 0 "Q186" H 44725 11121 50  0000 C CNN
 F 1 "BSS8402DW" H 44725 11030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 44750 10800 50  0001 C CNN
@@ -4305,6 +4401,8 @@ P 44050 10450
 AR Path="/722A487F" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A487F" Ref="Q183"  Part="1" 
 AR Path="/72A2BB1E/722A487F" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A487F" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A487F" Ref="Q?"  Part="1" 
 F 0 "Q183" H 44025 11121 50  0000 C CNN
 F 1 "BSS8402DW" H 44025 11030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 44050 10800 50  0001 C CNN
@@ -4344,6 +4442,8 @@ P 42300 9850
 AR Path="/722A4890" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4890" Ref="R206"  Part="1" 
 AR Path="/72A2BB1E/722A4890" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4890" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4890" Ref="R?"  Part="1" 
 F 0 "R206" V 42093 9850 50  0000 C CNN
 F 1 "12k" V 42184 9850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 42230 9850 50  0001 C CNN
@@ -4358,6 +4458,8 @@ P 42300 9750
 AR Path="/722A4896" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4896" Ref="R205"  Part="1" 
 AR Path="/72A2BB1E/722A4896" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4896" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4896" Ref="R?"  Part="1" 
 F 0 "R205" V 42093 9750 50  0000 C CNN
 F 1 "12k" V 42184 9750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 42230 9750 50  0001 C CNN
@@ -4365,10 +4467,6 @@ F 3 "~" H 42300 9750 50  0001 C CNN
 	1    42300 9750
 	0    1    1    0   
 $EndComp
-Text GLabel 41200 9400 1    50   Input ~ 0
-Vdd
-Text GLabel 41200 10200 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	41900 9350 41900 9400
 Wire Wire Line
@@ -4407,6 +4505,8 @@ P 41900 9800
 AR Path="/722A48B2" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A48B2" Ref="Q177"  Part="1" 
 AR Path="/72A2BB1E/722A48B2" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A48B2" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A48B2" Ref="Q?"  Part="1" 
 F 0 "Q177" H 41875 10471 50  0000 C CNN
 F 1 "BSS8402DW" H 41875 10380 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 41900 10150 50  0001 C CNN
@@ -4425,6 +4525,8 @@ P 41200 9800
 AR Path="/722A48BC" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A48BC" Ref="Q168"  Part="1" 
 AR Path="/72A2BB1E/722A48BC" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A48BC" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A48BC" Ref="Q?"  Part="1" 
 F 0 "Q168" H 41175 10471 50  0000 C CNN
 F 1 "BSS8402DW" H 41175 10380 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 41200 10150 50  0001 C CNN
@@ -4461,10 +4563,6 @@ Wire Wire Line
 	42550 11000 42550 11150
 Wire Wire Line
 	42600 11000 42550 11000
-Text GLabel 42900 10750 1    50   Input ~ 0
-Vdd
-Text GLabel 42900 11550 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	43500 11200 43450 11200
 Wire Wire Line
@@ -4476,6 +4574,8 @@ P 43300 11200
 AR Path="/722A48D3" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A48D3" Ref="R212"  Part="1" 
 AR Path="/72A2BB1E/722A48D3" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A48D3" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A48D3" Ref="R?"  Part="1" 
 F 0 "R212" V 43093 11200 50  0000 C CNN
 F 1 "12k" V 43184 11200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 43230 11200 50  0001 C CNN
@@ -4490,6 +4590,8 @@ P 43300 11100
 AR Path="/722A48D9" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A48D9" Ref="R211"  Part="1" 
 AR Path="/72A2BB1E/722A48D9" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A48D9" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A48D9" Ref="R?"  Part="1" 
 F 0 "R211" V 43093 11100 50  0000 C CNN
 F 1 "12k" V 43184 11100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 43230 11100 50  0001 C CNN
@@ -4504,6 +4606,8 @@ P 42900 11150
 AR Path="/722A48E3" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A48E3" Ref="Q180"  Part="1" 
 AR Path="/72A2BB1E/722A48E3" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A48E3" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A48E3" Ref="Q?"  Part="1" 
 F 0 "Q180" H 42875 11821 50  0000 C CNN
 F 1 "BSS8402DW" H 42875 11730 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 42900 11500 50  0001 C CNN
@@ -4550,6 +4654,8 @@ P 48950 11250
 AR Path="/722A48FD" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A48FD" Ref="Q198"  Part="1" 
 AR Path="/72A2BB1E/722A48FD" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A48FD" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A48FD" Ref="Q?"  Part="1" 
 F 0 "Q198" H 48925 11921 50  0000 C CNN
 F 1 "BSS8402DW" H 48925 11830 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 48950 11600 50  0001 C CNN
@@ -4568,6 +4674,8 @@ P 49650 11250
 AR Path="/722A4907" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4907" Ref="Q201"  Part="1" 
 AR Path="/72A2BB1E/722A4907" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4907" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4907" Ref="Q?"  Part="1" 
 F 0 "Q201" H 49625 11921 50  0000 C CNN
 F 1 "BSS8402DW" H 49625 11830 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 49650 11600 50  0001 C CNN
@@ -4610,10 +4718,6 @@ Wire Wire Line
 	49400 10800 49650 10800
 Wire Wire Line
 	49650 10800 49650 10850
-Text GLabel 48950 11650 3    50   Input ~ 0
-Vss
-Text GLabel 48950 10850 1    50   Input ~ 0
-Vdd
 $Comp
 L Device:R R?
 U 1 1 722A491F
@@ -4621,6 +4725,8 @@ P 50050 11200
 AR Path="/722A491F" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A491F" Ref="R235"  Part="1" 
 AR Path="/72A2BB1E/722A491F" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A491F" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A491F" Ref="R?"  Part="1" 
 F 0 "R235" V 49843 11200 50  0000 C CNN
 F 1 "12k" V 49934 11200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 49980 11200 50  0001 C CNN
@@ -4635,6 +4741,8 @@ P 50050 11300
 AR Path="/722A4925" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4925" Ref="R236"  Part="1" 
 AR Path="/72A2BB1E/722A4925" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4925" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4925" Ref="R?"  Part="1" 
 F 0 "R236" V 49843 11300 50  0000 C CNN
 F 1 "12k" V 49934 11300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 49980 11300 50  0001 C CNN
@@ -4745,6 +4853,8 @@ P -2250 14350
 AR Path="/722A4961" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4961" Ref="Q9"  Part="1" 
 AR Path="/72A2BB1E/722A4961" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4961" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4961" Ref="Q?"  Part="1" 
 F 0 "Q9" H -2275 15021 50  0000 C CNN
 F 1 "BSS8402DW" H -2275 14930 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H -2250 14700 50  0001 C CNN
@@ -4763,6 +4873,8 @@ P -1700 14350
 AR Path="/722A496B" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A496B" Ref="Q13"  Part="1" 
 AR Path="/72A2BB1E/722A496B" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A496B" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A496B" Ref="Q?"  Part="1" 
 F 0 "Q13" H -1725 15021 50  0000 C CNN
 F 1 "BSS8402DW" H -1725 14930 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H -1700 14700 50  0001 C CNN
@@ -4791,6 +4903,8 @@ P -1300 14300
 AR Path="/722A4976" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4976" Ref="R9"  Part="1" 
 AR Path="/72A2BB1E/722A4976" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4976" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4976" Ref="R?"  Part="1" 
 F 0 "R9" V -1507 14300 50  0000 C CNN
 F 1 "12k" V -1416 14300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V -1370 14300 50  0001 C CNN
@@ -4805,6 +4919,8 @@ P -1300 14400
 AR Path="/722A497C" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A497C" Ref="R10"  Part="1" 
 AR Path="/72A2BB1E/722A497C" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A497C" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A497C" Ref="R?"  Part="1" 
 F 0 "R10" V -1507 14400 50  0000 C CNN
 F 1 "12k" V -1416 14400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V -1370 14400 50  0001 C CNN
@@ -4816,10 +4932,6 @@ Wire Wire Line
 	-1150 14300 -1100 14300
 Wire Wire Line
 	-1100 14400 -1150 14400
-Text GLabel -2250 14750 3    50   Input ~ 0
-Vss
-Text GLabel -1700 14750 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	-1450 14300 -2000 14300
 Wire Wire Line
@@ -4829,10 +4941,6 @@ Connection ~ -1450 14400
 Connection ~ -2050 14450
 Wire Wire Line
 	-2050 14450 -2050 14500
-Text GLabel -2250 13950 1    50   Input ~ 0
-Vdd
-Text GLabel -1700 13950 1    50   Input ~ 0
-Vdd
 Wire Notes Line
 	-2650 13650 -1050 13650
 Wire Notes Line
@@ -4869,10 +4977,6 @@ Wire Wire Line
 	2050 13500 2050 13650
 Wire Wire Line
 	2100 13500 2050 13500
-Text GLabel 2400 13250 1    50   Input ~ 0
-Vdd
-Text GLabel 2400 14050 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	3000 13650 3000 13700
 Connection ~ 3000 13650
@@ -4889,6 +4993,8 @@ P 2800 13700
 AR Path="/722A49A8" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A49A8" Ref="R34"  Part="1" 
 AR Path="/72A2BB1E/722A49A8" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A49A8" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A49A8" Ref="R?"  Part="1" 
 F 0 "R34" V 2593 13700 50  0000 C CNN
 F 1 "12k" V 2684 13700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2730 13700 50  0001 C CNN
@@ -4903,6 +5009,8 @@ P 2800 13600
 AR Path="/722A49AE" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A49AE" Ref="R33"  Part="1" 
 AR Path="/72A2BB1E/722A49AE" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A49AE" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A49AE" Ref="R?"  Part="1" 
 F 0 "R33" V 2593 13600 50  0000 C CNN
 F 1 "12k" V 2684 13600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2730 13600 50  0001 C CNN
@@ -4917,6 +5025,8 @@ P 2400 13650
 AR Path="/722A49B8" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A49B8" Ref="Q28"  Part="1" 
 AR Path="/72A2BB1E/722A49B8" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A49B8" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A49B8" Ref="Q?"  Part="1" 
 F 0 "Q28" H 2375 14321 50  0000 C CNN
 F 1 "BSS8402DW" H 2375 14230 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 2400 14000 50  0001 C CNN
@@ -4961,6 +5071,8 @@ P 4650 14300
 AR Path="/722A49CC" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A49CC" Ref="R40"  Part="1" 
 AR Path="/72A2BB1E/722A49CC" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A49CC" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A49CC" Ref="R?"  Part="1" 
 F 0 "R40" V 4443 14300 50  0000 C CNN
 F 1 "12k" V 4534 14300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4580 14300 50  0001 C CNN
@@ -4975,6 +5087,8 @@ P 4650 14200
 AR Path="/722A49D2" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A49D2" Ref="R39"  Part="1" 
 AR Path="/72A2BB1E/722A49D2" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A49D2" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A49D2" Ref="R?"  Part="1" 
 F 0 "R39" V 4443 14200 50  0000 C CNN
 F 1 "12k" V 4534 14200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4580 14200 50  0001 C CNN
@@ -4982,10 +5096,6 @@ F 3 "~" H 4650 14200 50  0001 C CNN
 	1    4650 14200
 	0    1    1    0   
 $EndComp
-Text GLabel 3550 13850 1    50   Input ~ 0
-Vdd
-Text GLabel 3550 14650 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	4250 13800 4250 13850
 Wire Wire Line
@@ -5024,6 +5134,8 @@ P 4250 14250
 AR Path="/722A49EE" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A49EE" Ref="Q34"  Part="1" 
 AR Path="/72A2BB1E/722A49EE" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A49EE" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A49EE" Ref="Q?"  Part="1" 
 F 0 "Q34" H 4225 14921 50  0000 C CNN
 F 1 "BSS8402DW" H 4225 14830 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 4250 14600 50  0001 C CNN
@@ -5042,6 +5154,8 @@ P 3550 14250
 AR Path="/722A49F8" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A49F8" Ref="Q31"  Part="1" 
 AR Path="/72A2BB1E/722A49F8" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A49F8" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A49F8" Ref="Q?"  Part="1" 
 F 0 "Q31" H 3525 14921 50  0000 C CNN
 F 1 "BSS8402DW" H 3525 14830 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 3550 14600 50  0001 C CNN
@@ -5088,6 +5202,8 @@ P 1700 13700
 AR Path="/722A4A0D" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4A0D" Ref="R28"  Part="1" 
 AR Path="/72A2BB1E/722A4A0D" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4A0D" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4A0D" Ref="R?"  Part="1" 
 F 0 "R28" V 1493 13700 50  0000 C CNN
 F 1 "12k" V 1584 13700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1630 13700 50  0001 C CNN
@@ -5102,6 +5218,8 @@ P 1700 13600
 AR Path="/722A4A13" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4A13" Ref="R27"  Part="1" 
 AR Path="/72A2BB1E/722A4A13" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4A13" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4A13" Ref="R?"  Part="1" 
 F 0 "R27" V 1493 13600 50  0000 C CNN
 F 1 "12k" V 1584 13600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1630 13600 50  0001 C CNN
@@ -5109,10 +5227,6 @@ F 3 "~" H 1700 13600 50  0001 C CNN
 	1    1700 13600
 	0    1    1    0   
 $EndComp
-Text GLabel 600  13250 1    50   Input ~ 0
-Vdd
-Text GLabel 600  14050 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	1300 13200 1300 13250
 Wire Wire Line
@@ -5151,6 +5265,8 @@ P 1300 13650
 AR Path="/722A4A2F" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4A2F" Ref="Q25"  Part="1" 
 AR Path="/72A2BB1E/722A4A2F" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4A2F" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4A2F" Ref="Q?"  Part="1" 
 F 0 "Q25" H 1275 14321 50  0000 C CNN
 F 1 "BSS8402DW" H 1275 14230 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 1300 14000 50  0001 C CNN
@@ -5169,6 +5285,8 @@ P 600 13650
 AR Path="/722A4A39" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4A39" Ref="Q22"  Part="1" 
 AR Path="/72A2BB1E/722A4A39" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4A39" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4A39" Ref="Q?"  Part="1" 
 F 0 "Q22" H 575 14321 50  0000 C CNN
 F 1 "BSS8402DW" H 575 14230 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 600 14000 50  0001 C CNN
@@ -5208,6 +5326,8 @@ P -1150 13050
 AR Path="/722A4A4A" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4A4A" Ref="R16"  Part="1" 
 AR Path="/72A2BB1E/722A4A4A" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4A4A" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4A4A" Ref="R?"  Part="1" 
 F 0 "R16" V -1357 13050 50  0000 C CNN
 F 1 "12k" V -1266 13050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V -1220 13050 50  0001 C CNN
@@ -5222,6 +5342,8 @@ P -1150 12950
 AR Path="/722A4A50" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4A50" Ref="R15"  Part="1" 
 AR Path="/72A2BB1E/722A4A50" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4A50" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4A50" Ref="R?"  Part="1" 
 F 0 "R15" V -1357 12950 50  0000 C CNN
 F 1 "12k" V -1266 12950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V -1220 12950 50  0001 C CNN
@@ -5229,10 +5351,6 @@ F 3 "~" H -1150 12950 50  0001 C CNN
 	1    -1150 12950
 	0    1    1    0   
 $EndComp
-Text GLabel -2250 12600 1    50   Input ~ 0
-Vdd
-Text GLabel -2250 13400 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	-1550 12550 -1550 12600
 Wire Wire Line
@@ -5271,6 +5389,8 @@ P -1550 13000
 AR Path="/722A4A6C" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4A6C" Ref="Q16"  Part="1" 
 AR Path="/72A2BB1E/722A4A6C" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4A6C" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4A6C" Ref="Q?"  Part="1" 
 F 0 "Q16" H -1575 13671 50  0000 C CNN
 F 1 "BSS8402DW" H -1575 13580 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H -1550 13350 50  0001 C CNN
@@ -5289,6 +5409,8 @@ P -2250 13000
 AR Path="/722A4A76" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4A76" Ref="Q8"  Part="1" 
 AR Path="/72A2BB1E/722A4A76" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4A76" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4A76" Ref="Q?"  Part="1" 
 F 0 "Q8" H -2275 13671 50  0000 C CNN
 F 1 "BSS8402DW" H -2275 13580 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H -2250 13350 50  0001 C CNN
@@ -5325,10 +5447,6 @@ Wire Wire Line
 	-900 14200 -900 14350
 Wire Wire Line
 	-850 14200 -900 14200
-Text GLabel -550 13950 1    50   Input ~ 0
-Vdd
-Text GLabel -550 14750 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	50   14400 0    14400
 Wire Wire Line
@@ -5340,6 +5458,8 @@ P -150 14400
 AR Path="/722A4A8D" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4A8D" Ref="R22"  Part="1" 
 AR Path="/72A2BB1E/722A4A8D" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4A8D" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4A8D" Ref="R?"  Part="1" 
 F 0 "R22" V -357 14400 50  0000 C CNN
 F 1 "12k" V -266 14400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V -220 14400 50  0001 C CNN
@@ -5354,6 +5474,8 @@ P -150 14300
 AR Path="/722A4A93" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4A93" Ref="R21"  Part="1" 
 AR Path="/72A2BB1E/722A4A93" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4A93" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4A93" Ref="R?"  Part="1" 
 F 0 "R21" V -357 14300 50  0000 C CNN
 F 1 "12k" V -266 14300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V -220 14300 50  0001 C CNN
@@ -5368,6 +5490,8 @@ P -550 14350
 AR Path="/722A4A9D" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4A9D" Ref="Q19"  Part="1" 
 AR Path="/72A2BB1E/722A4A9D" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4A9D" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4A9D" Ref="Q?"  Part="1" 
 F 0 "Q19" H -575 15021 50  0000 C CNN
 F 1 "BSS8402DW" H -575 14930 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H -550 14700 50  0001 C CNN
@@ -5444,6 +5568,8 @@ P 5600 14350
 AR Path="/722A4AC7" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4AC7" Ref="Q39"  Part="1" 
 AR Path="/72A2BB1E/722A4AC7" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4AC7" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4AC7" Ref="Q?"  Part="1" 
 F 0 "Q39" H 5575 15021 50  0000 C CNN
 F 1 "BSS8402DW" H 5575 14930 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 5600 14700 50  0001 C CNN
@@ -5462,6 +5588,8 @@ P 6150 14350
 AR Path="/722A4AD1" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4AD1" Ref="Q43"  Part="1" 
 AR Path="/72A2BB1E/722A4AD1" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4AD1" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4AD1" Ref="Q?"  Part="1" 
 F 0 "Q43" H 6125 15021 50  0000 C CNN
 F 1 "BSS8402DW" H 6125 14930 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 6150 14700 50  0001 C CNN
@@ -5490,6 +5618,8 @@ P 6550 14300
 AR Path="/722A4ADC" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4ADC" Ref="R45"  Part="1" 
 AR Path="/72A2BB1E/722A4ADC" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4ADC" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4ADC" Ref="R?"  Part="1" 
 F 0 "R45" V 6343 14300 50  0000 C CNN
 F 1 "12k" V 6434 14300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6480 14300 50  0001 C CNN
@@ -5504,6 +5634,8 @@ P 6550 14400
 AR Path="/722A4AE2" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4AE2" Ref="R46"  Part="1" 
 AR Path="/72A2BB1E/722A4AE2" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4AE2" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4AE2" Ref="R?"  Part="1" 
 F 0 "R46" V 6343 14400 50  0000 C CNN
 F 1 "12k" V 6434 14400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6480 14400 50  0001 C CNN
@@ -5515,10 +5647,6 @@ Wire Wire Line
 	6700 14300 6750 14300
 Wire Wire Line
 	6750 14400 6700 14400
-Text GLabel 5600 14750 3    50   Input ~ 0
-Vss
-Text GLabel 6150 14750 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	6400 14300 5850 14300
 Wire Wire Line
@@ -5528,10 +5656,6 @@ Connection ~ 6400 14400
 Connection ~ 5800 14450
 Wire Wire Line
 	5800 14450 5800 14500
-Text GLabel 5600 13950 1    50   Input ~ 0
-Vdd
-Text GLabel 6150 13950 1    50   Input ~ 0
-Vdd
 Wire Notes Line
 	5200 13650 6800 13650
 Wire Notes Line
@@ -5568,10 +5692,6 @@ Wire Wire Line
 	9900 13500 9900 13650
 Wire Wire Line
 	9950 13500 9900 13500
-Text GLabel 10250 13250 1    50   Input ~ 0
-Vdd
-Text GLabel 10250 14050 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	10850 13650 10850 13700
 Connection ~ 10850 13650
@@ -5588,6 +5708,8 @@ P 10650 13700
 AR Path="/722A4B0E" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4B0E" Ref="R70"  Part="1" 
 AR Path="/72A2BB1E/722A4B0E" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4B0E" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4B0E" Ref="R?"  Part="1" 
 F 0 "R70" V 10443 13700 50  0000 C CNN
 F 1 "12k" V 10534 13700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10580 13700 50  0001 C CNN
@@ -5602,6 +5724,8 @@ P 10650 13600
 AR Path="/722A4B14" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4B14" Ref="R69"  Part="1" 
 AR Path="/72A2BB1E/722A4B14" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4B14" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4B14" Ref="R?"  Part="1" 
 F 0 "R69" V 10443 13600 50  0000 C CNN
 F 1 "12k" V 10534 13600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10580 13600 50  0001 C CNN
@@ -5616,6 +5740,8 @@ P 10250 13650
 AR Path="/722A4B1E" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4B1E" Ref="Q58"  Part="1" 
 AR Path="/72A2BB1E/722A4B1E" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4B1E" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4B1E" Ref="Q?"  Part="1" 
 F 0 "Q58" H 10225 14321 50  0000 C CNN
 F 1 "BSS8402DW" H 10225 14230 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 10250 14000 50  0001 C CNN
@@ -5660,6 +5786,8 @@ P 12500 14300
 AR Path="/722A4B32" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4B32" Ref="R76"  Part="1" 
 AR Path="/72A2BB1E/722A4B32" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4B32" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4B32" Ref="R?"  Part="1" 
 F 0 "R76" V 12293 14300 50  0000 C CNN
 F 1 "12k" V 12384 14300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12430 14300 50  0001 C CNN
@@ -5674,6 +5802,8 @@ P 12500 14200
 AR Path="/722A4B38" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4B38" Ref="R75"  Part="1" 
 AR Path="/72A2BB1E/722A4B38" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4B38" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4B38" Ref="R?"  Part="1" 
 F 0 "R75" V 12293 14200 50  0000 C CNN
 F 1 "12k" V 12384 14200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12430 14200 50  0001 C CNN
@@ -5681,10 +5811,6 @@ F 3 "~" H 12500 14200 50  0001 C CNN
 	1    12500 14200
 	0    1    1    0   
 $EndComp
-Text GLabel 11400 13850 1    50   Input ~ 0
-Vdd
-Text GLabel 11400 14650 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	12100 13800 12100 13850
 Wire Wire Line
@@ -5723,6 +5849,8 @@ P 12100 14250
 AR Path="/722A4B54" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4B54" Ref="Q64"  Part="1" 
 AR Path="/72A2BB1E/722A4B54" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4B54" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4B54" Ref="Q?"  Part="1" 
 F 0 "Q64" H 12075 14921 50  0000 C CNN
 F 1 "BSS8402DW" H 12075 14830 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 12100 14600 50  0001 C CNN
@@ -5741,6 +5869,8 @@ P 11400 14250
 AR Path="/722A4B5E" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4B5E" Ref="Q61"  Part="1" 
 AR Path="/72A2BB1E/722A4B5E" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4B5E" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4B5E" Ref="Q?"  Part="1" 
 F 0 "Q61" H 11375 14921 50  0000 C CNN
 F 1 "BSS8402DW" H 11375 14830 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 11400 14600 50  0001 C CNN
@@ -5787,6 +5917,8 @@ P 9550 13700
 AR Path="/722A4B73" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4B73" Ref="R64"  Part="1" 
 AR Path="/72A2BB1E/722A4B73" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4B73" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4B73" Ref="R?"  Part="1" 
 F 0 "R64" V 9343 13700 50  0000 C CNN
 F 1 "12k" V 9434 13700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9480 13700 50  0001 C CNN
@@ -5801,6 +5933,8 @@ P 9550 13600
 AR Path="/722A4B79" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4B79" Ref="R63"  Part="1" 
 AR Path="/72A2BB1E/722A4B79" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4B79" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4B79" Ref="R?"  Part="1" 
 F 0 "R63" V 9343 13600 50  0000 C CNN
 F 1 "12k" V 9434 13600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9480 13600 50  0001 C CNN
@@ -5808,10 +5942,6 @@ F 3 "~" H 9550 13600 50  0001 C CNN
 	1    9550 13600
 	0    1    1    0   
 $EndComp
-Text GLabel 8450 13250 1    50   Input ~ 0
-Vdd
-Text GLabel 8450 14050 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	9150 13200 9150 13250
 Wire Wire Line
@@ -5850,6 +5980,8 @@ P 9150 13650
 AR Path="/722A4B95" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4B95" Ref="Q55"  Part="1" 
 AR Path="/72A2BB1E/722A4B95" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4B95" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4B95" Ref="Q?"  Part="1" 
 F 0 "Q55" H 9125 14321 50  0000 C CNN
 F 1 "BSS8402DW" H 9125 14230 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 9150 14000 50  0001 C CNN
@@ -5868,6 +6000,8 @@ P 8450 13650
 AR Path="/722A4B9F" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4B9F" Ref="Q52"  Part="1" 
 AR Path="/72A2BB1E/722A4B9F" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4B9F" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4B9F" Ref="Q?"  Part="1" 
 F 0 "Q52" H 8425 14321 50  0000 C CNN
 F 1 "BSS8402DW" H 8425 14230 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 8450 14000 50  0001 C CNN
@@ -5907,6 +6041,8 @@ P 6700 13050
 AR Path="/722A4BB0" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4BB0" Ref="R52"  Part="1" 
 AR Path="/72A2BB1E/722A4BB0" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4BB0" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4BB0" Ref="R?"  Part="1" 
 F 0 "R52" V 6493 13050 50  0000 C CNN
 F 1 "12k" V 6584 13050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6630 13050 50  0001 C CNN
@@ -5921,6 +6057,8 @@ P 6700 12950
 AR Path="/722A4BB6" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4BB6" Ref="R51"  Part="1" 
 AR Path="/72A2BB1E/722A4BB6" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4BB6" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4BB6" Ref="R?"  Part="1" 
 F 0 "R51" V 6493 12950 50  0000 C CNN
 F 1 "12k" V 6584 12950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6630 12950 50  0001 C CNN
@@ -5928,10 +6066,6 @@ F 3 "~" H 6700 12950 50  0001 C CNN
 	1    6700 12950
 	0    1    1    0   
 $EndComp
-Text GLabel 5600 12600 1    50   Input ~ 0
-Vdd
-Text GLabel 5600 13400 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	6300 12550 6300 12600
 Wire Wire Line
@@ -5970,6 +6104,8 @@ P 6300 13000
 AR Path="/722A4BD2" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4BD2" Ref="Q46"  Part="1" 
 AR Path="/72A2BB1E/722A4BD2" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4BD2" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4BD2" Ref="Q?"  Part="1" 
 F 0 "Q46" H 6275 13671 50  0000 C CNN
 F 1 "BSS8402DW" H 6275 13580 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 6300 13350 50  0001 C CNN
@@ -5988,6 +6124,8 @@ P 5600 13000
 AR Path="/722A4BDC" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4BDC" Ref="Q38"  Part="1" 
 AR Path="/72A2BB1E/722A4BDC" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4BDC" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4BDC" Ref="Q?"  Part="1" 
 F 0 "Q38" H 5575 13671 50  0000 C CNN
 F 1 "BSS8402DW" H 5575 13580 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 5600 13350 50  0001 C CNN
@@ -6024,10 +6162,6 @@ Wire Wire Line
 	6950 14200 6950 14350
 Wire Wire Line
 	7000 14200 6950 14200
-Text GLabel 7300 13950 1    50   Input ~ 0
-Vdd
-Text GLabel 7300 14750 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	7900 14400 7850 14400
 Wire Wire Line
@@ -6039,6 +6173,8 @@ P 7700 14400
 AR Path="/722A4BF3" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4BF3" Ref="R58"  Part="1" 
 AR Path="/72A2BB1E/722A4BF3" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4BF3" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4BF3" Ref="R?"  Part="1" 
 F 0 "R58" V 7493 14400 50  0000 C CNN
 F 1 "12k" V 7584 14400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7630 14400 50  0001 C CNN
@@ -6053,6 +6189,8 @@ P 7700 14300
 AR Path="/722A4BF9" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4BF9" Ref="R57"  Part="1" 
 AR Path="/72A2BB1E/722A4BF9" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4BF9" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4BF9" Ref="R?"  Part="1" 
 F 0 "R57" V 7493 14300 50  0000 C CNN
 F 1 "12k" V 7584 14300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7630 14300 50  0001 C CNN
@@ -6067,6 +6205,8 @@ P 7300 14350
 AR Path="/722A4C03" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4C03" Ref="Q49"  Part="1" 
 AR Path="/72A2BB1E/722A4C03" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4C03" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4C03" Ref="Q?"  Part="1" 
 F 0 "Q49" H 7275 15021 50  0000 C CNN
 F 1 "BSS8402DW" H 7275 14930 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 7300 14700 50  0001 C CNN
@@ -6113,6 +6253,8 @@ P 13350 14450
 AR Path="/722A4C1D" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4C1D" Ref="Q67"  Part="1" 
 AR Path="/72A2BB1E/722A4C1D" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4C1D" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4C1D" Ref="Q?"  Part="1" 
 F 0 "Q67" H 13325 15121 50  0000 C CNN
 F 1 "BSS8402DW" H 13325 15030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 13350 14800 50  0001 C CNN
@@ -6131,6 +6273,8 @@ P 14050 14450
 AR Path="/722A4C27" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4C27" Ref="Q70"  Part="1" 
 AR Path="/72A2BB1E/722A4C27" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4C27" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4C27" Ref="Q?"  Part="1" 
 F 0 "Q70" H 14025 15121 50  0000 C CNN
 F 1 "BSS8402DW" H 14025 15030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 14050 14800 50  0001 C CNN
@@ -6173,10 +6317,6 @@ Wire Wire Line
 	13800 14000 14050 14000
 Wire Wire Line
 	14050 14000 14050 14050
-Text GLabel 13350 14850 3    50   Input ~ 0
-Vss
-Text GLabel 13350 14050 1    50   Input ~ 0
-Vdd
 $Comp
 L Device:R R?
 U 1 1 722A4C3F
@@ -6184,6 +6324,8 @@ P 14450 14400
 AR Path="/722A4C3F" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4C3F" Ref="R81"  Part="1" 
 AR Path="/72A2BB1E/722A4C3F" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4C3F" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4C3F" Ref="R?"  Part="1" 
 F 0 "R81" V 14243 14400 50  0000 C CNN
 F 1 "12k" V 14334 14400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14380 14400 50  0001 C CNN
@@ -6198,6 +6340,8 @@ P 14450 14500
 AR Path="/722A4C45" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4C45" Ref="R82"  Part="1" 
 AR Path="/72A2BB1E/722A4C45" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4C45" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4C45" Ref="R?"  Part="1" 
 F 0 "R82" V 14243 14500 50  0000 C CNN
 F 1 "12k" V 14334 14500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14380 14500 50  0001 C CNN
@@ -6308,6 +6452,8 @@ P 15550 14350
 AR Path="/722A4C81" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4C81" Ref="Q75"  Part="1" 
 AR Path="/72A2BB1E/722A4C81" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4C81" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4C81" Ref="Q?"  Part="1" 
 F 0 "Q75" H 15525 15021 50  0000 C CNN
 F 1 "BSS8402DW" H 15525 14930 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 15550 14700 50  0001 C CNN
@@ -6326,6 +6472,8 @@ P 16100 14350
 AR Path="/722A4C8B" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4C8B" Ref="Q79"  Part="1" 
 AR Path="/72A2BB1E/722A4C8B" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4C8B" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4C8B" Ref="Q?"  Part="1" 
 F 0 "Q79" H 16075 15021 50  0000 C CNN
 F 1 "BSS8402DW" H 16075 14930 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 16100 14700 50  0001 C CNN
@@ -6354,6 +6502,8 @@ P 16500 14300
 AR Path="/722A4C96" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4C96" Ref="R87"  Part="1" 
 AR Path="/72A2BB1E/722A4C96" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4C96" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4C96" Ref="R?"  Part="1" 
 F 0 "R87" V 16293 14300 50  0000 C CNN
 F 1 "12k" V 16384 14300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 16430 14300 50  0001 C CNN
@@ -6368,6 +6518,8 @@ P 16500 14400
 AR Path="/722A4C9C" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4C9C" Ref="R88"  Part="1" 
 AR Path="/72A2BB1E/722A4C9C" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4C9C" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4C9C" Ref="R?"  Part="1" 
 F 0 "R88" V 16293 14400 50  0000 C CNN
 F 1 "12k" V 16384 14400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 16430 14400 50  0001 C CNN
@@ -6379,10 +6531,6 @@ Wire Wire Line
 	16650 14300 16700 14300
 Wire Wire Line
 	16700 14400 16650 14400
-Text GLabel 15550 14750 3    50   Input ~ 0
-Vss
-Text GLabel 16100 14750 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	16350 14300 15800 14300
 Wire Wire Line
@@ -6392,10 +6540,6 @@ Connection ~ 16350 14400
 Connection ~ 15750 14450
 Wire Wire Line
 	15750 14450 15750 14500
-Text GLabel 15550 13950 1    50   Input ~ 0
-Vdd
-Text GLabel 16100 13950 1    50   Input ~ 0
-Vdd
 Wire Notes Line
 	15150 13650 16750 13650
 Wire Notes Line
@@ -6432,10 +6576,6 @@ Wire Wire Line
 	19850 13500 19850 13650
 Wire Wire Line
 	19900 13500 19850 13500
-Text GLabel 20200 13250 1    50   Input ~ 0
-Vdd
-Text GLabel 20200 14050 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	20800 13650 20800 13700
 Connection ~ 20800 13650
@@ -6452,6 +6592,8 @@ P 20600 13700
 AR Path="/722A4CC8" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4CC8" Ref="R112"  Part="1" 
 AR Path="/72A2BB1E/722A4CC8" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4CC8" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4CC8" Ref="R?"  Part="1" 
 F 0 "R112" V 20393 13700 50  0000 C CNN
 F 1 "12k" V 20484 13700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 20530 13700 50  0001 C CNN
@@ -6466,6 +6608,8 @@ P 20600 13600
 AR Path="/722A4CCE" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4CCE" Ref="R111"  Part="1" 
 AR Path="/72A2BB1E/722A4CCE" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4CCE" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4CCE" Ref="R?"  Part="1" 
 F 0 "R111" V 20393 13600 50  0000 C CNN
 F 1 "12k" V 20484 13600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 20530 13600 50  0001 C CNN
@@ -6480,6 +6624,8 @@ P 20200 13650
 AR Path="/722A4CD8" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4CD8" Ref="Q94"  Part="1" 
 AR Path="/72A2BB1E/722A4CD8" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4CD8" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4CD8" Ref="Q?"  Part="1" 
 F 0 "Q94" H 20175 14321 50  0000 C CNN
 F 1 "BSS8402DW" H 20175 14230 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 20200 14000 50  0001 C CNN
@@ -6524,6 +6670,8 @@ P 22450 14300
 AR Path="/722A4CEC" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4CEC" Ref="R118"  Part="1" 
 AR Path="/72A2BB1E/722A4CEC" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4CEC" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4CEC" Ref="R?"  Part="1" 
 F 0 "R118" V 22243 14300 50  0000 C CNN
 F 1 "12k" V 22334 14300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 22380 14300 50  0001 C CNN
@@ -6538,6 +6686,8 @@ P 22450 14200
 AR Path="/722A4CF2" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4CF2" Ref="R117"  Part="1" 
 AR Path="/72A2BB1E/722A4CF2" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4CF2" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4CF2" Ref="R?"  Part="1" 
 F 0 "R117" V 22243 14200 50  0000 C CNN
 F 1 "12k" V 22334 14200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 22380 14200 50  0001 C CNN
@@ -6545,10 +6695,6 @@ F 3 "~" H 22450 14200 50  0001 C CNN
 	1    22450 14200
 	0    1    1    0   
 $EndComp
-Text GLabel 21350 13850 1    50   Input ~ 0
-Vdd
-Text GLabel 21350 14650 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	22050 13800 22050 13850
 Wire Wire Line
@@ -6587,6 +6733,8 @@ P 22050 14250
 AR Path="/722A4D0E" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4D0E" Ref="Q100"  Part="1" 
 AR Path="/72A2BB1E/722A4D0E" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4D0E" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4D0E" Ref="Q?"  Part="1" 
 F 0 "Q100" H 22025 14921 50  0000 C CNN
 F 1 "BSS8402DW" H 22025 14830 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 22050 14600 50  0001 C CNN
@@ -6605,6 +6753,8 @@ P 21350 14250
 AR Path="/722A4D18" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4D18" Ref="Q97"  Part="1" 
 AR Path="/72A2BB1E/722A4D18" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4D18" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4D18" Ref="Q?"  Part="1" 
 F 0 "Q97" H 21325 14921 50  0000 C CNN
 F 1 "BSS8402DW" H 21325 14830 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 21350 14600 50  0001 C CNN
@@ -6651,6 +6801,8 @@ P 19500 13700
 AR Path="/722A4D2D" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4D2D" Ref="R106"  Part="1" 
 AR Path="/72A2BB1E/722A4D2D" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4D2D" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4D2D" Ref="R?"  Part="1" 
 F 0 "R106" V 19293 13700 50  0000 C CNN
 F 1 "12k" V 19384 13700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 19430 13700 50  0001 C CNN
@@ -6665,6 +6817,8 @@ P 19500 13600
 AR Path="/722A4D33" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4D33" Ref="R105"  Part="1" 
 AR Path="/72A2BB1E/722A4D33" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4D33" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4D33" Ref="R?"  Part="1" 
 F 0 "R105" V 19293 13600 50  0000 C CNN
 F 1 "12k" V 19384 13600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 19430 13600 50  0001 C CNN
@@ -6672,10 +6826,6 @@ F 3 "~" H 19500 13600 50  0001 C CNN
 	1    19500 13600
 	0    1    1    0   
 $EndComp
-Text GLabel 18400 13250 1    50   Input ~ 0
-Vdd
-Text GLabel 18400 14050 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	19100 13200 19100 13250
 Wire Wire Line
@@ -6714,6 +6864,8 @@ P 19100 13650
 AR Path="/722A4D4F" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4D4F" Ref="Q91"  Part="1" 
 AR Path="/72A2BB1E/722A4D4F" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4D4F" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4D4F" Ref="Q?"  Part="1" 
 F 0 "Q91" H 19075 14321 50  0000 C CNN
 F 1 "BSS8402DW" H 19075 14230 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 19100 14000 50  0001 C CNN
@@ -6732,6 +6884,8 @@ P 18400 13650
 AR Path="/722A4D59" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4D59" Ref="Q88"  Part="1" 
 AR Path="/72A2BB1E/722A4D59" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4D59" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4D59" Ref="Q?"  Part="1" 
 F 0 "Q88" H 18375 14321 50  0000 C CNN
 F 1 "BSS8402DW" H 18375 14230 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 18400 14000 50  0001 C CNN
@@ -6771,6 +6925,8 @@ P 16650 13050
 AR Path="/722A4D6A" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4D6A" Ref="R94"  Part="1" 
 AR Path="/72A2BB1E/722A4D6A" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4D6A" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4D6A" Ref="R?"  Part="1" 
 F 0 "R94" V 16443 13050 50  0000 C CNN
 F 1 "12k" V 16534 13050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 16580 13050 50  0001 C CNN
@@ -6785,6 +6941,8 @@ P 16650 12950
 AR Path="/722A4D70" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4D70" Ref="R93"  Part="1" 
 AR Path="/72A2BB1E/722A4D70" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4D70" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4D70" Ref="R?"  Part="1" 
 F 0 "R93" V 16443 12950 50  0000 C CNN
 F 1 "12k" V 16534 12950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 16580 12950 50  0001 C CNN
@@ -6792,10 +6950,6 @@ F 3 "~" H 16650 12950 50  0001 C CNN
 	1    16650 12950
 	0    1    1    0   
 $EndComp
-Text GLabel 15550 12600 1    50   Input ~ 0
-Vdd
-Text GLabel 15550 13400 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	16250 12550 16250 12600
 Wire Wire Line
@@ -6834,6 +6988,8 @@ P 16250 13000
 AR Path="/722A4D8C" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4D8C" Ref="Q82"  Part="1" 
 AR Path="/72A2BB1E/722A4D8C" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4D8C" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4D8C" Ref="Q?"  Part="1" 
 F 0 "Q82" H 16225 13671 50  0000 C CNN
 F 1 "BSS8402DW" H 16225 13580 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 16250 13350 50  0001 C CNN
@@ -6852,6 +7008,8 @@ P 15550 13000
 AR Path="/722A4D96" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4D96" Ref="Q74"  Part="1" 
 AR Path="/72A2BB1E/722A4D96" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4D96" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4D96" Ref="Q?"  Part="1" 
 F 0 "Q74" H 15525 13671 50  0000 C CNN
 F 1 "BSS8402DW" H 15525 13580 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 15550 13350 50  0001 C CNN
@@ -6888,10 +7046,6 @@ Wire Wire Line
 	16900 14200 16900 14350
 Wire Wire Line
 	16950 14200 16900 14200
-Text GLabel 17250 13950 1    50   Input ~ 0
-Vdd
-Text GLabel 17250 14750 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	17850 14400 17800 14400
 Wire Wire Line
@@ -6903,6 +7057,8 @@ P 17650 14400
 AR Path="/722A4DAD" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4DAD" Ref="R100"  Part="1" 
 AR Path="/72A2BB1E/722A4DAD" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4DAD" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4DAD" Ref="R?"  Part="1" 
 F 0 "R100" V 17443 14400 50  0000 C CNN
 F 1 "12k" V 17534 14400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 17580 14400 50  0001 C CNN
@@ -6917,6 +7073,8 @@ P 17650 14300
 AR Path="/722A4DB3" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4DB3" Ref="R99"  Part="1" 
 AR Path="/72A2BB1E/722A4DB3" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4DB3" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4DB3" Ref="R?"  Part="1" 
 F 0 "R99" V 17443 14300 50  0000 C CNN
 F 1 "12k" V 17534 14300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 17580 14300 50  0001 C CNN
@@ -6931,6 +7089,8 @@ P 17250 14350
 AR Path="/722A4DBD" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4DBD" Ref="Q85"  Part="1" 
 AR Path="/72A2BB1E/722A4DBD" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4DBD" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4DBD" Ref="Q?"  Part="1" 
 F 0 "Q85" H 17225 15021 50  0000 C CNN
 F 1 "BSS8402DW" H 17225 14930 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 17250 14700 50  0001 C CNN
@@ -7007,6 +7167,8 @@ P 23400 14350
 AR Path="/722A4DE7" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4DE7" Ref="Q105"  Part="1" 
 AR Path="/72A2BB1E/722A4DE7" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4DE7" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4DE7" Ref="Q?"  Part="1" 
 F 0 "Q105" H 23375 15021 50  0000 C CNN
 F 1 "BSS8402DW" H 23375 14930 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 23400 14700 50  0001 C CNN
@@ -7025,6 +7187,8 @@ P 23950 14350
 AR Path="/722A4DF1" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4DF1" Ref="Q109"  Part="1" 
 AR Path="/72A2BB1E/722A4DF1" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4DF1" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4DF1" Ref="Q?"  Part="1" 
 F 0 "Q109" H 23925 15021 50  0000 C CNN
 F 1 "BSS8402DW" H 23925 14930 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 23950 14700 50  0001 C CNN
@@ -7053,6 +7217,8 @@ P 24350 14300
 AR Path="/722A4DFC" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4DFC" Ref="R123"  Part="1" 
 AR Path="/72A2BB1E/722A4DFC" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4DFC" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4DFC" Ref="R?"  Part="1" 
 F 0 "R123" V 24143 14300 50  0000 C CNN
 F 1 "12k" V 24234 14300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 24280 14300 50  0001 C CNN
@@ -7067,6 +7233,8 @@ P 24350 14400
 AR Path="/722A4E02" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4E02" Ref="R124"  Part="1" 
 AR Path="/72A2BB1E/722A4E02" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4E02" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4E02" Ref="R?"  Part="1" 
 F 0 "R124" V 24143 14400 50  0000 C CNN
 F 1 "12k" V 24234 14400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 24280 14400 50  0001 C CNN
@@ -7078,10 +7246,6 @@ Wire Wire Line
 	24500 14300 24550 14300
 Wire Wire Line
 	24550 14400 24500 14400
-Text GLabel 23400 14750 3    50   Input ~ 0
-Vss
-Text GLabel 23950 14750 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	24200 14300 23650 14300
 Wire Wire Line
@@ -7091,10 +7255,6 @@ Connection ~ 24200 14400
 Connection ~ 23600 14450
 Wire Wire Line
 	23600 14450 23600 14500
-Text GLabel 23400 13950 1    50   Input ~ 0
-Vdd
-Text GLabel 23950 13950 1    50   Input ~ 0
-Vdd
 Wire Notes Line
 	23000 13650 24600 13650
 Wire Notes Line
@@ -7131,10 +7291,6 @@ Wire Wire Line
 	27700 13500 27700 13650
 Wire Wire Line
 	27750 13500 27700 13500
-Text GLabel 28050 13250 1    50   Input ~ 0
-Vdd
-Text GLabel 28050 14050 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	28650 13650 28650 13700
 Connection ~ 28650 13650
@@ -7151,6 +7307,8 @@ P 28450 13700
 AR Path="/722A4E2E" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4E2E" Ref="R148"  Part="1" 
 AR Path="/72A2BB1E/722A4E2E" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4E2E" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4E2E" Ref="R?"  Part="1" 
 F 0 "R148" V 28243 13700 50  0000 C CNN
 F 1 "12k" V 28334 13700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 28380 13700 50  0001 C CNN
@@ -7165,6 +7323,8 @@ P 28450 13600
 AR Path="/722A4E34" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4E34" Ref="R147"  Part="1" 
 AR Path="/72A2BB1E/722A4E34" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4E34" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4E34" Ref="R?"  Part="1" 
 F 0 "R147" V 28243 13600 50  0000 C CNN
 F 1 "12k" V 28334 13600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 28380 13600 50  0001 C CNN
@@ -7179,6 +7339,8 @@ P 28050 13650
 AR Path="/722A4E3E" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4E3E" Ref="Q124"  Part="1" 
 AR Path="/72A2BB1E/722A4E3E" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4E3E" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4E3E" Ref="Q?"  Part="1" 
 F 0 "Q124" H 28025 14321 50  0000 C CNN
 F 1 "BSS8402DW" H 28025 14230 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 28050 14000 50  0001 C CNN
@@ -7223,6 +7385,8 @@ P 30300 14300
 AR Path="/722A4E52" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4E52" Ref="R154"  Part="1" 
 AR Path="/72A2BB1E/722A4E52" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4E52" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4E52" Ref="R?"  Part="1" 
 F 0 "R154" V 30093 14300 50  0000 C CNN
 F 1 "12k" V 30184 14300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 30230 14300 50  0001 C CNN
@@ -7237,6 +7401,8 @@ P 30300 14200
 AR Path="/722A4E58" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4E58" Ref="R153"  Part="1" 
 AR Path="/72A2BB1E/722A4E58" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4E58" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4E58" Ref="R?"  Part="1" 
 F 0 "R153" V 30093 14200 50  0000 C CNN
 F 1 "12k" V 30184 14200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 30230 14200 50  0001 C CNN
@@ -7244,10 +7410,6 @@ F 3 "~" H 30300 14200 50  0001 C CNN
 	1    30300 14200
 	0    1    1    0   
 $EndComp
-Text GLabel 29200 13850 1    50   Input ~ 0
-Vdd
-Text GLabel 29200 14650 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	29900 13800 29900 13850
 Wire Wire Line
@@ -7286,6 +7448,8 @@ P 29900 14250
 AR Path="/722A4E74" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4E74" Ref="Q130"  Part="1" 
 AR Path="/72A2BB1E/722A4E74" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4E74" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4E74" Ref="Q?"  Part="1" 
 F 0 "Q130" H 29875 14921 50  0000 C CNN
 F 1 "BSS8402DW" H 29875 14830 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 29900 14600 50  0001 C CNN
@@ -7304,6 +7468,8 @@ P 29200 14250
 AR Path="/722A4E7E" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4E7E" Ref="Q127"  Part="1" 
 AR Path="/72A2BB1E/722A4E7E" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4E7E" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4E7E" Ref="Q?"  Part="1" 
 F 0 "Q127" H 29175 14921 50  0000 C CNN
 F 1 "BSS8402DW" H 29175 14830 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 29200 14600 50  0001 C CNN
@@ -7350,6 +7516,8 @@ P 27350 13700
 AR Path="/722A4E93" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4E93" Ref="R142"  Part="1" 
 AR Path="/72A2BB1E/722A4E93" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4E93" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4E93" Ref="R?"  Part="1" 
 F 0 "R142" V 27143 13700 50  0000 C CNN
 F 1 "12k" V 27234 13700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 27280 13700 50  0001 C CNN
@@ -7364,6 +7532,8 @@ P 27350 13600
 AR Path="/722A4E99" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4E99" Ref="R141"  Part="1" 
 AR Path="/72A2BB1E/722A4E99" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4E99" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4E99" Ref="R?"  Part="1" 
 F 0 "R141" V 27143 13600 50  0000 C CNN
 F 1 "12k" V 27234 13600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 27280 13600 50  0001 C CNN
@@ -7371,10 +7541,6 @@ F 3 "~" H 27350 13600 50  0001 C CNN
 	1    27350 13600
 	0    1    1    0   
 $EndComp
-Text GLabel 26250 13250 1    50   Input ~ 0
-Vdd
-Text GLabel 26250 14050 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	26950 13200 26950 13250
 Wire Wire Line
@@ -7413,6 +7579,8 @@ P 26950 13650
 AR Path="/722A4EB5" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4EB5" Ref="Q121"  Part="1" 
 AR Path="/72A2BB1E/722A4EB5" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4EB5" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4EB5" Ref="Q?"  Part="1" 
 F 0 "Q121" H 26925 14321 50  0000 C CNN
 F 1 "BSS8402DW" H 26925 14230 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 26950 14000 50  0001 C CNN
@@ -7431,6 +7599,8 @@ P 26250 13650
 AR Path="/722A4EBF" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4EBF" Ref="Q118"  Part="1" 
 AR Path="/72A2BB1E/722A4EBF" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4EBF" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4EBF" Ref="Q?"  Part="1" 
 F 0 "Q118" H 26225 14321 50  0000 C CNN
 F 1 "BSS8402DW" H 26225 14230 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 26250 14000 50  0001 C CNN
@@ -7470,6 +7640,8 @@ P 24500 13050
 AR Path="/722A4ED0" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4ED0" Ref="R130"  Part="1" 
 AR Path="/72A2BB1E/722A4ED0" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4ED0" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4ED0" Ref="R?"  Part="1" 
 F 0 "R130" V 24293 13050 50  0000 C CNN
 F 1 "12k" V 24384 13050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 24430 13050 50  0001 C CNN
@@ -7484,6 +7656,8 @@ P 24500 12950
 AR Path="/722A4ED6" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4ED6" Ref="R129"  Part="1" 
 AR Path="/72A2BB1E/722A4ED6" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4ED6" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4ED6" Ref="R?"  Part="1" 
 F 0 "R129" V 24293 12950 50  0000 C CNN
 F 1 "12k" V 24384 12950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 24430 12950 50  0001 C CNN
@@ -7491,10 +7665,6 @@ F 3 "~" H 24500 12950 50  0001 C CNN
 	1    24500 12950
 	0    1    1    0   
 $EndComp
-Text GLabel 23400 12600 1    50   Input ~ 0
-Vdd
-Text GLabel 23400 13400 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	24100 12550 24100 12600
 Wire Wire Line
@@ -7533,6 +7703,8 @@ P 24100 13000
 AR Path="/722A4EF2" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4EF2" Ref="Q112"  Part="1" 
 AR Path="/72A2BB1E/722A4EF2" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4EF2" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4EF2" Ref="Q?"  Part="1" 
 F 0 "Q112" H 24075 13671 50  0000 C CNN
 F 1 "BSS8402DW" H 24075 13580 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 24100 13350 50  0001 C CNN
@@ -7551,6 +7723,8 @@ P 23400 13000
 AR Path="/722A4EFC" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4EFC" Ref="Q104"  Part="1" 
 AR Path="/72A2BB1E/722A4EFC" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4EFC" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4EFC" Ref="Q?"  Part="1" 
 F 0 "Q104" H 23375 13671 50  0000 C CNN
 F 1 "BSS8402DW" H 23375 13580 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 23400 13350 50  0001 C CNN
@@ -7587,10 +7761,6 @@ Wire Wire Line
 	24750 14200 24750 14350
 Wire Wire Line
 	24800 14200 24750 14200
-Text GLabel 25100 13950 1    50   Input ~ 0
-Vdd
-Text GLabel 25100 14750 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	25700 14400 25650 14400
 Wire Wire Line
@@ -7602,6 +7772,8 @@ P 25500 14400
 AR Path="/722A4F13" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4F13" Ref="R136"  Part="1" 
 AR Path="/72A2BB1E/722A4F13" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4F13" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4F13" Ref="R?"  Part="1" 
 F 0 "R136" V 25293 14400 50  0000 C CNN
 F 1 "12k" V 25384 14400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 25430 14400 50  0001 C CNN
@@ -7616,6 +7788,8 @@ P 25500 14300
 AR Path="/722A4F19" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4F19" Ref="R135"  Part="1" 
 AR Path="/72A2BB1E/722A4F19" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4F19" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4F19" Ref="R?"  Part="1" 
 F 0 "R135" V 25293 14300 50  0000 C CNN
 F 1 "12k" V 25384 14300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 25430 14300 50  0001 C CNN
@@ -7630,6 +7804,8 @@ P 25100 14350
 AR Path="/722A4F23" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4F23" Ref="Q115"  Part="1" 
 AR Path="/72A2BB1E/722A4F23" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4F23" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4F23" Ref="Q?"  Part="1" 
 F 0 "Q115" H 25075 15021 50  0000 C CNN
 F 1 "BSS8402DW" H 25075 14930 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 25100 14700 50  0001 C CNN
@@ -7676,6 +7852,8 @@ P 31150 14450
 AR Path="/722A4F3D" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4F3D" Ref="Q133"  Part="1" 
 AR Path="/72A2BB1E/722A4F3D" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4F3D" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4F3D" Ref="Q?"  Part="1" 
 F 0 "Q133" H 31125 15121 50  0000 C CNN
 F 1 "BSS8402DW" H 31125 15030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 31150 14800 50  0001 C CNN
@@ -7694,6 +7872,8 @@ P 31850 14450
 AR Path="/722A4F47" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4F47" Ref="Q136"  Part="1" 
 AR Path="/72A2BB1E/722A4F47" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4F47" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4F47" Ref="Q?"  Part="1" 
 F 0 "Q136" H 31825 15121 50  0000 C CNN
 F 1 "BSS8402DW" H 31825 15030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 31850 14800 50  0001 C CNN
@@ -7736,10 +7916,6 @@ Wire Wire Line
 	31600 14000 31850 14000
 Wire Wire Line
 	31850 14000 31850 14050
-Text GLabel 31150 14850 3    50   Input ~ 0
-Vss
-Text GLabel 31150 14050 1    50   Input ~ 0
-Vdd
 $Comp
 L Device:R R?
 U 1 1 722A4F5F
@@ -7747,6 +7923,8 @@ P 32250 14400
 AR Path="/722A4F5F" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4F5F" Ref="R159"  Part="1" 
 AR Path="/72A2BB1E/722A4F5F" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4F5F" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4F5F" Ref="R?"  Part="1" 
 F 0 "R159" V 32043 14400 50  0000 C CNN
 F 1 "12k" V 32134 14400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 32180 14400 50  0001 C CNN
@@ -7761,6 +7939,8 @@ P 32250 14500
 AR Path="/722A4F65" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4F65" Ref="R160"  Part="1" 
 AR Path="/72A2BB1E/722A4F65" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4F65" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4F65" Ref="R?"  Part="1" 
 F 0 "R160" V 32043 14500 50  0000 C CNN
 F 1 "12k" V 32134 14500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 32180 14500 50  0001 C CNN
@@ -7871,6 +8051,8 @@ P 33350 14350
 AR Path="/722A4FA1" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4FA1" Ref="Q141"  Part="1" 
 AR Path="/72A2BB1E/722A4FA1" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4FA1" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4FA1" Ref="Q?"  Part="1" 
 F 0 "Q141" H 33325 15021 50  0000 C CNN
 F 1 "BSS8402DW" H 33325 14930 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 33350 14700 50  0001 C CNN
@@ -7889,6 +8071,8 @@ P 33900 14350
 AR Path="/722A4FAB" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4FAB" Ref="Q145"  Part="1" 
 AR Path="/72A2BB1E/722A4FAB" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4FAB" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4FAB" Ref="Q?"  Part="1" 
 F 0 "Q145" H 33875 15021 50  0000 C CNN
 F 1 "BSS8402DW" H 33875 14930 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 33900 14700 50  0001 C CNN
@@ -7917,6 +8101,8 @@ P 34300 14300
 AR Path="/722A4FB6" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4FB6" Ref="R165"  Part="1" 
 AR Path="/72A2BB1E/722A4FB6" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4FB6" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4FB6" Ref="R?"  Part="1" 
 F 0 "R165" V 34093 14300 50  0000 C CNN
 F 1 "12k" V 34184 14300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 34230 14300 50  0001 C CNN
@@ -7931,6 +8117,8 @@ P 34300 14400
 AR Path="/722A4FBC" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4FBC" Ref="R166"  Part="1" 
 AR Path="/72A2BB1E/722A4FBC" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4FBC" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4FBC" Ref="R?"  Part="1" 
 F 0 "R166" V 34093 14400 50  0000 C CNN
 F 1 "12k" V 34184 14400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 34230 14400 50  0001 C CNN
@@ -7942,10 +8130,6 @@ Wire Wire Line
 	34450 14300 34500 14300
 Wire Wire Line
 	34500 14400 34450 14400
-Text GLabel 33350 14750 3    50   Input ~ 0
-Vss
-Text GLabel 33900 14750 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	34150 14300 33600 14300
 Wire Wire Line
@@ -7955,10 +8139,6 @@ Connection ~ 34150 14400
 Connection ~ 33550 14450
 Wire Wire Line
 	33550 14450 33550 14500
-Text GLabel 33350 13950 1    50   Input ~ 0
-Vdd
-Text GLabel 33900 13950 1    50   Input ~ 0
-Vdd
 Wire Notes Line
 	32950 13650 34550 13650
 Wire Notes Line
@@ -7995,10 +8175,6 @@ Wire Wire Line
 	37650 13500 37650 13650
 Wire Wire Line
 	37700 13500 37650 13500
-Text GLabel 38000 13250 1    50   Input ~ 0
-Vdd
-Text GLabel 38000 14050 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	38600 13650 38600 13700
 Connection ~ 38600 13650
@@ -8015,6 +8191,8 @@ P 38400 13700
 AR Path="/722A4FE8" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4FE8" Ref="R190"  Part="1" 
 AR Path="/72A2BB1E/722A4FE8" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4FE8" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4FE8" Ref="R?"  Part="1" 
 F 0 "R190" V 38193 13700 50  0000 C CNN
 F 1 "12k" V 38284 13700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 38330 13700 50  0001 C CNN
@@ -8029,6 +8207,8 @@ P 38400 13600
 AR Path="/722A4FEE" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A4FEE" Ref="R189"  Part="1" 
 AR Path="/72A2BB1E/722A4FEE" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A4FEE" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A4FEE" Ref="R?"  Part="1" 
 F 0 "R189" V 38193 13600 50  0000 C CNN
 F 1 "12k" V 38284 13600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 38330 13600 50  0001 C CNN
@@ -8043,6 +8223,8 @@ P 38000 13650
 AR Path="/722A4FF8" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A4FF8" Ref="Q160"  Part="1" 
 AR Path="/72A2BB1E/722A4FF8" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A4FF8" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A4FF8" Ref="Q?"  Part="1" 
 F 0 "Q160" H 37975 14321 50  0000 C CNN
 F 1 "BSS8402DW" H 37975 14230 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 38000 14000 50  0001 C CNN
@@ -8087,6 +8269,8 @@ P 40250 14300
 AR Path="/722A500C" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A500C" Ref="R196"  Part="1" 
 AR Path="/72A2BB1E/722A500C" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A500C" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A500C" Ref="R?"  Part="1" 
 F 0 "R196" V 40043 14300 50  0000 C CNN
 F 1 "12k" V 40134 14300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 40180 14300 50  0001 C CNN
@@ -8101,6 +8285,8 @@ P 40250 14200
 AR Path="/722A5012" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5012" Ref="R195"  Part="1" 
 AR Path="/72A2BB1E/722A5012" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5012" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5012" Ref="R?"  Part="1" 
 F 0 "R195" V 40043 14200 50  0000 C CNN
 F 1 "12k" V 40134 14200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 40180 14200 50  0001 C CNN
@@ -8108,10 +8294,6 @@ F 3 "~" H 40250 14200 50  0001 C CNN
 	1    40250 14200
 	0    1    1    0   
 $EndComp
-Text GLabel 39150 13850 1    50   Input ~ 0
-Vdd
-Text GLabel 39150 14650 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	39850 13800 39850 13850
 Wire Wire Line
@@ -8150,6 +8332,8 @@ P 39850 14250
 AR Path="/722A502E" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A502E" Ref="Q166"  Part="1" 
 AR Path="/72A2BB1E/722A502E" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A502E" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A502E" Ref="Q?"  Part="1" 
 F 0 "Q166" H 39825 14921 50  0000 C CNN
 F 1 "BSS8402DW" H 39825 14830 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 39850 14600 50  0001 C CNN
@@ -8168,6 +8352,8 @@ P 39150 14250
 AR Path="/722A5038" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5038" Ref="Q163"  Part="1" 
 AR Path="/72A2BB1E/722A5038" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5038" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5038" Ref="Q?"  Part="1" 
 F 0 "Q163" H 39125 14921 50  0000 C CNN
 F 1 "BSS8402DW" H 39125 14830 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 39150 14600 50  0001 C CNN
@@ -8214,6 +8400,8 @@ P 37300 13700
 AR Path="/722A504D" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A504D" Ref="R184"  Part="1" 
 AR Path="/72A2BB1E/722A504D" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A504D" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A504D" Ref="R?"  Part="1" 
 F 0 "R184" V 37093 13700 50  0000 C CNN
 F 1 "12k" V 37184 13700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 37230 13700 50  0001 C CNN
@@ -8228,6 +8416,8 @@ P 37300 13600
 AR Path="/722A5053" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5053" Ref="R183"  Part="1" 
 AR Path="/72A2BB1E/722A5053" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5053" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5053" Ref="R?"  Part="1" 
 F 0 "R183" V 37093 13600 50  0000 C CNN
 F 1 "12k" V 37184 13600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 37230 13600 50  0001 C CNN
@@ -8235,10 +8425,6 @@ F 3 "~" H 37300 13600 50  0001 C CNN
 	1    37300 13600
 	0    1    1    0   
 $EndComp
-Text GLabel 36200 13250 1    50   Input ~ 0
-Vdd
-Text GLabel 36200 14050 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	36900 13200 36900 13250
 Wire Wire Line
@@ -8277,6 +8463,8 @@ P 36900 13650
 AR Path="/722A506F" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A506F" Ref="Q157"  Part="1" 
 AR Path="/72A2BB1E/722A506F" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A506F" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A506F" Ref="Q?"  Part="1" 
 F 0 "Q157" H 36875 14321 50  0000 C CNN
 F 1 "BSS8402DW" H 36875 14230 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 36900 14000 50  0001 C CNN
@@ -8295,6 +8483,8 @@ P 36200 13650
 AR Path="/722A5079" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5079" Ref="Q154"  Part="1" 
 AR Path="/72A2BB1E/722A5079" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5079" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5079" Ref="Q?"  Part="1" 
 F 0 "Q154" H 36175 14321 50  0000 C CNN
 F 1 "BSS8402DW" H 36175 14230 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 36200 14000 50  0001 C CNN
@@ -8334,6 +8524,8 @@ P 34450 13050
 AR Path="/722A508A" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A508A" Ref="R172"  Part="1" 
 AR Path="/72A2BB1E/722A508A" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A508A" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A508A" Ref="R?"  Part="1" 
 F 0 "R172" V 34243 13050 50  0000 C CNN
 F 1 "12k" V 34334 13050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 34380 13050 50  0001 C CNN
@@ -8348,6 +8540,8 @@ P 34450 12950
 AR Path="/722A5090" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5090" Ref="R171"  Part="1" 
 AR Path="/72A2BB1E/722A5090" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5090" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5090" Ref="R?"  Part="1" 
 F 0 "R171" V 34243 12950 50  0000 C CNN
 F 1 "12k" V 34334 12950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 34380 12950 50  0001 C CNN
@@ -8355,10 +8549,6 @@ F 3 "~" H 34450 12950 50  0001 C CNN
 	1    34450 12950
 	0    1    1    0   
 $EndComp
-Text GLabel 33350 12600 1    50   Input ~ 0
-Vdd
-Text GLabel 33350 13400 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	34050 12550 34050 12600
 Wire Wire Line
@@ -8397,6 +8587,8 @@ P 34050 13000
 AR Path="/722A50AC" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A50AC" Ref="Q148"  Part="1" 
 AR Path="/72A2BB1E/722A50AC" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A50AC" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A50AC" Ref="Q?"  Part="1" 
 F 0 "Q148" H 34025 13671 50  0000 C CNN
 F 1 "BSS8402DW" H 34025 13580 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 34050 13350 50  0001 C CNN
@@ -8415,6 +8607,8 @@ P 33350 13000
 AR Path="/722A50B6" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A50B6" Ref="Q140"  Part="1" 
 AR Path="/72A2BB1E/722A50B6" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A50B6" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A50B6" Ref="Q?"  Part="1" 
 F 0 "Q140" H 33325 13671 50  0000 C CNN
 F 1 "BSS8402DW" H 33325 13580 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 33350 13350 50  0001 C CNN
@@ -8451,10 +8645,6 @@ Wire Wire Line
 	34700 14200 34700 14350
 Wire Wire Line
 	34750 14200 34700 14200
-Text GLabel 35050 13950 1    50   Input ~ 0
-Vdd
-Text GLabel 35050 14750 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	35650 14400 35600 14400
 Wire Wire Line
@@ -8466,6 +8656,8 @@ P 35450 14400
 AR Path="/722A50CD" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A50CD" Ref="R178"  Part="1" 
 AR Path="/72A2BB1E/722A50CD" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A50CD" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A50CD" Ref="R?"  Part="1" 
 F 0 "R178" V 35243 14400 50  0000 C CNN
 F 1 "12k" V 35334 14400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 35380 14400 50  0001 C CNN
@@ -8480,6 +8672,8 @@ P 35450 14300
 AR Path="/722A50D3" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A50D3" Ref="R177"  Part="1" 
 AR Path="/72A2BB1E/722A50D3" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A50D3" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A50D3" Ref="R?"  Part="1" 
 F 0 "R177" V 35243 14300 50  0000 C CNN
 F 1 "12k" V 35334 14300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 35380 14300 50  0001 C CNN
@@ -8494,6 +8688,8 @@ P 35050 14350
 AR Path="/722A50DD" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A50DD" Ref="Q151"  Part="1" 
 AR Path="/72A2BB1E/722A50DD" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A50DD" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A50DD" Ref="Q?"  Part="1" 
 F 0 "Q151" H 35025 15021 50  0000 C CNN
 F 1 "BSS8402DW" H 35025 14930 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 35050 14700 50  0001 C CNN
@@ -8570,6 +8766,8 @@ P 41200 14350
 AR Path="/722A5107" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5107" Ref="Q171"  Part="1" 
 AR Path="/72A2BB1E/722A5107" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5107" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5107" Ref="Q?"  Part="1" 
 F 0 "Q171" H 41175 15021 50  0000 C CNN
 F 1 "BSS8402DW" H 41175 14930 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 41200 14700 50  0001 C CNN
@@ -8588,6 +8786,8 @@ P 41750 14350
 AR Path="/722A5111" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5111" Ref="Q175"  Part="1" 
 AR Path="/72A2BB1E/722A5111" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5111" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5111" Ref="Q?"  Part="1" 
 F 0 "Q175" H 41725 15021 50  0000 C CNN
 F 1 "BSS8402DW" H 41725 14930 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 41750 14700 50  0001 C CNN
@@ -8616,6 +8816,8 @@ P 42150 14300
 AR Path="/722A511C" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A511C" Ref="R201"  Part="1" 
 AR Path="/72A2BB1E/722A511C" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A511C" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A511C" Ref="R?"  Part="1" 
 F 0 "R201" V 41943 14300 50  0000 C CNN
 F 1 "12k" V 42034 14300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 42080 14300 50  0001 C CNN
@@ -8630,6 +8832,8 @@ P 42150 14400
 AR Path="/722A5122" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5122" Ref="R202"  Part="1" 
 AR Path="/72A2BB1E/722A5122" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5122" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5122" Ref="R?"  Part="1" 
 F 0 "R202" V 41943 14400 50  0000 C CNN
 F 1 "12k" V 42034 14400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 42080 14400 50  0001 C CNN
@@ -8641,10 +8845,6 @@ Wire Wire Line
 	42300 14300 42350 14300
 Wire Wire Line
 	42350 14400 42300 14400
-Text GLabel 41200 14750 3    50   Input ~ 0
-Vss
-Text GLabel 41750 14750 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	42000 14300 41450 14300
 Wire Wire Line
@@ -8654,10 +8854,6 @@ Connection ~ 42000 14400
 Connection ~ 41400 14450
 Wire Wire Line
 	41400 14450 41400 14500
-Text GLabel 41200 13950 1    50   Input ~ 0
-Vdd
-Text GLabel 41750 13950 1    50   Input ~ 0
-Vdd
 Wire Notes Line
 	40800 13650 42400 13650
 Wire Notes Line
@@ -8694,10 +8890,6 @@ Wire Wire Line
 	45500 13500 45500 13650
 Wire Wire Line
 	45550 13500 45500 13500
-Text GLabel 45850 13250 1    50   Input ~ 0
-Vdd
-Text GLabel 45850 14050 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	46450 13650 46450 13700
 Connection ~ 46450 13650
@@ -8714,6 +8906,8 @@ P 46250 13700
 AR Path="/722A514E" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A514E" Ref="R226"  Part="1" 
 AR Path="/72A2BB1E/722A514E" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A514E" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A514E" Ref="R?"  Part="1" 
 F 0 "R226" V 46043 13700 50  0000 C CNN
 F 1 "12k" V 46134 13700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 46180 13700 50  0001 C CNN
@@ -8728,6 +8922,8 @@ P 46250 13600
 AR Path="/722A5154" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5154" Ref="R225"  Part="1" 
 AR Path="/72A2BB1E/722A5154" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5154" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5154" Ref="R?"  Part="1" 
 F 0 "R225" V 46043 13600 50  0000 C CNN
 F 1 "12k" V 46134 13600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 46180 13600 50  0001 C CNN
@@ -8742,6 +8938,8 @@ P 45850 13650
 AR Path="/722A515E" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A515E" Ref="Q190"  Part="1" 
 AR Path="/72A2BB1E/722A515E" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A515E" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A515E" Ref="Q?"  Part="1" 
 F 0 "Q190" H 45825 14321 50  0000 C CNN
 F 1 "BSS8402DW" H 45825 14230 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 45850 14000 50  0001 C CNN
@@ -8786,6 +8984,8 @@ P 48100 14300
 AR Path="/722A5172" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5172" Ref="R232"  Part="1" 
 AR Path="/72A2BB1E/722A5172" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5172" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5172" Ref="R?"  Part="1" 
 F 0 "R232" V 47893 14300 50  0000 C CNN
 F 1 "12k" V 47984 14300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 48030 14300 50  0001 C CNN
@@ -8800,6 +9000,8 @@ P 48100 14200
 AR Path="/722A5178" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5178" Ref="R231"  Part="1" 
 AR Path="/72A2BB1E/722A5178" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5178" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5178" Ref="R?"  Part="1" 
 F 0 "R231" V 47893 14200 50  0000 C CNN
 F 1 "12k" V 47984 14200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 48030 14200 50  0001 C CNN
@@ -8807,10 +9009,6 @@ F 3 "~" H 48100 14200 50  0001 C CNN
 	1    48100 14200
 	0    1    1    0   
 $EndComp
-Text GLabel 47000 13850 1    50   Input ~ 0
-Vdd
-Text GLabel 47000 14650 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	47700 13800 47700 13850
 Wire Wire Line
@@ -8849,6 +9047,8 @@ P 47700 14250
 AR Path="/722A5194" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5194" Ref="Q196"  Part="1" 
 AR Path="/72A2BB1E/722A5194" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5194" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5194" Ref="Q?"  Part="1" 
 F 0 "Q196" H 47675 14921 50  0000 C CNN
 F 1 "BSS8402DW" H 47675 14830 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 47700 14600 50  0001 C CNN
@@ -8867,6 +9067,8 @@ P 47000 14250
 AR Path="/722A519E" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A519E" Ref="Q193"  Part="1" 
 AR Path="/72A2BB1E/722A519E" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A519E" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A519E" Ref="Q?"  Part="1" 
 F 0 "Q193" H 46975 14921 50  0000 C CNN
 F 1 "BSS8402DW" H 46975 14830 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 47000 14600 50  0001 C CNN
@@ -8913,6 +9115,8 @@ P 45150 13700
 AR Path="/722A51B3" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A51B3" Ref="R220"  Part="1" 
 AR Path="/72A2BB1E/722A51B3" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A51B3" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A51B3" Ref="R?"  Part="1" 
 F 0 "R220" V 44943 13700 50  0000 C CNN
 F 1 "12k" V 45034 13700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 45080 13700 50  0001 C CNN
@@ -8927,6 +9131,8 @@ P 45150 13600
 AR Path="/722A51B9" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A51B9" Ref="R219"  Part="1" 
 AR Path="/72A2BB1E/722A51B9" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A51B9" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A51B9" Ref="R?"  Part="1" 
 F 0 "R219" V 44943 13600 50  0000 C CNN
 F 1 "12k" V 45034 13600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 45080 13600 50  0001 C CNN
@@ -8934,10 +9140,6 @@ F 3 "~" H 45150 13600 50  0001 C CNN
 	1    45150 13600
 	0    1    1    0   
 $EndComp
-Text GLabel 44050 13250 1    50   Input ~ 0
-Vdd
-Text GLabel 44050 14050 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	44750 13200 44750 13250
 Wire Wire Line
@@ -8976,6 +9178,8 @@ P 44750 13650
 AR Path="/722A51D5" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A51D5" Ref="Q187"  Part="1" 
 AR Path="/72A2BB1E/722A51D5" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A51D5" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A51D5" Ref="Q?"  Part="1" 
 F 0 "Q187" H 44725 14321 50  0000 C CNN
 F 1 "BSS8402DW" H 44725 14230 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 44750 14000 50  0001 C CNN
@@ -8994,6 +9198,8 @@ P 44050 13650
 AR Path="/722A51DF" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A51DF" Ref="Q184"  Part="1" 
 AR Path="/72A2BB1E/722A51DF" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A51DF" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A51DF" Ref="Q?"  Part="1" 
 F 0 "Q184" H 44025 14321 50  0000 C CNN
 F 1 "BSS8402DW" H 44025 14230 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 44050 14000 50  0001 C CNN
@@ -9033,6 +9239,8 @@ P 42300 13050
 AR Path="/722A51F0" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A51F0" Ref="R208"  Part="1" 
 AR Path="/72A2BB1E/722A51F0" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A51F0" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A51F0" Ref="R?"  Part="1" 
 F 0 "R208" V 42093 13050 50  0000 C CNN
 F 1 "12k" V 42184 13050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 42230 13050 50  0001 C CNN
@@ -9047,6 +9255,8 @@ P 42300 12950
 AR Path="/722A51F6" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A51F6" Ref="R207"  Part="1" 
 AR Path="/72A2BB1E/722A51F6" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A51F6" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A51F6" Ref="R?"  Part="1" 
 F 0 "R207" V 42093 12950 50  0000 C CNN
 F 1 "12k" V 42184 12950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 42230 12950 50  0001 C CNN
@@ -9054,10 +9264,6 @@ F 3 "~" H 42300 12950 50  0001 C CNN
 	1    42300 12950
 	0    1    1    0   
 $EndComp
-Text GLabel 41200 12600 1    50   Input ~ 0
-Vdd
-Text GLabel 41200 13400 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	41900 12550 41900 12600
 Wire Wire Line
@@ -9096,6 +9302,8 @@ P 41900 13000
 AR Path="/722A5212" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5212" Ref="Q178"  Part="1" 
 AR Path="/72A2BB1E/722A5212" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5212" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5212" Ref="Q?"  Part="1" 
 F 0 "Q178" H 41875 13671 50  0000 C CNN
 F 1 "BSS8402DW" H 41875 13580 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 41900 13350 50  0001 C CNN
@@ -9114,6 +9322,8 @@ P 41200 13000
 AR Path="/722A521C" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A521C" Ref="Q170"  Part="1" 
 AR Path="/72A2BB1E/722A521C" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A521C" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A521C" Ref="Q?"  Part="1" 
 F 0 "Q170" H 41175 13671 50  0000 C CNN
 F 1 "BSS8402DW" H 41175 13580 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 41200 13350 50  0001 C CNN
@@ -9150,10 +9360,6 @@ Wire Wire Line
 	42550 14200 42550 14350
 Wire Wire Line
 	42600 14200 42550 14200
-Text GLabel 42900 13950 1    50   Input ~ 0
-Vdd
-Text GLabel 42900 14750 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	43500 14400 43450 14400
 Wire Wire Line
@@ -9165,6 +9371,8 @@ P 43300 14400
 AR Path="/722A5233" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5233" Ref="R214"  Part="1" 
 AR Path="/72A2BB1E/722A5233" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5233" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5233" Ref="R?"  Part="1" 
 F 0 "R214" V 43093 14400 50  0000 C CNN
 F 1 "12k" V 43184 14400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 43230 14400 50  0001 C CNN
@@ -9179,6 +9387,8 @@ P 43300 14300
 AR Path="/722A5239" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5239" Ref="R213"  Part="1" 
 AR Path="/72A2BB1E/722A5239" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5239" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5239" Ref="R?"  Part="1" 
 F 0 "R213" V 43093 14300 50  0000 C CNN
 F 1 "12k" V 43184 14300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 43230 14300 50  0001 C CNN
@@ -9193,6 +9403,8 @@ P 42900 14350
 AR Path="/722A5243" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5243" Ref="Q181"  Part="1" 
 AR Path="/72A2BB1E/722A5243" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5243" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5243" Ref="Q?"  Part="1" 
 F 0 "Q181" H 42875 15021 50  0000 C CNN
 F 1 "BSS8402DW" H 42875 14930 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 42900 14700 50  0001 C CNN
@@ -9239,6 +9451,8 @@ P 48950 14450
 AR Path="/722A525D" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A525D" Ref="Q199"  Part="1" 
 AR Path="/72A2BB1E/722A525D" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A525D" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A525D" Ref="Q?"  Part="1" 
 F 0 "Q199" H 48925 15121 50  0000 C CNN
 F 1 "BSS8402DW" H 48925 15030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 48950 14800 50  0001 C CNN
@@ -9257,6 +9471,8 @@ P 49650 14450
 AR Path="/722A5267" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5267" Ref="Q202"  Part="1" 
 AR Path="/72A2BB1E/722A5267" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5267" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5267" Ref="Q?"  Part="1" 
 F 0 "Q202" H 49625 15121 50  0000 C CNN
 F 1 "BSS8402DW" H 49625 15030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 49650 14800 50  0001 C CNN
@@ -9299,10 +9515,6 @@ Wire Wire Line
 	49400 14000 49650 14000
 Wire Wire Line
 	49650 14000 49650 14050
-Text GLabel 48950 14850 3    50   Input ~ 0
-Vss
-Text GLabel 48950 14050 1    50   Input ~ 0
-Vdd
 $Comp
 L Device:R R?
 U 1 1 722A527F
@@ -9310,6 +9522,8 @@ P 50050 14400
 AR Path="/722A527F" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A527F" Ref="R237"  Part="1" 
 AR Path="/72A2BB1E/722A527F" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A527F" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A527F" Ref="R?"  Part="1" 
 F 0 "R237" V 49843 14400 50  0000 C CNN
 F 1 "12k" V 49934 14400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 49980 14400 50  0001 C CNN
@@ -9324,6 +9538,8 @@ P 50050 14500
 AR Path="/722A5285" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5285" Ref="R238"  Part="1" 
 AR Path="/72A2BB1E/722A5285" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5285" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5285" Ref="R?"  Part="1" 
 F 0 "R238" V 49843 14500 50  0000 C CNN
 F 1 "12k" V 49934 14500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 49980 14500 50  0001 C CNN
@@ -9434,6 +9650,8 @@ P -2250 17550
 AR Path="/722A52C1" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A52C1" Ref="Q11"  Part="1" 
 AR Path="/72A2BB1E/722A52C1" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A52C1" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A52C1" Ref="Q?"  Part="1" 
 F 0 "Q11" H -2275 18221 50  0000 C CNN
 F 1 "BSS8402DW" H -2275 18130 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H -2250 17900 50  0001 C CNN
@@ -9452,6 +9670,8 @@ P -1700 17550
 AR Path="/722A52CB" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A52CB" Ref="Q14"  Part="1" 
 AR Path="/72A2BB1E/722A52CB" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A52CB" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A52CB" Ref="Q?"  Part="1" 
 F 0 "Q14" H -1725 18221 50  0000 C CNN
 F 1 "BSS8402DW" H -1725 18130 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H -1700 17900 50  0001 C CNN
@@ -9480,6 +9700,8 @@ P -1300 17500
 AR Path="/722A52D6" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A52D6" Ref="R11"  Part="1" 
 AR Path="/72A2BB1E/722A52D6" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A52D6" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A52D6" Ref="R?"  Part="1" 
 F 0 "R11" V -1507 17500 50  0000 C CNN
 F 1 "12k" V -1416 17500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V -1370 17500 50  0001 C CNN
@@ -9494,6 +9716,8 @@ P -1300 17600
 AR Path="/722A52DC" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A52DC" Ref="R12"  Part="1" 
 AR Path="/72A2BB1E/722A52DC" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A52DC" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A52DC" Ref="R?"  Part="1" 
 F 0 "R12" V -1507 17600 50  0000 C CNN
 F 1 "12k" V -1416 17600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V -1370 17600 50  0001 C CNN
@@ -9505,10 +9729,6 @@ Wire Wire Line
 	-1150 17500 -1100 17500
 Wire Wire Line
 	-1100 17600 -1150 17600
-Text GLabel -2250 17950 3    50   Input ~ 0
-Vss
-Text GLabel -1700 17950 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	-1450 17500 -2000 17500
 Wire Wire Line
@@ -9518,10 +9738,6 @@ Connection ~ -1450 17600
 Connection ~ -2050 17650
 Wire Wire Line
 	-2050 17650 -2050 17700
-Text GLabel -2250 17150 1    50   Input ~ 0
-Vdd
-Text GLabel -1700 17150 1    50   Input ~ 0
-Vdd
 Wire Notes Line
 	-2650 16850 -1050 16850
 Wire Notes Line
@@ -9558,10 +9774,6 @@ Wire Wire Line
 	2050 16700 2050 16850
 Wire Wire Line
 	2100 16700 2050 16700
-Text GLabel 2400 16450 1    50   Input ~ 0
-Vdd
-Text GLabel 2400 17250 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	3000 16850 3000 16900
 Connection ~ 3000 16850
@@ -9578,6 +9790,8 @@ P 2800 16900
 AR Path="/722A5308" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5308" Ref="R36"  Part="1" 
 AR Path="/72A2BB1E/722A5308" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5308" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5308" Ref="R?"  Part="1" 
 F 0 "R36" V 2593 16900 50  0000 C CNN
 F 1 "12k" V 2684 16900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2730 16900 50  0001 C CNN
@@ -9592,6 +9806,8 @@ P 2800 16800
 AR Path="/722A530E" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A530E" Ref="R35"  Part="1" 
 AR Path="/72A2BB1E/722A530E" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A530E" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A530E" Ref="R?"  Part="1" 
 F 0 "R35" V 2593 16800 50  0000 C CNN
 F 1 "12k" V 2684 16800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2730 16800 50  0001 C CNN
@@ -9606,6 +9822,8 @@ P 2400 16850
 AR Path="/722A5318" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5318" Ref="Q29"  Part="1" 
 AR Path="/72A2BB1E/722A5318" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5318" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5318" Ref="Q?"  Part="1" 
 F 0 "Q29" H 2375 17521 50  0000 C CNN
 F 1 "BSS8402DW" H 2375 17430 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 2400 17200 50  0001 C CNN
@@ -9650,6 +9868,8 @@ P 4650 17500
 AR Path="/722A532C" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A532C" Ref="R42"  Part="1" 
 AR Path="/72A2BB1E/722A532C" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A532C" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A532C" Ref="R?"  Part="1" 
 F 0 "R42" V 4443 17500 50  0000 C CNN
 F 1 "12k" V 4534 17500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4580 17500 50  0001 C CNN
@@ -9664,6 +9884,8 @@ P 4650 17400
 AR Path="/722A5332" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5332" Ref="R41"  Part="1" 
 AR Path="/72A2BB1E/722A5332" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5332" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5332" Ref="R?"  Part="1" 
 F 0 "R41" V 4443 17400 50  0000 C CNN
 F 1 "12k" V 4534 17400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4580 17400 50  0001 C CNN
@@ -9671,10 +9893,6 @@ F 3 "~" H 4650 17400 50  0001 C CNN
 	1    4650 17400
 	0    1    1    0   
 $EndComp
-Text GLabel 3550 17050 1    50   Input ~ 0
-Vdd
-Text GLabel 3550 17850 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	4250 17000 4250 17050
 Wire Wire Line
@@ -9713,6 +9931,8 @@ P 4250 17450
 AR Path="/722A534E" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A534E" Ref="Q35"  Part="1" 
 AR Path="/72A2BB1E/722A534E" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A534E" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A534E" Ref="Q?"  Part="1" 
 F 0 "Q35" H 4225 18121 50  0000 C CNN
 F 1 "BSS8402DW" H 4225 18030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 4250 17800 50  0001 C CNN
@@ -9731,6 +9951,8 @@ P 3550 17450
 AR Path="/722A5358" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5358" Ref="Q32"  Part="1" 
 AR Path="/72A2BB1E/722A5358" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5358" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5358" Ref="Q?"  Part="1" 
 F 0 "Q32" H 3525 18121 50  0000 C CNN
 F 1 "BSS8402DW" H 3525 18030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 3550 17800 50  0001 C CNN
@@ -9777,6 +9999,8 @@ P 1700 16900
 AR Path="/722A536D" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A536D" Ref="R30"  Part="1" 
 AR Path="/72A2BB1E/722A536D" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A536D" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A536D" Ref="R?"  Part="1" 
 F 0 "R30" V 1493 16900 50  0000 C CNN
 F 1 "12k" V 1584 16900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1630 16900 50  0001 C CNN
@@ -9791,6 +10015,8 @@ P 1700 16800
 AR Path="/722A5373" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5373" Ref="R29"  Part="1" 
 AR Path="/72A2BB1E/722A5373" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5373" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5373" Ref="R?"  Part="1" 
 F 0 "R29" V 1493 16800 50  0000 C CNN
 F 1 "12k" V 1584 16800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1630 16800 50  0001 C CNN
@@ -9798,10 +10024,6 @@ F 3 "~" H 1700 16800 50  0001 C CNN
 	1    1700 16800
 	0    1    1    0   
 $EndComp
-Text GLabel 600  16450 1    50   Input ~ 0
-Vdd
-Text GLabel 600  17250 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	1300 16400 1300 16450
 Wire Wire Line
@@ -9840,6 +10062,8 @@ P 1300 16850
 AR Path="/722A538F" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A538F" Ref="Q26"  Part="1" 
 AR Path="/72A2BB1E/722A538F" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A538F" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A538F" Ref="Q?"  Part="1" 
 F 0 "Q26" H 1275 17521 50  0000 C CNN
 F 1 "BSS8402DW" H 1275 17430 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 1300 17200 50  0001 C CNN
@@ -9858,6 +10082,8 @@ P 600 16850
 AR Path="/722A5399" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5399" Ref="Q23"  Part="1" 
 AR Path="/72A2BB1E/722A5399" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5399" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5399" Ref="Q?"  Part="1" 
 F 0 "Q23" H 575 17521 50  0000 C CNN
 F 1 "BSS8402DW" H 575 17430 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 600 17200 50  0001 C CNN
@@ -9897,6 +10123,8 @@ P -1150 16250
 AR Path="/722A53AA" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A53AA" Ref="R18"  Part="1" 
 AR Path="/72A2BB1E/722A53AA" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A53AA" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A53AA" Ref="R?"  Part="1" 
 F 0 "R18" V -1357 16250 50  0000 C CNN
 F 1 "12k" V -1266 16250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V -1220 16250 50  0001 C CNN
@@ -9911,6 +10139,8 @@ P -1150 16150
 AR Path="/722A53B0" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A53B0" Ref="R17"  Part="1" 
 AR Path="/72A2BB1E/722A53B0" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A53B0" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A53B0" Ref="R?"  Part="1" 
 F 0 "R17" V -1357 16150 50  0000 C CNN
 F 1 "12k" V -1266 16150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V -1220 16150 50  0001 C CNN
@@ -9918,10 +10148,6 @@ F 3 "~" H -1150 16150 50  0001 C CNN
 	1    -1150 16150
 	0    1    1    0   
 $EndComp
-Text GLabel -2250 15800 1    50   Input ~ 0
-Vdd
-Text GLabel -2250 16600 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	-1550 15750 -1550 15800
 Wire Wire Line
@@ -9960,6 +10186,8 @@ P -1550 16200
 AR Path="/722A53CC" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A53CC" Ref="Q17"  Part="1" 
 AR Path="/72A2BB1E/722A53CC" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A53CC" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A53CC" Ref="Q?"  Part="1" 
 F 0 "Q17" H -1575 16871 50  0000 C CNN
 F 1 "BSS8402DW" H -1575 16780 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H -1550 16550 50  0001 C CNN
@@ -9978,6 +10206,8 @@ P -2250 16200
 AR Path="/722A53D6" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A53D6" Ref="Q10"  Part="1" 
 AR Path="/72A2BB1E/722A53D6" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A53D6" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A53D6" Ref="Q?"  Part="1" 
 F 0 "Q10" H -2275 16871 50  0000 C CNN
 F 1 "BSS8402DW" H -2275 16780 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H -2250 16550 50  0001 C CNN
@@ -10014,10 +10244,6 @@ Wire Wire Line
 	-900 17400 -900 17550
 Wire Wire Line
 	-850 17400 -900 17400
-Text GLabel -550 17150 1    50   Input ~ 0
-Vdd
-Text GLabel -550 17950 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	50   17600 0    17600
 Wire Wire Line
@@ -10029,6 +10255,8 @@ P -150 17600
 AR Path="/722A53ED" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A53ED" Ref="R24"  Part="1" 
 AR Path="/72A2BB1E/722A53ED" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A53ED" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A53ED" Ref="R?"  Part="1" 
 F 0 "R24" V -357 17600 50  0000 C CNN
 F 1 "12k" V -266 17600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V -220 17600 50  0001 C CNN
@@ -10043,6 +10271,8 @@ P -150 17500
 AR Path="/722A53F3" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A53F3" Ref="R23"  Part="1" 
 AR Path="/72A2BB1E/722A53F3" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A53F3" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A53F3" Ref="R?"  Part="1" 
 F 0 "R23" V -357 17500 50  0000 C CNN
 F 1 "12k" V -266 17500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V -220 17500 50  0001 C CNN
@@ -10057,6 +10287,8 @@ P -550 17550
 AR Path="/722A53FD" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A53FD" Ref="Q20"  Part="1" 
 AR Path="/72A2BB1E/722A53FD" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A53FD" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A53FD" Ref="Q?"  Part="1" 
 F 0 "Q20" H -575 18221 50  0000 C CNN
 F 1 "BSS8402DW" H -575 18130 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H -550 17900 50  0001 C CNN
@@ -10133,6 +10365,8 @@ P 5600 17550
 AR Path="/722A5427" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5427" Ref="Q41"  Part="1" 
 AR Path="/72A2BB1E/722A5427" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5427" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5427" Ref="Q?"  Part="1" 
 F 0 "Q41" H 5575 18221 50  0000 C CNN
 F 1 "BSS8402DW" H 5575 18130 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 5600 17900 50  0001 C CNN
@@ -10151,6 +10385,8 @@ P 6150 17550
 AR Path="/722A5431" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5431" Ref="Q44"  Part="1" 
 AR Path="/72A2BB1E/722A5431" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5431" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5431" Ref="Q?"  Part="1" 
 F 0 "Q44" H 6125 18221 50  0000 C CNN
 F 1 "BSS8402DW" H 6125 18130 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 6150 17900 50  0001 C CNN
@@ -10179,6 +10415,8 @@ P 6550 17500
 AR Path="/722A543C" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A543C" Ref="R47"  Part="1" 
 AR Path="/72A2BB1E/722A543C" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A543C" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A543C" Ref="R?"  Part="1" 
 F 0 "R47" V 6343 17500 50  0000 C CNN
 F 1 "12k" V 6434 17500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6480 17500 50  0001 C CNN
@@ -10193,6 +10431,8 @@ P 6550 17600
 AR Path="/722A5442" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5442" Ref="R48"  Part="1" 
 AR Path="/72A2BB1E/722A5442" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5442" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5442" Ref="R?"  Part="1" 
 F 0 "R48" V 6343 17600 50  0000 C CNN
 F 1 "12k" V 6434 17600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6480 17600 50  0001 C CNN
@@ -10204,10 +10444,6 @@ Wire Wire Line
 	6700 17500 6750 17500
 Wire Wire Line
 	6750 17600 6700 17600
-Text GLabel 5600 17950 3    50   Input ~ 0
-Vss
-Text GLabel 6150 17950 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	6400 17500 5850 17500
 Wire Wire Line
@@ -10217,10 +10453,6 @@ Connection ~ 6400 17600
 Connection ~ 5800 17650
 Wire Wire Line
 	5800 17650 5800 17700
-Text GLabel 5600 17150 1    50   Input ~ 0
-Vdd
-Text GLabel 6150 17150 1    50   Input ~ 0
-Vdd
 Wire Notes Line
 	5200 16850 6800 16850
 Wire Notes Line
@@ -10257,10 +10489,6 @@ Wire Wire Line
 	9900 16700 9900 16850
 Wire Wire Line
 	9950 16700 9900 16700
-Text GLabel 10250 16450 1    50   Input ~ 0
-Vdd
-Text GLabel 10250 17250 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	10850 16850 10850 16900
 Connection ~ 10850 16850
@@ -10277,6 +10505,8 @@ P 10650 16900
 AR Path="/722A546E" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A546E" Ref="R72"  Part="1" 
 AR Path="/72A2BB1E/722A546E" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A546E" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A546E" Ref="R?"  Part="1" 
 F 0 "R72" V 10443 16900 50  0000 C CNN
 F 1 "12k" V 10534 16900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10580 16900 50  0001 C CNN
@@ -10291,6 +10521,8 @@ P 10650 16800
 AR Path="/722A5474" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5474" Ref="R71"  Part="1" 
 AR Path="/72A2BB1E/722A5474" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5474" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5474" Ref="R?"  Part="1" 
 F 0 "R71" V 10443 16800 50  0000 C CNN
 F 1 "12k" V 10534 16800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10580 16800 50  0001 C CNN
@@ -10305,6 +10537,8 @@ P 10250 16850
 AR Path="/722A547E" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A547E" Ref="Q59"  Part="1" 
 AR Path="/72A2BB1E/722A547E" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A547E" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A547E" Ref="Q?"  Part="1" 
 F 0 "Q59" H 10225 17521 50  0000 C CNN
 F 1 "BSS8402DW" H 10225 17430 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 10250 17200 50  0001 C CNN
@@ -10349,6 +10583,8 @@ P 12500 17500
 AR Path="/722A5492" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5492" Ref="R78"  Part="1" 
 AR Path="/72A2BB1E/722A5492" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5492" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5492" Ref="R?"  Part="1" 
 F 0 "R78" V 12293 17500 50  0000 C CNN
 F 1 "12k" V 12384 17500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12430 17500 50  0001 C CNN
@@ -10363,6 +10599,8 @@ P 12500 17400
 AR Path="/722A5498" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5498" Ref="R77"  Part="1" 
 AR Path="/72A2BB1E/722A5498" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5498" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5498" Ref="R?"  Part="1" 
 F 0 "R77" V 12293 17400 50  0000 C CNN
 F 1 "12k" V 12384 17400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12430 17400 50  0001 C CNN
@@ -10370,10 +10608,6 @@ F 3 "~" H 12500 17400 50  0001 C CNN
 	1    12500 17400
 	0    1    1    0   
 $EndComp
-Text GLabel 11400 17050 1    50   Input ~ 0
-Vdd
-Text GLabel 11400 17850 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	12100 17000 12100 17050
 Wire Wire Line
@@ -10412,6 +10646,8 @@ P 12100 17450
 AR Path="/722A54B4" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A54B4" Ref="Q65"  Part="1" 
 AR Path="/72A2BB1E/722A54B4" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A54B4" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A54B4" Ref="Q?"  Part="1" 
 F 0 "Q65" H 12075 18121 50  0000 C CNN
 F 1 "BSS8402DW" H 12075 18030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 12100 17800 50  0001 C CNN
@@ -10430,6 +10666,8 @@ P 11400 17450
 AR Path="/722A54BE" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A54BE" Ref="Q62"  Part="1" 
 AR Path="/72A2BB1E/722A54BE" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A54BE" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A54BE" Ref="Q?"  Part="1" 
 F 0 "Q62" H 11375 18121 50  0000 C CNN
 F 1 "BSS8402DW" H 11375 18030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 11400 17800 50  0001 C CNN
@@ -10476,6 +10714,8 @@ P 9550 16900
 AR Path="/722A54D3" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A54D3" Ref="R66"  Part="1" 
 AR Path="/72A2BB1E/722A54D3" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A54D3" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A54D3" Ref="R?"  Part="1" 
 F 0 "R66" V 9343 16900 50  0000 C CNN
 F 1 "12k" V 9434 16900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9480 16900 50  0001 C CNN
@@ -10490,6 +10730,8 @@ P 9550 16800
 AR Path="/722A54D9" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A54D9" Ref="R65"  Part="1" 
 AR Path="/72A2BB1E/722A54D9" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A54D9" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A54D9" Ref="R?"  Part="1" 
 F 0 "R65" V 9343 16800 50  0000 C CNN
 F 1 "12k" V 9434 16800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9480 16800 50  0001 C CNN
@@ -10497,10 +10739,6 @@ F 3 "~" H 9550 16800 50  0001 C CNN
 	1    9550 16800
 	0    1    1    0   
 $EndComp
-Text GLabel 8450 16450 1    50   Input ~ 0
-Vdd
-Text GLabel 8450 17250 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	9150 16400 9150 16450
 Wire Wire Line
@@ -10539,6 +10777,8 @@ P 9150 16850
 AR Path="/722A54F5" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A54F5" Ref="Q56"  Part="1" 
 AR Path="/72A2BB1E/722A54F5" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A54F5" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A54F5" Ref="Q?"  Part="1" 
 F 0 "Q56" H 9125 17521 50  0000 C CNN
 F 1 "BSS8402DW" H 9125 17430 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 9150 17200 50  0001 C CNN
@@ -10557,6 +10797,8 @@ P 8450 16850
 AR Path="/722A54FF" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A54FF" Ref="Q53"  Part="1" 
 AR Path="/72A2BB1E/722A54FF" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A54FF" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A54FF" Ref="Q?"  Part="1" 
 F 0 "Q53" H 8425 17521 50  0000 C CNN
 F 1 "BSS8402DW" H 8425 17430 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 8450 17200 50  0001 C CNN
@@ -10596,6 +10838,8 @@ P 6700 16250
 AR Path="/722A5510" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5510" Ref="R54"  Part="1" 
 AR Path="/72A2BB1E/722A5510" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5510" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5510" Ref="R?"  Part="1" 
 F 0 "R54" V 6493 16250 50  0000 C CNN
 F 1 "12k" V 6584 16250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6630 16250 50  0001 C CNN
@@ -10610,6 +10854,8 @@ P 6700 16150
 AR Path="/722A5516" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5516" Ref="R53"  Part="1" 
 AR Path="/72A2BB1E/722A5516" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5516" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5516" Ref="R?"  Part="1" 
 F 0 "R53" V 6493 16150 50  0000 C CNN
 F 1 "12k" V 6584 16150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6630 16150 50  0001 C CNN
@@ -10617,10 +10863,6 @@ F 3 "~" H 6700 16150 50  0001 C CNN
 	1    6700 16150
 	0    1    1    0   
 $EndComp
-Text GLabel 5600 15800 1    50   Input ~ 0
-Vdd
-Text GLabel 5600 16600 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	6300 15750 6300 15800
 Wire Wire Line
@@ -10659,6 +10901,8 @@ P 6300 16200
 AR Path="/722A5532" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5532" Ref="Q47"  Part="1" 
 AR Path="/72A2BB1E/722A5532" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5532" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5532" Ref="Q?"  Part="1" 
 F 0 "Q47" H 6275 16871 50  0000 C CNN
 F 1 "BSS8402DW" H 6275 16780 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 6300 16550 50  0001 C CNN
@@ -10677,6 +10921,8 @@ P 5600 16200
 AR Path="/722A553C" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A553C" Ref="Q40"  Part="1" 
 AR Path="/72A2BB1E/722A553C" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A553C" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A553C" Ref="Q?"  Part="1" 
 F 0 "Q40" H 5575 16871 50  0000 C CNN
 F 1 "BSS8402DW" H 5575 16780 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 5600 16550 50  0001 C CNN
@@ -10713,10 +10959,6 @@ Wire Wire Line
 	6950 17400 6950 17550
 Wire Wire Line
 	7000 17400 6950 17400
-Text GLabel 7300 17150 1    50   Input ~ 0
-Vdd
-Text GLabel 7300 17950 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	7900 17600 7850 17600
 Wire Wire Line
@@ -10728,6 +10970,8 @@ P 7700 17600
 AR Path="/722A5553" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5553" Ref="R60"  Part="1" 
 AR Path="/72A2BB1E/722A5553" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5553" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5553" Ref="R?"  Part="1" 
 F 0 "R60" V 7493 17600 50  0000 C CNN
 F 1 "12k" V 7584 17600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7630 17600 50  0001 C CNN
@@ -10742,6 +10986,8 @@ P 7700 17500
 AR Path="/722A5559" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5559" Ref="R59"  Part="1" 
 AR Path="/72A2BB1E/722A5559" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5559" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5559" Ref="R?"  Part="1" 
 F 0 "R59" V 7493 17500 50  0000 C CNN
 F 1 "12k" V 7584 17500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7630 17500 50  0001 C CNN
@@ -10756,6 +11002,8 @@ P 7300 17550
 AR Path="/722A5563" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5563" Ref="Q50"  Part="1" 
 AR Path="/72A2BB1E/722A5563" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5563" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5563" Ref="Q?"  Part="1" 
 F 0 "Q50" H 7275 18221 50  0000 C CNN
 F 1 "BSS8402DW" H 7275 18130 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 7300 17900 50  0001 C CNN
@@ -10802,6 +11050,8 @@ P 13350 17650
 AR Path="/722A557D" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A557D" Ref="Q68"  Part="1" 
 AR Path="/72A2BB1E/722A557D" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A557D" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A557D" Ref="Q?"  Part="1" 
 F 0 "Q68" H 13325 18321 50  0000 C CNN
 F 1 "BSS8402DW" H 13325 18230 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 13350 18000 50  0001 C CNN
@@ -10820,6 +11070,8 @@ P 14050 17650
 AR Path="/722A5587" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5587" Ref="Q71"  Part="1" 
 AR Path="/72A2BB1E/722A5587" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5587" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5587" Ref="Q?"  Part="1" 
 F 0 "Q71" H 14025 18321 50  0000 C CNN
 F 1 "BSS8402DW" H 14025 18230 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 14050 18000 50  0001 C CNN
@@ -10862,10 +11114,6 @@ Wire Wire Line
 	13800 17200 14050 17200
 Wire Wire Line
 	14050 17200 14050 17250
-Text GLabel 13350 18050 3    50   Input ~ 0
-Vss
-Text GLabel 13350 17250 1    50   Input ~ 0
-Vdd
 $Comp
 L Device:R R?
 U 1 1 722A559F
@@ -10873,6 +11121,8 @@ P 14450 17600
 AR Path="/722A559F" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A559F" Ref="R83"  Part="1" 
 AR Path="/72A2BB1E/722A559F" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A559F" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A559F" Ref="R?"  Part="1" 
 F 0 "R83" V 14243 17600 50  0000 C CNN
 F 1 "12k" V 14334 17600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14380 17600 50  0001 C CNN
@@ -10887,6 +11137,8 @@ P 14450 17700
 AR Path="/722A55A5" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A55A5" Ref="R84"  Part="1" 
 AR Path="/72A2BB1E/722A55A5" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A55A5" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A55A5" Ref="R?"  Part="1" 
 F 0 "R84" V 14243 17700 50  0000 C CNN
 F 1 "12k" V 14334 17700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14380 17700 50  0001 C CNN
@@ -10997,6 +11249,8 @@ P 15550 17550
 AR Path="/722A55E1" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A55E1" Ref="Q77"  Part="1" 
 AR Path="/72A2BB1E/722A55E1" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A55E1" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A55E1" Ref="Q?"  Part="1" 
 F 0 "Q77" H 15525 18221 50  0000 C CNN
 F 1 "BSS8402DW" H 15525 18130 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 15550 17900 50  0001 C CNN
@@ -11015,6 +11269,8 @@ P 16100 17550
 AR Path="/722A55EB" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A55EB" Ref="Q80"  Part="1" 
 AR Path="/72A2BB1E/722A55EB" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A55EB" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A55EB" Ref="Q?"  Part="1" 
 F 0 "Q80" H 16075 18221 50  0000 C CNN
 F 1 "BSS8402DW" H 16075 18130 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 16100 17900 50  0001 C CNN
@@ -11043,6 +11299,8 @@ P 16500 17500
 AR Path="/722A55F6" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A55F6" Ref="R89"  Part="1" 
 AR Path="/72A2BB1E/722A55F6" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A55F6" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A55F6" Ref="R?"  Part="1" 
 F 0 "R89" V 16293 17500 50  0000 C CNN
 F 1 "12k" V 16384 17500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 16430 17500 50  0001 C CNN
@@ -11057,6 +11315,8 @@ P 16500 17600
 AR Path="/722A55FC" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A55FC" Ref="R90"  Part="1" 
 AR Path="/72A2BB1E/722A55FC" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A55FC" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A55FC" Ref="R?"  Part="1" 
 F 0 "R90" V 16293 17600 50  0000 C CNN
 F 1 "12k" V 16384 17600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 16430 17600 50  0001 C CNN
@@ -11068,10 +11328,6 @@ Wire Wire Line
 	16650 17500 16700 17500
 Wire Wire Line
 	16700 17600 16650 17600
-Text GLabel 15550 17950 3    50   Input ~ 0
-Vss
-Text GLabel 16100 17950 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	16350 17500 15800 17500
 Wire Wire Line
@@ -11081,10 +11337,6 @@ Connection ~ 16350 17600
 Connection ~ 15750 17650
 Wire Wire Line
 	15750 17650 15750 17700
-Text GLabel 15550 17150 1    50   Input ~ 0
-Vdd
-Text GLabel 16100 17150 1    50   Input ~ 0
-Vdd
 Wire Notes Line
 	15150 16850 16750 16850
 Wire Notes Line
@@ -11121,10 +11373,6 @@ Wire Wire Line
 	19850 16700 19850 16850
 Wire Wire Line
 	19900 16700 19850 16700
-Text GLabel 20200 16450 1    50   Input ~ 0
-Vdd
-Text GLabel 20200 17250 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	20800 16850 20800 16900
 Connection ~ 20800 16850
@@ -11141,6 +11389,8 @@ P 20600 16900
 AR Path="/722A5628" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5628" Ref="R114"  Part="1" 
 AR Path="/72A2BB1E/722A5628" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5628" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5628" Ref="R?"  Part="1" 
 F 0 "R114" V 20393 16900 50  0000 C CNN
 F 1 "12k" V 20484 16900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 20530 16900 50  0001 C CNN
@@ -11155,6 +11405,8 @@ P 20600 16800
 AR Path="/722A562E" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A562E" Ref="R113"  Part="1" 
 AR Path="/72A2BB1E/722A562E" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A562E" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A562E" Ref="R?"  Part="1" 
 F 0 "R113" V 20393 16800 50  0000 C CNN
 F 1 "12k" V 20484 16800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 20530 16800 50  0001 C CNN
@@ -11169,6 +11421,8 @@ P 20200 16850
 AR Path="/722A5638" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5638" Ref="Q95"  Part="1" 
 AR Path="/72A2BB1E/722A5638" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5638" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5638" Ref="Q?"  Part="1" 
 F 0 "Q95" H 20175 17521 50  0000 C CNN
 F 1 "BSS8402DW" H 20175 17430 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 20200 17200 50  0001 C CNN
@@ -11213,6 +11467,8 @@ P 22450 17500
 AR Path="/722A564C" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A564C" Ref="R120"  Part="1" 
 AR Path="/72A2BB1E/722A564C" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A564C" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A564C" Ref="R?"  Part="1" 
 F 0 "R120" V 22243 17500 50  0000 C CNN
 F 1 "12k" V 22334 17500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 22380 17500 50  0001 C CNN
@@ -11227,6 +11483,8 @@ P 22450 17400
 AR Path="/722A5652" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5652" Ref="R119"  Part="1" 
 AR Path="/72A2BB1E/722A5652" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5652" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5652" Ref="R?"  Part="1" 
 F 0 "R119" V 22243 17400 50  0000 C CNN
 F 1 "12k" V 22334 17400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 22380 17400 50  0001 C CNN
@@ -11234,10 +11492,6 @@ F 3 "~" H 22450 17400 50  0001 C CNN
 	1    22450 17400
 	0    1    1    0   
 $EndComp
-Text GLabel 21350 17050 1    50   Input ~ 0
-Vdd
-Text GLabel 21350 17850 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	22050 17000 22050 17050
 Wire Wire Line
@@ -11276,6 +11530,8 @@ P 22050 17450
 AR Path="/722A566E" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A566E" Ref="Q101"  Part="1" 
 AR Path="/72A2BB1E/722A566E" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A566E" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A566E" Ref="Q?"  Part="1" 
 F 0 "Q101" H 22025 18121 50  0000 C CNN
 F 1 "BSS8402DW" H 22025 18030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 22050 17800 50  0001 C CNN
@@ -11294,6 +11550,8 @@ P 21350 17450
 AR Path="/722A5678" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5678" Ref="Q98"  Part="1" 
 AR Path="/72A2BB1E/722A5678" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5678" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5678" Ref="Q?"  Part="1" 
 F 0 "Q98" H 21325 18121 50  0000 C CNN
 F 1 "BSS8402DW" H 21325 18030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 21350 17800 50  0001 C CNN
@@ -11340,6 +11598,8 @@ P 19500 16900
 AR Path="/722A568D" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A568D" Ref="R108"  Part="1" 
 AR Path="/72A2BB1E/722A568D" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A568D" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A568D" Ref="R?"  Part="1" 
 F 0 "R108" V 19293 16900 50  0000 C CNN
 F 1 "12k" V 19384 16900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 19430 16900 50  0001 C CNN
@@ -11354,6 +11614,8 @@ P 19500 16800
 AR Path="/722A5693" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5693" Ref="R107"  Part="1" 
 AR Path="/72A2BB1E/722A5693" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5693" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5693" Ref="R?"  Part="1" 
 F 0 "R107" V 19293 16800 50  0000 C CNN
 F 1 "12k" V 19384 16800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 19430 16800 50  0001 C CNN
@@ -11361,10 +11623,6 @@ F 3 "~" H 19500 16800 50  0001 C CNN
 	1    19500 16800
 	0    1    1    0   
 $EndComp
-Text GLabel 18400 16450 1    50   Input ~ 0
-Vdd
-Text GLabel 18400 17250 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	19100 16400 19100 16450
 Wire Wire Line
@@ -11403,6 +11661,8 @@ P 19100 16850
 AR Path="/722A56AF" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A56AF" Ref="Q92"  Part="1" 
 AR Path="/72A2BB1E/722A56AF" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A56AF" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A56AF" Ref="Q?"  Part="1" 
 F 0 "Q92" H 19075 17521 50  0000 C CNN
 F 1 "BSS8402DW" H 19075 17430 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 19100 17200 50  0001 C CNN
@@ -11421,6 +11681,8 @@ P 18400 16850
 AR Path="/722A56B9" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A56B9" Ref="Q89"  Part="1" 
 AR Path="/72A2BB1E/722A56B9" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A56B9" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A56B9" Ref="Q?"  Part="1" 
 F 0 "Q89" H 18375 17521 50  0000 C CNN
 F 1 "BSS8402DW" H 18375 17430 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 18400 17200 50  0001 C CNN
@@ -11460,6 +11722,8 @@ P 16650 16250
 AR Path="/722A56CA" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A56CA" Ref="R96"  Part="1" 
 AR Path="/72A2BB1E/722A56CA" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A56CA" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A56CA" Ref="R?"  Part="1" 
 F 0 "R96" V 16443 16250 50  0000 C CNN
 F 1 "12k" V 16534 16250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 16580 16250 50  0001 C CNN
@@ -11474,6 +11738,8 @@ P 16650 16150
 AR Path="/722A56D0" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A56D0" Ref="R95"  Part="1" 
 AR Path="/72A2BB1E/722A56D0" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A56D0" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A56D0" Ref="R?"  Part="1" 
 F 0 "R95" V 16443 16150 50  0000 C CNN
 F 1 "12k" V 16534 16150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 16580 16150 50  0001 C CNN
@@ -11481,10 +11747,6 @@ F 3 "~" H 16650 16150 50  0001 C CNN
 	1    16650 16150
 	0    1    1    0   
 $EndComp
-Text GLabel 15550 15800 1    50   Input ~ 0
-Vdd
-Text GLabel 15550 16600 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	16250 15750 16250 15800
 Wire Wire Line
@@ -11523,6 +11785,8 @@ P 16250 16200
 AR Path="/722A56EC" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A56EC" Ref="Q83"  Part="1" 
 AR Path="/72A2BB1E/722A56EC" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A56EC" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A56EC" Ref="Q?"  Part="1" 
 F 0 "Q83" H 16225 16871 50  0000 C CNN
 F 1 "BSS8402DW" H 16225 16780 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 16250 16550 50  0001 C CNN
@@ -11541,6 +11805,8 @@ P 15550 16200
 AR Path="/722A56F6" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A56F6" Ref="Q76"  Part="1" 
 AR Path="/72A2BB1E/722A56F6" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A56F6" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A56F6" Ref="Q?"  Part="1" 
 F 0 "Q76" H 15525 16871 50  0000 C CNN
 F 1 "BSS8402DW" H 15525 16780 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 15550 16550 50  0001 C CNN
@@ -11577,10 +11843,6 @@ Wire Wire Line
 	16900 17400 16900 17550
 Wire Wire Line
 	16950 17400 16900 17400
-Text GLabel 17250 17150 1    50   Input ~ 0
-Vdd
-Text GLabel 17250 17950 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	17850 17600 17800 17600
 Wire Wire Line
@@ -11592,6 +11854,8 @@ P 17650 17600
 AR Path="/722A570D" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A570D" Ref="R102"  Part="1" 
 AR Path="/72A2BB1E/722A570D" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A570D" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A570D" Ref="R?"  Part="1" 
 F 0 "R102" V 17443 17600 50  0000 C CNN
 F 1 "12k" V 17534 17600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 17580 17600 50  0001 C CNN
@@ -11606,6 +11870,8 @@ P 17650 17500
 AR Path="/722A5713" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5713" Ref="R101"  Part="1" 
 AR Path="/72A2BB1E/722A5713" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5713" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5713" Ref="R?"  Part="1" 
 F 0 "R101" V 17443 17500 50  0000 C CNN
 F 1 "12k" V 17534 17500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 17580 17500 50  0001 C CNN
@@ -11620,6 +11886,8 @@ P 17250 17550
 AR Path="/722A571D" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A571D" Ref="Q86"  Part="1" 
 AR Path="/72A2BB1E/722A571D" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A571D" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A571D" Ref="Q?"  Part="1" 
 F 0 "Q86" H 17225 18221 50  0000 C CNN
 F 1 "BSS8402DW" H 17225 18130 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 17250 17900 50  0001 C CNN
@@ -11696,6 +11964,8 @@ P 23400 17550
 AR Path="/722A5747" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5747" Ref="Q107"  Part="1" 
 AR Path="/72A2BB1E/722A5747" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5747" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5747" Ref="Q?"  Part="1" 
 F 0 "Q107" H 23375 18221 50  0000 C CNN
 F 1 "BSS8402DW" H 23375 18130 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 23400 17900 50  0001 C CNN
@@ -11714,6 +11984,8 @@ P 23950 17550
 AR Path="/722A5751" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5751" Ref="Q110"  Part="1" 
 AR Path="/72A2BB1E/722A5751" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5751" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5751" Ref="Q?"  Part="1" 
 F 0 "Q110" H 23925 18221 50  0000 C CNN
 F 1 "BSS8402DW" H 23925 18130 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 23950 17900 50  0001 C CNN
@@ -11742,6 +12014,8 @@ P 24350 17500
 AR Path="/722A575C" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A575C" Ref="R125"  Part="1" 
 AR Path="/72A2BB1E/722A575C" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A575C" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A575C" Ref="R?"  Part="1" 
 F 0 "R125" V 24143 17500 50  0000 C CNN
 F 1 "12k" V 24234 17500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 24280 17500 50  0001 C CNN
@@ -11756,6 +12030,8 @@ P 24350 17600
 AR Path="/722A5762" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5762" Ref="R126"  Part="1" 
 AR Path="/72A2BB1E/722A5762" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5762" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5762" Ref="R?"  Part="1" 
 F 0 "R126" V 24143 17600 50  0000 C CNN
 F 1 "12k" V 24234 17600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 24280 17600 50  0001 C CNN
@@ -11767,10 +12043,6 @@ Wire Wire Line
 	24500 17500 24550 17500
 Wire Wire Line
 	24550 17600 24500 17600
-Text GLabel 23400 17950 3    50   Input ~ 0
-Vss
-Text GLabel 23950 17950 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	24200 17500 23650 17500
 Wire Wire Line
@@ -11780,10 +12052,6 @@ Connection ~ 24200 17600
 Connection ~ 23600 17650
 Wire Wire Line
 	23600 17650 23600 17700
-Text GLabel 23400 17150 1    50   Input ~ 0
-Vdd
-Text GLabel 23950 17150 1    50   Input ~ 0
-Vdd
 Wire Notes Line
 	23000 16850 24600 16850
 Wire Notes Line
@@ -11820,10 +12088,6 @@ Wire Wire Line
 	27700 16700 27700 16850
 Wire Wire Line
 	27750 16700 27700 16700
-Text GLabel 28050 16450 1    50   Input ~ 0
-Vdd
-Text GLabel 28050 17250 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	28650 16850 28650 16900
 Connection ~ 28650 16850
@@ -11840,6 +12104,8 @@ P 28450 16900
 AR Path="/722A578E" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A578E" Ref="R150"  Part="1" 
 AR Path="/72A2BB1E/722A578E" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A578E" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A578E" Ref="R?"  Part="1" 
 F 0 "R150" V 28243 16900 50  0000 C CNN
 F 1 "12k" V 28334 16900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 28380 16900 50  0001 C CNN
@@ -11854,6 +12120,8 @@ P 28450 16800
 AR Path="/722A5794" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5794" Ref="R149"  Part="1" 
 AR Path="/72A2BB1E/722A5794" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5794" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5794" Ref="R?"  Part="1" 
 F 0 "R149" V 28243 16800 50  0000 C CNN
 F 1 "12k" V 28334 16800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 28380 16800 50  0001 C CNN
@@ -11868,6 +12136,8 @@ P 28050 16850
 AR Path="/722A579E" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A579E" Ref="Q125"  Part="1" 
 AR Path="/72A2BB1E/722A579E" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A579E" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A579E" Ref="Q?"  Part="1" 
 F 0 "Q125" H 28025 17521 50  0000 C CNN
 F 1 "BSS8402DW" H 28025 17430 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 28050 17200 50  0001 C CNN
@@ -11912,6 +12182,8 @@ P 30300 17500
 AR Path="/722A57B2" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A57B2" Ref="R156"  Part="1" 
 AR Path="/72A2BB1E/722A57B2" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A57B2" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A57B2" Ref="R?"  Part="1" 
 F 0 "R156" V 30093 17500 50  0000 C CNN
 F 1 "12k" V 30184 17500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 30230 17500 50  0001 C CNN
@@ -11926,6 +12198,8 @@ P 30300 17400
 AR Path="/722A57B8" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A57B8" Ref="R155"  Part="1" 
 AR Path="/72A2BB1E/722A57B8" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A57B8" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A57B8" Ref="R?"  Part="1" 
 F 0 "R155" V 30093 17400 50  0000 C CNN
 F 1 "12k" V 30184 17400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 30230 17400 50  0001 C CNN
@@ -11933,10 +12207,6 @@ F 3 "~" H 30300 17400 50  0001 C CNN
 	1    30300 17400
 	0    1    1    0   
 $EndComp
-Text GLabel 29200 17050 1    50   Input ~ 0
-Vdd
-Text GLabel 29200 17850 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	29900 17000 29900 17050
 Wire Wire Line
@@ -11975,6 +12245,8 @@ P 29900 17450
 AR Path="/722A57D4" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A57D4" Ref="Q131"  Part="1" 
 AR Path="/72A2BB1E/722A57D4" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A57D4" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A57D4" Ref="Q?"  Part="1" 
 F 0 "Q131" H 29875 18121 50  0000 C CNN
 F 1 "BSS8402DW" H 29875 18030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 29900 17800 50  0001 C CNN
@@ -11993,6 +12265,8 @@ P 29200 17450
 AR Path="/722A57DE" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A57DE" Ref="Q128"  Part="1" 
 AR Path="/72A2BB1E/722A57DE" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A57DE" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A57DE" Ref="Q?"  Part="1" 
 F 0 "Q128" H 29175 18121 50  0000 C CNN
 F 1 "BSS8402DW" H 29175 18030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 29200 17800 50  0001 C CNN
@@ -12039,6 +12313,8 @@ P 27350 16900
 AR Path="/722A57F3" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A57F3" Ref="R144"  Part="1" 
 AR Path="/72A2BB1E/722A57F3" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A57F3" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A57F3" Ref="R?"  Part="1" 
 F 0 "R144" V 27143 16900 50  0000 C CNN
 F 1 "12k" V 27234 16900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 27280 16900 50  0001 C CNN
@@ -12053,6 +12329,8 @@ P 27350 16800
 AR Path="/722A57F9" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A57F9" Ref="R143"  Part="1" 
 AR Path="/72A2BB1E/722A57F9" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A57F9" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A57F9" Ref="R?"  Part="1" 
 F 0 "R143" V 27143 16800 50  0000 C CNN
 F 1 "12k" V 27234 16800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 27280 16800 50  0001 C CNN
@@ -12060,10 +12338,6 @@ F 3 "~" H 27350 16800 50  0001 C CNN
 	1    27350 16800
 	0    1    1    0   
 $EndComp
-Text GLabel 26250 16450 1    50   Input ~ 0
-Vdd
-Text GLabel 26250 17250 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	26950 16400 26950 16450
 Wire Wire Line
@@ -12102,6 +12376,8 @@ P 26950 16850
 AR Path="/722A5815" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5815" Ref="Q122"  Part="1" 
 AR Path="/72A2BB1E/722A5815" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5815" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5815" Ref="Q?"  Part="1" 
 F 0 "Q122" H 26925 17521 50  0000 C CNN
 F 1 "BSS8402DW" H 26925 17430 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 26950 17200 50  0001 C CNN
@@ -12120,6 +12396,8 @@ P 26250 16850
 AR Path="/722A581F" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A581F" Ref="Q119"  Part="1" 
 AR Path="/72A2BB1E/722A581F" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A581F" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A581F" Ref="Q?"  Part="1" 
 F 0 "Q119" H 26225 17521 50  0000 C CNN
 F 1 "BSS8402DW" H 26225 17430 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 26250 17200 50  0001 C CNN
@@ -12159,6 +12437,8 @@ P 24500 16250
 AR Path="/722A5830" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5830" Ref="R132"  Part="1" 
 AR Path="/72A2BB1E/722A5830" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5830" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5830" Ref="R?"  Part="1" 
 F 0 "R132" V 24293 16250 50  0000 C CNN
 F 1 "12k" V 24384 16250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 24430 16250 50  0001 C CNN
@@ -12173,6 +12453,8 @@ P 24500 16150
 AR Path="/722A5836" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5836" Ref="R131"  Part="1" 
 AR Path="/72A2BB1E/722A5836" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5836" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5836" Ref="R?"  Part="1" 
 F 0 "R131" V 24293 16150 50  0000 C CNN
 F 1 "12k" V 24384 16150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 24430 16150 50  0001 C CNN
@@ -12180,10 +12462,6 @@ F 3 "~" H 24500 16150 50  0001 C CNN
 	1    24500 16150
 	0    1    1    0   
 $EndComp
-Text GLabel 23400 15800 1    50   Input ~ 0
-Vdd
-Text GLabel 23400 16600 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	24100 15750 24100 15800
 Wire Wire Line
@@ -12222,6 +12500,8 @@ P 24100 16200
 AR Path="/722A5852" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5852" Ref="Q113"  Part="1" 
 AR Path="/72A2BB1E/722A5852" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5852" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5852" Ref="Q?"  Part="1" 
 F 0 "Q113" H 24075 16871 50  0000 C CNN
 F 1 "BSS8402DW" H 24075 16780 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 24100 16550 50  0001 C CNN
@@ -12240,6 +12520,8 @@ P 23400 16200
 AR Path="/722A585C" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A585C" Ref="Q106"  Part="1" 
 AR Path="/72A2BB1E/722A585C" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A585C" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A585C" Ref="Q?"  Part="1" 
 F 0 "Q106" H 23375 16871 50  0000 C CNN
 F 1 "BSS8402DW" H 23375 16780 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 23400 16550 50  0001 C CNN
@@ -12276,10 +12558,6 @@ Wire Wire Line
 	24750 17400 24750 17550
 Wire Wire Line
 	24800 17400 24750 17400
-Text GLabel 25100 17150 1    50   Input ~ 0
-Vdd
-Text GLabel 25100 17950 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	25700 17600 25650 17600
 Wire Wire Line
@@ -12291,6 +12569,8 @@ P 25500 17600
 AR Path="/722A5873" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5873" Ref="R138"  Part="1" 
 AR Path="/72A2BB1E/722A5873" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5873" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5873" Ref="R?"  Part="1" 
 F 0 "R138" V 25293 17600 50  0000 C CNN
 F 1 "12k" V 25384 17600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 25430 17600 50  0001 C CNN
@@ -12305,6 +12585,8 @@ P 25500 17500
 AR Path="/722A5879" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5879" Ref="R137"  Part="1" 
 AR Path="/72A2BB1E/722A5879" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5879" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5879" Ref="R?"  Part="1" 
 F 0 "R137" V 25293 17500 50  0000 C CNN
 F 1 "12k" V 25384 17500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 25430 17500 50  0001 C CNN
@@ -12319,6 +12601,8 @@ P 25100 17550
 AR Path="/722A5883" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5883" Ref="Q116"  Part="1" 
 AR Path="/72A2BB1E/722A5883" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5883" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5883" Ref="Q?"  Part="1" 
 F 0 "Q116" H 25075 18221 50  0000 C CNN
 F 1 "BSS8402DW" H 25075 18130 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 25100 17900 50  0001 C CNN
@@ -12365,6 +12649,8 @@ P 31150 17650
 AR Path="/722A589D" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A589D" Ref="Q134"  Part="1" 
 AR Path="/72A2BB1E/722A589D" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A589D" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A589D" Ref="Q?"  Part="1" 
 F 0 "Q134" H 31125 18321 50  0000 C CNN
 F 1 "BSS8402DW" H 31125 18230 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 31150 18000 50  0001 C CNN
@@ -12383,6 +12669,8 @@ P 31850 17650
 AR Path="/722A58A7" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A58A7" Ref="Q137"  Part="1" 
 AR Path="/72A2BB1E/722A58A7" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A58A7" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A58A7" Ref="Q?"  Part="1" 
 F 0 "Q137" H 31825 18321 50  0000 C CNN
 F 1 "BSS8402DW" H 31825 18230 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 31850 18000 50  0001 C CNN
@@ -12425,10 +12713,6 @@ Wire Wire Line
 	31600 17200 31850 17200
 Wire Wire Line
 	31850 17200 31850 17250
-Text GLabel 31150 18050 3    50   Input ~ 0
-Vss
-Text GLabel 31150 17250 1    50   Input ~ 0
-Vdd
 $Comp
 L Device:R R?
 U 1 1 722A58BF
@@ -12436,6 +12720,8 @@ P 32250 17600
 AR Path="/722A58BF" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A58BF" Ref="R161"  Part="1" 
 AR Path="/72A2BB1E/722A58BF" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A58BF" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A58BF" Ref="R?"  Part="1" 
 F 0 "R161" V 32043 17600 50  0000 C CNN
 F 1 "12k" V 32134 17600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 32180 17600 50  0001 C CNN
@@ -12450,6 +12736,8 @@ P 32250 17700
 AR Path="/722A58C5" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A58C5" Ref="R162"  Part="1" 
 AR Path="/72A2BB1E/722A58C5" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A58C5" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A58C5" Ref="R?"  Part="1" 
 F 0 "R162" V 32043 17700 50  0000 C CNN
 F 1 "12k" V 32134 17700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 32180 17700 50  0001 C CNN
@@ -12560,6 +12848,8 @@ P 33350 17550
 AR Path="/722A5901" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5901" Ref="Q143"  Part="1" 
 AR Path="/72A2BB1E/722A5901" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5901" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5901" Ref="Q?"  Part="1" 
 F 0 "Q143" H 33325 18221 50  0000 C CNN
 F 1 "BSS8402DW" H 33325 18130 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 33350 17900 50  0001 C CNN
@@ -12578,6 +12868,8 @@ P 33900 17550
 AR Path="/722A590B" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A590B" Ref="Q146"  Part="1" 
 AR Path="/72A2BB1E/722A590B" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A590B" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A590B" Ref="Q?"  Part="1" 
 F 0 "Q146" H 33875 18221 50  0000 C CNN
 F 1 "BSS8402DW" H 33875 18130 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 33900 17900 50  0001 C CNN
@@ -12606,6 +12898,8 @@ P 34300 17500
 AR Path="/722A5916" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5916" Ref="R167"  Part="1" 
 AR Path="/72A2BB1E/722A5916" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5916" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5916" Ref="R?"  Part="1" 
 F 0 "R167" V 34093 17500 50  0000 C CNN
 F 1 "12k" V 34184 17500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 34230 17500 50  0001 C CNN
@@ -12620,6 +12914,8 @@ P 34300 17600
 AR Path="/722A591C" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A591C" Ref="R168"  Part="1" 
 AR Path="/72A2BB1E/722A591C" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A591C" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A591C" Ref="R?"  Part="1" 
 F 0 "R168" V 34093 17600 50  0000 C CNN
 F 1 "12k" V 34184 17600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 34230 17600 50  0001 C CNN
@@ -12631,10 +12927,6 @@ Wire Wire Line
 	34450 17500 34500 17500
 Wire Wire Line
 	34500 17600 34450 17600
-Text GLabel 33350 17950 3    50   Input ~ 0
-Vss
-Text GLabel 33900 17950 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	34150 17500 33600 17500
 Wire Wire Line
@@ -12644,10 +12936,6 @@ Connection ~ 34150 17600
 Connection ~ 33550 17650
 Wire Wire Line
 	33550 17650 33550 17700
-Text GLabel 33350 17150 1    50   Input ~ 0
-Vdd
-Text GLabel 33900 17150 1    50   Input ~ 0
-Vdd
 Wire Notes Line
 	32950 16850 34550 16850
 Wire Notes Line
@@ -12684,10 +12972,6 @@ Wire Wire Line
 	37650 16700 37650 16850
 Wire Wire Line
 	37700 16700 37650 16700
-Text GLabel 38000 16450 1    50   Input ~ 0
-Vdd
-Text GLabel 38000 17250 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	38600 16850 38600 16900
 Connection ~ 38600 16850
@@ -12704,6 +12988,8 @@ P 38400 16900
 AR Path="/722A5948" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5948" Ref="R192"  Part="1" 
 AR Path="/72A2BB1E/722A5948" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5948" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5948" Ref="R?"  Part="1" 
 F 0 "R192" V 38193 16900 50  0000 C CNN
 F 1 "12k" V 38284 16900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 38330 16900 50  0001 C CNN
@@ -12718,6 +13004,8 @@ P 38400 16800
 AR Path="/722A594E" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A594E" Ref="R191"  Part="1" 
 AR Path="/72A2BB1E/722A594E" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A594E" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A594E" Ref="R?"  Part="1" 
 F 0 "R191" V 38193 16800 50  0000 C CNN
 F 1 "12k" V 38284 16800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 38330 16800 50  0001 C CNN
@@ -12732,6 +13020,8 @@ P 38000 16850
 AR Path="/722A5958" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5958" Ref="Q161"  Part="1" 
 AR Path="/72A2BB1E/722A5958" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5958" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5958" Ref="Q?"  Part="1" 
 F 0 "Q161" H 37975 17521 50  0000 C CNN
 F 1 "BSS8402DW" H 37975 17430 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 38000 17200 50  0001 C CNN
@@ -12776,6 +13066,8 @@ P 40250 17500
 AR Path="/722A596C" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A596C" Ref="R198"  Part="1" 
 AR Path="/72A2BB1E/722A596C" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A596C" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A596C" Ref="R?"  Part="1" 
 F 0 "R198" V 40043 17500 50  0000 C CNN
 F 1 "12k" V 40134 17500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 40180 17500 50  0001 C CNN
@@ -12790,6 +13082,8 @@ P 40250 17400
 AR Path="/722A5972" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5972" Ref="R197"  Part="1" 
 AR Path="/72A2BB1E/722A5972" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5972" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5972" Ref="R?"  Part="1" 
 F 0 "R197" V 40043 17400 50  0000 C CNN
 F 1 "12k" V 40134 17400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 40180 17400 50  0001 C CNN
@@ -12797,10 +13091,6 @@ F 3 "~" H 40250 17400 50  0001 C CNN
 	1    40250 17400
 	0    1    1    0   
 $EndComp
-Text GLabel 39150 17050 1    50   Input ~ 0
-Vdd
-Text GLabel 39150 17850 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	39850 17000 39850 17050
 Wire Wire Line
@@ -12839,6 +13129,8 @@ P 39850 17450
 AR Path="/722A598E" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A598E" Ref="Q167"  Part="1" 
 AR Path="/72A2BB1E/722A598E" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A598E" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A598E" Ref="Q?"  Part="1" 
 F 0 "Q167" H 39825 18121 50  0000 C CNN
 F 1 "BSS8402DW" H 39825 18030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 39850 17800 50  0001 C CNN
@@ -12857,6 +13149,8 @@ P 39150 17450
 AR Path="/722A5998" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5998" Ref="Q164"  Part="1" 
 AR Path="/72A2BB1E/722A5998" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5998" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5998" Ref="Q?"  Part="1" 
 F 0 "Q164" H 39125 18121 50  0000 C CNN
 F 1 "BSS8402DW" H 39125 18030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 39150 17800 50  0001 C CNN
@@ -12903,6 +13197,8 @@ P 37300 16900
 AR Path="/722A59AD" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A59AD" Ref="R186"  Part="1" 
 AR Path="/72A2BB1E/722A59AD" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A59AD" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A59AD" Ref="R?"  Part="1" 
 F 0 "R186" V 37093 16900 50  0000 C CNN
 F 1 "12k" V 37184 16900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 37230 16900 50  0001 C CNN
@@ -12917,6 +13213,8 @@ P 37300 16800
 AR Path="/722A59B3" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A59B3" Ref="R185"  Part="1" 
 AR Path="/72A2BB1E/722A59B3" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A59B3" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A59B3" Ref="R?"  Part="1" 
 F 0 "R185" V 37093 16800 50  0000 C CNN
 F 1 "12k" V 37184 16800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 37230 16800 50  0001 C CNN
@@ -12924,10 +13222,6 @@ F 3 "~" H 37300 16800 50  0001 C CNN
 	1    37300 16800
 	0    1    1    0   
 $EndComp
-Text GLabel 36200 16450 1    50   Input ~ 0
-Vdd
-Text GLabel 36200 17250 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	36900 16400 36900 16450
 Wire Wire Line
@@ -12966,6 +13260,8 @@ P 36900 16850
 AR Path="/722A59CF" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A59CF" Ref="Q158"  Part="1" 
 AR Path="/72A2BB1E/722A59CF" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A59CF" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A59CF" Ref="Q?"  Part="1" 
 F 0 "Q158" H 36875 17521 50  0000 C CNN
 F 1 "BSS8402DW" H 36875 17430 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 36900 17200 50  0001 C CNN
@@ -12984,6 +13280,8 @@ P 36200 16850
 AR Path="/722A59D9" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A59D9" Ref="Q155"  Part="1" 
 AR Path="/72A2BB1E/722A59D9" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A59D9" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A59D9" Ref="Q?"  Part="1" 
 F 0 "Q155" H 36175 17521 50  0000 C CNN
 F 1 "BSS8402DW" H 36175 17430 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 36200 17200 50  0001 C CNN
@@ -13023,6 +13321,8 @@ P 34450 16250
 AR Path="/722A59EA" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A59EA" Ref="R174"  Part="1" 
 AR Path="/72A2BB1E/722A59EA" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A59EA" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A59EA" Ref="R?"  Part="1" 
 F 0 "R174" V 34243 16250 50  0000 C CNN
 F 1 "12k" V 34334 16250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 34380 16250 50  0001 C CNN
@@ -13037,6 +13337,8 @@ P 34450 16150
 AR Path="/722A59F0" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A59F0" Ref="R173"  Part="1" 
 AR Path="/72A2BB1E/722A59F0" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A59F0" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A59F0" Ref="R?"  Part="1" 
 F 0 "R173" V 34243 16150 50  0000 C CNN
 F 1 "12k" V 34334 16150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 34380 16150 50  0001 C CNN
@@ -13044,10 +13346,6 @@ F 3 "~" H 34450 16150 50  0001 C CNN
 	1    34450 16150
 	0    1    1    0   
 $EndComp
-Text GLabel 33350 15800 1    50   Input ~ 0
-Vdd
-Text GLabel 33350 16600 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	34050 15750 34050 15800
 Wire Wire Line
@@ -13086,6 +13384,8 @@ P 34050 16200
 AR Path="/722A5A0C" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5A0C" Ref="Q149"  Part="1" 
 AR Path="/72A2BB1E/722A5A0C" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5A0C" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5A0C" Ref="Q?"  Part="1" 
 F 0 "Q149" H 34025 16871 50  0000 C CNN
 F 1 "BSS8402DW" H 34025 16780 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 34050 16550 50  0001 C CNN
@@ -13104,6 +13404,8 @@ P 33350 16200
 AR Path="/722A5A16" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5A16" Ref="Q142"  Part="1" 
 AR Path="/72A2BB1E/722A5A16" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5A16" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5A16" Ref="Q?"  Part="1" 
 F 0 "Q142" H 33325 16871 50  0000 C CNN
 F 1 "BSS8402DW" H 33325 16780 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 33350 16550 50  0001 C CNN
@@ -13140,10 +13442,6 @@ Wire Wire Line
 	34700 17400 34700 17550
 Wire Wire Line
 	34750 17400 34700 17400
-Text GLabel 35050 17150 1    50   Input ~ 0
-Vdd
-Text GLabel 35050 17950 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	35650 17600 35600 17600
 Wire Wire Line
@@ -13155,6 +13453,8 @@ P 35450 17600
 AR Path="/722A5A2D" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5A2D" Ref="R180"  Part="1" 
 AR Path="/72A2BB1E/722A5A2D" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5A2D" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5A2D" Ref="R?"  Part="1" 
 F 0 "R180" V 35243 17600 50  0000 C CNN
 F 1 "12k" V 35334 17600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 35380 17600 50  0001 C CNN
@@ -13169,6 +13469,8 @@ P 35450 17500
 AR Path="/722A5A33" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5A33" Ref="R179"  Part="1" 
 AR Path="/72A2BB1E/722A5A33" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5A33" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5A33" Ref="R?"  Part="1" 
 F 0 "R179" V 35243 17500 50  0000 C CNN
 F 1 "12k" V 35334 17500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 35380 17500 50  0001 C CNN
@@ -13183,6 +13485,8 @@ P 35050 17550
 AR Path="/722A5A3D" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5A3D" Ref="Q152"  Part="1" 
 AR Path="/72A2BB1E/722A5A3D" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5A3D" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5A3D" Ref="Q?"  Part="1" 
 F 0 "Q152" H 35025 18221 50  0000 C CNN
 F 1 "BSS8402DW" H 35025 18130 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 35050 17900 50  0001 C CNN
@@ -13259,6 +13563,8 @@ P 41200 17550
 AR Path="/722A5A67" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5A67" Ref="Q173"  Part="1" 
 AR Path="/72A2BB1E/722A5A67" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5A67" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5A67" Ref="Q?"  Part="1" 
 F 0 "Q173" H 41175 18221 50  0000 C CNN
 F 1 "BSS8402DW" H 41175 18130 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 41200 17900 50  0001 C CNN
@@ -13277,6 +13583,8 @@ P 41750 17550
 AR Path="/722A5A71" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5A71" Ref="Q176"  Part="1" 
 AR Path="/72A2BB1E/722A5A71" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5A71" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5A71" Ref="Q?"  Part="1" 
 F 0 "Q176" H 41725 18221 50  0000 C CNN
 F 1 "BSS8402DW" H 41725 18130 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 41750 17900 50  0001 C CNN
@@ -13305,6 +13613,8 @@ P 42150 17500
 AR Path="/722A5A7C" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5A7C" Ref="R203"  Part="1" 
 AR Path="/72A2BB1E/722A5A7C" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5A7C" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5A7C" Ref="R?"  Part="1" 
 F 0 "R203" V 41943 17500 50  0000 C CNN
 F 1 "12k" V 42034 17500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 42080 17500 50  0001 C CNN
@@ -13319,6 +13629,8 @@ P 42150 17600
 AR Path="/722A5A82" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5A82" Ref="R204"  Part="1" 
 AR Path="/72A2BB1E/722A5A82" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5A82" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5A82" Ref="R?"  Part="1" 
 F 0 "R204" V 41943 17600 50  0000 C CNN
 F 1 "12k" V 42034 17600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 42080 17600 50  0001 C CNN
@@ -13330,10 +13642,6 @@ Wire Wire Line
 	42300 17500 42350 17500
 Wire Wire Line
 	42350 17600 42300 17600
-Text GLabel 41200 17950 3    50   Input ~ 0
-Vss
-Text GLabel 41750 17950 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	42000 17500 41450 17500
 Wire Wire Line
@@ -13343,10 +13651,6 @@ Connection ~ 42000 17600
 Connection ~ 41400 17650
 Wire Wire Line
 	41400 17650 41400 17700
-Text GLabel 41200 17150 1    50   Input ~ 0
-Vdd
-Text GLabel 41750 17150 1    50   Input ~ 0
-Vdd
 Wire Notes Line
 	40800 16850 42400 16850
 Wire Notes Line
@@ -13383,10 +13687,6 @@ Wire Wire Line
 	45500 16700 45500 16850
 Wire Wire Line
 	45550 16700 45500 16700
-Text GLabel 45850 16450 1    50   Input ~ 0
-Vdd
-Text GLabel 45850 17250 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	46450 16850 46450 16900
 Connection ~ 46450 16850
@@ -13403,6 +13703,8 @@ P 46250 16900
 AR Path="/722A5AAE" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5AAE" Ref="R228"  Part="1" 
 AR Path="/72A2BB1E/722A5AAE" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5AAE" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5AAE" Ref="R?"  Part="1" 
 F 0 "R228" V 46043 16900 50  0000 C CNN
 F 1 "12k" V 46134 16900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 46180 16900 50  0001 C CNN
@@ -13417,6 +13719,8 @@ P 46250 16800
 AR Path="/722A5AB4" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5AB4" Ref="R227"  Part="1" 
 AR Path="/72A2BB1E/722A5AB4" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5AB4" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5AB4" Ref="R?"  Part="1" 
 F 0 "R227" V 46043 16800 50  0000 C CNN
 F 1 "12k" V 46134 16800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 46180 16800 50  0001 C CNN
@@ -13431,6 +13735,8 @@ P 45850 16850
 AR Path="/722A5ABE" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5ABE" Ref="Q191"  Part="1" 
 AR Path="/72A2BB1E/722A5ABE" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5ABE" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5ABE" Ref="Q?"  Part="1" 
 F 0 "Q191" H 45825 17521 50  0000 C CNN
 F 1 "BSS8402DW" H 45825 17430 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 45850 17200 50  0001 C CNN
@@ -13475,6 +13781,8 @@ P 48100 17500
 AR Path="/722A5AD2" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5AD2" Ref="R234"  Part="1" 
 AR Path="/72A2BB1E/722A5AD2" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5AD2" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5AD2" Ref="R?"  Part="1" 
 F 0 "R234" V 47893 17500 50  0000 C CNN
 F 1 "12k" V 47984 17500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 48030 17500 50  0001 C CNN
@@ -13489,6 +13797,8 @@ P 48100 17400
 AR Path="/722A5AD8" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5AD8" Ref="R233"  Part="1" 
 AR Path="/72A2BB1E/722A5AD8" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5AD8" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5AD8" Ref="R?"  Part="1" 
 F 0 "R233" V 47893 17400 50  0000 C CNN
 F 1 "12k" V 47984 17400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 48030 17400 50  0001 C CNN
@@ -13496,10 +13806,6 @@ F 3 "~" H 48100 17400 50  0001 C CNN
 	1    48100 17400
 	0    1    1    0   
 $EndComp
-Text GLabel 47000 17050 1    50   Input ~ 0
-Vdd
-Text GLabel 47000 17850 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	47700 17000 47700 17050
 Wire Wire Line
@@ -13538,6 +13844,8 @@ P 47700 17450
 AR Path="/722A5AF4" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5AF4" Ref="Q197"  Part="1" 
 AR Path="/72A2BB1E/722A5AF4" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5AF4" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5AF4" Ref="Q?"  Part="1" 
 F 0 "Q197" H 47675 18121 50  0000 C CNN
 F 1 "BSS8402DW" H 47675 18030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 47700 17800 50  0001 C CNN
@@ -13556,6 +13864,8 @@ P 47000 17450
 AR Path="/722A5AFE" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5AFE" Ref="Q194"  Part="1" 
 AR Path="/72A2BB1E/722A5AFE" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5AFE" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5AFE" Ref="Q?"  Part="1" 
 F 0 "Q194" H 46975 18121 50  0000 C CNN
 F 1 "BSS8402DW" H 46975 18030 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 47000 17800 50  0001 C CNN
@@ -13602,6 +13912,8 @@ P 45150 16900
 AR Path="/722A5B13" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5B13" Ref="R222"  Part="1" 
 AR Path="/72A2BB1E/722A5B13" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5B13" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5B13" Ref="R?"  Part="1" 
 F 0 "R222" V 44943 16900 50  0000 C CNN
 F 1 "12k" V 45034 16900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 45080 16900 50  0001 C CNN
@@ -13616,6 +13928,8 @@ P 45150 16800
 AR Path="/722A5B19" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5B19" Ref="R221"  Part="1" 
 AR Path="/72A2BB1E/722A5B19" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5B19" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5B19" Ref="R?"  Part="1" 
 F 0 "R221" V 44943 16800 50  0000 C CNN
 F 1 "12k" V 45034 16800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 45080 16800 50  0001 C CNN
@@ -13623,10 +13937,6 @@ F 3 "~" H 45150 16800 50  0001 C CNN
 	1    45150 16800
 	0    1    1    0   
 $EndComp
-Text GLabel 44050 16450 1    50   Input ~ 0
-Vdd
-Text GLabel 44050 17250 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	44750 16400 44750 16450
 Wire Wire Line
@@ -13665,6 +13975,8 @@ P 44750 16850
 AR Path="/722A5B35" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5B35" Ref="Q188"  Part="1" 
 AR Path="/72A2BB1E/722A5B35" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5B35" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5B35" Ref="Q?"  Part="1" 
 F 0 "Q188" H 44725 17521 50  0000 C CNN
 F 1 "BSS8402DW" H 44725 17430 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 44750 17200 50  0001 C CNN
@@ -13683,6 +13995,8 @@ P 44050 16850
 AR Path="/722A5B3F" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5B3F" Ref="Q185"  Part="1" 
 AR Path="/72A2BB1E/722A5B3F" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5B3F" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5B3F" Ref="Q?"  Part="1" 
 F 0 "Q185" H 44025 17521 50  0000 C CNN
 F 1 "BSS8402DW" H 44025 17430 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 44050 17200 50  0001 C CNN
@@ -13722,6 +14036,8 @@ P 42300 16250
 AR Path="/722A5B50" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5B50" Ref="R210"  Part="1" 
 AR Path="/72A2BB1E/722A5B50" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5B50" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5B50" Ref="R?"  Part="1" 
 F 0 "R210" V 42093 16250 50  0000 C CNN
 F 1 "12k" V 42184 16250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 42230 16250 50  0001 C CNN
@@ -13736,6 +14052,8 @@ P 42300 16150
 AR Path="/722A5B56" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5B56" Ref="R209"  Part="1" 
 AR Path="/72A2BB1E/722A5B56" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5B56" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5B56" Ref="R?"  Part="1" 
 F 0 "R209" V 42093 16150 50  0000 C CNN
 F 1 "12k" V 42184 16150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 42230 16150 50  0001 C CNN
@@ -13743,10 +14061,6 @@ F 3 "~" H 42300 16150 50  0001 C CNN
 	1    42300 16150
 	0    1    1    0   
 $EndComp
-Text GLabel 41200 15800 1    50   Input ~ 0
-Vdd
-Text GLabel 41200 16600 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	41900 15750 41900 15800
 Wire Wire Line
@@ -13785,6 +14099,8 @@ P 41900 16200
 AR Path="/722A5B72" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5B72" Ref="Q179"  Part="1" 
 AR Path="/72A2BB1E/722A5B72" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5B72" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5B72" Ref="Q?"  Part="1" 
 F 0 "Q179" H 41875 16871 50  0000 C CNN
 F 1 "BSS8402DW" H 41875 16780 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 41900 16550 50  0001 C CNN
@@ -13803,6 +14119,8 @@ P 41200 16200
 AR Path="/722A5B7C" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5B7C" Ref="Q172"  Part="1" 
 AR Path="/72A2BB1E/722A5B7C" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5B7C" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5B7C" Ref="Q?"  Part="1" 
 F 0 "Q172" H 41175 16871 50  0000 C CNN
 F 1 "BSS8402DW" H 41175 16780 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 41200 16550 50  0001 C CNN
@@ -13839,10 +14157,6 @@ Wire Wire Line
 	42550 17400 42550 17550
 Wire Wire Line
 	42600 17400 42550 17400
-Text GLabel 42900 17150 1    50   Input ~ 0
-Vdd
-Text GLabel 42900 17950 3    50   Input ~ 0
-Vss
 Wire Wire Line
 	43500 17600 43450 17600
 Wire Wire Line
@@ -13854,6 +14168,8 @@ P 43300 17600
 AR Path="/722A5B93" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5B93" Ref="R216"  Part="1" 
 AR Path="/72A2BB1E/722A5B93" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5B93" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5B93" Ref="R?"  Part="1" 
 F 0 "R216" V 43093 17600 50  0000 C CNN
 F 1 "12k" V 43184 17600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 43230 17600 50  0001 C CNN
@@ -13868,6 +14184,8 @@ P 43300 17500
 AR Path="/722A5B99" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5B99" Ref="R215"  Part="1" 
 AR Path="/72A2BB1E/722A5B99" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5B99" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5B99" Ref="R?"  Part="1" 
 F 0 "R215" V 43093 17500 50  0000 C CNN
 F 1 "12k" V 43184 17500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 43230 17500 50  0001 C CNN
@@ -13882,6 +14200,8 @@ P 42900 17550
 AR Path="/722A5BA3" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5BA3" Ref="Q182"  Part="1" 
 AR Path="/72A2BB1E/722A5BA3" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5BA3" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5BA3" Ref="Q?"  Part="1" 
 F 0 "Q182" H 42875 18221 50  0000 C CNN
 F 1 "BSS8402DW" H 42875 18130 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 42900 17900 50  0001 C CNN
@@ -13928,6 +14248,8 @@ P 48950 17650
 AR Path="/722A5BBD" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5BBD" Ref="Q200"  Part="1" 
 AR Path="/72A2BB1E/722A5BBD" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5BBD" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5BBD" Ref="Q?"  Part="1" 
 F 0 "Q200" H 48925 18321 50  0000 C CNN
 F 1 "BSS8402DW" H 48925 18230 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 48950 18000 50  0001 C CNN
@@ -13946,6 +14268,8 @@ P 49650 17650
 AR Path="/722A5BC7" Ref="Q?"  Part="1" 
 AR Path="/712017E5/722A5BC7" Ref="Q203"  Part="1" 
 AR Path="/72A2BB1E/722A5BC7" Ref="Q?"  Part="1" 
+AR Path="/D9C26D81/722A5BC7" Ref="Q?"  Part="1" 
+AR Path="/60E0C246/722A5BC7" Ref="Q?"  Part="1" 
 F 0 "Q203" H 49625 18321 50  0000 C CNN
 F 1 "BSS8402DW" H 49625 18230 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 49650 18000 50  0001 C CNN
@@ -13988,10 +14312,6 @@ Wire Wire Line
 	49400 17200 49650 17200
 Wire Wire Line
 	49650 17200 49650 17250
-Text GLabel 48950 18050 3    50   Input ~ 0
-Vss
-Text GLabel 48950 17250 1    50   Input ~ 0
-Vdd
 $Comp
 L Device:R R?
 U 1 1 722A5BDF
@@ -13999,6 +14319,8 @@ P 50050 17600
 AR Path="/722A5BDF" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5BDF" Ref="R239"  Part="1" 
 AR Path="/72A2BB1E/722A5BDF" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5BDF" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5BDF" Ref="R?"  Part="1" 
 F 0 "R239" V 49843 17600 50  0000 C CNN
 F 1 "12k" V 49934 17600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 49980 17600 50  0001 C CNN
@@ -14013,6 +14335,8 @@ P 50050 17700
 AR Path="/722A5BE5" Ref="R?"  Part="1" 
 AR Path="/712017E5/722A5BE5" Ref="R240"  Part="1" 
 AR Path="/72A2BB1E/722A5BE5" Ref="R?"  Part="1" 
+AR Path="/D9C26D81/722A5BE5" Ref="R?"  Part="1" 
+AR Path="/60E0C246/722A5BE5" Ref="R?"  Part="1" 
 F 0 "R240" V 49843 17700 50  0000 C CNN
 F 1 "12k" V 49934 17700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 49980 17700 50  0001 C CNN
@@ -14288,4 +14612,544 @@ Text HLabel 50400 16900 2    50   Output ~ 0
 S8
 Text HLabel 50400 17650 2    50   Output ~ 0
 CarryOut
+Text HLabel -2250 9400 1    50   Input ~ 0
+Vdd
+Text HLabel 600  10050 1    50   Input ~ 0
+Vdd
+Text HLabel 2400 10050 1    50   Input ~ 0
+Vdd
+Text HLabel 3550 10650 1    50   Input ~ 0
+Vdd
+Text HLabel 5600 10750 1    50   Input ~ 0
+Vdd
+Text HLabel 6150 10750 1    50   Input ~ 0
+Vdd
+Text HLabel 5600 9400 1    50   Input ~ 0
+Vdd
+Text HLabel 7300 10750 1    50   Input ~ 0
+Vdd
+Text HLabel 8450 10050 1    50   Input ~ 0
+Vdd
+Text HLabel 10250 10050 1    50   Input ~ 0
+Vdd
+Text HLabel 11400 10650 1    50   Input ~ 0
+Vdd
+Text HLabel 13350 10850 1    50   Input ~ 0
+Vdd
+Text HLabel 15550 10750 1    50   Input ~ 0
+Vdd
+Text HLabel 16100 10750 1    50   Input ~ 0
+Vdd
+Text HLabel 15550 9400 1    50   Input ~ 0
+Vdd
+Text HLabel 17250 10750 1    50   Input ~ 0
+Vdd
+Text HLabel 18400 10050 1    50   Input ~ 0
+Vdd
+Text HLabel 23400 9400 1    50   Input ~ 0
+Vdd
+Text HLabel 23400 10750 1    50   Input ~ 0
+Vdd
+Text HLabel 23950 10750 1    50   Input ~ 0
+Vdd
+Text HLabel 25100 10750 1    50   Input ~ 0
+Vdd
+Text HLabel 26250 10050 1    50   Input ~ 0
+Vdd
+Text HLabel 28050 10050 1    50   Input ~ 0
+Vdd
+Text HLabel 29200 10650 1    50   Input ~ 0
+Vdd
+Text HLabel 31150 10850 1    50   Input ~ 0
+Vdd
+Text HLabel 33350 10750 1    50   Input ~ 0
+Vdd
+Text HLabel 33350 9400 1    50   Input ~ 0
+Vdd
+Text HLabel 33900 10750 1    50   Input ~ 0
+Vdd
+Text HLabel 35050 10750 1    50   Input ~ 0
+Vdd
+Text HLabel 36200 10050 1    50   Input ~ 0
+Vdd
+Text HLabel 38000 10050 1    50   Input ~ 0
+Vdd
+Text HLabel 39150 10650 1    50   Input ~ 0
+Vdd
+Text HLabel 41200 10750 1    50   Input ~ 0
+Vdd
+Text HLabel 41750 10750 1    50   Input ~ 0
+Vdd
+Text HLabel 41200 9400 1    50   Input ~ 0
+Vdd
+Text HLabel 42900 10750 1    50   Input ~ 0
+Vdd
+Text HLabel 44050 10050 1    50   Input ~ 0
+Vdd
+Text HLabel 45850 10050 1    50   Input ~ 0
+Vdd
+Text HLabel 47000 10650 1    50   Input ~ 0
+Vdd
+Text HLabel 48950 10850 1    50   Input ~ 0
+Vdd
+Text HLabel 20200 10050 1    50   Input ~ 0
+Vdd
+Text HLabel 21350 10650 1    50   Input ~ 0
+Vdd
+Text HLabel 48950 11650 3    50   Input ~ 0
+Vss
+Text HLabel 47000 11450 3    50   Input ~ 0
+Vss
+Text HLabel 45850 10850 3    50   Input ~ 0
+Vss
+Text HLabel 44050 10850 3    50   Input ~ 0
+Vss
+Text HLabel 42900 11550 3    50   Input ~ 0
+Vss
+Text HLabel 41750 11550 3    50   Input ~ 0
+Vss
+Text HLabel 41200 11550 3    50   Input ~ 0
+Vss
+Text HLabel 41200 10200 3    50   Input ~ 0
+Vss
+Text HLabel 39150 11450 3    50   Input ~ 0
+Vss
+Text HLabel 38000 10850 3    50   Input ~ 0
+Vss
+Text HLabel 36200 10850 3    50   Input ~ 0
+Vss
+Text HLabel 35050 11550 3    50   Input ~ 0
+Vss
+Text HLabel 33900 11550 3    50   Input ~ 0
+Vss
+Text HLabel 33350 11550 3    50   Input ~ 0
+Vss
+Text HLabel 33350 10200 3    50   Input ~ 0
+Vss
+Text HLabel 31150 11650 3    50   Input ~ 0
+Vss
+Text HLabel 29200 11450 3    50   Input ~ 0
+Vss
+Text HLabel 28050 10850 3    50   Input ~ 0
+Vss
+Text HLabel 26250 10850 3    50   Input ~ 0
+Vss
+Text HLabel 25100 11550 3    50   Input ~ 0
+Vss
+Text HLabel 23400 11550 3    50   Input ~ 0
+Vss
+Text HLabel 23950 11550 3    50   Input ~ 0
+Vss
+Text HLabel 21350 11450 3    50   Input ~ 0
+Vss
+Text HLabel 23400 10200 3    50   Input ~ 0
+Vss
+Text HLabel 20200 10850 3    50   Input ~ 0
+Vss
+Text HLabel 18400 10850 3    50   Input ~ 0
+Vss
+Text HLabel 17250 11550 3    50   Input ~ 0
+Vss
+Text HLabel 16100 11550 3    50   Input ~ 0
+Vss
+Text HLabel 15550 11550 3    50   Input ~ 0
+Vss
+Text HLabel 13350 11650 3    50   Input ~ 0
+Vss
+Text HLabel 11400 11450 3    50   Input ~ 0
+Vss
+Text HLabel 10250 10850 3    50   Input ~ 0
+Vss
+Text HLabel 8450 10850 3    50   Input ~ 0
+Vss
+Text HLabel 7300 11550 3    50   Input ~ 0
+Vss
+Text HLabel 6150 11550 3    50   Input ~ 0
+Vss
+Text HLabel 5600 11550 3    50   Input ~ 0
+Vss
+Text HLabel 3550 11450 3    50   Input ~ 0
+Vss
+Text HLabel 2400 10850 3    50   Input ~ 0
+Vss
+Text HLabel 600  10850 3    50   Input ~ 0
+Vss
+Text HLabel -550 11550 3    50   Input ~ 0
+Vss
+Text HLabel -1700 11550 3    50   Input ~ 0
+Vss
+Text HLabel -2250 11550 3    50   Input ~ 0
+Vss
+Text HLabel -2250 10200 3    50   Input ~ 0
+Vss
+Text HLabel -2250 10750 1    50   Input ~ 0
+Vdd
+Text HLabel -1700 10750 1    50   Input ~ 0
+Vdd
+Text HLabel -550 10750 1    50   Input ~ 0
+Vdd
+Text HLabel -2250 12600 1    50   Input ~ 0
+Vdd
+Text HLabel 600  13250 1    50   Input ~ 0
+Vdd
+Text HLabel 2400 13250 1    50   Input ~ 0
+Vdd
+Text HLabel 3550 13850 1    50   Input ~ 0
+Vdd
+Text HLabel 5600 12600 1    50   Input ~ 0
+Vdd
+Text HLabel 5600 13950 1    50   Input ~ 0
+Vdd
+Text HLabel 6150 13950 1    50   Input ~ 0
+Vdd
+Text HLabel 7300 13950 1    50   Input ~ 0
+Vdd
+Text HLabel 8450 13250 1    50   Input ~ 0
+Vdd
+Text HLabel 10250 13250 1    50   Input ~ 0
+Vdd
+Text HLabel 11400 13850 1    50   Input ~ 0
+Vdd
+Text HLabel 13350 14050 1    50   Input ~ 0
+Vdd
+Text HLabel 15550 12600 1    50   Input ~ 0
+Vdd
+Text HLabel 15550 13950 1    50   Input ~ 0
+Vdd
+Text HLabel 16100 13950 1    50   Input ~ 0
+Vdd
+Text HLabel 17250 13950 1    50   Input ~ 0
+Vdd
+Text HLabel 18400 13250 1    50   Input ~ 0
+Vdd
+Text HLabel 20200 13250 1    50   Input ~ 0
+Vdd
+Text HLabel 21350 13850 1    50   Input ~ 0
+Vdd
+Text HLabel 23400 12600 1    50   Input ~ 0
+Vdd
+Text HLabel 23400 13950 1    50   Input ~ 0
+Vdd
+Text HLabel 23950 13950 1    50   Input ~ 0
+Vdd
+Text HLabel 25100 13950 1    50   Input ~ 0
+Vdd
+Text HLabel 26250 13250 1    50   Input ~ 0
+Vdd
+Text HLabel 28050 13250 1    50   Input ~ 0
+Vdd
+Text HLabel 29200 13850 1    50   Input ~ 0
+Vdd
+Text HLabel 31150 14050 1    50   Input ~ 0
+Vdd
+Text HLabel 33350 12600 1    50   Input ~ 0
+Vdd
+Text HLabel 33350 13950 1    50   Input ~ 0
+Vdd
+Text HLabel 33900 13950 1    50   Input ~ 0
+Vdd
+Text HLabel 35050 13950 1    50   Input ~ 0
+Vdd
+Text HLabel 36200 13250 1    50   Input ~ 0
+Vdd
+Text HLabel 38000 13250 1    50   Input ~ 0
+Vdd
+Text HLabel 39150 13850 1    50   Input ~ 0
+Vdd
+Text HLabel 41200 12600 1    50   Input ~ 0
+Vdd
+Text HLabel 41200 13950 1    50   Input ~ 0
+Vdd
+Text HLabel 41750 13950 1    50   Input ~ 0
+Vdd
+Text HLabel 42900 13950 1    50   Input ~ 0
+Vdd
+Text HLabel 44050 13250 1    50   Input ~ 0
+Vdd
+Text HLabel 45850 13250 1    50   Input ~ 0
+Vdd
+Text HLabel 47000 13850 1    50   Input ~ 0
+Vdd
+Text HLabel 48950 14050 1    50   Input ~ 0
+Vdd
+Text HLabel 48950 14850 3    50   Input ~ 0
+Vss
+Text HLabel 47000 14650 3    50   Input ~ 0
+Vss
+Text HLabel 45850 14050 3    50   Input ~ 0
+Vss
+Text HLabel 44050 14050 3    50   Input ~ 0
+Vss
+Text HLabel 42900 14750 3    50   Input ~ 0
+Vss
+Text HLabel 41750 14750 3    50   Input ~ 0
+Vss
+Text HLabel 41200 14750 3    50   Input ~ 0
+Vss
+Text HLabel 41200 13400 3    50   Input ~ 0
+Vss
+Text HLabel 39150 14650 3    50   Input ~ 0
+Vss
+Text HLabel 38000 14050 3    50   Input ~ 0
+Vss
+Text HLabel 36200 14050 3    50   Input ~ 0
+Vss
+Text HLabel 35050 14750 3    50   Input ~ 0
+Vss
+Text HLabel 33900 14750 3    50   Input ~ 0
+Vss
+Text HLabel 33350 14750 3    50   Input ~ 0
+Vss
+Text HLabel 33350 13400 3    50   Input ~ 0
+Vss
+Text HLabel 31150 14850 3    50   Input ~ 0
+Vss
+Text HLabel 29200 14650 3    50   Input ~ 0
+Vss
+Text HLabel 28050 14050 3    50   Input ~ 0
+Vss
+Text HLabel 26250 14050 3    50   Input ~ 0
+Vss
+Text HLabel 25100 14750 3    50   Input ~ 0
+Vss
+Text HLabel 23950 14750 3    50   Input ~ 0
+Vss
+Text HLabel 23400 14750 3    50   Input ~ 0
+Vss
+Text HLabel 21350 14650 3    50   Input ~ 0
+Vss
+Text HLabel 23400 13400 3    50   Input ~ 0
+Vss
+Text HLabel 20200 14050 3    50   Input ~ 0
+Vss
+Text HLabel 18400 14050 3    50   Input ~ 0
+Vss
+Text HLabel 17250 14750 3    50   Input ~ 0
+Vss
+Text HLabel 16100 14750 3    50   Input ~ 0
+Vss
+Text HLabel 15550 14750 3    50   Input ~ 0
+Vss
+Text HLabel 15550 13400 3    50   Input ~ 0
+Vss
+Text HLabel 13350 14850 3    50   Input ~ 0
+Vss
+Text HLabel 11400 14650 3    50   Input ~ 0
+Vss
+Text HLabel 10250 14050 3    50   Input ~ 0
+Vss
+Text HLabel 8450 14050 3    50   Input ~ 0
+Vss
+Text HLabel 7300 14750 3    50   Input ~ 0
+Vss
+Text HLabel 5600 14750 3    50   Input ~ 0
+Vss
+Text HLabel 6150 14750 3    50   Input ~ 0
+Vss
+Text HLabel 5600 13400 3    50   Input ~ 0
+Vss
+Text HLabel 3550 14650 3    50   Input ~ 0
+Vss
+Text HLabel 2400 14050 3    50   Input ~ 0
+Vss
+Text HLabel 600  14050 3    50   Input ~ 0
+Vss
+Text HLabel -2250 14750 3    50   Input ~ 0
+Vss
+Text HLabel -1700 14750 3    50   Input ~ 0
+Vss
+Text HLabel -2250 13400 3    50   Input ~ 0
+Vss
+Text HLabel -550 14750 3    50   Input ~ 0
+Vss
+Text HLabel -550 13950 1    50   Input ~ 0
+Vdd
+Text HLabel -1700 13950 1    50   Input ~ 0
+Vdd
+Text HLabel -2250 13950 1    50   Input ~ 0
+Vdd
+Text HLabel -2250 15800 1    50   Input ~ 0
+Vdd
+Text HLabel -2250 17150 1    50   Input ~ 0
+Vdd
+Text HLabel -1700 17150 1    50   Input ~ 0
+Vdd
+Text HLabel -550 17150 1    50   Input ~ 0
+Vdd
+Text HLabel 600  16450 1    50   Input ~ 0
+Vdd
+Text HLabel 2400 16450 1    50   Input ~ 0
+Vdd
+Text HLabel 3550 17050 1    50   Input ~ 0
+Vdd
+Text HLabel 5600 15800 1    50   Input ~ 0
+Vdd
+Text HLabel 5600 17150 1    50   Input ~ 0
+Vdd
+Text HLabel 6150 17150 1    50   Input ~ 0
+Vdd
+Text HLabel 7300 17150 1    50   Input ~ 0
+Vdd
+Text HLabel 8450 16450 1    50   Input ~ 0
+Vdd
+Text HLabel 10250 16450 1    50   Input ~ 0
+Vdd
+Text HLabel 11400 17050 1    50   Input ~ 0
+Vdd
+Text HLabel 13350 17250 1    50   Input ~ 0
+Vdd
+Text HLabel 15550 17150 1    50   Input ~ 0
+Vdd
+Text HLabel 16100 17150 1    50   Input ~ 0
+Vdd
+Text HLabel 15550 15800 1    50   Input ~ 0
+Vdd
+Text HLabel 17250 17150 1    50   Input ~ 0
+Vdd
+Text HLabel 18400 16450 1    50   Input ~ 0
+Vdd
+Text HLabel 20200 16450 1    50   Input ~ 0
+Vdd
+Text HLabel 21350 17050 1    50   Input ~ 0
+Vdd
+Text HLabel 23400 15800 1    50   Input ~ 0
+Vdd
+Text HLabel 26250 16450 1    50   Input ~ 0
+Vdd
+Text HLabel 23400 17150 1    50   Input ~ 0
+Vdd
+Text HLabel 23950 17150 1    50   Input ~ 0
+Vdd
+Text HLabel 25100 17150 1    50   Input ~ 0
+Vdd
+Text HLabel 29200 17050 1    50   Input ~ 0
+Vdd
+Text HLabel 28050 16450 1    50   Input ~ 0
+Vdd
+Text HLabel 31150 17250 1    50   Input ~ 0
+Vdd
+Text HLabel 33350 17150 1    50   Input ~ 0
+Vdd
+Text HLabel 33900 17150 1    50   Input ~ 0
+Vdd
+Text HLabel 33350 15800 1    50   Input ~ 0
+Vdd
+Text HLabel 35050 17150 1    50   Input ~ 0
+Vdd
+Text HLabel 36200 16450 1    50   Input ~ 0
+Vdd
+Text HLabel 38000 16450 1    50   Input ~ 0
+Vdd
+Text HLabel 39150 17050 1    50   Input ~ 0
+Vdd
+Text HLabel 41200 15800 1    50   Input ~ 0
+Vdd
+Text HLabel 41200 17150 1    50   Input ~ 0
+Vdd
+Text HLabel 41750 17150 1    50   Input ~ 0
+Vdd
+Text HLabel 42900 17150 1    50   Input ~ 0
+Vdd
+Text HLabel 44050 16450 1    50   Input ~ 0
+Vdd
+Text HLabel 45850 16450 1    50   Input ~ 0
+Vdd
+Text HLabel 47000 17050 1    50   Input ~ 0
+Vdd
+Text HLabel 48950 17250 1    50   Input ~ 0
+Vdd
+Text HLabel 48950 18050 3    50   Input ~ 0
+Vss
+Text HLabel 47000 17850 3    50   Input ~ 0
+Vss
+Text HLabel 45850 17250 3    50   Input ~ 0
+Vss
+Text HLabel 44050 17250 3    50   Input ~ 0
+Vss
+Text HLabel 42900 17950 3    50   Input ~ 0
+Vss
+Text HLabel 41750 17950 3    50   Input ~ 0
+Vss
+Text HLabel 41200 17950 3    50   Input ~ 0
+Vss
+Text HLabel 39150 17850 3    50   Input ~ 0
+Vss
+Text HLabel 38000 17250 3    50   Input ~ 0
+Vss
+Text HLabel 36200 17250 3    50   Input ~ 0
+Vss
+Text HLabel 35050 17950 3    50   Input ~ 0
+Vss
+Text HLabel 33350 17950 3    50   Input ~ 0
+Vss
+Text HLabel 33900 17950 3    50   Input ~ 0
+Vss
+Text HLabel 31150 18050 3    50   Input ~ 0
+Vss
+Text HLabel 33350 16600 3    50   Input ~ 0
+Vss
+Text HLabel 29200 17850 3    50   Input ~ 0
+Vss
+Text HLabel 28050 17250 3    50   Input ~ 0
+Vss
+Text HLabel 26250 17250 3    50   Input ~ 0
+Vss
+Text HLabel 25100 17950 3    50   Input ~ 0
+Vss
+Text HLabel 23400 16600 3    50   Input ~ 0
+Vss
+Text HLabel 23400 17950 3    50   Input ~ 0
+Vss
+Text HLabel 23950 17950 3    50   Input ~ 0
+Vss
+Text HLabel 21350 17850 3    50   Input ~ 0
+Vss
+Text HLabel 20200 17250 3    50   Input ~ 0
+Vss
+Text HLabel 18400 17250 3    50   Input ~ 0
+Vss
+Text HLabel 17250 17950 3    50   Input ~ 0
+Vss
+Text HLabel 16100 17950 3    50   Input ~ 0
+Vss
+Text HLabel 15550 17950 3    50   Input ~ 0
+Vss
+Text HLabel 15550 16600 3    50   Input ~ 0
+Vss
+Text HLabel 13350 18050 3    50   Input ~ 0
+Vss
+Text HLabel 11400 17850 3    50   Input ~ 0
+Vss
+Text HLabel 10250 17250 3    50   Input ~ 0
+Vss
+Text HLabel 8450 17250 3    50   Input ~ 0
+Vss
+Text HLabel 7300 17950 3    50   Input ~ 0
+Vss
+Text HLabel 5600 17950 3    50   Input ~ 0
+Vss
+Text HLabel 6150 17950 3    50   Input ~ 0
+Vss
+Text HLabel 5600 16600 3    50   Input ~ 0
+Vss
+Text HLabel 3550 17850 3    50   Input ~ 0
+Vss
+Text HLabel 2400 17250 3    50   Input ~ 0
+Vss
+Text HLabel 600  17250 3    50   Input ~ 0
+Vss
+Text HLabel -550 17950 3    50   Input ~ 0
+Vss
+Text HLabel -2250 17950 3    50   Input ~ 0
+Vss
+Text HLabel -1700 17950 3    50   Input ~ 0
+Vss
+Text HLabel -2250 16600 3    50   Input ~ 0
+Vss
+Text HLabel 41200 16600 3    50   Input ~ 0
+Vss
+Text HLabel 5600 10200 3    50   Input ~ 0
+Vss
+Text HLabel 15550 10200 3    50   Input ~ 0
+Vss
 $EndSCHEMATC
