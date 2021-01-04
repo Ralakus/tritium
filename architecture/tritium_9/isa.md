@@ -42,8 +42,8 @@
 
 | name     | address | description |
 |----------|---------|-------------|
-|carry     |   iii   |contains the carry bit from the alu|
-|alumode   |   ii0   |contains the top bit for the alu function|
+|carry     |   iii   |contains the carry trit from the alu|
+|alumode   |   ii0   |contains the top trit for the alu function|
 |page      |   ii1   |contains the page address for the page section of memory (see [`memory.md`](memory.md) fore more detail)|
 |error     |   i0i   |contains an error state, negative if error, zero if clear, positive if warning|
 
@@ -62,7 +62,7 @@
 | [jump]      |   11   |  J   |runs a jump function to jump to `rdest` if `fn(rsrc)` is true|
 
 ### ALU instructions
-Note, the top bit in parenthesis is from the control register
+Note, the top trit in parenthesis is from the control register
 
 | instruction | alu fn | description |
 |-------------|--------|-------------|
