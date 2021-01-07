@@ -124,4 +124,19 @@ Text GLabel 6450 3500 2    50   Output ~ 0
 Pti
 Text GLabel 6450 4300 2    50   Output ~ 0
 Nti
+$Comp
+L Ternary:BSS8402DW Q3
+U 1 1 5FF696C9
+P 7100 3450
+F 0 "Q3" H 7075 4121 50  0000 C CNN
+F 1 "BSS8402DW" H 7075 4030 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 7100 3800 50  0001 C CNN
+F 3 "" H 7100 3800 50  0001 C CNN
+F 4 "X" H 7300 3600 50  0001 C CNN "Spice_Primitive"
+F 5 "BSS8402DW" H 7300 3600 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 7075 3939 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 7300 3600 50  0001 C CNN "Spice_Lib_File"
+	1    7100 3450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

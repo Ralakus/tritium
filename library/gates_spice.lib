@@ -3,7 +3,7 @@
 .model DIODE D 2 1
 
 .subckt BSS8402DW 1 2 3 4 5 6
-M1 4 5 3 3 BSS84
+M1 3 5 4 4 BSS84
 M2 6 2 1 1 2N7002
 .ends BSS8402DW
 
