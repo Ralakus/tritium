@@ -24,4 +24,4 @@ There are many projects similar to this but they either haven't gone very far, c
 * Use easily sourcable parts
 
 ### Current Status
-Constructing and testing the pcb and components
+Tested each rev.0 pcb and posted results. Continuing on designing the alu
