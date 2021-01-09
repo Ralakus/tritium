@@ -1,0 +1,73 @@
+= Test Results for rev.0 gates 9/1/2021
+
+== Materials
+* Meanwell RT-50A
+* One of each gate pcb
+* 2N7002 and BSS84
+* 12K and 12M resistor
+* TS80P Soldering iron
+* 60/40 rosin core solder
+
+== Results
+=== Initial findings
+The source and drain on the BSS84 were flipped on the PCBs due to KiCad's pmos spice model having them switched. This was fixed by wiring the transistor to the correct pads via raw solder wire.
+
+=== Constants
+[options="header"]
+|===
+>|Constant|Value
+>|Vdd| +5v 
+>|Vss| -5v
+>|Out| floating
+>| i | -5v
+>| 0 | 0v
+>| 1 | 5v
+|===
+
+=== Test results
+[NOTE]
+========
+Results are from pcbs with the source and drain swapped on the BSS84 
+========
+
+.Inverter gate
+|====
+.3+^.^|A|i|1
+        |0|0
+        |1|i
+|====
+.Nany gate
+|====
+2.2+^.^|     3+^|A
+              | i | 0 | 1
+.3+^.^| B | i | 1 | 1 | 0
+          | 0 | 1 | 0 | i
+          | 1 | 0 | i | i
+|====
+.Nconsensus gate
+|====
+2.2+^.^|     3+^|A
+              | i | 0 | 1
+.3+^.^| B | i | 1 | 0 | 0
+          | 0 | 0 | 0 | 0
+          | 1 | 0 | 0 | i
+|====
+.Antimin gate
+|====
+2.2+^.^|     3+^|A
+              | i | 0 | 1
+.3+^.^| B | i | 1 | 1 | 1
+          | 0 | 1 | 0 | 0
+          | 1 | 1 | 0 | i
+|====
+.Antimax gate
+|====
+2.2+^.^|     3+^|A
+              | i | 0 | 1
+.3+^.^| B | i | 1 | 0 | i
+          | 0 | 0 | 0 | i
+          | 1 | i | i | i
+|====
+
+== Conclusion
+The ngspice simulation of each gate is accurate thus can be trusted for further and more complicated gates and ternary logic circuits. KiCad's pmos model has drain and source flipped which means all current pcbs must be redesigned to account for that error.

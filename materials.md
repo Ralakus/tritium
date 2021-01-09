@@ -1,8 +1,9 @@
 
-N Channel Enchantment MOSFET - 2N7002
-P Channel Enchantment MOSFET - BSS84
+N Channel Enchantment MOSFET - 2N7002  
+P Channel Enchantment MOSFET - BSS84  
+Moving to replace the 2N7002 and BSS84 with the BSS8402DW which is a cmos mosfet that combines both the 2N7002 and BSS84 in one package  
 
-12k 0603 SMD Resistors
+12k 0603 SMD Resistors  
 12M 0603 SMD Resistors
 
 Custom PCBs through JLCPCB

@@ -16,24 +16,24 @@ $EndDescr
 $Comp
 L Transistor_FET:BSS84 Q1
 U 1 1 5FDEED31
-P 6750 2500
-F 0 "Q1" H 6954 2546 50  0000 L CNN
-F 1 "BSS84" H 6954 2455 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 6950 2425 50  0001 L CIN
-F 3 "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf" H 6750 2500 50  0001 L CNN
-	1    6750 2500
-	1    0    0    -1  
+P 6950 2500
+F 0 "Q1" H 7154 2546 50  0000 L CNN
+F 1 "BSS84" H 7154 2455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7150 2425 50  0001 L CIN
+F 3 "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf" H 6950 2500 50  0001 L CNN
+	1    6950 2500
+	-1   0    0    1   
 $EndComp
 $Comp
 L Transistor_FET:BSS84 Q2
 U 1 1 5FDEF878
-P 6750 2900
-F 0 "Q2" H 6954 2946 50  0000 L CNN
-F 1 "BSS84" H 6954 2855 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 6950 2825 50  0001 L CIN
-F 3 "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf" H 6750 2900 50  0001 L CNN
-	1    6750 2900
-	1    0    0    -1  
+P 6950 2900
+F 0 "Q2" H 7154 2946 50  0000 L CNN
+F 1 "BSS84" H 7154 2855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7150 2825 50  0001 L CIN
+F 3 "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf" H 6950 2900 50  0001 L CNN
+	1    6950 2900
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R1
@@ -80,8 +80,6 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 6750 4400 50  000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6550 2900 6500 2900
-Wire Wire Line
 	6500 2900 6500 4400
 Wire Wire Line
 	6500 4400 6550 4400
@@ -89,8 +87,6 @@ Wire Wire Line
 	6550 4000 6450 4000
 Wire Wire Line
 	6450 4000 6450 2500
-Wire Wire Line
-	6450 2500 6550 2500
 Wire Wire Line
 	6450 2500 6350 2500
 Connection ~ 6450 2500
@@ -146,4 +142,8 @@ F 3 "~" H 7900 3200 50  0001 C CNN
 	1    7900 3200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6450 2500 7150 2500
+Wire Wire Line
+	6500 2900 7150 2900
 $EndSCHEMATC
