@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A0 46811 33110
 encoding utf-8
-Sheet 1 3
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -2333,10 +2333,4 @@ Wire Bus Line
 	25700 5250 25700 7500
 Wire Bus Line
 	26000 5250 26000 6500
-$Sheet
-S 33400 7450 700  1350
-U 60200954
-F0 "Sheet60200953" 50
-F1 "bus_io.sch" 50
-$EndSheet
 $EndSCHEMATC
