@@ -1,0 +1,1771 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	11200 13200 11200 13250
+Connection ~ 11200 13200
+$Comp
+L Ternary:BSS8402DW Q9
+U 1 1 6014F35A
+P 10050 13200
+F 0 "Q9" H 10025 13871 50  0000 C CNN
+F 1 "BSS8402DW" H 10025 13780 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 10050 13550 50  0001 C CNN
+F 3 "" H 10050 13550 50  0001 C CNN
+F 4 "X" H 10250 13350 50  0001 C CNN "Spice_Primitive"
+F 5 "BSS8402DW" H 10250 13350 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 10025 13689 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 10250 13350 50  0001 C CNN "Spice_Lib_File"
+	1    10050 13200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Ternary:BSS8402DW Q18
+U 1 1 6014F364
+P 10600 13200
+F 0 "Q18" H 10575 13871 50  0000 C CNN
+F 1 "BSS8402DW" H 10575 13780 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 10600 13550 50  0001 C CNN
+F 3 "" H 10600 13550 50  0001 C CNN
+F 4 "X" H 10800 13350 50  0001 C CNN "Spice_Primitive"
+F 5 "BSS8402DW" H 10800 13350 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 10575 13689 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 10800 13350 50  0001 C CNN "Spice_Lib_File"
+	1    10600 13200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 13050 10250 13050
+Wire Wire Line
+	10250 13350 10300 13350
+Wire Wire Line
+	9750 13050 9700 13050
+Wire Wire Line
+	9700 13050 9700 13100
+Wire Wire Line
+	9700 13350 9750 13350
+$Comp
+L Device:R R17
+U 1 1 6014F36F
+P 11000 13150
+F 0 "R17" V 10793 13150 50  0000 C CNN
+F 1 "12k" V 10884 13150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10930 13150 50  0001 C CNN
+F 3 "~" H 11000 13150 50  0001 C CNN
+	1    11000 13150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 6014F375
+P 11000 13250
+F 0 "R18" V 10793 13250 50  0000 C CNN
+F 1 "12k" V 10884 13250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10930 13250 50  0001 C CNN
+F 3 "~" H 11000 13250 50  0001 C CNN
+	1    11000 13250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11150 13150 11200 13150
+Wire Wire Line
+	11200 13250 11150 13250
+Wire Wire Line
+	10850 13150 10300 13150
+Wire Wire Line
+	10300 13250 10850 13250
+Connection ~ 10850 13150
+Connection ~ 10850 13250
+Wire Wire Line
+	10250 13300 9650 13300
+Connection ~ 10250 13300
+Wire Wire Line
+	10250 13300 10250 13350
+Wire Notes Line
+	9650 12500 11250 12500
+Wire Notes Line
+	11250 12500 11250 13800
+Wire Notes Line
+	11250 13800 9650 13800
+Wire Notes Line
+	9650 12500 9650 13800
+Wire Wire Line
+	10250 13050 10250 13300
+Wire Wire Line
+	9700 13100 9650 13100
+Connection ~ 9700 13100
+Wire Wire Line
+	9700 13100 9700 13350
+Text Notes 10800 13750 0    50   ~ 0
+nconsensus\n
+Wire Wire Line
+	11200 13150 11200 13200
+Wire Wire Line
+	11200 11850 11200 11900
+Connection ~ 11200 11850
+$Comp
+L Ternary:BSS8402DW Q8
+U 1 1 6014F394
+P 10050 11850
+F 0 "Q8" H 10025 12521 50  0000 C CNN
+F 1 "BSS8402DW" H 10025 12430 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 10050 12200 50  0001 C CNN
+F 3 "" H 10050 12200 50  0001 C CNN
+F 4 "X" H 10250 12000 50  0001 C CNN "Spice_Primitive"
+F 5 "BSS8402DW" H 10250 12000 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 10025 12339 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 10250 12000 50  0001 C CNN "Spice_Lib_File"
+	1    10050 11850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Ternary:BSS8402DW Q17
+U 1 1 6014F39E
+P 10600 11850
+F 0 "Q17" H 10575 12521 50  0000 C CNN
+F 1 "BSS8402DW" H 10575 12430 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 10600 12200 50  0001 C CNN
+F 3 "" H 10600 12200 50  0001 C CNN
+F 4 "X" H 10800 12000 50  0001 C CNN "Spice_Primitive"
+F 5 "BSS8402DW" H 10800 12000 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 10575 12339 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 10800 12000 50  0001 C CNN "Spice_Lib_File"
+	1    10600 11850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 11700 10250 11700
+Wire Wire Line
+	10250 12000 10300 12000
+Wire Wire Line
+	9750 11700 9700 11700
+Wire Wire Line
+	9700 11700 9700 11750
+Wire Wire Line
+	9700 12000 9750 12000
+$Comp
+L Device:R R15
+U 1 1 6014F3A9
+P 11000 11800
+F 0 "R15" V 10793 11800 50  0000 C CNN
+F 1 "12k" V 10884 11800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10930 11800 50  0001 C CNN
+F 3 "~" H 11000 11800 50  0001 C CNN
+	1    11000 11800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 6014F3AF
+P 11000 11900
+F 0 "R16" V 10793 11900 50  0000 C CNN
+F 1 "12k" V 10884 11900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10930 11900 50  0001 C CNN
+F 3 "~" H 11000 11900 50  0001 C CNN
+	1    11000 11900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11150 11800 11200 11800
+Wire Wire Line
+	11200 11900 11150 11900
+Wire Wire Line
+	10850 11800 10300 11800
+Wire Wire Line
+	10300 11900 10850 11900
+Connection ~ 10850 11800
+Connection ~ 10850 11900
+Wire Wire Line
+	10250 11950 9650 11950
+Connection ~ 10250 11950
+Wire Wire Line
+	10250 11950 10250 12000
+Wire Notes Line
+	9650 11150 11250 11150
+Wire Notes Line
+	11250 11150 11250 12450
+Wire Notes Line
+	11250 12450 9650 12450
+Wire Notes Line
+	9650 11150 9650 12450
+Wire Wire Line
+	10250 11700 10250 11950
+Wire Wire Line
+	9700 11750 9650 11750
+Connection ~ 9700 11750
+Wire Wire Line
+	9700 11750 9700 12000
+Text Notes 10800 12400 0    50   ~ 0
+nconsensus\n
+Wire Wire Line
+	11200 11800 11200 11850
+Wire Wire Line
+	11200 10500 11200 10550
+Connection ~ 11200 10500
+$Comp
+L Ternary:BSS8402DW Q7
+U 1 1 6014F3CE
+P 10050 10500
+F 0 "Q7" H 10025 11171 50  0000 C CNN
+F 1 "BSS8402DW" H 10025 11080 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 10050 10850 50  0001 C CNN
+F 3 "" H 10050 10850 50  0001 C CNN
+F 4 "X" H 10250 10650 50  0001 C CNN "Spice_Primitive"
+F 5 "BSS8402DW" H 10250 10650 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 10025 10989 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 10250 10650 50  0001 C CNN "Spice_Lib_File"
+	1    10050 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Ternary:BSS8402DW Q16
+U 1 1 6014F3D8
+P 10600 10500
+F 0 "Q16" H 10575 11171 50  0000 C CNN
+F 1 "BSS8402DW" H 10575 11080 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 10600 10850 50  0001 C CNN
+F 3 "" H 10600 10850 50  0001 C CNN
+F 4 "X" H 10800 10650 50  0001 C CNN "Spice_Primitive"
+F 5 "BSS8402DW" H 10800 10650 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 10575 10989 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 10800 10650 50  0001 C CNN "Spice_Lib_File"
+	1    10600 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 10350 10250 10350
+Wire Wire Line
+	10250 10650 10300 10650
+Wire Wire Line
+	9750 10350 9700 10350
+Wire Wire Line
+	9700 10350 9700 10400
+Wire Wire Line
+	9700 10650 9750 10650
+$Comp
+L Device:R R13
+U 1 1 6014F3E3
+P 11000 10450
+F 0 "R13" V 10793 10450 50  0000 C CNN
+F 1 "12k" V 10884 10450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10930 10450 50  0001 C CNN
+F 3 "~" H 11000 10450 50  0001 C CNN
+	1    11000 10450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 6014F3E9
+P 11000 10550
+F 0 "R14" V 10793 10550 50  0000 C CNN
+F 1 "12k" V 10884 10550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10930 10550 50  0001 C CNN
+F 3 "~" H 11000 10550 50  0001 C CNN
+	1    11000 10550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11150 10450 11200 10450
+Wire Wire Line
+	11200 10550 11150 10550
+Wire Wire Line
+	10850 10450 10300 10450
+Wire Wire Line
+	10300 10550 10850 10550
+Connection ~ 10850 10450
+Connection ~ 10850 10550
+Wire Wire Line
+	10250 10600 9650 10600
+Connection ~ 10250 10600
+Wire Wire Line
+	10250 10600 10250 10650
+Wire Notes Line
+	9650 9800 11250 9800
+Wire Notes Line
+	11250 9800 11250 11100
+Wire Notes Line
+	11250 11100 9650 11100
+Wire Notes Line
+	9650 9800 9650 11100
+Wire Wire Line
+	10250 10350 10250 10600
+Wire Wire Line
+	9700 10400 9650 10400
+Connection ~ 9700 10400
+Wire Wire Line
+	9700 10400 9700 10650
+Text Notes 10800 11050 0    50   ~ 0
+nconsensus\n
+Wire Wire Line
+	11200 10450 11200 10500
+Wire Wire Line
+	11200 9150 11200 9200
+Connection ~ 11200 9150
+$Comp
+L Ternary:BSS8402DW Q6
+U 1 1 6014F408
+P 10050 9150
+F 0 "Q6" H 10025 9821 50  0000 C CNN
+F 1 "BSS8402DW" H 10025 9730 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 10050 9500 50  0001 C CNN
+F 3 "" H 10050 9500 50  0001 C CNN
+F 4 "X" H 10250 9300 50  0001 C CNN "Spice_Primitive"
+F 5 "BSS8402DW" H 10250 9300 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 10025 9639 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 10250 9300 50  0001 C CNN "Spice_Lib_File"
+	1    10050 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Ternary:BSS8402DW Q15
+U 1 1 6014F412
+P 10600 9150
+F 0 "Q15" H 10575 9821 50  0000 C CNN
+F 1 "BSS8402DW" H 10575 9730 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 10600 9500 50  0001 C CNN
+F 3 "" H 10600 9500 50  0001 C CNN
+F 4 "X" H 10800 9300 50  0001 C CNN "Spice_Primitive"
+F 5 "BSS8402DW" H 10800 9300 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 10575 9639 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 10800 9300 50  0001 C CNN "Spice_Lib_File"
+	1    10600 9150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 9000 10250 9000
+Wire Wire Line
+	10250 9300 10300 9300
+Wire Wire Line
+	9750 9000 9700 9000
+Wire Wire Line
+	9700 9000 9700 9050
+Wire Wire Line
+	9700 9300 9750 9300
+$Comp
+L Device:R R11
+U 1 1 6014F41D
+P 11000 9100
+F 0 "R11" V 10793 9100 50  0000 C CNN
+F 1 "12k" V 10884 9100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10930 9100 50  0001 C CNN
+F 3 "~" H 11000 9100 50  0001 C CNN
+	1    11000 9100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 6014F423
+P 11000 9200
+F 0 "R12" V 10793 9200 50  0000 C CNN
+F 1 "12k" V 10884 9200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10930 9200 50  0001 C CNN
+F 3 "~" H 11000 9200 50  0001 C CNN
+	1    11000 9200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11150 9100 11200 9100
+Wire Wire Line
+	11200 9200 11150 9200
+Wire Wire Line
+	10850 9100 10300 9100
+Wire Wire Line
+	10300 9200 10850 9200
+Connection ~ 10850 9100
+Connection ~ 10850 9200
+Wire Wire Line
+	10250 9250 9650 9250
+Connection ~ 10250 9250
+Wire Wire Line
+	10250 9250 10250 9300
+Wire Notes Line
+	9650 8450 11250 8450
+Wire Notes Line
+	11250 8450 11250 9750
+Wire Notes Line
+	11250 9750 9650 9750
+Wire Notes Line
+	9650 8450 9650 9750
+Wire Wire Line
+	10250 9000 10250 9250
+Wire Wire Line
+	9700 9050 9650 9050
+Connection ~ 9700 9050
+Wire Wire Line
+	9700 9050 9700 9300
+Text Notes 10800 9700 0    50   ~ 0
+nconsensus\n
+Wire Wire Line
+	11200 9100 11200 9150
+Wire Wire Line
+	11200 7800 11200 7850
+Connection ~ 11200 7800
+$Comp
+L Ternary:BSS8402DW Q5
+U 1 1 6014F442
+P 10050 7800
+F 0 "Q5" H 10025 8471 50  0000 C CNN
+F 1 "BSS8402DW" H 10025 8380 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 10050 8150 50  0001 C CNN
+F 3 "" H 10050 8150 50  0001 C CNN
+F 4 "X" H 10250 7950 50  0001 C CNN "Spice_Primitive"
+F 5 "BSS8402DW" H 10250 7950 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 10025 8289 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 10250 7950 50  0001 C CNN "Spice_Lib_File"
+	1    10050 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Ternary:BSS8402DW Q14
+U 1 1 6014F44C
+P 10600 7800
+F 0 "Q14" H 10575 8471 50  0000 C CNN
+F 1 "BSS8402DW" H 10575 8380 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 10600 8150 50  0001 C CNN
+F 3 "" H 10600 8150 50  0001 C CNN
+F 4 "X" H 10800 7950 50  0001 C CNN "Spice_Primitive"
+F 5 "BSS8402DW" H 10800 7950 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 10575 8289 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 10800 7950 50  0001 C CNN "Spice_Lib_File"
+	1    10600 7800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 7650 10250 7650
+Wire Wire Line
+	10250 7950 10300 7950
+Wire Wire Line
+	9750 7650 9700 7650
+Wire Wire Line
+	9700 7650 9700 7700
+Wire Wire Line
+	9700 7950 9750 7950
+$Comp
+L Device:R R9
+U 1 1 6014F457
+P 11000 7750
+F 0 "R9" V 10793 7750 50  0000 C CNN
+F 1 "12k" V 10884 7750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10930 7750 50  0001 C CNN
+F 3 "~" H 11000 7750 50  0001 C CNN
+	1    11000 7750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 6014F45D
+P 11000 7850
+F 0 "R10" V 10793 7850 50  0000 C CNN
+F 1 "12k" V 10884 7850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10930 7850 50  0001 C CNN
+F 3 "~" H 11000 7850 50  0001 C CNN
+	1    11000 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11150 7750 11200 7750
+Wire Wire Line
+	11200 7850 11150 7850
+Wire Wire Line
+	10850 7750 10300 7750
+Wire Wire Line
+	10300 7850 10850 7850
+Connection ~ 10850 7750
+Connection ~ 10850 7850
+Wire Wire Line
+	10250 7900 9650 7900
+Connection ~ 10250 7900
+Wire Wire Line
+	10250 7900 10250 7950
+Wire Notes Line
+	9650 7100 11250 7100
+Wire Notes Line
+	11250 7100 11250 8400
+Wire Notes Line
+	11250 8400 9650 8400
+Wire Notes Line
+	9650 7100 9650 8400
+Wire Wire Line
+	10250 7650 10250 7900
+Wire Wire Line
+	9700 7700 9650 7700
+Connection ~ 9700 7700
+Wire Wire Line
+	9700 7700 9700 7950
+Text Notes 10800 8350 0    50   ~ 0
+nconsensus\n
+Wire Wire Line
+	11200 7750 11200 7800
+Wire Wire Line
+	11200 6450 11200 6500
+Connection ~ 11200 6450
+$Comp
+L Ternary:BSS8402DW Q4
+U 1 1 6014F47C
+P 10050 6450
+F 0 "Q4" H 10025 7121 50  0000 C CNN
+F 1 "BSS8402DW" H 10025 7030 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 10050 6800 50  0001 C CNN
+F 3 "" H 10050 6800 50  0001 C CNN
+F 4 "X" H 10250 6600 50  0001 C CNN "Spice_Primitive"
+F 5 "BSS8402DW" H 10250 6600 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 10025 6939 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 10250 6600 50  0001 C CNN "Spice_Lib_File"
+	1    10050 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Ternary:BSS8402DW Q13
+U 1 1 6014F486
+P 10600 6450
+F 0 "Q13" H 10575 7121 50  0000 C CNN
+F 1 "BSS8402DW" H 10575 7030 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 10600 6800 50  0001 C CNN
+F 3 "" H 10600 6800 50  0001 C CNN
+F 4 "X" H 10800 6600 50  0001 C CNN "Spice_Primitive"
+F 5 "BSS8402DW" H 10800 6600 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 10575 6939 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 10800 6600 50  0001 C CNN "Spice_Lib_File"
+	1    10600 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 6300 10250 6300
+Wire Wire Line
+	10250 6600 10300 6600
+Wire Wire Line
+	9750 6300 9700 6300
+Wire Wire Line
+	9700 6300 9700 6350
+Wire Wire Line
+	9700 6600 9750 6600
+$Comp
+L Device:R R7
+U 1 1 6014F491
+P 11000 6400
+F 0 "R7" V 10793 6400 50  0000 C CNN
+F 1 "12k" V 10884 6400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10930 6400 50  0001 C CNN
+F 3 "~" H 11000 6400 50  0001 C CNN
+	1    11000 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 6014F497
+P 11000 6500
+F 0 "R8" V 10793 6500 50  0000 C CNN
+F 1 "12k" V 10884 6500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10930 6500 50  0001 C CNN
+F 3 "~" H 11000 6500 50  0001 C CNN
+	1    11000 6500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11150 6400 11200 6400
+Wire Wire Line
+	11200 6500 11150 6500
+Wire Wire Line
+	10850 6400 10300 6400
+Wire Wire Line
+	10300 6500 10850 6500
+Connection ~ 10850 6400
+Connection ~ 10850 6500
+Wire Wire Line
+	10250 6550 9650 6550
+Connection ~ 10250 6550
+Wire Wire Line
+	10250 6550 10250 6600
+Wire Notes Line
+	9650 5750 11250 5750
+Wire Notes Line
+	11250 5750 11250 7050
+Wire Notes Line
+	11250 7050 9650 7050
+Wire Notes Line
+	9650 5750 9650 7050
+Wire Wire Line
+	10250 6300 10250 6550
+Wire Wire Line
+	9700 6350 9650 6350
+Connection ~ 9700 6350
+Wire Wire Line
+	9700 6350 9700 6600
+Text Notes 10800 7000 0    50   ~ 0
+nconsensus\n
+Wire Wire Line
+	11200 6400 11200 6450
+Wire Notes Line
+	9650 4400 9650 5700
+Wire Notes Line
+	11250 4400 11250 5700
+Wire Wire Line
+	11200 5100 11200 5150
+Connection ~ 11200 5100
+$Comp
+L Ternary:BSS8402DW Q3
+U 1 1 6014F4B8
+P 10050 5100
+F 0 "Q3" H 10025 5771 50  0000 C CNN
+F 1 "BSS8402DW" H 10025 5680 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 10050 5450 50  0001 C CNN
+F 3 "" H 10050 5450 50  0001 C CNN
+F 4 "X" H 10250 5250 50  0001 C CNN "Spice_Primitive"
+F 5 "BSS8402DW" H 10250 5250 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 10025 5589 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 10250 5250 50  0001 C CNN "Spice_Lib_File"
+	1    10050 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Ternary:BSS8402DW Q12
+U 1 1 6014F4C2
+P 10600 5100
+F 0 "Q12" H 10575 5771 50  0000 C CNN
+F 1 "BSS8402DW" H 10575 5680 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 10600 5450 50  0001 C CNN
+F 3 "" H 10600 5450 50  0001 C CNN
+F 4 "X" H 10800 5250 50  0001 C CNN "Spice_Primitive"
+F 5 "BSS8402DW" H 10800 5250 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 10575 5589 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 10800 5250 50  0001 C CNN "Spice_Lib_File"
+	1    10600 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 4950 10250 4950
+Wire Wire Line
+	10250 5250 10300 5250
+Wire Wire Line
+	9750 4950 9700 4950
+Wire Wire Line
+	9700 4950 9700 5000
+Wire Wire Line
+	9700 5250 9750 5250
+$Comp
+L Device:R R5
+U 1 1 6014F4CD
+P 11000 5050
+F 0 "R5" V 10793 5050 50  0000 C CNN
+F 1 "12k" V 10884 5050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10930 5050 50  0001 C CNN
+F 3 "~" H 11000 5050 50  0001 C CNN
+	1    11000 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 6014F4D3
+P 11000 5150
+F 0 "R6" V 10793 5150 50  0000 C CNN
+F 1 "12k" V 10884 5150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10930 5150 50  0001 C CNN
+F 3 "~" H 11000 5150 50  0001 C CNN
+	1    11000 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11150 5050 11200 5050
+Wire Wire Line
+	11200 5150 11150 5150
+Wire Wire Line
+	10850 5050 10300 5050
+Wire Wire Line
+	10300 5150 10850 5150
+Connection ~ 10850 5050
+Connection ~ 10850 5150
+Wire Wire Line
+	10250 5200 9650 5200
+Connection ~ 10250 5200
+Wire Wire Line
+	10250 5200 10250 5250
+Wire Notes Line
+	9650 4400 11250 4400
+Wire Notes Line
+	11250 5700 9650 5700
+Wire Wire Line
+	10250 4950 10250 5200
+Wire Wire Line
+	9700 5000 9650 5000
+Connection ~ 9700 5000
+Wire Wire Line
+	9700 5000 9700 5250
+Text Notes 10800 5650 0    50   ~ 0
+nconsensus\n
+Wire Wire Line
+	11200 5050 11200 5100
+Wire Wire Line
+	11200 3750 11200 3800
+Connection ~ 11200 3750
+$Comp
+L Ternary:BSS8402DW Q2
+U 1 1 6014F4F0
+P 10050 3750
+F 0 "Q2" H 10025 4421 50  0000 C CNN
+F 1 "BSS8402DW" H 10025 4330 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 10050 4100 50  0001 C CNN
+F 3 "" H 10050 4100 50  0001 C CNN
+F 4 "X" H 10250 3900 50  0001 C CNN "Spice_Primitive"
+F 5 "BSS8402DW" H 10250 3900 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 10025 4239 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 10250 3900 50  0001 C CNN "Spice_Lib_File"
+	1    10050 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Ternary:BSS8402DW Q11
+U 1 1 6014F4FA
+P 10600 3750
+F 0 "Q11" H 10575 4421 50  0000 C CNN
+F 1 "BSS8402DW" H 10575 4330 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 10600 4100 50  0001 C CNN
+F 3 "" H 10600 4100 50  0001 C CNN
+F 4 "X" H 10800 3900 50  0001 C CNN "Spice_Primitive"
+F 5 "BSS8402DW" H 10800 3900 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 10575 4239 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 10800 3900 50  0001 C CNN "Spice_Lib_File"
+	1    10600 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 3600 10250 3600
+Wire Wire Line
+	10250 3900 10300 3900
+Wire Wire Line
+	9750 3600 9700 3600
+Wire Wire Line
+	9700 3600 9700 3650
+Wire Wire Line
+	9700 3900 9750 3900
+$Comp
+L Device:R R3
+U 1 1 6014F505
+P 11000 3700
+F 0 "R3" V 10793 3700 50  0000 C CNN
+F 1 "12k" V 10884 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10930 3700 50  0001 C CNN
+F 3 "~" H 11000 3700 50  0001 C CNN
+	1    11000 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 6014F50B
+P 11000 3800
+F 0 "R4" V 10793 3800 50  0000 C CNN
+F 1 "12k" V 10884 3800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10930 3800 50  0001 C CNN
+F 3 "~" H 11000 3800 50  0001 C CNN
+	1    11000 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11150 3700 11200 3700
+Wire Wire Line
+	11200 3800 11150 3800
+Wire Wire Line
+	10850 3700 10300 3700
+Wire Wire Line
+	10300 3800 10850 3800
+Connection ~ 10850 3700
+Connection ~ 10850 3800
+Wire Wire Line
+	10250 3850 9650 3850
+Connection ~ 10250 3850
+Wire Wire Line
+	10250 3850 10250 3900
+Wire Notes Line
+	9650 3050 11250 3050
+Wire Notes Line
+	11250 4350 9650 4350
+Wire Notes Line
+	9650 3050 9650 4350
+Wire Wire Line
+	10250 3600 10250 3850
+Wire Wire Line
+	9700 3650 9650 3650
+Connection ~ 9700 3650
+Wire Wire Line
+	9700 3650 9700 3900
+Wire Wire Line
+	11200 3700 11200 3750
+Wire Wire Line
+	11200 2400 11200 2450
+Connection ~ 11200 2400
+$Comp
+L Ternary:BSS8402DW Q1
+U 1 1 6014F528
+P 10050 2400
+F 0 "Q1" H 10025 3071 50  0000 C CNN
+F 1 "BSS8402DW" H 10025 2980 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 10050 2750 50  0001 C CNN
+F 3 "" H 10050 2750 50  0001 C CNN
+F 4 "X" H 10250 2550 50  0001 C CNN "Spice_Primitive"
+F 5 "BSS8402DW" H 10250 2550 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 10025 2889 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 10250 2550 50  0001 C CNN "Spice_Lib_File"
+	1    10050 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Ternary:BSS8402DW Q10
+U 1 1 6014F532
+P 10600 2400
+F 0 "Q10" H 10575 3071 50  0000 C CNN
+F 1 "BSS8402DW" H 10575 2980 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 10600 2750 50  0001 C CNN
+F 3 "" H 10600 2750 50  0001 C CNN
+F 4 "X" H 10800 2550 50  0001 C CNN "Spice_Primitive"
+F 5 "BSS8402DW" H 10800 2550 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 10575 2889 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 10800 2550 50  0001 C CNN "Spice_Lib_File"
+	1    10600 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 2250 10250 2250
+Wire Wire Line
+	10250 2550 10300 2550
+Wire Wire Line
+	9750 2250 9700 2250
+Wire Wire Line
+	9700 2250 9700 2300
+Wire Wire Line
+	9700 2550 9750 2550
+$Comp
+L Device:R R1
+U 1 1 6014F53D
+P 11000 2350
+F 0 "R1" V 10793 2350 50  0000 C CNN
+F 1 "12k" V 10884 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10930 2350 50  0001 C CNN
+F 3 "~" H 11000 2350 50  0001 C CNN
+	1    11000 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 6014F543
+P 11000 2450
+F 0 "R2" V 10793 2450 50  0000 C CNN
+F 1 "12k" V 10884 2450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10930 2450 50  0001 C CNN
+F 3 "~" H 11000 2450 50  0001 C CNN
+	1    11000 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11150 2350 11200 2350
+Wire Wire Line
+	11200 2450 11150 2450
+Wire Wire Line
+	10850 2350 10300 2350
+Wire Wire Line
+	10300 2450 10850 2450
+Connection ~ 10850 2350
+Connection ~ 10850 2450
+Wire Wire Line
+	10250 2500 9650 2500
+Connection ~ 10250 2500
+Wire Wire Line
+	10250 2500 10250 2550
+Wire Notes Line
+	9650 1700 11250 1700
+Wire Notes Line
+	11250 1700 11250 3000
+Wire Notes Line
+	11250 3000 9650 3000
+Wire Notes Line
+	9650 1700 9650 3000
+Wire Wire Line
+	10250 2250 10250 2500
+Wire Wire Line
+	9700 2300 9650 2300
+Connection ~ 9700 2300
+Wire Wire Line
+	9700 2300 9700 2550
+Text Notes 10800 2950 0    50   ~ 0
+nconsensus\n
+Wire Wire Line
+	11200 2350 11200 2400
+Text HLabel 9650 2300 0    50   Input ~ 0
+A8
+Text HLabel 9650 2500 0    50   Input ~ 0
+B8
+Text HLabel 9650 3850 0    50   Input ~ 0
+B7
+Text HLabel 9650 3650 0    50   Input ~ 0
+A7
+Text HLabel 9650 5200 0    50   Input ~ 0
+B6
+Text HLabel 9650 5000 0    50   Input ~ 0
+A6
+Text HLabel 9650 6550 0    50   Input ~ 0
+B5
+Text HLabel 9650 6350 0    50   Input ~ 0
+A5
+Text HLabel 9650 7700 0    50   Input ~ 0
+A4
+Text HLabel 9650 7900 0    50   Input ~ 0
+B4
+Text HLabel 9650 9050 0    50   Input ~ 0
+A3
+Text HLabel 9650 9250 0    50   Input ~ 0
+B3
+Text HLabel 9650 10400 0    50   Input ~ 0
+A2
+Text HLabel 9650 10600 0    50   Input ~ 0
+B2
+Text HLabel 9650 11750 0    50   Input ~ 0
+A1
+Text HLabel 9650 11950 0    50   Input ~ 0
+B1
+Text HLabel 9650 13300 0    50   Input ~ 0
+B0
+Text HLabel 9650 13100 0    50   Input ~ 0
+A0
+Text HLabel 12350 2400 2    50   Output ~ 0
+R8
+Text HLabel 12350 3750 2    50   Output ~ 0
+R7
+Text HLabel 12350 5100 2    50   Output ~ 0
+R6
+Text HLabel 12350 6450 2    50   Output ~ 0
+R5
+Text HLabel 12350 7800 2    50   Output ~ 0
+R4
+Text HLabel 12350 9150 2    50   Output ~ 0
+R3
+Text HLabel 12350 10500 2    50   Output ~ 0
+R2
+Text HLabel 12350 11850 2    50   Output ~ 0
+R1
+Text HLabel 12350 13200 2    50   Output ~ 0
+R0
+Wire Wire Line
+	11200 13200 11350 13200
+Text Notes 12050 13800 0    50   ~ 0
+inverter
+Wire Notes Line
+	11300 12500 11300 13800
+Wire Notes Line
+	12350 13800 11300 13800
+Wire Notes Line
+	12350 12500 12350 13800
+Wire Notes Line
+	11300 12500 12350 12500
+Wire Wire Line
+	11350 13200 11350 13350
+Connection ~ 11350 13200
+Wire Wire Line
+	11350 13350 11400 13350
+Wire Wire Line
+	11350 13050 11350 13200
+Wire Wire Line
+	11400 13050 11350 13050
+Wire Wire Line
+	12300 13200 12300 13250
+Connection ~ 12300 13200
+Wire Wire Line
+	12300 13200 12350 13200
+Wire Wire Line
+	12300 13250 12250 13250
+Wire Wire Line
+	12300 13150 12300 13200
+Wire Wire Line
+	12250 13150 12300 13150
+$Comp
+L Device:R R?
+U 1 1 6014F588
+P 12100 13250
+AR Path="/730CCE6D/6014F588" Ref="R?"  Part="1" 
+AR Path="/5FF29CF0/6014F588" Ref="R?"  Part="1" 
+AR Path="/6012FD50/6014F588" Ref="R36"  Part="1" 
+F 0 "R36" V 11893 13250 50  0000 C CNN
+F 1 "12k" V 11984 13250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12030 13250 50  0001 C CNN
+F 3 "~" H 12100 13250 50  0001 C CNN
+	1    12100 13250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6014F58E
+P 12100 13150
+AR Path="/730CCE6D/6014F58E" Ref="R?"  Part="1" 
+AR Path="/5FF29CF0/6014F58E" Ref="R?"  Part="1" 
+AR Path="/6012FD50/6014F58E" Ref="R35"  Part="1" 
+F 0 "R35" V 11893 13150 50  0000 C CNN
+F 1 "12k" V 11984 13150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12030 13150 50  0001 C CNN
+F 3 "~" H 12100 13150 50  0001 C CNN
+	1    12100 13150
+	0    1    1    0   
+$EndComp
+$Comp
+L Ternary:BSS8402DW Q?
+U 1 1 6014F598
+P 11700 13200
+AR Path="/730CCE6D/6014F598" Ref="Q?"  Part="1" 
+AR Path="/5FF29CF0/6014F598" Ref="Q?"  Part="1" 
+AR Path="/6012FD50/6014F598" Ref="Q27"  Part="1" 
+F 0 "Q27" H 11675 13871 50  0000 C CNN
+F 1 "BSS8402DW" H 11675 13780 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 11700 13550 50  0001 C CNN
+F 3 "" H 11700 13550 50  0001 C CNN
+F 4 "X" H 11900 13350 50  0001 C CNN "Spice_Primitive"
+F 5 "BSS8402DW" H 11900 13350 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 11675 13689 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 11900 13350 50  0001 C CNN "Spice_Lib_File"
+	1    11700 13200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 11850 11350 11850
+Text Notes 12050 12450 0    50   ~ 0
+inverter
+Wire Notes Line
+	11300 11150 11300 12450
+Wire Notes Line
+	12350 12450 11300 12450
+Wire Notes Line
+	12350 11150 12350 12450
+Wire Notes Line
+	11300 11150 12350 11150
+Wire Wire Line
+	11350 11850 11350 12000
+Connection ~ 11350 11850
+Wire Wire Line
+	11350 12000 11400 12000
+Wire Wire Line
+	11350 11700 11350 11850
+Wire Wire Line
+	11400 11700 11350 11700
+Wire Wire Line
+	12300 11850 12300 11900
+Connection ~ 12300 11850
+Wire Wire Line
+	12300 11850 12350 11850
+Wire Wire Line
+	12300 11900 12250 11900
+Wire Wire Line
+	12300 11800 12300 11850
+Wire Wire Line
+	12250 11800 12300 11800
+$Comp
+L Device:R R?
+U 1 1 6014F5AF
+P 12100 11900
+AR Path="/730CCE6D/6014F5AF" Ref="R?"  Part="1" 
+AR Path="/5FF29CF0/6014F5AF" Ref="R?"  Part="1" 
+AR Path="/6012FD50/6014F5AF" Ref="R34"  Part="1" 
+F 0 "R34" V 11893 11900 50  0000 C CNN
+F 1 "12k" V 11984 11900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12030 11900 50  0001 C CNN
+F 3 "~" H 12100 11900 50  0001 C CNN
+	1    12100 11900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6014F5B5
+P 12100 11800
+AR Path="/730CCE6D/6014F5B5" Ref="R?"  Part="1" 
+AR Path="/5FF29CF0/6014F5B5" Ref="R?"  Part="1" 
+AR Path="/6012FD50/6014F5B5" Ref="R33"  Part="1" 
+F 0 "R33" V 11893 11800 50  0000 C CNN
+F 1 "12k" V 11984 11800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12030 11800 50  0001 C CNN
+F 3 "~" H 12100 11800 50  0001 C CNN
+	1    12100 11800
+	0    1    1    0   
+$EndComp
+$Comp
+L Ternary:BSS8402DW Q?
+U 1 1 6014F5BF
+P 11700 11850
+AR Path="/730CCE6D/6014F5BF" Ref="Q?"  Part="1" 
+AR Path="/5FF29CF0/6014F5BF" Ref="Q?"  Part="1" 
+AR Path="/6012FD50/6014F5BF" Ref="Q26"  Part="1" 
+F 0 "Q26" H 11675 12521 50  0000 C CNN
+F 1 "BSS8402DW" H 11675 12430 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 11700 12200 50  0001 C CNN
+F 3 "" H 11700 12200 50  0001 C CNN
+F 4 "X" H 11900 12000 50  0001 C CNN "Spice_Primitive"
+F 5 "BSS8402DW" H 11900 12000 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 11675 12339 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 11900 12000 50  0001 C CNN "Spice_Lib_File"
+	1    11700 11850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 10500 11350 10500
+Text Notes 12050 11100 0    50   ~ 0
+inverter
+Wire Notes Line
+	11300 9800 11300 11100
+Wire Notes Line
+	12350 11100 11300 11100
+Wire Notes Line
+	12350 9800 12350 11100
+Wire Notes Line
+	11300 9800 12350 9800
+Wire Wire Line
+	11350 10500 11350 10650
+Connection ~ 11350 10500
+Wire Wire Line
+	11350 10650 11400 10650
+Wire Wire Line
+	11350 10350 11350 10500
+Wire Wire Line
+	11400 10350 11350 10350
+Wire Wire Line
+	12300 10500 12300 10550
+Connection ~ 12300 10500
+Wire Wire Line
+	12300 10500 12350 10500
+Wire Wire Line
+	12300 10550 12250 10550
+Wire Wire Line
+	12300 10450 12300 10500
+Wire Wire Line
+	12250 10450 12300 10450
+$Comp
+L Device:R R?
+U 1 1 6014F5D6
+P 12100 10550
+AR Path="/730CCE6D/6014F5D6" Ref="R?"  Part="1" 
+AR Path="/5FF29CF0/6014F5D6" Ref="R?"  Part="1" 
+AR Path="/6012FD50/6014F5D6" Ref="R32"  Part="1" 
+F 0 "R32" V 11893 10550 50  0000 C CNN
+F 1 "12k" V 11984 10550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12030 10550 50  0001 C CNN
+F 3 "~" H 12100 10550 50  0001 C CNN
+	1    12100 10550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6014F5DC
+P 12100 10450
+AR Path="/730CCE6D/6014F5DC" Ref="R?"  Part="1" 
+AR Path="/5FF29CF0/6014F5DC" Ref="R?"  Part="1" 
+AR Path="/6012FD50/6014F5DC" Ref="R31"  Part="1" 
+F 0 "R31" V 11893 10450 50  0000 C CNN
+F 1 "12k" V 11984 10450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12030 10450 50  0001 C CNN
+F 3 "~" H 12100 10450 50  0001 C CNN
+	1    12100 10450
+	0    1    1    0   
+$EndComp
+$Comp
+L Ternary:BSS8402DW Q?
+U 1 1 6014F5E6
+P 11700 10500
+AR Path="/730CCE6D/6014F5E6" Ref="Q?"  Part="1" 
+AR Path="/5FF29CF0/6014F5E6" Ref="Q?"  Part="1" 
+AR Path="/6012FD50/6014F5E6" Ref="Q25"  Part="1" 
+F 0 "Q25" H 11675 11171 50  0000 C CNN
+F 1 "BSS8402DW" H 11675 11080 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 11700 10850 50  0001 C CNN
+F 3 "" H 11700 10850 50  0001 C CNN
+F 4 "X" H 11900 10650 50  0001 C CNN "Spice_Primitive"
+F 5 "BSS8402DW" H 11900 10650 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 11675 10989 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 11900 10650 50  0001 C CNN "Spice_Lib_File"
+	1    11700 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 9150 11350 9150
+Text Notes 12050 9750 0    50   ~ 0
+inverter
+Wire Notes Line
+	11300 8450 11300 9750
+Wire Notes Line
+	12350 9750 11300 9750
+Wire Notes Line
+	12350 8450 12350 9750
+Wire Notes Line
+	11300 8450 12350 8450
+Wire Wire Line
+	11350 9150 11350 9300
+Connection ~ 11350 9150
+Wire Wire Line
+	11350 9300 11400 9300
+Wire Wire Line
+	11350 9000 11350 9150
+Wire Wire Line
+	11400 9000 11350 9000
+Wire Wire Line
+	12300 9150 12300 9200
+Connection ~ 12300 9150
+Wire Wire Line
+	12300 9150 12350 9150
+Wire Wire Line
+	12300 9200 12250 9200
+Wire Wire Line
+	12300 9100 12300 9150
+Wire Wire Line
+	12250 9100 12300 9100
+$Comp
+L Device:R R?
+U 1 1 6014F5FD
+P 12100 9200
+AR Path="/730CCE6D/6014F5FD" Ref="R?"  Part="1" 
+AR Path="/5FF29CF0/6014F5FD" Ref="R?"  Part="1" 
+AR Path="/6012FD50/6014F5FD" Ref="R30"  Part="1" 
+F 0 "R30" V 11893 9200 50  0000 C CNN
+F 1 "12k" V 11984 9200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12030 9200 50  0001 C CNN
+F 3 "~" H 12100 9200 50  0001 C CNN
+	1    12100 9200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6014F603
+P 12100 9100
+AR Path="/730CCE6D/6014F603" Ref="R?"  Part="1" 
+AR Path="/5FF29CF0/6014F603" Ref="R?"  Part="1" 
+AR Path="/6012FD50/6014F603" Ref="R29"  Part="1" 
+F 0 "R29" V 11893 9100 50  0000 C CNN
+F 1 "12k" V 11984 9100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12030 9100 50  0001 C CNN
+F 3 "~" H 12100 9100 50  0001 C CNN
+	1    12100 9100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11200 7800 11350 7800
+Text Notes 12050 8400 0    50   ~ 0
+inverter
+Wire Notes Line
+	11300 7100 11300 8400
+Wire Notes Line
+	12350 8400 11300 8400
+Wire Notes Line
+	12350 7100 12350 8400
+Wire Notes Line
+	11300 7100 12350 7100
+Wire Wire Line
+	11350 7800 11350 7950
+Connection ~ 11350 7800
+Wire Wire Line
+	11350 7950 11400 7950
+Wire Wire Line
+	11350 7650 11350 7800
+Wire Wire Line
+	11400 7650 11350 7650
+Wire Wire Line
+	12300 7800 12300 7850
+Connection ~ 12300 7800
+Wire Wire Line
+	12300 7800 12350 7800
+Wire Wire Line
+	12300 7850 12250 7850
+Wire Wire Line
+	12300 7750 12300 7800
+Wire Wire Line
+	12250 7750 12300 7750
+$Comp
+L Device:R R?
+U 1 1 6014F61A
+P 12100 7850
+AR Path="/730CCE6D/6014F61A" Ref="R?"  Part="1" 
+AR Path="/5FF29CF0/6014F61A" Ref="R?"  Part="1" 
+AR Path="/6012FD50/6014F61A" Ref="R28"  Part="1" 
+F 0 "R28" V 11893 7850 50  0000 C CNN
+F 1 "12k" V 11984 7850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12030 7850 50  0001 C CNN
+F 3 "~" H 12100 7850 50  0001 C CNN
+	1    12100 7850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6014F620
+P 12100 7750
+AR Path="/730CCE6D/6014F620" Ref="R?"  Part="1" 
+AR Path="/5FF29CF0/6014F620" Ref="R?"  Part="1" 
+AR Path="/6012FD50/6014F620" Ref="R27"  Part="1" 
+F 0 "R27" V 11893 7750 50  0000 C CNN
+F 1 "12k" V 11984 7750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12030 7750 50  0001 C CNN
+F 3 "~" H 12100 7750 50  0001 C CNN
+	1    12100 7750
+	0    1    1    0   
+$EndComp
+$Comp
+L Ternary:BSS8402DW Q?
+U 1 1 6014F62A
+P 11700 7800
+AR Path="/730CCE6D/6014F62A" Ref="Q?"  Part="1" 
+AR Path="/5FF29CF0/6014F62A" Ref="Q?"  Part="1" 
+AR Path="/6012FD50/6014F62A" Ref="Q23"  Part="1" 
+F 0 "Q23" H 11675 8471 50  0000 C CNN
+F 1 "BSS8402DW" H 11675 8380 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 11700 8150 50  0001 C CNN
+F 3 "" H 11700 8150 50  0001 C CNN
+F 4 "X" H 11900 7950 50  0001 C CNN "Spice_Primitive"
+F 5 "BSS8402DW" H 11900 7950 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 11675 8289 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 11900 7950 50  0001 C CNN "Spice_Lib_File"
+	1    11700 7800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 6450 11350 6450
+Text Notes 12050 7050 0    50   ~ 0
+inverter
+Wire Notes Line
+	11300 5750 11300 7050
+Wire Notes Line
+	12350 7050 11300 7050
+Wire Notes Line
+	12350 5750 12350 7050
+Wire Notes Line
+	11300 5750 12350 5750
+Wire Wire Line
+	11350 6450 11350 6600
+Connection ~ 11350 6450
+Wire Wire Line
+	11350 6600 11400 6600
+Wire Wire Line
+	11350 6300 11350 6450
+Wire Wire Line
+	11400 6300 11350 6300
+Wire Wire Line
+	12300 6450 12300 6500
+Connection ~ 12300 6450
+Wire Wire Line
+	12300 6450 12350 6450
+Wire Wire Line
+	12300 6500 12250 6500
+Wire Wire Line
+	12300 6400 12300 6450
+Wire Wire Line
+	12250 6400 12300 6400
+$Comp
+L Device:R R?
+U 1 1 6014F641
+P 12100 6500
+AR Path="/730CCE6D/6014F641" Ref="R?"  Part="1" 
+AR Path="/5FF29CF0/6014F641" Ref="R?"  Part="1" 
+AR Path="/6012FD50/6014F641" Ref="R26"  Part="1" 
+F 0 "R26" V 11893 6500 50  0000 C CNN
+F 1 "12k" V 11984 6500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12030 6500 50  0001 C CNN
+F 3 "~" H 12100 6500 50  0001 C CNN
+	1    12100 6500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6014F647
+P 12100 6400
+AR Path="/730CCE6D/6014F647" Ref="R?"  Part="1" 
+AR Path="/5FF29CF0/6014F647" Ref="R?"  Part="1" 
+AR Path="/6012FD50/6014F647" Ref="R25"  Part="1" 
+F 0 "R25" V 11893 6400 50  0000 C CNN
+F 1 "12k" V 11984 6400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12030 6400 50  0001 C CNN
+F 3 "~" H 12100 6400 50  0001 C CNN
+	1    12100 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L Ternary:BSS8402DW Q?
+U 1 1 6014F651
+P 11700 6450
+AR Path="/730CCE6D/6014F651" Ref="Q?"  Part="1" 
+AR Path="/5FF29CF0/6014F651" Ref="Q?"  Part="1" 
+AR Path="/6012FD50/6014F651" Ref="Q22"  Part="1" 
+F 0 "Q22" H 11675 7121 50  0000 C CNN
+F 1 "BSS8402DW" H 11675 7030 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 11700 6800 50  0001 C CNN
+F 3 "" H 11700 6800 50  0001 C CNN
+F 4 "X" H 11900 6600 50  0001 C CNN "Spice_Primitive"
+F 5 "BSS8402DW" H 11900 6600 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 11675 6939 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 11900 6600 50  0001 C CNN "Spice_Lib_File"
+	1    11700 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 5100 11350 5100
+Text Notes 12050 5700 0    50   ~ 0
+inverter
+Wire Notes Line
+	11300 4400 11300 5700
+Wire Notes Line
+	12350 5700 11300 5700
+Wire Notes Line
+	12350 4400 12350 5700
+Wire Notes Line
+	11300 4400 12350 4400
+Wire Wire Line
+	11350 5100 11350 5250
+Connection ~ 11350 5100
+Wire Wire Line
+	11350 5250 11400 5250
+Wire Wire Line
+	11350 4950 11350 5100
+Wire Wire Line
+	11400 4950 11350 4950
+Wire Wire Line
+	12300 5100 12300 5150
+Connection ~ 12300 5100
+Wire Wire Line
+	12300 5100 12350 5100
+Wire Wire Line
+	12300 5150 12250 5150
+Wire Wire Line
+	12300 5050 12300 5100
+Wire Wire Line
+	12250 5050 12300 5050
+$Comp
+L Device:R R?
+U 1 1 6014F668
+P 12100 5150
+AR Path="/730CCE6D/6014F668" Ref="R?"  Part="1" 
+AR Path="/5FF29CF0/6014F668" Ref="R?"  Part="1" 
+AR Path="/6012FD50/6014F668" Ref="R24"  Part="1" 
+F 0 "R24" V 11893 5150 50  0000 C CNN
+F 1 "12k" V 11984 5150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12030 5150 50  0001 C CNN
+F 3 "~" H 12100 5150 50  0001 C CNN
+	1    12100 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6014F66E
+P 12100 5050
+AR Path="/730CCE6D/6014F66E" Ref="R?"  Part="1" 
+AR Path="/5FF29CF0/6014F66E" Ref="R?"  Part="1" 
+AR Path="/6012FD50/6014F66E" Ref="R23"  Part="1" 
+F 0 "R23" V 11893 5050 50  0000 C CNN
+F 1 "12k" V 11984 5050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12030 5050 50  0001 C CNN
+F 3 "~" H 12100 5050 50  0001 C CNN
+	1    12100 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Ternary:BSS8402DW Q?
+U 1 1 6014F678
+P 11700 5100
+AR Path="/730CCE6D/6014F678" Ref="Q?"  Part="1" 
+AR Path="/5FF29CF0/6014F678" Ref="Q?"  Part="1" 
+AR Path="/6012FD50/6014F678" Ref="Q21"  Part="1" 
+F 0 "Q21" H 11675 5771 50  0000 C CNN
+F 1 "BSS8402DW" H 11675 5680 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 11700 5450 50  0001 C CNN
+F 3 "" H 11700 5450 50  0001 C CNN
+F 4 "X" H 11900 5250 50  0001 C CNN "Spice_Primitive"
+F 5 "BSS8402DW" H 11900 5250 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 11675 5589 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 11900 5250 50  0001 C CNN "Spice_Lib_File"
+	1    11700 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 3750 11350 3750
+Text Notes 12050 4350 0    50   ~ 0
+inverter
+Wire Notes Line
+	12350 4350 11300 4350
+Wire Notes Line
+	12350 3050 12350 4350
+Wire Notes Line
+	11300 3050 12350 3050
+Wire Wire Line
+	11350 3750 11350 3900
+Connection ~ 11350 3750
+Wire Wire Line
+	11350 3900 11400 3900
+Wire Wire Line
+	11350 3600 11350 3750
+Wire Wire Line
+	11400 3600 11350 3600
+Wire Wire Line
+	12300 3750 12300 3800
+Connection ~ 12300 3750
+Wire Wire Line
+	12300 3750 12350 3750
+Wire Wire Line
+	12300 3800 12250 3800
+Wire Wire Line
+	12300 3700 12300 3750
+Wire Wire Line
+	12250 3700 12300 3700
+$Comp
+L Device:R R?
+U 1 1 6014F68E
+P 12100 3800
+AR Path="/730CCE6D/6014F68E" Ref="R?"  Part="1" 
+AR Path="/5FF29CF0/6014F68E" Ref="R?"  Part="1" 
+AR Path="/6012FD50/6014F68E" Ref="R22"  Part="1" 
+F 0 "R22" V 11893 3800 50  0000 C CNN
+F 1 "12k" V 11984 3800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12030 3800 50  0001 C CNN
+F 3 "~" H 12100 3800 50  0001 C CNN
+	1    12100 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6014F694
+P 12100 3700
+AR Path="/730CCE6D/6014F694" Ref="R?"  Part="1" 
+AR Path="/5FF29CF0/6014F694" Ref="R?"  Part="1" 
+AR Path="/6012FD50/6014F694" Ref="R21"  Part="1" 
+F 0 "R21" V 11893 3700 50  0000 C CNN
+F 1 "12k" V 11984 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12030 3700 50  0001 C CNN
+F 3 "~" H 12100 3700 50  0001 C CNN
+	1    12100 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Ternary:BSS8402DW Q?
+U 1 1 6014F69E
+P 11700 3750
+AR Path="/730CCE6D/6014F69E" Ref="Q?"  Part="1" 
+AR Path="/5FF29CF0/6014F69E" Ref="Q?"  Part="1" 
+AR Path="/6012FD50/6014F69E" Ref="Q20"  Part="1" 
+F 0 "Q20" H 11675 4421 50  0000 C CNN
+F 1 "BSS8402DW" H 11675 4330 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 11700 4100 50  0001 C CNN
+F 3 "" H 11700 4100 50  0001 C CNN
+F 4 "X" H 11900 3900 50  0001 C CNN "Spice_Primitive"
+F 5 "BSS8402DW" H 11900 3900 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 11675 4239 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 11900 3900 50  0001 C CNN "Spice_Lib_File"
+	1    11700 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 2400 11350 2400
+Text Notes 12050 3000 0    50   ~ 0
+inverter
+Wire Notes Line
+	11300 1700 11300 3000
+Wire Notes Line
+	12350 3000 11300 3000
+Wire Notes Line
+	12350 1700 12350 3000
+Wire Notes Line
+	11300 1700 12350 1700
+Wire Wire Line
+	11350 2400 11350 2550
+Connection ~ 11350 2400
+Wire Wire Line
+	11350 2550 11400 2550
+Wire Wire Line
+	11350 2250 11350 2400
+Wire Wire Line
+	11400 2250 11350 2250
+Wire Wire Line
+	12300 2400 12300 2450
+Connection ~ 12300 2400
+Wire Wire Line
+	12300 2400 12350 2400
+Wire Wire Line
+	12300 2450 12250 2450
+Wire Wire Line
+	12300 2350 12300 2400
+Wire Wire Line
+	12250 2350 12300 2350
+$Comp
+L Device:R R?
+U 1 1 6014F6B5
+P 12100 2450
+AR Path="/730CCE6D/6014F6B5" Ref="R?"  Part="1" 
+AR Path="/5FF29CF0/6014F6B5" Ref="R?"  Part="1" 
+AR Path="/6012FD50/6014F6B5" Ref="R20"  Part="1" 
+F 0 "R20" V 11893 2450 50  0000 C CNN
+F 1 "12k" V 11984 2450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12030 2450 50  0001 C CNN
+F 3 "~" H 12100 2450 50  0001 C CNN
+	1    12100 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6014F6BB
+P 12100 2350
+AR Path="/730CCE6D/6014F6BB" Ref="R?"  Part="1" 
+AR Path="/5FF29CF0/6014F6BB" Ref="R?"  Part="1" 
+AR Path="/6012FD50/6014F6BB" Ref="R19"  Part="1" 
+F 0 "R19" V 11893 2350 50  0000 C CNN
+F 1 "12k" V 11984 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12030 2350 50  0001 C CNN
+F 3 "~" H 12100 2350 50  0001 C CNN
+	1    12100 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Ternary:BSS8402DW Q?
+U 1 1 6014F6C5
+P 11700 2400
+AR Path="/730CCE6D/6014F6C5" Ref="Q?"  Part="1" 
+AR Path="/5FF29CF0/6014F6C5" Ref="Q?"  Part="1" 
+AR Path="/6012FD50/6014F6C5" Ref="Q19"  Part="1" 
+F 0 "Q19" H 11675 3071 50  0000 C CNN
+F 1 "BSS8402DW" H 11675 2980 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 11700 2750 50  0001 C CNN
+F 3 "" H 11700 2750 50  0001 C CNN
+F 4 "X" H 11900 2550 50  0001 C CNN "Spice_Primitive"
+F 5 "BSS8402DW" H 11900 2550 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 11675 2889 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 11900 2550 50  0001 C CNN "Spice_Lib_File"
+	1    11700 2400
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	11300 3050 11300 4350
+Text Notes 10800 4300 0    50   ~ 0
+nconsensus\n
+Wire Notes Line
+	11250 3050 11250 4350
+$Comp
+L Ternary:BSS8402DW Q?
+U 1 1 6014F6D2
+P 11700 9150
+AR Path="/730CCE6D/6014F6D2" Ref="Q?"  Part="1" 
+AR Path="/5FF29CF0/6014F6D2" Ref="Q?"  Part="1" 
+AR Path="/6012FD50/6014F6D2" Ref="Q24"  Part="1" 
+F 0 "Q24" H 11675 9821 50  0000 C CNN
+F 1 "BSS8402DW" H 11675 9730 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 11700 9500 50  0001 C CNN
+F 3 "" H 11700 9500 50  0001 C CNN
+F 4 "X" H 11900 9300 50  0001 C CNN "Spice_Primitive"
+F 5 "BSS8402DW" H 11900 9300 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 11675 9639 50  0000 C CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 11900 9300 50  0001 C CNN "Spice_Lib_File"
+	1    11700 9150
+	1    0    0    -1  
+$EndComp
+Text HLabel 10050 2000 1    50   Input ~ 0
+Vdd
+Text HLabel 10050 2800 3    50   Input ~ 0
+Vss
+Text HLabel 10600 2000 1    50   Input ~ 0
+Vdd
+Text HLabel 11700 2000 1    50   Input ~ 0
+Vdd
+Text HLabel 10600 2800 3    50   Input ~ 0
+Vss
+Text HLabel 11700 2800 3    50   Input ~ 0
+Vss
+Text HLabel 10050 3350 1    50   Input ~ 0
+Vdd
+Text HLabel 10050 4150 3    50   Input ~ 0
+Vss
+Text HLabel 10600 3350 1    50   Input ~ 0
+Vdd
+Text HLabel 11700 3350 1    50   Input ~ 0
+Vdd
+Text HLabel 10600 4150 3    50   Input ~ 0
+Vss
+Text HLabel 11700 4150 3    50   Input ~ 0
+Vss
+Text HLabel 10050 4700 1    50   Input ~ 0
+Vdd
+Text HLabel 10050 5500 3    50   Input ~ 0
+Vss
+Text HLabel 10600 4700 1    50   Input ~ 0
+Vdd
+Text HLabel 11700 4700 1    50   Input ~ 0
+Vdd
+Text HLabel 10600 5500 3    50   Input ~ 0
+Vss
+Text HLabel 11700 5500 3    50   Input ~ 0
+Vss
+Text HLabel 10050 6050 1    50   Input ~ 0
+Vdd
+Text HLabel 10050 6850 3    50   Input ~ 0
+Vss
+Text HLabel 10600 6050 1    50   Input ~ 0
+Vdd
+Text HLabel 11700 6050 1    50   Input ~ 0
+Vdd
+Text HLabel 10600 6850 3    50   Input ~ 0
+Vss
+Text HLabel 11700 6850 3    50   Input ~ 0
+Vss
+Text HLabel 10050 7400 1    50   Input ~ 0
+Vdd
+Text HLabel 10050 8200 3    50   Input ~ 0
+Vss
+Text HLabel 10600 7400 1    50   Input ~ 0
+Vdd
+Text HLabel 11700 7400 1    50   Input ~ 0
+Vdd
+Text HLabel 10600 8200 3    50   Input ~ 0
+Vss
+Text HLabel 11700 8200 3    50   Input ~ 0
+Vss
+Text HLabel 10050 8750 1    50   Input ~ 0
+Vdd
+Text HLabel 10050 9550 3    50   Input ~ 0
+Vss
+Text HLabel 10600 8750 1    50   Input ~ 0
+Vdd
+Text HLabel 11700 8750 1    50   Input ~ 0
+Vdd
+Text HLabel 10600 9550 3    50   Input ~ 0
+Vss
+Text HLabel 11700 9550 3    50   Input ~ 0
+Vss
+Text HLabel 10050 10100 1    50   Input ~ 0
+Vdd
+Text HLabel 10050 10900 3    50   Input ~ 0
+Vss
+Text HLabel 10600 10100 1    50   Input ~ 0
+Vdd
+Text HLabel 11700 10100 1    50   Input ~ 0
+Vdd
+Text HLabel 10600 10900 3    50   Input ~ 0
+Vss
+Text HLabel 11700 10900 3    50   Input ~ 0
+Vss
+Text HLabel 10050 11450 1    50   Input ~ 0
+Vdd
+Text HLabel 10050 12250 3    50   Input ~ 0
+Vss
+Text HLabel 10600 11450 1    50   Input ~ 0
+Vdd
+Text HLabel 11700 11450 1    50   Input ~ 0
+Vdd
+Text HLabel 10600 12250 3    50   Input ~ 0
+Vss
+Text HLabel 11700 12250 3    50   Input ~ 0
+Vss
+Text HLabel 10050 12800 1    50   Input ~ 0
+Vdd
+Text HLabel 10050 13600 3    50   Input ~ 0
+Vss
+Text HLabel 10600 12800 1    50   Input ~ 0
+Vdd
+Text HLabel 11700 12800 1    50   Input ~ 0
+Vdd
+Text HLabel 10600 13600 3    50   Input ~ 0
+Vss
+Text HLabel 11700 13600 3    50   Input ~ 0
+Vss
+$EndSCHEMATC

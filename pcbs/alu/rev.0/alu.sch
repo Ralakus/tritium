@@ -4020,8 +4020,6 @@ F 7 "/lab/dev/tritium/library/gates_spice.lib" H 13100 10900 50  0001 C CNN "Spi
 	1    12900 10750
 	0    -1   -1   0   
 $EndComp
-Wire Notes Line
-	13500 11150 12200 11150
 Connection ~ 12850 9950
 Connection ~ 12950 9950
 Wire Notes Line
