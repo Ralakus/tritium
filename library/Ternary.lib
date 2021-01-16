@@ -119,6 +119,32 @@ F5 "Inverter" -25 50 50 H V C CNN "Spice_Model"
 F6 "Y" -25 50 50 H V C CNN "Spice_Netlist_Enabled"
 F7 "/lab/dev/tritium/library/gates_spice.lib" -25 50 50 H I C CNN "Spice_Lib_File"
 DRAW
+T 900 -50 200 50 0 0 0 Vdd Normal 0 C C
+T 900 -50 -175 50 0 0 0 Vss Normal 0 C C
+P 2 0 0 0 -150 0 -130 0 N
+P 2 0 0 0 -100 -150 -100 -140 N
+P 2 0 0 0 -100 150 -100 140 N
+P 2 0 0 0 200 0 170 0 N
+P 4 1 1 10 -125 150 -125 -150 175 0 -125 150 f
+X ~ 1 -100 300 150 D 50 50 1 1 W
+X ~ 3 -300 0 150 R 50 50 1 1 I
+X ~ 4 350 0 150 L 50 50 1 1 O I
+X ~ 5 -100 -300 150 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# inverter_full
+#
+DEF inverter_full A 0 40 Y Y 1 F N
+F0 "A" -25 50 50 H V C CNN
+F1 "inverter_full" -25 -25 50 H V C CNN
+F2 "Ternary_Rev_1:inverter" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "X" -25 50 50 H V C CNN "Spice_Primitive"
+F5 "InverterFull" -25 50 50 H V C CNN "Spice_Model"
+F6 "Y" -25 50 50 H V C CNN "Spice_Netlist_Enabled"
+F7 "/lab/dev/tritium/library/gates_spice.lib" -25 50 50 H I C CNN "Spice_Lib_File"
+DRAW
 T 0 150 -150 50 0 0 0 Nti Normal 0 C C
 T 0 150 150 50 0 0 0 Pti Normal 0 C C
 T 0 250 -50 50 0 0 0 Sti Normal 0 C C
@@ -137,6 +163,58 @@ X ~ 3 -300 0 150 R 50 50 1 1 I
 X ~ 4 350 0 150 L 50 50 1 1 O I
 X ~ 5 -100 -300 150 U 50 50 1 1 W
 X ~ 6 150 -100 150 L 50 50 1 1 O I
+ENDDRAW
+ENDDEF
+#
+# inverter_nti
+#
+DEF inverter_nti A 0 40 Y Y 1 F N
+F0 "A" -25 50 50 H V C CNN
+F1 "inverter_nti" -25 -25 50 H V C CNN
+F2 "Ternary_Rev_1:inverter" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "X" -25 50 50 H V C CNN "Spice_Primitive"
+F5 "InverterNti" -25 50 50 H V C CNN "Spice_Model"
+F6 "Y" -25 50 50 H V C CNN "Spice_Netlist_Enabled"
+F7 "/lab/dev/tritium/library/gates_spice.lib" -25 50 50 H I C CNN "Spice_Lib_File"
+DRAW
+T 900 -50 200 50 0 0 0 Vdd Normal 0 C C
+T 900 -50 -175 50 0 0 0 Vss Normal 0 C C
+P 2 0 0 0 -150 0 -130 0 N
+P 2 0 0 0 -100 -150 -100 -140 N
+P 2 0 0 0 -100 150 -100 140 N
+P 2 0 0 0 200 0 170 0 N
+P 4 1 1 10 -125 150 -125 -150 175 0 -125 150 f
+X ~ 1 -100 300 150 D 50 50 1 1 W
+X ~ 3 -300 0 150 R 50 50 1 1 I
+X ~ 5 -100 -300 150 U 50 50 1 1 W
+X ~ 6 350 0 150 L 50 50 1 1 O I
+ENDDRAW
+ENDDEF
+#
+# inverter_pti
+#
+DEF inverter_pti A 0 40 Y Y 1 F N
+F0 "A" -25 50 50 H V C CNN
+F1 "inverter_pti" -25 -25 50 H V C CNN
+F2 "Ternary_Rev_1:inverter" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "X" -25 50 50 H V C CNN "Spice_Primitive"
+F5 "InverterPti" -25 50 50 H V C CNN "Spice_Model"
+F6 "Y" -25 50 50 H V C CNN "Spice_Netlist_Enabled"
+F7 "/lab/dev/tritium/library/gates_spice.lib" -25 50 50 H I C CNN "Spice_Lib_File"
+DRAW
+T 900 -50 200 50 0 0 0 Vdd Normal 0 C C
+T 900 -50 -175 50 0 0 0 Vss Normal 0 C C
+P 2 0 0 0 -150 0 -130 0 N
+P 2 0 0 0 -100 -150 -100 -140 N
+P 2 0 0 0 -100 150 -100 140 N
+P 2 0 0 0 200 0 170 0 N
+P 4 1 1 10 -125 150 -125 -150 175 0 -125 150 f
+X ~ 1 -100 300 150 D 50 50 1 1 W
+X ~ 2 350 0 150 L 50 50 1 1 O I
+X ~ 3 -300 0 150 R 50 50 1 1 I
+X ~ 5 -100 -300 150 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #

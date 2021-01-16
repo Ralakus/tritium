@@ -1,0 +1,82 @@
+= Tritium-6 Instruction Set Architecture
+
+== Basic information
+[options="header"]
+|===
+|Features           |Value
+|word size          |6-trits
+|data bus size      |6-trits
+|address bus size   |6-trits
+|===
+[NOTE]
+Address bus size may be changed to be 12-trits
+
+== Instruction types
+[options="header"]
+|===
+^.^|Type                          |0|1|2       |3        |4     |5
+^.^|R - Register to Register 3+^.^|opcode   ^.^|rdest ^.^|rsrc1 |rsrc2
+^.^|I - Immediate            3+^.^|opcode 3+^.^|imm
+^.^|C - Control register     3+^.^|opcode 3+^.^|addr
+|===
+
+== General Purpose Registers
+[options="header"]
+|===
+|Name|Address
+|A   |i
+|B   |0
+|C   |1
+|===
+
+== Control Registers
+[options="header"]
+|===
+|Name           |Address|Description
+|error          |iii     |Contains an error state, negative if error, zero if clear, positive if warning
+|carry          |ii0     |Contains the carry trit from the alu
+|stack pointer  |ii1     |Contains the current stack pointer
+|program counter|i0i     |Contains the current program counter
+|===
+
+== Instructions List
+[options="header"]
+|===
+|Name   |Opcode |Type   |Description
+|cra    |iii   |C      |Reads value from control register `addr` to register `A`
+|cwa    |ii0   |C      |Writes value from register `A` to control register `addr`
+|crb    |ii1   |C      |Reads value from control register `addr` to register `B`
+|cwb    |i0i   |C      |Writes value from register `B` to control register `addr`
+|crc    |i00   |C      |Reads value from control register `addr` to register `C`
+|cwc    |i01   |C      |Writes value from register `C` to control register `addr`
+|lia    |i1i   |I      |Loads immediate value `imm` to register `A`
+|lib    |i10   |I      |Loads immediate value `imm` to register `B`
+|lic    |i11   |I      |Loads immediate value `imm` to register `C`
+|sia    |0ii   |I      |Writes immediate value `imm` to memory address stored in register `A`
+|sib    |0i0   |I      |Writes immediate value `imm` to memory address stored in register `B`
+|sic    |0i1   |I      |Writes immediate value `imm` to memory address stored in register `B`
+|cp     |00i   |R      |Copies contents from register `rsrc1` to `rdest`
+|ld     |000   |R      |Loads contents from memory address `rsrc1` to register `rdest`
+|st     |001   |R      |Stores contents from register `rsrc1` to memory address `rdest`
+|jlz    |01i   |R      |Jumps to `rdest` if `rsrc1` is less than zero
+|jz     |010   |R      |Jumps to `rdest` if `rsrc1` is zero
+|jgz    |011   |R      |Jumps to `rdest` if `rsrc1` is greater than zero
+|add    |1ii   |R      |Adds `rsrc1` to `rsrc2`
+|addc   |1i0   |R      |Adds `rsrc1` from `rsrc2` with carry
+|cmp    |1i1   |R      |Tritwise compares `rsrc2` to `rsrc2`, i if less than, 0 if equal, 1 if greater
+|min    |10i   |R      |Ternary min `rsrc1` and `rsrc2`
+|max    |100   |R      |Ternary max `rsrc1` and `rsrc2`
+|inv    |101   |R      |Ternary inverts only `rsrc1`
+|cons   |11i   |R      |Ternary consensus `rsrc1` and `rsrc2`
+|any    |110   |R      |Ternary any `rsrc1` and `rsrc2`
+|sign   |111   |R      |Returns the sign of only `rsrc`, i if negative, 0 if 0, 1 if positive
+|===
+
+== Instruction Table
+|===
+2.2+^.^|Opcodes 9+^.^|Low trit pair
+                     |_ii |_i0 |_i1 |_0i |_00 |_01 |_1i |_10 |_11
+.3+^.^|High trit |i__|cra |cwa |crb |cwb |crc |cwc |lia |lib |lic
+                 |0__|sia |sib |sic |cp  |ld  |st  |jlz |jz  |jgz
+                 |1__|add |addc|cmp |min |max |inv |cons|any |sign
+|===
