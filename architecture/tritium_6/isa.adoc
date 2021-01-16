@@ -46,8 +46,8 @@ Address bus size may be changed to be 12-trits
 |Name   |Opcode |Type   |Description
 |crr    |iii    |C      |Reads control register `addr` to register `rdest`
 |crw    |ii0    |C      |Writes contents of register `rsrc` to control register `addr`
-|spi    |ii1    |C      |Increments stack pointer
-|spd    |i0i    |C      |Decrements stack pointer
+|spi    |ii1    |S      |Increments stack pointer
+|spd    |i0i    |S      |Decrements stack pointer
 |wsp    |i00    |S      |Writes contents of `rsrc` to memory address of the stack pointer. Does not increment stack pointer
 |rsp    |i01    |S      |Reads contents of the memory address stack pointer to `rdest`. Does not decrement stack pointer
 |lia    |i1i    |I      |Loads immediate value `imm` to register `A`
