@@ -1,7 +1,7 @@
 = Tritium-9 Memory Mapping
 
 == Memory regions
-.There are three memory regions
+.There are three memory regions:
 * iiiiiiiii to i11111111 is mapped to the EEPROM and memory mapped IO
 * 0iiiiiiii to 011111111 is mapped to persistent user usable RAM
 * 1iiiiiiii to 111111111 is mapped to a memory page
