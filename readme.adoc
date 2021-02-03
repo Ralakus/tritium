@@ -30,4 +30,4 @@ There are many projects similar to this but they either haven't gone very far, c
 * Use easily sourcable parts
 
 ### Current Status
-Tested each rev.0 pcb and posted results. Continuing on designing the Tritium-6 alu
+Pausing development due to jobs being being halted due to covid
