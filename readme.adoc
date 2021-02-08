@@ -30,4 +30,4 @@ There are many projects similar to this but they either haven't gone very far, c
 * Use easily sourcable parts
 
 ### Current Status
-Pausing development due to jobs being being halted due to covid
+Working on building rev.2 ternary gates to prototype more complicated circuits with
