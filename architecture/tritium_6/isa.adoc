@@ -34,10 +34,10 @@ Address bus size may be changed to be 12-trits
 [options="header"]
 |===
 |Name           |Address |Width |Description
-|error          |iii     |6     |Contains an error state, negative if error, zero if clear, positive if warning
-|carry          |ii0     |1     |Contains the carry trit from the alu
-|stack pointer  |ii1     |6     |Contains the current stack pointer
-|program counter|i0i     |6     |Contains the current program counter
+|error          |ii      |6     |Contains an error state, negative if error, zero if clear, positive if warning
+|carry          |i0      |1     |Contains the carry trit from the alu
+|stack pointer  |i1      |6     |Contains the current stack pointer
+|program counter|0i      |6     |Contains the current program counter
 |===
 
 == Instructions List
@@ -62,8 +62,8 @@ Address bus size may be changed to be 12-trits
 |jlz    |01i    |R      |Jumps to `rdest` if `rsrc1` is less than zero
 |jz     |010    |R      |Jumps to `rdest` if `rsrc1` is zero
 |jgz    |011    |R      |Jumps to `rdest` if `rsrc1` is greater than zero
-|add    |1ii    |R      |Adds `rsrc1` to `rsrc2`
-|addc   |1i0    |R      |Adds `rsrc1` from `rsrc2` with carry
+|add    |1ii    |R      |Adds `rsrc1` and `rsrc2` to `rdest`
+|addc   |1i0    |R      |Adds `rsrc1` and `rsrc2` with carry to `rdest`
 |cmp    |1i1    |R      |Tritwise compares `rsrc2` to `rsrc2`, i if less than, 0 if equal, 1 if greater
 |min    |10i    |R      |Ternary min `rsrc1` and `rsrc2`
 |max    |100    |R      |Ternary max `rsrc1` and `rsrc2`
