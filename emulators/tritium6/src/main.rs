@@ -81,7 +81,7 @@ impl Tryte {
         self.0[index as usize]
     }
     fn get_trits(&self, start: u8, end: u8) -> &[Trit] {
-        &self.0[start as usize..end as usize]
+        &self.0[start as usize..=end as usize]
     }
     fn to_binary(&self) -> i16 {
         let mut acc = 0;
@@ -106,8 +106,8 @@ impl Tryte {
 
         for (i, t) in self.0.iter().enumerate() {
             let sign = match (t.0, t.1) {
-                (false, false) => 0,
-                (true, false) => 1,
+                (true, false) => 0,
+                (false, false) => 1,
                 (false, true) => 2,
                 _ => panic!("Invalid state"),
             };
@@ -216,7 +216,7 @@ fn main() {
     i = 0;
     loop {
         let ins = Tryte::from_bitvec(i, &memory);
-        match ins.get_trits(0, 3) { // I dunno why it only works when it's getting the first 4 trits. It should only work with the first tribble
+        match ins.get_trits(0, 2) { // I dunno why it only works when it's getting the first 4 trits. It should only work with the first tribble
             // crr rdest addr
             tribble!(i, i, i) => {
                 let rdest = ins.get_trit(3).to_unsigned_binary() as usize;
@@ -227,7 +227,7 @@ fn main() {
 
             // crw rsrc addr
             tribble!(i, i, 0) => {
-                let rsrc = tryte!(&[ins.get_trit(3)]).to_unsigned_binary() as usize;
+                let rsrc = ins.get_trit(3).to_unsigned_binary() as usize;
                 let address = tryte!(ins.get_trits(4, 5)).to_unsigned_binary() as usize;
 
                 control_registers[address] = registers[rsrc]
@@ -235,35 +235,35 @@ fn main() {
 
             // lia imm
             tribble!(i, 1, i) => {
-                let imm = tryte!(ins.get_trits(2, 5));
+                let imm = tryte!(ins.get_trits(3, 5));
                 registers[REGISTER_A] = imm;
             }
 
             // lib imm
             tribble!(i, 1, 0) => {
-                let imm = tryte!(ins.get_trits(2, 5));
+                let imm = tryte!(ins.get_trits(3, 5));
                 registers[REGISTER_B] = imm;
             }
 
             // lic imm
             tribble!(i, 1, 1) => {
-                let imm = tryte!(ins.get_trits(2, 5));
+                let imm = tryte!(ins.get_trits(3, 5));
                 registers[REGISTER_C] = imm;
             }
 
-            // add rdest rsrc1 rsrc2
+            // shf rdest rsrc1 _
             tribble!(1, i, i) => {
                 let rdest = ins.get_trit(3).to_unsigned_binary() as usize;
                 let rsrc1 = ins.get_trit(4).to_unsigned_binary() as usize;
                 let rsrc2 = ins.get_trit(5).to_unsigned_binary() as usize;
 
-                let (result, carry) = registers[rsrc1].add(t!(0), registers[rsrc2]);
+                let mut trits = Vec::from(registers[rsrc1].get_trits(0, 5));
+                trits.rotate_right(rsrc2 + 1);
 
-                registers[rdest] = result;
-                control_registers[CREGISTER_CARRY] = tryte!(&[carry]);
+                registers[rdest] = Tryte::from_trits(&trits);
             }
 
-            // addc rdest rsrc1 rsrc2
+            // add rdest rsrc1 rsrc2
             tribble!(1, i, 0) => {
                 let rdest = ins.get_trit(3).to_unsigned_binary() as usize;
                 let rsrc1 = ins.get_trit(4).to_unsigned_binary() as usize;
@@ -278,15 +278,79 @@ fn main() {
                 println!("Add result: {};{}", result.to_binary(), carry.to_binary());
             }
 
-            // jgz rdest rsrc1 _
-            tribble!(0,1,1) => {
-                let rdest = tryte!(&[ins.get_trit(3)]).to_unsigned_binary() as usize;
-                let rsrc1 = tryte!(&[ins.get_trit(4)]).to_unsigned_binary() as usize;
+            // ld rdest rsrc1 _
+            tribble!(0,0,0) => {
+                let rdest = ins.get_trit(3).to_unsigned_binary() as usize;
+                let rsrc1 = ins.get_trit(4).to_unsigned_binary() as usize;
+                
+                println!("rdest: {}", registers[rdest]);
+                println!("rsrc1: {}", registers[rsrc1]);
+                
+                let addr_bin = registers[rsrc1].to_binary();
+                let address = addr_bin as usize * BINARY_WORD_SIZE;
 
-                if registers[rsrc1].to_binary() > 0 {
-                    i = registers[rdest].to_unsigned_binary() as usize * BINARY_WORD_SIZE;
-                    continue;
+                registers[rdest] = Tryte::from_bitvec(address, &memory);
+
+            }
+
+            // jmp rdest rsrc1 rsrc2
+            tribble!(0,1,i) => {
+                let rdest = ins.get_trit(3).to_unsigned_binary() as usize;
+                let rsrc1 = ins.get_trit(4).to_unsigned_binary() as usize;
+                let cond = ins.get_trit(5);
+
+                let reg_value = registers[rsrc1].to_binary();
+                match cond {
+                    // jump if less than zero
+                    Trit(true, false) => {
+                        if reg_value < 0 {
+                            i = registers[rdest].to_unsigned_binary() as usize * BINARY_WORD_SIZE;
+                            continue;
+                        }
+                    }
+                    // jump if equal zero
+                    Trit(false, false) => {
+                        if reg_value == 0 {
+                            i = registers[rdest].to_unsigned_binary() as usize * BINARY_WORD_SIZE;
+                            continue;
+                        }
+                    }
+                    // jump if greather than zero
+                    Trit(false, true) => {
+                        if reg_value > 0 {
+                            i = registers[rdest].to_unsigned_binary() as usize * BINARY_WORD_SIZE;
+                            continue;
+                        }
+                    }
+
+                    Trit(true, true) => panic!("Invalid trit value")
                 }
+            }
+
+            // shl rdest rsrc1 rsrc2
+            tribble!(0,1,0) => {
+                let rdest = ins.get_trit(3).to_unsigned_binary() as usize;
+                let rsrc1 = ins.get_trit(4).to_unsigned_binary() as usize;
+                let rsrc2 = ins.get_trit(5).to_unsigned_binary() as usize;
+
+                let mut trits = Vec::from(registers[rsrc1].get_trits(0, 5));
+                trits.rotate_left(rsrc2 + 1);
+                let value = Tryte::from_trits(&trits);
+
+                registers[rdest] = value;
+            }
+
+            // shf rdest rsrc1 rsrc2
+            tribble!(0, 1, 1) => {
+                let rdest = ins.get_trit(3).to_unsigned_binary() as usize;
+                let rsrc1 = ins.get_trit(4).to_unsigned_binary() as usize;
+                let rsrc2 = ins.get_trit(5).to_unsigned_binary() as usize;
+
+                let mut trits = Vec::from(registers[rsrc1].get_trits(0, 5));
+                trits.rotate_right(rsrc2 + 1);
+                let value = Tryte::from_trits(&trits);
+
+                registers[rdest] = value;
             }
 
             _ => panic!("Invalid instruction {}", ins),

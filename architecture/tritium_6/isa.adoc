@@ -59,9 +59,9 @@ Address bus size may be changed to be 12-trits
 |cp     |00i    |R      |Copies contents from register `rsrc1` to `rdest`
 |ld     |000    |R      |Loads contents from memory address `rsrc1` to register `rdest`
 |st     |001    |R      |Stores contents from register `rsrc1` to memory address `rdest`
-|jlz    |01i    |R      |Jumps to `rdest` if `rsrc1` is less than zero
-|jz     |010    |R      |Jumps to `rdest` if `rsrc1` is zero
-|jgz    |011    |R      |Jumps to `rdest` if `rsrc1` is greater than zero
+|jmp    |01i    |R      |Jumps to `rdest` if `rsrc1` depending on the single trit value of `rsrc2` (i jump if less than 0, 0 jump if equal zero, 1 jump if greater than zero)
+|shr    |010    |R      |Sets `rdest` to the value of `rsrc1` tritshifted left by the unsigned value + 1 of `rsrc2` 
+|shr    |011    |R      |Sets `rdest` to the value of `rsrc1` tritshifted right by the unsigned value + 1 of `rsrc2` (Not the value stored in the register)
 |add    |1ii    |R      |Adds `rsrc1` and `rsrc2` to `rdest`
 |addc   |1i0    |R      |Adds `rsrc1` and `rsrc2` with carry to `rdest`
 |cmp    |1i1    |R      |Tritwise compares `rsrc2` to `rsrc2`, i if less than, 0 if equal, 1 if greater
@@ -70,7 +70,7 @@ Address bus size may be changed to be 12-trits
 |inv    |101    |R      |Ternary inverts only `rsrc1`
 |cons   |11i    |R      |Ternary consensus `rsrc1` and `rsrc2`
 |any    |110    |R      |Ternary any `rsrc1` and `rsrc2`
-|sign   |111    |R      |Returns the sign of only `rsrc`, i if negative, 0 if 0, 1 if positive
+|sign   |111    |R      |Returns the sign of only `rsrc1`, i if negative, 0 if 0, 1 if positive
 |===
 
 == Instruction Table
@@ -78,6 +78,6 @@ Address bus size may be changed to be 12-trits
 2.2+^.^|Opcodes 9+^.^|Low trit pair
                      |_ii |_i0 |_i1 |_0i |_00 |_01 |_1i |_10 |_11
 .3+^.^|High trit |i__|crr |crw |spi |spd |wsp |rsp |lia |lib |lic
-                 |0__|sia |sib |sic |cp  |ld  |st  |jlz |jz  |jgz
+                 |0__|sia |sib |sic |cp  |ld  |st  |jmp |shl |shr
                  |1__|add |addc|cmp |min |max |inv |cons|any |sign
 |===
