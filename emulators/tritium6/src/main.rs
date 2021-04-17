@@ -251,33 +251,6 @@ fn main() {
                 registers[REGISTER_C] = imm;
             }
 
-            // shf rdest rsrc1 _
-            tribble!(1, i, i) => {
-                let rdest = ins.get_trit(3).to_unsigned_binary() as usize;
-                let rsrc1 = ins.get_trit(4).to_unsigned_binary() as usize;
-                let rsrc2 = ins.get_trit(5).to_unsigned_binary() as usize;
-
-                let mut trits = Vec::from(registers[rsrc1].get_trits(0, 5));
-                trits.rotate_right(rsrc2 + 1);
-
-                registers[rdest] = Tryte::from_trits(&trits);
-            }
-
-            // add rdest rsrc1 rsrc2
-            tribble!(1, i, 0) => {
-                let rdest = ins.get_trit(3).to_unsigned_binary() as usize;
-                let rsrc1 = ins.get_trit(4).to_unsigned_binary() as usize;
-                let rsrc2 = ins.get_trit(5).to_unsigned_binary() as usize;
-
-                let carry = control_registers[CREGISTER_CARRY].get_trit(0);
-                let (result, carry) = registers[rsrc1].add(carry, registers[rsrc2]);
-
-                registers[rdest] = result;
-                control_registers[CREGISTER_CARRY] = tryte!(&[carry]);
-
-                println!("Add result: {};{}", result.to_binary(), carry.to_binary());
-            }
-
             // ld rdest rsrc1 _
             tribble!(0,0,0) => {
                 let rdest = ins.get_trit(3).to_unsigned_binary() as usize;
@@ -340,7 +313,7 @@ fn main() {
                 registers[rdest] = value;
             }
 
-            // shf rdest rsrc1 rsrc2
+            // shr rdest rsrc1 rsrc2
             tribble!(0, 1, 1) => {
                 let rdest = ins.get_trit(3).to_unsigned_binary() as usize;
                 let rsrc1 = ins.get_trit(4).to_unsigned_binary() as usize;
@@ -351,6 +324,35 @@ fn main() {
                 let value = Tryte::from_trits(&trits);
 
                 registers[rdest] = value;
+            }
+
+            // add rdest rsrc1 rsrc2
+            tribble!(1, i, i) => {
+                let rdest = ins.get_trit(3).to_unsigned_binary() as usize;
+                let rsrc1 = ins.get_trit(4).to_unsigned_binary() as usize;
+                let rsrc2 = ins.get_trit(5).to_unsigned_binary() as usize;
+
+                let (result, carry) = registers[rsrc1].add(t!(0), registers[rsrc2]);
+
+                registers[rdest] = result;
+                control_registers[CREGISTER_CARRY] = tryte!(&[carry]);
+
+                println!("Add result: {};{}", result.to_binary(), carry.to_binary());
+            }
+
+            // addc rdest rsrc1 rsrc2
+            tribble!(1, i, 0) => {
+                let rdest = ins.get_trit(3).to_unsigned_binary() as usize;
+                let rsrc1 = ins.get_trit(4).to_unsigned_binary() as usize;
+                let rsrc2 = ins.get_trit(5).to_unsigned_binary() as usize;
+
+                let carry = control_registers[CREGISTER_CARRY].get_trit(0);
+                let (result, carry) = registers[rsrc1].add(carry, registers[rsrc2]);
+
+                registers[rdest] = result;
+                control_registers[CREGISTER_CARRY] = tryte!(&[carry]);
+
+                println!("Add result: {};{}", result.to_binary(), carry.to_binary());
             }
 
             _ => panic!("Invalid instruction {}", ins),
