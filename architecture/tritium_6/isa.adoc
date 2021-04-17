@@ -59,8 +59,8 @@ Address bus size may be changed to be 12-trits
 |cp     |00i    |R      |Copies contents from register `rsrc1` to `rdest`
 |ld     |000    |R      |Loads contents from memory address `rsrc1` to register `rdest`
 |st     |001    |R      |Stores contents from register `rsrc1` to memory address `rdest`
-|jmp    |01i    |R      |Jumps to `rdest` if `rsrc1` depending on the single trit value of `rsrc2` (i jump if less than 0, 0 jump if equal zero, 1 jump if greater than zero)
-|shl    |010    |R      |Sets `rdest` to the value of `rsrc1` tritshifted left by the unsigned value + 1 of `rsrc2` 
+|jmp    |01i    |R      |Jumps to `rdest` if `rsrc1` depending on the single trit value of `rsrc2` (Not the value stored in the register; i jump if less than 0, 0 jump if equal zero, 1 jump if greater than zero)
+|shl    |010    |R      |Sets `rdest` to the value of `rsrc1` tritshifted left by the unsigned value + 1 of `rsrc2` (Not the value stored in the register)
 |shr    |011    |R      |Sets `rdest` to the value of `rsrc1` tritshifted right by the unsigned value + 1 of `rsrc2` (Not the value stored in the register)
 |add    |1ii    |R      |Adds `rsrc1` and `rsrc2` to `rdest`
 |addc   |1i0    |R      |Adds `rsrc1` and `rsrc2` with carry to `rdest`
