@@ -238,63 +238,48 @@ F 7 "/lab/dev/tritium/library/gates_spice.lib" H 6900 2500 50  0001 C CNN "Spice
 $EndComp
 Wire Wire Line
 	5100 3100 6550 3100
-$Comp
-L Ternary:inverter A7
-U 1 1 5FF7B026
-P 4000 3200
-F 0 "A7" H 4025 3953 50  0000 C CNN
-F 1 "inverter" H 4025 3862 50  0000 C CNN
-F 2 "Ternary_Rev_1:inverter" H 4000 3200 50  0001 C CNN
-F 3 "" H 4000 3200 50  0001 C CNN
-F 4 "X" H 4025 3771 50  0000 C CNN "Spice_Primitive"
-F 5 "Inverter" H 4025 3680 50  0000 C CNN "Spice_Model"
-F 6 "Y" H 4025 3589 50  0000 C CNN "Spice_Netlist_Enabled"
-F 7 "/lab/dev/tritium/library/gates_spice.lib" H 3975 3250 50  0001 C CNN "Spice_Lib_File"
-	1    4000 3200
-	1    0    0    -1  
-$EndComp
-Text GLabel 3900 3500 3    50   Input ~ 0
+Text GLabel 3700 3400 3    50   Input ~ 0
 Vss
-Text GLabel 3900 2900 1    50   Input ~ 0
+Text GLabel 3700 2800 1    50   Input ~ 0
 Vdd
 $Comp
 L Device:R R3
 U 1 1 5FF5AEF9
-P 3650 3350
-F 0 "R3" H 3720 3396 50  0000 L CNN
-F 1 "100" H 3720 3305 50  0000 L CNN
-F 2 "" V 3580 3350 50  0001 C CNN
-F 3 "~" H 3650 3350 50  0001 C CNN
-	1    3650 3350
+P 3450 3250
+F 0 "R3" H 3520 3296 50  0000 L CNN
+F 1 "100" H 3520 3205 50  0000 L CNN
+F 2 "" V 3380 3250 50  0001 C CNN
+F 3 "~" H 3450 3250 50  0001 C CNN
+	1    3450 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 3200 3700 3200
-Connection ~ 3650 3200
+	3450 3100 3500 3100
+Connection ~ 3450 3100
 Wire Wire Line
-	3600 3200 3650 3200
+	3400 3100 3450 3100
 $Comp
 L Device:C C1
 U 1 1 5FF58BAD
-P 3450 3200
-F 0 "C1" V 3198 3200 50  0000 C CNN
-F 1 "1u" V 3289 3200 50  0000 C CNN
-F 2 "" H 3488 3050 50  0001 C CNN
-F 3 "~" H 3450 3200 50  0001 C CNN
-	1    3450 3200
+P 3250 3100
+F 0 "C1" V 2998 3100 50  0000 C CNN
+F 1 "1u" V 3089 3100 50  0000 C CNN
+F 2 "" H 3288 2950 50  0001 C CNN
+F 3 "~" H 3250 3100 50  0001 C CNN
+	1    3250 3100
 	0    1    1    0   
 $EndComp
-Text GLabel 3300 3200 0    50   Input ~ 0
+Text GLabel 3100 3100 0    50   Input ~ 0
 CLK
 $Comp
 L power:GND #PWR?
 U 1 1 5FFB26C5
-P 3650 3500
-F 0 "#PWR?" H 3650 3250 50  0001 C CNN
-F 1 "GND" H 3655 3327 50  0000 C CNN
-F 2 "" H 3650 3500 50  0001 C CNN
-F 3 "" H 3650 3500 50  0001 C CNN
-	1    3650 3500
+P 3450 3400
+F 0 "#PWR?" H 3450 3150 50  0001 C CNN
+F 1 "GND" H 3455 3227 50  0000 C CNN
+F 2 "" H 3450 3400 50  0001 C CNN
+F 3 "" H 3450 3400 50  0001 C CNN
+	1    3450 3400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -340,4 +325,19 @@ Wire Wire Line
 	5600 3000 5600 3750
 Wire Wire Line
 	5600 2350 5600 3000
+$Comp
+L Ternary:inverter_pti A?
+U 1 1 608B6007
+P 3800 3100
+F 0 "A?" H 4194 3282 50  0000 L CNN
+F 1 "inverter_pti" H 4194 3191 50  0000 L CNN
+F 2 "Ternary_Rev_1:inverter" H 3800 3100 50  0001 C CNN
+F 3 "" H 3800 3100 50  0001 C CNN
+F 4 "X" H 4194 3100 50  0000 L CNN "Spice_Primitive"
+F 5 "InverterPti" H 4194 3009 50  0000 L CNN "Spice_Model"
+F 6 "Y" H 4194 2918 50  0000 L CNN "Spice_Netlist_Enabled"
+F 7 "/lab/dev/tritium/library/gates_spice.lib" H 3775 3150 50  0001 C CNN "Spice_Lib_File"
+	1    3800 3100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
