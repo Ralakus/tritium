@@ -1,3 +1,5 @@
+#![feature(slice_index_methods)]
+
 use bitvec::prelude::*;
 
 const WORD_SIZE: usize = 6;
@@ -18,17 +20,20 @@ const CREGISTER_PROGRAM_COUNTER: usize = 3;
 #[derive(Debug, Copy, Clone, Eq, PartialEq, Default)]
 struct Trit(bool, bool);
 
-impl Trit {
-    fn to_unsigned_binary(&self) -> u8 {
-        match self {
+impl std::convert::From<Trit> for u16 {
+    fn from(t: Trit) -> Self {
+        match t {
             Trit(true, false) => 0,
             Trit(false, false) => 1,
             Trit(false, true) => 2,
             Trit(true, true) => panic!("Invalid trit value"),
         }
     }
-    fn to_binary(&self) -> i8 {
-        match self {
+}
+
+impl std::convert::From<Trit> for i16 {
+    fn from(t: Trit) -> Self {
+        match t {
             Trit(true, false) => -1,
             Trit(false, false) => 0,
             Trit(false, true) => 1,
@@ -60,7 +65,7 @@ macro_rules! tryte {
         Tryte::from_trits(&[t!($a), t!($b), t!($c), t!($d), t!($e), t!($f)])
     };
     ($a:expr) => {
-        Tryte::from_trits($a)
+        Tryte::from($a)
     };
 }
 
@@ -77,70 +82,10 @@ impl Tryte {
         }
         Self(tryte)
     }
-    fn get_trit(self, index: u8) -> Trit {
-        self.0[index as usize]
-    }
     fn get_trits(&self, start: u8, end: u8) -> &[Trit] {
         &self.0[start as usize..=end as usize]
     }
-    fn to_binary(&self) -> i16 {
-        let mut acc = 0;
-        let base: u16 = 3;
-
-        for (i, t) in self.0.iter().enumerate() {
-            let sign = match (t.0, t.1) {
-                (true, false) => -1,
-                (false, false) => 0,
-                (false, true) => 1,
-                _ => panic!("Invalid state"),
-            };
-
-            acc += sign * (base.pow(i as u32)) as i16;
-        }
-
-        acc
-    }
-    fn to_unsigned_binary(&self) -> u16 {
-        let mut acc = 0;
-        let base: u16 = 3;
-
-        for (i, t) in self.0.iter().enumerate() {
-            let sign = match (t.0, t.1) {
-                (true, false) => 0,
-                (false, false) => 1,
-                (false, true) => 2,
-                _ => panic!("Invalid state"),
-            };
-
-            acc += sign * (base.pow(i as u32));
-        }
-
-        acc
-    }
-    fn from_str(s: &str) -> Self {
-        let mut tryte = [Trit(false, false); WORD_SIZE];
-
-        for (i, c) in (0..WORD_SIZE).zip(s.chars()) {
-            match c {
-                'i' => tryte[i] = Trit(true, false),
-                '0' => tryte[i] = Trit(false, false),
-                '1' => tryte[i] = Trit(false, true),
-                _ => panic!("Invalid character"),
-            }
-        }
-
-        Self(tryte)
-    }
-    fn from_trits(trits: &[Trit]) -> Self {
-        let mut tryte = [Trit(false, false); WORD_SIZE];
-
-        for (i, c) in (0..WORD_SIZE).zip(trits) {
-            tryte[i] = *c;
-        }
-
-        Self(tryte)
-    }
-    fn add(&self, carry: Trit, b: Tryte) -> (Self, Trit) {
+    fn addc(&self, carry: Trit, b: Tryte) -> (Self, Trit) {
         let mut tryte = [Trit(false, false); WORD_SIZE];
 
         let sum_table = [
@@ -156,14 +101,112 @@ impl Tryte {
 
         let mut c = carry;
         for (i, (a, b)) in (0..WORD_SIZE).zip(self.0.iter().zip(b.0.iter())) {
-            tryte[i] = sum_table[a.to_unsigned_binary() as usize][b.to_unsigned_binary() as usize];
+            tryte[i] = sum_table[u16::from(*a) as usize][u16::from(*b) as usize];
             tryte[i] =
-                sum_table[tryte[i].to_unsigned_binary() as usize][c.to_unsigned_binary() as usize];
+                sum_table[u16::from(tryte[i]) as usize][u16::from(c) as usize];
 
-            c = carry_table[a.to_unsigned_binary() as usize][b.to_unsigned_binary() as usize];
+            c = carry_table[u16::from(*a) as usize][u16::from(*b) as usize];
         }
 
         (Self(tryte), c)
+    }
+}
+
+impl std::ops::Index<u8> for Tryte {
+    type Output = Trit;
+
+    fn index(&self, index: u8) -> &Trit {
+        &self.0[index as usize]
+    }
+}
+
+impl std::convert::From<&str> for Tryte {
+    fn from(s: &str) -> Self {
+        let mut tryte = [Trit(false, false); WORD_SIZE];
+
+        for (i, c) in (0..WORD_SIZE).zip(s.chars()) {
+            match c {
+                'i' => tryte[i] = Trit(true, false),
+                '0' => tryte[i] = Trit(false, false),
+                '1' => tryte[i] = Trit(false, true),
+                _ => panic!("Invalid character"),
+            }
+        }
+
+        Self(tryte)
+    }
+}
+
+impl std::convert::From<&[Trit]> for Tryte {
+    fn from(trits: &[Trit]) -> Self {
+        let mut tryte = [Trit(false, false); WORD_SIZE];
+
+        for (i, c) in (0..WORD_SIZE).zip(trits) {
+            tryte[i] = *c;
+        }
+
+        Self(tryte)
+    }
+}
+
+impl std::convert::From<Vec<Trit>> for Tryte {
+    fn from(trits: Vec<Trit>) -> Self {
+        let mut tryte = [Trit(false, false); WORD_SIZE];
+
+        for (i, c) in (0..WORD_SIZE).zip(trits) {
+            tryte[i] = c;
+        }
+
+        Self(tryte)
+    }
+}
+
+impl std::convert::From<Trit> for Tryte {
+    fn from(trit: Trit) -> Self {
+        let mut tryte = [Trit(false, false); WORD_SIZE];
+        tryte[0] = trit;
+
+        Self(tryte)
+    }
+}
+
+impl std::convert::From<Tryte> for u16 {
+    fn from(t: Tryte) -> Self {
+        let mut acc = 0;
+        let base: u16 = 3;
+
+        for (i, t) in t.0.iter().enumerate() {
+            let sign = match (t.0, t.1) {
+                (true, false) => 0,
+                (false, false) => 1,
+                (false, true) => 2,
+                _ => panic!("Invalid state"),
+            };
+
+            acc += sign * (base.pow(i as u32));
+        }
+
+        acc
+    }
+}
+
+impl std::convert::From<Tryte> for i16 {
+    fn from(t: Tryte) -> Self {
+        let mut acc = 0;
+        let base: u16 = 3;
+
+        for (i, t) in t.0.iter().enumerate() {
+            let sign = match (t.0, t.1) {
+                (true, false) => -1,
+                (false, false) => 0,
+                (false, true) => 1,
+                _ => panic!("Invalid state"),
+            };
+
+            acc += sign * (base.pow(i as u32)) as i16;
+        }
+
+        acc
     }
 }
 
@@ -219,16 +262,16 @@ fn main() {
         match ins.get_trits(0, 2) { // I dunno why it only works when it's getting the first 4 trits. It should only work with the first tribble
             // crr rdest addr
             tribble!(i, i, i) => {
-                let rdest = ins.get_trit(3).to_unsigned_binary() as usize;
-                let address = tryte!(ins.get_trits(4, 5)).to_unsigned_binary() as usize;
+                let rdest = u16::from(ins[3]) as usize;
+                let address = u16::from(tryte!(ins.get_trits(4, 5))) as usize;
 
                 registers[rdest] = control_registers[address];
             }
 
             // crw rsrc addr
             tribble!(i, i, 0) => {
-                let rsrc = ins.get_trit(3).to_unsigned_binary() as usize;
-                let address = tryte!(ins.get_trits(4, 5)).to_unsigned_binary() as usize;
+                let rsrc = u16::from(ins[3]) as usize;
+                let address = u16::from(tryte!(ins.get_trits(4, 5))) as usize;
 
                 control_registers[address] = registers[rsrc]
             }
@@ -253,13 +296,13 @@ fn main() {
 
             // ld rdest rsrc1 _
             tribble!(0,0,0) => {
-                let rdest = ins.get_trit(3).to_unsigned_binary() as usize;
-                let rsrc1 = ins.get_trit(4).to_unsigned_binary() as usize;
+                let rdest = u16::from(ins[3]) as usize;
+                let rsrc1 = u16::from(ins[4]) as usize;
                 
                 println!("rdest: {}", registers[rdest]);
                 println!("rsrc1: {}", registers[rsrc1]);
                 
-                let addr_bin = registers[rsrc1].to_binary();
+                let addr_bin = i16::from(registers[rsrc1]);
                 let address = addr_bin as usize * BINARY_WORD_SIZE;
 
                 registers[rdest] = Tryte::from_bitvec(address, &memory);
@@ -268,30 +311,30 @@ fn main() {
 
             // jmp rdest rsrc1 rsrc2
             tribble!(0,1,i) => {
-                let rdest = ins.get_trit(3).to_unsigned_binary() as usize;
-                let rsrc1 = ins.get_trit(4).to_unsigned_binary() as usize;
-                let cond = ins.get_trit(5);
+                let rdest = u16::from(ins[3]) as usize;
+                let rsrc1 = u16::from(ins[4]) as usize;
+                let cond = ins[5];
 
-                let reg_value = registers[rsrc1].to_binary();
+                let reg_value = i16::from(registers[rsrc1]);
                 match cond {
                     // jump if less than zero
                     Trit(true, false) => {
                         if reg_value < 0 {
-                            i = registers[rdest].to_unsigned_binary() as usize * BINARY_WORD_SIZE;
+                            i = u16::from(registers[rdest]) as usize * BINARY_WORD_SIZE;
                             continue;
                         }
                     }
                     // jump if equal zero
                     Trit(false, false) => {
                         if reg_value == 0 {
-                            i = registers[rdest].to_unsigned_binary() as usize * BINARY_WORD_SIZE;
+                            i = u16::from(registers[rdest]) as usize * BINARY_WORD_SIZE;
                             continue;
                         }
                     }
                     // jump if greather than zero
                     Trit(false, true) => {
                         if reg_value > 0 {
-                            i = registers[rdest].to_unsigned_binary() as usize * BINARY_WORD_SIZE;
+                            i = u16::from(registers[rdest]) as usize * BINARY_WORD_SIZE;
                             continue;
                         }
                     }
@@ -302,57 +345,57 @@ fn main() {
 
             // shl rdest rsrc1 rsrc2
             tribble!(0,1,0) => {
-                let rdest = ins.get_trit(3).to_unsigned_binary() as usize;
-                let rsrc1 = ins.get_trit(4).to_unsigned_binary() as usize;
-                let rsrc2 = ins.get_trit(5).to_unsigned_binary() as usize;
+                let rdest = u16::from(ins[3]) as usize;
+                let rsrc1 = u16::from(ins[4]) as usize;
+                let rsrc2 = u16::from(ins[5]) as usize;
 
                 let mut trits = Vec::from(registers[rsrc1].get_trits(0, 5));
                 trits.rotate_left(rsrc2 + 1);
-                let value = Tryte::from_trits(&trits);
+                let value = Tryte::from(trits);
 
                 registers[rdest] = value;
             }
 
             // shr rdest rsrc1 rsrc2
             tribble!(0, 1, 1) => {
-                let rdest = ins.get_trit(3).to_unsigned_binary() as usize;
-                let rsrc1 = ins.get_trit(4).to_unsigned_binary() as usize;
-                let rsrc2 = ins.get_trit(5).to_unsigned_binary() as usize;
+                let rdest = u16::from(ins[3]) as usize;
+                let rsrc1 = u16::from(ins[4]) as usize;
+                let rsrc2 = u16::from(ins[5]) as usize;
 
                 let mut trits = Vec::from(registers[rsrc1].get_trits(0, 5));
                 trits.rotate_right(rsrc2 + 1);
-                let value = Tryte::from_trits(&trits);
+                let value = Tryte::from(trits);
 
                 registers[rdest] = value;
             }
 
             // add rdest rsrc1 rsrc2
             tribble!(1, i, i) => {
-                let rdest = ins.get_trit(3).to_unsigned_binary() as usize;
-                let rsrc1 = ins.get_trit(4).to_unsigned_binary() as usize;
-                let rsrc2 = ins.get_trit(5).to_unsigned_binary() as usize;
+                let rdest = u16::from(ins[3]) as usize;
+                let rsrc1 = u16::from(ins[4]) as usize;
+                let rsrc2 = u16::from(ins[5]) as usize;
 
-                let (result, carry) = registers[rsrc1].add(t!(0), registers[rsrc2]);
+                let (result, carry) = registers[rsrc1].addc(t!(0), registers[rsrc2]);
 
                 registers[rdest] = result;
-                control_registers[CREGISTER_CARRY] = tryte!(&[carry]);
+                control_registers[CREGISTER_CARRY] = tryte!(carry);
 
-                println!("Add result: {};{}", result.to_binary(), carry.to_binary());
+                println!("Add result: {};{}", i16::from(result), i16::from(carry));
             }
 
             // addc rdest rsrc1 rsrc2
             tribble!(1, i, 0) => {
-                let rdest = ins.get_trit(3).to_unsigned_binary() as usize;
-                let rsrc1 = ins.get_trit(4).to_unsigned_binary() as usize;
-                let rsrc2 = ins.get_trit(5).to_unsigned_binary() as usize;
+                let rdest = u16::from(ins[3]) as usize;
+                let rsrc1 = u16::from(ins[4]) as usize;
+                let rsrc2 = u16::from(ins[5]) as usize;
 
-                let carry = control_registers[CREGISTER_CARRY].get_trit(0);
-                let (result, carry) = registers[rsrc1].add(carry, registers[rsrc2]);
+                let carry = control_registers[CREGISTER_CARRY][0];
+                let (result, carry) = registers[rsrc1].addc(carry, registers[rsrc2]);
 
                 registers[rdest] = result;
-                control_registers[CREGISTER_CARRY] = tryte!(&[carry]);
+                control_registers[CREGISTER_CARRY] = tryte!(carry);
 
-                println!("Add result: {};{}", result.to_binary(), carry.to_binary());
+                println!("Add result: {};{}", i16::from(result), i16::from(carry));
             }
 
             _ => panic!("Invalid instruction {}", ins),
