@@ -11,7 +11,7 @@ Normal computers process data in binary which means two states, a one and a zero
 There are many projects similar to this but they either haven't gone very far, closed source and secretive, or dead. The main inspiration for this project is the Russian Setun computer, more specifically the Setun-70 which has an 18 trit word and 81 words of memory with a magnetic drum holding more memory. 
 
 == Variants
-6, 9, 27, 54, and maybe even 81 trit word variants will be made with a similar architecture. The 9 trit architecture being dubbed 'Tritium-9' will be made first as an experiment and prototype.
+6, 9, 27, 54, and maybe even 81 trit word variants will be made with a similar architecture. The 9 trit architecture being dubbed 'Tritium-6' will be made first as an experiment and prototype.
 
 == Directory Structure
 * docs - contains documentation on the project and lab results
