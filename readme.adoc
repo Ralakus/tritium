@@ -10,9 +10,6 @@ Normal computers process data in binary which means two states, a one and a zero
 == Has this been done before?
 There are many projects similar to this but they either haven't gone very far, closed source and secretive, or dead. The main inspiration for this project is the Russian Setun computer, more specifically the Setun-70 which has an 18 trit word and 81 words of memory with a magnetic drum holding more memory. 
 
-== Variants
-6, 9, 27, 54, and maybe even 81 trit word variants will be made with a similar architecture. The 9 trit architecture being dubbed 'Tritium-6' will be made first as an experiment and prototype.
-
 == Directory Structure
 * docs - contains documentation on the project and lab results
 * emulators - a non-functional and really broken attempt at making an emulator
@@ -22,18 +19,23 @@ There are many projects similar to this but they either haven't gone very far, c
 * schematics - contains all of the schematic files as a pdf for each revision
 * simulation - contains tests setup to simulate basic logic and other various circuitry test using ngspice
 
-== Tritium-6
-=== Design Goals
+== Possible final computer variants
+=== Tritium-6
+A 6-trit computer that is cheap and simple to make where the instructions more closely resemble microcode rather than instructions.
+
+==== Design Goals
 * Around or less than $250 in components
 * Have the ability to communicate with binary components
 * Use easily sourcable parts
 * One clock cycle per instruction
 
-== Tritium-9
-=== Design Goals
+=== Tritium-9
+A 9-trit computer that follows the power of 3 rule for word size where the instructions more closely resemble RISC-V instructions.
+
+==== Design Goals
 * Around or less than $500 in components
 * Have the ability to communicate with binary components
 * Use easily sourcable parts
 
-### Current Status
+== Current Status
 Ordered rev.3 gates and other components to start testing more complicated circuits such as arithmetic, memory, and multiplexing
