@@ -3,24 +3,6 @@
 == PCB Manufacturing
 Custom PCBs through JLCPCB
 
-== rev.0 gates
-N Channel Enchantment MOSFET - 2N7002 +
-P Channel Enchantment MOSFET - BSS84 +
-12k 0603 SMD Resistors +
-12M 0603 SMD Resistors
-
-== rev.1 gates
-N Channel Enchantment MOSFET - 2N7002 +
-P Channel Enchantment MOSFET - BSS84 +
-12k 0603 SMD Resistors +
-12M 0603 SMD Resistors
-
-== rev.2 gates
-Complementary Pair MOSFET - BSS8402DW +
-12k 0603 SMD Resistors +
-12M 0603 SMD Resistors
-
-== rev.3 gates
-Complementary Pair MOSFET - BSS8402DW +
-12k 0603 SMD Resistors +
-12M 0603 SMD Resistors
+== Gates
+Complementary Pair MOSFET - BSS8402DW-7-F +
+12k 0603 SMD Resistors

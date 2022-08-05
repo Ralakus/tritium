@@ -12,12 +12,10 @@ There are many projects similar to this but they either haven't gone very far, c
 
 == Directory Structure
 * docs - contains documentation on the project and lab results
-* emulators - a non-functional and really broken attempt at making an emulator
-* kicad - contains the kicad project files for each part and revision
+* kicad - contains the kicad project files for each part
+** gates - contains all ternary gates and their panelized PCBs
+** logic - contains logical schematics of circuits using logic gates instead of transistors
 * library - contains all of the kicad libraries such as the footprints, spice models, and symbols
-* pcbs - contains plotted gerber files for each pcb and revision
-* schematics - contains all of the schematic files as a pdf for each revision
-* simulation - contains tests setup to simulate basic logic and other various circuitry test using ngspice
 
 == Possible final computer variants
 === Tritium-6
@@ -29,13 +27,14 @@ A 6-trit computer that is cheap and simple to make where the instructions more c
 * Use easily sourcable parts
 * One clock cycle per instruction
 
-=== Tritium-9
-A 9-trit computer that follows the power of 3 rule for word size where the instructions more closely resemble RISC-V instructions.
+=== Tritium-27
+A full scale computer that mirrors RISC-V in capability and instruction set.
 
 ==== Design Goals
-* Around or less than $500 in components
+* Around or less than $1000 in components
 * Have the ability to communicate with binary components
 * Use easily sourcable parts
 
 == Current Status
-Ordered rev.3 gates and other components to start testing more complicated circuits such as arithmetic, memory, and multiplexing
+Cleaned up project directory and redesigned the gates using multi unit symbols and removed edge castellations in favor of through hole connectors. +
+I will be ordering the basic gates soon once I get in a better financial position and I'll keep working on more advanced parts such as the memory and fast addition.
