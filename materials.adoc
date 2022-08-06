@@ -1,7 +1,7 @@
 = Materials used in project
 
 == PCB Manufacturing
-Custom PCBs through JLCPCB
+Custom PCBs through OSHPark
 
 == Gates
 Complementary Pair MOSFET - BSS8402DW-7-F +

@@ -37,4 +37,5 @@ A full scale computer that mirrors RISC-V in capability and instruction set.
 
 == Current Status
 Cleaned up project directory and redesigned the gates using multi unit symbols and removed edge castellations in favor of through hole connectors. +
-I will be ordering the basic gates soon once I get in a better financial position and I'll keep working on more advanced parts such as the memory and fast addition.
+I've ordered a small batch of basic gates from OSHPark so I can verify the designs and make sure they're working as intended. +
+Once I get and assemble the basic gates, I'll test them and try to build out the compound gates like the flip-flap-flop gates and sum gate.
