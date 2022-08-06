@@ -21,7 +21,7 @@
     (property "Spice_Netlist_Enabled" "Y" (id 6) (at 2.54 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Spice_Lib_File" "${TRITIUMLIB}/TritiumSpice.lib" (id 7) (at 2.54 1.27 0)
+    (property "Spice_Lib_File" "${TRITIUM_LIB}/TritiumSpice.lib" (id 7) (at 2.54 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "ki_locked" "" (id 8) (at 0 0 0)
