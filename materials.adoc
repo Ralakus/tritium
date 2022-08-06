@@ -3,6 +3,9 @@
 == PCB Manufacturing
 Custom PCBs through OSHPark
 
+== Power Supply
+Meanwell RT-50A
+
 == Gates
 Complementary Pair MOSFET - BSS8402DW-7-F +
 12k 0603 SMD Resistors
