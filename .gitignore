@@ -2,14 +2,14 @@
 emulator/target/
 emulator/Cargo.lock
 
-**/*-bak
-**/**/*-bak
-**/**/**/*-bak
-**/**/**/**/*-bak
-**/**/**/**/**/*-bak
-**/**/**/**/**/**/*-bak
-**/**/**/**/**/**/**/*-bak
-**/**/**/**/**/**/**/**/*-bak
+**/*-backups
+**/**/*-backups
+**/**/**/*-backups
+**/**/**/**/*-backups
+**/**/**/**/**/*-backups
+**/**/**/**/**/**/*-backups
+**/**/**/**/**/**/**/*-backups
+**/**/**/**/**/**/**/**/*-backups
 
 **/*-cache.lib
 **/**/*-cache.lib
@@ -19,15 +19,6 @@ emulator/Cargo.lock
 **/**/**/**/**/**/*-cache.lib
 **/**/**/**/**/**/**/*-cache.lib
 **/**/**/**/**/**/**/**/*-cache.lib
-
-**/*.xml
-**/**/*.xml
-**/**/**/*.xml
-**/**/**/**/*.xml
-**/**/**/**/**/*.xml
-**/**/**/**/**/**/*.xml
-**/**/**/**/**/**/**/*.xml
-**/**/**/**/**/**/**/**/*.xml
 
 **/fp-info-cache
 **/**/fp-info-cache
@@ -47,11 +38,11 @@ emulator/Cargo.lock
 **/**/**/**/**/**/**/*-lib-table
 **/**/**/**/**/**/**/**/*-lib-table
 
-**/schematic-positions-to-layout.debug
-**/**/schematic-positions-to-layout.debug
-**/**/**/schematic-positions-to-layout.debug
-**/**/**/**/schematic-positions-to-layout.debug
-**/**/**/**/**/schematic-positions-to-layout.debug
-**/**/**/**/**/**/schematic-positions-to-layout.debug
-**/**/**/**/**/**/**/schematic-positions-to-layout.debug
-**/**/**/**/**/**/**/**/schematic-positions-to-layout.debug
+**/*.kicad_prl
+**/**/*.kicad_prl
+**/**/**/*.kicad_prl
+**/**/**/**/*.kicad_prl
+**/**/**/**/**/*.kicad_prl
+**/**/**/**/**/**/*.kicad_prl
+**/**/**/**/**/**/**/*.kicad_prl
+**/**/**/**/**/**/**/**/*.kicad_prl
