@@ -13,6 +13,7 @@ There are many projects similar to this but they either haven't gone very far, c
 == Directory Structure
 * docs - contains documentation on the project and lab results
 * kicad - contains the kicad project files for each part
+** components - contains all complex multigate circuits
 ** gates - contains all ternary gates and their panelized PCBs
 ** logic - contains logical schematics of circuits using logic gates instead of transistors
 * library - contains all of the kicad libraries such as the footprints, spice models, and symbols
