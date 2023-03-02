@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -48,13 +48,7 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -118,16 +112,8 @@
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [
-        0.0,
-        1.7
-      ],
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "track_widths": [],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -347,7 +333,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "sum.kicad_pro",
+    "filename": "adder_board.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -381,8 +367,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "sum.step",
-      "vrml": "sum.wrl"
+      "step": "",
+      "vrml": ""
     },
     "page_layout_descr_file": ""
   },
@@ -426,32 +412,8 @@
   },
   "sheets": [
     [
-      "64975d4f-51be-4e45-a3e3-26149e131cdd",
+      "3155b7cb-3a26-4e6c-ac96-f325170b002d",
       ""
-    ],
-    [
-      "230fda5f-8885-4cf8-900c-bb8e58251609",
-      "NAny TL"
-    ],
-    [
-      "eb04acdb-7af2-4126-980b-56546347484e",
-      "NAny M"
-    ],
-    [
-      "2a7ec56d-f286-4604-99c4-4f7f6aac103b",
-      "NAny R"
-    ],
-    [
-      "f4e687c0-466e-470a-941c-e896e7ca9073",
-      "Inverter M"
-    ],
-    [
-      "9d7e312a-5ccf-4aae-b125-55c486b9d8b0",
-      "Inverter BL"
-    ],
-    [
-      "35f032e9-ec41-4dfa-acdd-edc65e61fc56",
-      "NConsensus BL"
     ]
   ],
   "text_variables": {}

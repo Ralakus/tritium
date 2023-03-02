@@ -48,13 +48,7 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -118,16 +112,8 @@
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [
-        0.0,
-        1.7
-      ],
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "track_widths": [],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -347,7 +333,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "sum.kicad_pro",
+    "filename": "ms_d_tri_latch.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -381,8 +367,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "sum.step",
-      "vrml": "sum.wrl"
+      "step": "",
+      "vrml": ""
     },
     "page_layout_descr_file": ""
   },
@@ -426,32 +412,60 @@
   },
   "sheets": [
     [
-      "64975d4f-51be-4e45-a3e3-26149e131cdd",
+      "bd42713a-ed4b-4c20-a2cc-2ac80151d96c",
       ""
     ],
     [
-      "230fda5f-8885-4cf8-900c-bb8e58251609",
-      "NAny TL"
+      "b4b0351a-430d-4326-a609-5217b53a7be2",
+      "d_latch1"
     ],
     [
-      "eb04acdb-7af2-4126-980b-56546347484e",
-      "NAny M"
+      "b12d27ae-1069-4d4a-b7a1-f410c12aabf1",
+      "Inverter1"
     ],
     [
-      "2a7ec56d-f286-4604-99c4-4f7f6aac103b",
-      "NAny R"
+      "7828c285-567e-4bcc-bc05-cca5f9385491",
+      "Antimin4"
     ],
     [
-      "f4e687c0-466e-470a-941c-e896e7ca9073",
-      "Inverter M"
+      "138cf404-0560-4aac-ae1b-d66258fb9a0d",
+      "Antimin6"
     ],
     [
-      "9d7e312a-5ccf-4aae-b125-55c486b9d8b0",
-      "Inverter BL"
+      "2ffdcbc8-fdbc-494b-a6a7-8eb38e7c2d46",
+      "Antimin5"
     ],
     [
-      "35f032e9-ec41-4dfa-acdd-edc65e61fc56",
-      "NConsensus BL"
+      "43c8baa3-e2cb-467c-8363-13075c3d4c4f",
+      "d_latch"
+    ],
+    [
+      "b12d27ae-1069-4d4a-b7a1-f410c12aabf1",
+      "Inverter1"
+    ],
+    [
+      "7828c285-567e-4bcc-bc05-cca5f9385491",
+      "Antimin4"
+    ],
+    [
+      "138cf404-0560-4aac-ae1b-d66258fb9a0d",
+      "Antimin6"
+    ],
+    [
+      "2ffdcbc8-fdbc-494b-a6a7-8eb38e7c2d46",
+      "Antimin5"
+    ],
+    [
+      "50a19237-cae1-4c53-af8c-a6273c9845bf",
+      "Antimin7"
+    ],
+    [
+      "50a19237-cae1-4c53-af8c-a6273c9845bf",
+      "Antimin7"
+    ],
+    [
+      "71fe9896-6e39-4f28-8ea7-c3aff64f1fa0",
+      "Inverter2"
     ]
   ],
   "text_variables": {}

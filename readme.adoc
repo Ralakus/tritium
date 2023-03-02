@@ -37,6 +37,4 @@ A full scale computer that mirrors RISC-V in capability and instruction set.
 * Use easily sourcable parts
 
 == Current Status
-Cleaned up project directory and redesigned the gates using multi unit symbols and removed edge castellations in favor of through hole connectors. +
-I've ordered a small batch of basic gates from OSHPark so I can verify the designs and make sure they're working as intended. +
-Once I get and assemble the basic gates, I'll test them and try to build out the compound gates like the flip-flap-flop gates and sum gate.
+The gates from OSHPark came but I've hit a bit of a time and financial crunch so I don't quite have the time to work on the physical part of the project. I'm currently working with a local college professor to write up a better ISA than the previous versions for a machine that I could follow that wouldn't be too expensive to implement. I've decided that the decoding logic for the control module may be too expensive to implement so I will see if I can use a binary EEPROM using encoded balanced ternary as a lookup table and then convert the inputs back to native balanced ternary. 
